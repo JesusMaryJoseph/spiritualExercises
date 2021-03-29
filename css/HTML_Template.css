@@ -1,0 +1,66 @@
+/* CSS Template for HTML */
+
+/* CSS Main Container */
+
+	/* CSS Home page: <section id="home-container-id" class="section home-container show-opacity z-50"> */
+		/* CSS Nav:  <label class="nav-item z-2" onclick="PageManager.goToExercises()">Exercises</label> */
+
+		/* CSS Main Image:  <section id="main-img-container-id" class="main-img-container show-opacity">  */
+
+		/* CSS Language Selection:  <section id="language-container-id" class="page-absolute language-container">  */
+
+			/* CSS Language Label:  <label id="language-label-id" class="page-relative lang-label z-2" onclick="LanguageManager.openCloseSelectOpts()">Language</label> */
+
+			/* CSS Language Options:   <div class="language-options-container" onmouseleave="LanguageManager.leave()">  */
+
+	/* End CSS Home page: */
+
+
+
+
+	/* CSS Selection Page:  <section id="selection-containerId" class="section selection-container hide-opacity z-30"> */
+
+
+	/* End CSS Selection page: */
+
+
+
+
+	/* CSS View Page:  <section id="view-container-id" class="section view-container hide-opacity z-20">  */
+
+
+	/* End CSS View page: */
+
+
+
+
+	/* CSS Video Controls/Season Selector:  <section class="page-absolute controls-season-container z-70">  */
+		/* Video Controls:   <section class="controls-container">  */
+			/* Player Controls:  <div id="player-controls-container-id" class="player-controls-container hide-opacity"> */
+				/* Controls Button: <div class="controls-button-container">  */
+                
+                /* Control Images: <div id="control-imgs-container-id" class="control-imgs-container z20"> */
+		/* Season Selector:  <section class="season-container">  */
+
+
+	/* End CSS Video Controls/Season Selector: */
+
+
+
+
+	/* CSS Video Player:  <section class="video-container z-50"> */
+        /* Player Container:   <div class="player-container">  */
+            /* Actual Video Player:   <div id="player"></div>   */
+            	/* 1. The <iframe> (and video player) will replace this <div id="player"> tag. */
+
+        /* Cover over Player Container:   <div class="player-cover">  */
+            /* This will have the same css as <div class="player-container"> except for a higher z-index eg z4 this will prevent user from clicking on the youtube video */
+        
+	/* End CSS Video Player: */
+
+
+
+
+	/* CSS Video Title:  <section class="page-absolute title-container z-70"> */
+		/* label:  <label id="song-title-id"></label>  */
+	/* End CSS Video Title: */	

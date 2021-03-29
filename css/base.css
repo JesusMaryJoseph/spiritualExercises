@@ -1,0 +1,865 @@
+ /* CSS for all pages*/
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0; 
+ /*   color: white;  */
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color:black;
+/*   padding: 2px;  */
+/*    border: 1px solid white;  */
+}
+
+/* CSS for Main Container */
+.main-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+ /*   padding: 2px; */
+/*    border: 1px solid red;  */
+}
+
+    /* CSS for Navigation Items inside Main Container */ 
+    .nav-item {
+        position: absolute;
+        top: 0.5rem;
+        left: 1rem;
+        background-color: black;
+        border-radius: 3px;
+        padding: 0 0.2em;
+        font-size: var(--navItemB);
+        font-weight: bold;
+        cursor: pointer;
+        color: white;
+        transition: color 0.5s ease;
+        transition: opacity 0.7s
+    }
+
+        .nav-item:hover {
+            color: orange;
+        }
+
+
+
+
+
+    /*  CSS for Home Page*/
+    .home-container {
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 50;
+    }
+
+        /* Navigation: see 'CSS for Navigation Items inside Main Container' above */
+
+        /* Main Image */
+        .main-image-container {
+            position: absolute;
+            top:0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+         /*   border: 1px solid yellow;  */
+        }
+
+            .images-container {
+                position: relative;
+                width: 100%;  
+                height: 100%;
+           /*      padding: 2px;  */
+          /*     border: 1px solid green;  */
+            }
+
+            .main-image {
+                position: absolute; 
+                top: 0;
+                left: 0;  
+                width: 100%;
+                max-height: 100%;  
+                transition: opacity 1s ease;
+                object-fit: contain; 
+            /*    border: 1px solid orange;  */
+           /*     object-fit: contain; */
+            }
+
+
+        /* Language Selection */
+
+        .language-container {
+            position: relative;
+            top:0;
+            right: 1em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          /*  width: 6em; 
+            transition: opacity 0.7s ease;*/
+            padding: 1px;
+            margin-top: -1px;
+          /*  border: 1px solid red; */
+        } 
+
+            .language-label-container {
+                background-color: black;
+                padding: 4px;
+             /*   border: 1px solid yellow;  */
+            }
+
+                .language-label {
+                    font-size: var(--langLabelB);
+                    font-weight: bold;
+                 /*   height: 1.4em; */
+                    color: white;
+                    cursor: pointer;
+                    margin-top: 0.5rem;
+                }
+
+                    .language-label:hover {
+                        color: orange;
+                    }
+
+            .language-options-container {
+                position: absolute;
+                top: 3rem;
+                right: 0rem;  
+            /*    width: 9.5rem; */
+                color: white;
+                text-align: center;
+                background: black;
+                transition: top 0.8s ease;
+                padding: 0.5rem 1rem;   
+             /*   border: 1px solid orange;  */
+            }
+
+                .language-options-container ul {
+                    list-style: none;
+                    background-color: black;
+                }
+
+                    .language-item {
+                        font-size: var(--langItemB);
+                        cursor: pointer;
+                        transition: color 0.5s ease;
+                        color: white;
+                    }
+
+                    .hide-language-options-container {
+                        top: -8rem;
+                    }
+
+                    .selected-language {
+                        color: orange;   
+                    }
+
+                    .disabled {
+                        opacity: 0.6;
+                    }
+
+                    .language-item:hover {
+                        color: orange;
+                    }
+
+    /* End CSS for <section class="home-container"  */
+     
+
+
+
+
+
+
+    /* CSS Audio/Video:  <section class="audio-video-container ">  */
+     .audio-video-container {
+     }   
+
+        /* CSS Controls/Season:  <section class="controls-season-container z-70">  */
+        .controls-season-container {
+            position: absolute;
+            bottom: 4rem;
+            right: -0.1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-end;
+            width: 3.7rem;
+         /*   border: 1px solid red;  */
+        }
+                /* Video Controls:   <section class="controls-container">  */
+                .season-container,
+                .controls-container {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    width: 2.0rem;
+                    background-color: black;
+                 /*   border: 1px solid blue; */
+                }
+
+                    .controls-button,
+                    .season-button {
+                        writing-mode: vertical-rl;
+                        text-orientation: upright;
+                        cursor: pointer;
+                        font-size: 1.3em;
+                    /*    margin-top: 1.2em; */
+                        font-weight: bold;
+                        padding: 1rem 0;
+                        background-color: black;
+                        color:white;
+                     /*   border: 1px solid red;  */
+                    }
+
+                    .season-label-container {
+                        width: 100%;
+                        padding: 1rem 0;
+                        margin-right: -5px;
+                        background-color: black;
+                    }
+
+                        .season-button {
+                        }
+
+                        .controls-button:hover {
+                            color: orange;
+                        }
+
+                   
+                        #shuffle-button-id {
+                            height: 1.0rem;
+                            width: 0.7rem;
+                        }
+                
+                        .control-images-container {
+                            position: absolute;
+                            top: 0;
+                            left: 0rem;
+                            padding: 0.5rem;
+                            width: 1.6rem;
+                         /*   height: 100%; */
+                            background-color: black;
+                            transition: opacity 0.7s ease-in-out;
+                            border-radius: 0.3rem; 
+                            border: 1px solid white;
+                        }
+                        
+                     /*    .control-images-container-cover {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 1.7em;
+                            height: 55%; 
+                            margin-left: -1px;
+                            margin-top: 0px;
+                            margin-bottom: -1px;
+                            transition: opacity 0.7s ease-in-out; 
+                            background-color: black;
+                           border: 5px solid red; 
+                        }  */
+
+                            .hide-controls{
+                                z-index: 0;
+                                opacity: 0;
+                            }
+
+                            .show-controls{
+                                z-index: 40;
+                                opacity: 1;
+                            }
+
+                       /*     .hide-cover{
+                                z-index: 0;
+                                opacity: 0;
+                            }
+
+                            .show-cover{
+                                z-index: 40;
+                                opacity: 1;
+                            } */
+
+                            .control-images-container img {
+                                cursor: pointer;
+                                width: 0.6em;
+                            }
+
+                /* Season Selector:  <section class="season-container">  
+                .season-container {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    height: 49%; 
+                    width: 2.5em;
+                    margin-left: 1.2rem;
+                    background: black;
+                    border: 1px solid green;  
+                }  */
+
+                        .season-button:hover {
+                          color: orange;
+                        }
+
+                    .season-options {
+                        position: absolute;
+                        left: 1.2rem;
+                        list-style-type: none;
+                        width: 9.9rem; 
+                        transition: left 0.9s ease; 
+                        background: black;
+                        z-index: -1;
+                    }
+
+                        .options-item {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            align-items: center;
+                            font-size: 1.3rem;
+                            color: white;
+                            cursor: pointer;
+                    /*        color: white;  */
+                        } 
+
+                            .season-options li:hover {
+                                color:orange;
+                            }
+
+
+                        .selected-season {
+                            color: orange;
+                        }
+
+                        .hide-season {
+                            left: 3rem;
+                        }
+
+                        .show-season {
+                            left: -7.5rem;
+                        }
+                
+
+        /* CSS Video Player:  <section class="video-container z-50"> */
+        .video-container {
+            position: absolute;
+            bottom: 4em; 
+            right: 2em;
+            height: 6.3em;
+            width: 8.5em;
+        /*   border: 1px solid yellow;  */
+        }
+            /* Player Container:   <div class="player-container">  */
+            .player-container {
+                position: absolute;
+                margin: 2px;
+              /*  border: 1px solid orange;  */ 
+            }
+                /* Actual Video Player:   <div id="player"></div>   */
+                    /* 1. The <iframe> (and video player) will replace this <div id="player"> tag. */
+                #player {
+                    height: 5.5em;
+                    width: 8em;
+                    color: white;
+                 /*   border: 1px solid blue; */
+                }
+
+            /* Cover over Player Container:   <div class="player-cover">  */
+                /* This will have the same css as <div class="playercontainer"> except for a higher z-index eg z4 this will prevent user from clicking on the youtube video */
+            .player-cover {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+              /*  border: 1px solid red;  */
+            }
+                
+        /* End CSS Video Player: <section class="video-container */
+
+
+
+        /* CSS Video Title:  <section class="title-container z-70"> */
+        .title-container {
+            position: absolute;
+            bottom: 0.05em;
+            right: 0;
+            display: flex;
+            justify-content: flex-end;
+            text-align: right;
+            font-size: 0.5em;
+            max-height: 4em;
+            width: 45%;
+            min-width: 25%;
+            padding-right: 2px;
+            overflow: hidden;
+            color: white;
+         /*   border: 1px solid green; */  
+        }
+
+    /* End CSS Audio/Video:  <section class="audio-video-container ">  */
+
+
+
+
+
+
+
+
+    /* CSS Selection (Week/Day/Subject/Study/Test):  <section class="selection-container"> */
+    .selection-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 40%;
+        display: fles;
+        justify-content:  center;
+        padding-top: 5rem;
+        background-color: black;
+        transition: opacity 1s ease;
+      /*  border: 1px solid green;  */
+    }
+        .week-day-subject-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+         /*   border: 1px solid green;  */
+        }
+            .day-selector-container,
+            .week-selector-container {
+                display:flex;
+                align-items: center;
+                margin-bottom: 1.0rem;
+             /*   border: 1px solid yellow;  */
+            }
+
+                .day-selector-container label,
+                .week-selector-container label {
+                    font-size: var(--weekLabelB);  
+                    color: white;
+                    margin-right: 0.6rem;
+                 /*   border: 1px solid red;   */
+                }
+
+                    .tab-links {  
+                        display: inline-block;
+                        background: black;
+                        text-align: center;
+                        margin: 0 0.5rem;
+                        padding: 0 0.4rem;
+                        font-size: var(--tabLinkB);  
+                        color: white;
+                        text-decoration: none;
+                        transition: color 0.5s;
+                        border: 1px solid white;
+                    } 
+
+                        .tab-links:hover {
+                            color: orange;
+                        }
+
+                /* CSS for <ul class-"week-tab" */
+                .day-tab,
+                .week-tab {
+                    display: flex;
+                    justify-content: space-between;
+                    list-style-type: none;
+                    overflow: hidden;
+                 /*   border: 1px solid red;   */
+                }
+
+                    .selected-link {
+                        color: orange;
+                    }
+
+                    .un-selected-link {
+                        opacity: 0.6;
+                    }
+
+ 
+            .subject-selector-container {
+                display: grid;
+                grid-template-columns: repeat(4,var(--subjectGridColumnWidthB));
+                grid-template-rows: repeat(2,minmax(5px,auto));
+                color: white;
+              /*  border: 1px solid yellow;  */
+            }
+            
+                .subject-item {
+                    display: flex;
+                    flex-direction: column;
+                    align-content: center;
+                 /*     margin-left: 0.5rem;
+                    border: 1px solid red;  */
+                }
+ 
+                .subject-item label {
+                    text-align: center; 
+                  /*  border: 1px solid yellow;  */
+                }
+
+                        .subject-value {
+                            white-space: nowrap;
+                            font-size: var(--tabLinkB); 
+                            color: white;
+                            margin: 0.08em;
+                            cursor: pointer;
+                            overflow: hidden;
+                            text-align: center; 
+                            transition: color 0.5s ease;
+                         /*   border: 1px solid orange;  */
+                        } 
+
+                            .subject-value:hover {
+                                color:orange;
+                            }
+
+    /* End CSS Selection (Week/Day/Subject/Study/Test):  <section class="selection-container"> */
+ 
+
+
+
+
+    /* CSS Study/Test:  <section class="study-test-container"> */
+    .study-test-container {
+        position: absolute;
+        top:0;
+        right:1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1px;
+        margin-top: -1px;
+        color: white;
+        background: black;
+        transition: opacity 0.7s ease;
+      /*  border: 1px solid red;  */
+    } 
+
+        .study-test-label-container {
+            background-color: black;
+            padding: 4px;
+            padding-top: 0.5rem;
+          /*  border: 1px solid yellow;  */
+        }
+
+            .study-test-label {
+                font-size: var(--langLabelB);
+                font-weight: bold;
+             /*   height: 1.4em; */
+                color: white;
+                cursor: pointer;
+              /*  border: 1px solid green; */ 
+            }
+
+                .study-test-label:hover {
+                    color: orange;
+                }
+
+            .study-test-options-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                list-style: none;
+                background-color: black;
+                transition: margin-top 0.6s ease;
+                width: 100%;
+                padding-bottom: 1rem;   
+              /*  border: 1px solid orange;  */
+            }
+
+                .study-test-item {
+                    font-size: var(--langItemB);
+                    cursor: pointer;
+                    transition: color 0.5s ease;
+                    color: white;
+                }
+
+                    .study-test-item:hover {
+                        color: orange;
+                    }
+
+                .hide-study-test-options {
+                    margin-top: -7em; 
+                }
+
+                .selected-option {
+                    color: orange;   
+                }
+
+    /* End CSS Study/Test:  <section class="study-test-container"> */
+
+
+
+
+
+
+    /* CSS View Space Tree:  <section class="view-container"> */
+    .view-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+      /*  padding: 15px;  
+        border: 1px solid red; */
+    }
+                   
+        .space-tree-container {
+            position: relative;
+            top:0;
+            left: 0; 
+            display: flex;
+            justify-content: center;
+            width: 100vw;
+            height: 100vh;
+            transition: opacity 1s ease;
+        /*    padding: 15px;  
+            border: 1px solid orange; */
+        }
+
+            /* CSS for <div id="selectButtonId" class="selectButton"  */
+            .select-button {
+            /*     position: absolute;
+                top: 0; 
+                left: 50%;
+               width: 3em;  */
+                height: 1.3em;  
+                font-size: var(--langLabelB);
+                color: white;
+                cursor: pointer;
+                border-radius: .2em;
+                padding: 0 0.2em;
+                transition: opacity 1s ease;
+                background-color: black;
+           /*    border: 1px solid blue; */
+            }
+
+                .select-button:hover {
+                    color: orange;
+                }
+
+                /* CSS for <div id="monasticLog" class="z4"  */
+
+                .space-tree-log {
+                    position:absolute;  
+                    top:70px;
+                    left:50px;  
+                    font-size:1.0em;
+                    font-weight:bold;
+                    color:yellow;
+                    padding:5px;
+                    overflow:visible;
+                    border: 1px solid orange;  
+                }
+
+                .space-tree {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    display: grid;
+                    width: 100vw;
+                    height: 100vh;
+                    color: white;
+                 /*   background-color: #333; 
+                    border: 1px solid white;  */
+                }
+
+                    .space-tree ul {
+                        list-style-type: none;
+                        margin-top: 0.3em;
+                    }
+
+                        .space-tree li {
+                            margin-bottom: 0.5em;
+                        }
+
+                    .space-tree span {
+                        opacity: 0;
+                    }
+
+                .author-credit {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    padding: 0.2rem; 
+                    width: 48%;
+                    min-height: 3rem;
+                    font-size: 0.8rem;
+                    color: white;
+                    overflow: auto;
+                    background-color: black;
+
+             /*      border: 1px solid green;  */
+                }
+
+    /* End CSS View Space Tree:  <section class="view-container"> */
+
+
+
+
+                            /*     .under-cover {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                   background-color: black; 
+                                }  */
+
+    /*TOOLTIPS - from JIT CSS  */
+    .tip {
+        color: #111;
+        width: 139px;
+        background-color: white;
+        border:1px solid #ccc;
+        -moz-box-shadow:#555 2px 2px 8px;
+        -webkit-box-shadow:#555 2px 2px 8px;
+        -o-box-shadow:#555 2px 2px 8px;
+        box-shadow:#555 2px 2px 8px;
+        opacity:0.9;
+        filter:alpha(opacity=90);
+        font-size:10px;
+        font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+        padding:7px;
+    }
+
+
+
+
+    /* CSS for 'positioning' material  */
+    .page-absolute {
+        position: absolute;
+    }
+
+    .page-relative {
+        position: relative;
+    }
+
+
+    /* CSS for hiding material  */
+    
+    .show-block {
+        display: block;
+    }
+
+    .hide-block {
+        display: none; 
+    }
+
+    .show-opacity {
+        opacity: 1;
+    }
+
+    .hide-opacity {
+        opacity: 0;
+    }
+
+    .spacer {
+        opacity: 0; 
+    }
+
+
+
+    /* CSS for z-index values */
+    .z-auto {
+        z-index: auto;
+    }
+
+    .z-neg {
+        z-index: -1;
+    }
+
+    .z-0 {
+        z-index: 0;
+    }
+
+    .z-2 {
+        z-index:2;
+    }
+
+    .z-4 {
+        z-index:4;
+    }
+
+    .z-6 {
+        z-index:6;
+    }
+
+    .z-8 {
+        z-index:8;
+    }
+
+    .z-10 {
+        z-index: 10;
+    }
+    .z-12 {
+        z-index:12;
+    }
+
+    .z-14 {
+        z-index:14;
+    }
+
+    .z-16 {
+        z-index:16;
+    }
+
+    .z-18 {
+        z-index:18;
+    }
+
+    .z-20 {
+        z-index: 20;
+    }
+
+    .z-30 {
+        z-index: 30;
+    }
+    .z-38 {
+        z-index: 38;
+    }
+
+    .z-40 {
+        z-index: 40;
+    }
+
+    .z-50 {
+        z-index: 50;
+    }
+
+    .z-60 {
+        z-index: 60;
+    }
+
+    .z-70 {
+        z-index: 70;
+    }
+
+    .z-80 {
+        z-index:80;
+    }
+
+    .z-90 {
+        z-index: 90;
+    }
+
+    .z-100 {
+        z-index: 100;
+    }
+
+
+
+
+
+
+
+

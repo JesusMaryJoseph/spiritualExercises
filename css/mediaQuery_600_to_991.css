@@ -1,0 +1,52 @@
+/* CSS for media Queries between 600 & 991px  */
+
+@media only screen and (min-width: 37.5em /*600px*/) and (max-width: 61.99em/*991px*/){
+
+	/* CSS for Main Container */
+
+        /* CSS for Navigation Items inside Main Container */ 
+
+        .nav-item {
+            font-size: var(--navItem6);
+        }
+
+    /*  CSS for Home Page*/
+
+        /* Navigation: see 'CSS for Navigation Items inside Main Container' above */
+
+        /* Main Image */
+
+        /* Language Selection */
+        
+                .select-button,
+                .study-test-label,
+                .language-label {
+                    font-size: var(--langLabel6);
+                }
+         
+                .study-test-item,
+                .language-item {
+                    font-size: var(--langItem6);
+                }
+
+
+	/* CSS for Section page  */
+            
+            .subject-selector-container {
+                grid-template-columns: repeat(4,var(--subjectGridColumnWidth6));
+            }
+
+                .subject-selector-container label,
+                .day-selector-container label,
+                .week-selector-container label {
+                    font-size: var(--weekLabel6);
+                 /*   border: 1px solid red;   */
+                }
+
+                    .tab-links {
+                        font-size: var(--tabLink6);
+                    }
+
+                    .subject-value {
+                        font-size: var(--tabLink6);
+                    }

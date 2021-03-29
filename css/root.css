@@ -1,0 +1,79 @@
+/* CSS root */
+:root {
+/* CSS Main Container */
+
+	/* CSS Home page: <section id="home-container-id" class="section home-container show-opacity z-50"> */
+		/* CSS Nav:  <label class="nav-item z-2" onclick="PageManager.goToExercises()">Exercises</label> */
+			--navItemB: 1.6rem;	--navItem6: 1.8rem;	--navItem9: 2rem;	--navItem12: 2.2rem;	--navItem16: 2.4rem;
+		/* CSS Main Image:  <section id="main-img-container-id" class="main-img-container show-opacity">  */
+			
+		/* CSS Language Selection:  <section id="language-container-id" class="page-absolute language-container">  */
+	/* End CSS Home page: */
+
+
+
+
+	/* CSS Selection Page:  <section id="selection-containerId" class="section selection-container hide-opacity z-30"> */
+
+	--langLabelB: 1.4rem;	--langLabel6: 1.6rem;	--langLabel9: 1.8rem;	--langLabel12: 2.0rem;	
+	--langLabel16: 2.2rem;
+	--langItemB: 1.3rem;	--langItem6: 1.4rem;	--langItem9: 1.5rem;	--langItem12: 1.6rem;	
+	--langItem16: 1.8rem;
+
+	--weekLabelB: 1.0rem;	--weekLabel6: 1.2rem;	--weekLabel9: 1.5rem;	--weekLabel12: 1.7rem;	
+	--weekLabel16: 2.0rem;
+	--tabLinkB: 0.9rem;	--tabLink6: 1.0rem;	--tabLink9: 1.3rem;	--tabLink12: 1.6rem;	
+	--tabLink16: 1.8rem;
+
+	--subjectGridColumnWidthB: 6rem;	--subjectGridColumnWidth6: 7rem;	--subjectGridColumnWidth9: 9rem;	
+	--subjectGridColumnWidth12: 10rem;	--subjectGridColumnWidth16: 11.0rem;
+
+
+
+	/* End CSS Selection page: */
+
+
+
+
+
+	/* CSS View Page:  <section id="view-container-id" class="section view-container hide-opacity z-20">  */
+
+
+	/* End CSS View page: */
+
+
+
+
+	/* CSS Video Controls/Season Selector:  <section class="page-absolute controls-season-container z-70">  */
+		/* Video Controls:   <section class="controls-container">  */
+			/* Player Controls:  <div id="player-controls-container-id" class="player-controls-container hide-opacity"> */
+				/* Controls Button: <div class="controls-button-container">  */
+                
+                /* Control Images: <div id="control-imgs-container-id" class="control-imgs-container z20"> */
+
+		/* Season Selector:  <section class="season-container">  */
+
+
+	/* End CSS Video Controls/Season Selector: */
+
+
+
+
+	/* CSS Video Player:  <section class="video-container z-50"> */
+        /* Player Container:   <div class="playercontainer">  */
+            /* Actual Video Player:   <div id="player"></div>   */
+            	/* 1. The <iframe> (and video player) will replace this <div id="player"> tag. */
+
+        /* Cover over Player Container:   <div class="playerCover">  */
+            /* This will have the same css as <div class="playercontainer"> except for a higher z-index eg z4 this will prevent user from clicking on the youtube video */
+        
+	/* End CSS Video Player: */
+
+
+
+
+	/* CSS Video Title:  <section class="page-absolute title-container z-70"> */
+		/* label:  <label id="song-title-id"></label>  */
+	/* End CSS Video Title: */
+
+}	
