@@ -1,10 +1,277 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Spiritual Exercises</title>
-</head>
-<body>
-	<h1>My github site for Spiritual Exercises
-	</h1>
-</body>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <title>Spritual Exercises</title>
+
+    <!-- CSS Files -->
+        <link type="text/css" href="css/root.css" rel="stylesheet" />
+        <link type="text/css" href="css/base.css" rel="stylesheet" />
+        <link type="text/css" href="css/mediaQuery_600_to_991.css" rel="stylesheet" />
+        <link type="text/css" href="css/mediaQuery_992_to_1279.css" rel="stylesheet" />
+        <link type="text/css" href="css/mediaQuery_1280_to_1599.css" rel="stylesheet" />
+        <link type="text/css" href="css/mediaQuery_1600_plus.css" rel="stylesheet" />
+
+        <link type="text/css" href="css/monasticPg.css" rel="stylesheet" />
+        <link type="text/css" href="css/Spacetree.css" rel="stylesheet" />
+
+
+
+    <!-- Devout Life Files  -->
+        <script src="js/DevoutLife/DevoutLife.js"></script>
+
+    <!-- Scripture Files--> 
+
+        <!-- Psalm Files -->
+        <script src="js/Scripture/OT/Wisdom/Psalms/psalmVersus.js"></script>
+        <script src="js/Scripture/OT/Wisdom/Psalms/PsalmsWeek1.js"></script> 
+        <script src="js/Scripture/OT/Wisdom/Psalms/PsalmsWeek2.js"></script>
+        <script src="js/Scripture/OT/Wisdom/Psalms/PsalmsWeek3.js"></script>
+        <script src="js/Scripture/OT/Wisdom/Psalms/PsalmsWeek4.js"></script>
+        <script src="js/Scripture/OT/Wisdom/WisdomBooks.js"></script>
+        
+        <!-- Gospel Files -->
+        <script src="js/Scripture/NT/Gospels/Matthew.js"></script>
+        <script src="js/Scripture/NT/Gospels/Mark.js"></script>
+        <script src="js/Scripture/NT/Gospels/Luke.js"></script>
+        <script src="js/Scripture/NT/Gospels/John.js"></script>
+
+        <!-- Acts, Paul's letters, Catholic Letters, & Revelation Files -->
+        <script src="js/Scripture/NT/Letters/Acts.js"></script>
+        <script src="js/Scripture/NT/Letters/PaulineLetters/Romans.js"></script>
+        <script src="js/Scripture/NT/Letters/PaulineLetters/1Corinthians.js"></script>
+        <script src="js/Scripture/NT/Letters/PaulineLetters/2Corinthians.js"></script>
+        <script src="js/Scripture/NT/Letters/PaulineLetters/Galations.js"></script>
+        <script src="js/Scripture/NT/Letters/PaulineLetters/Ephesians.js"></script>
+        <script src="js/Scripture/NT/Letters/PaulineLetters/Philippians.js"></script>
+        <script src="js/Scripture/NT/Letters/PaulineLetters/Colossians.js"></script>
+        <script src="js/Scripture/NT/Letters/PaulineLetters/1-2Thessalonians.js"></script>
+        <script src="js/Scripture/NT/Letters/PaulineLetters/1Timothy.js"></script>
+        <script src="js/Scripture/NT/Letters/PaulineLetters/2TimothyTitusPhlm.js"></script>
+        <script src="js/Scripture/NT/Letters/PaulineLetters/Hebrews.js"></script>
+        <script src="js/Scripture/NT/Letters/PaulineLetters/PaulineLetters.js"></script>
+        <script src="js/Scripture/NT/Letters/CatholicLetters/James.js"></script>
+        <script src="js/Scripture/NT/Letters/CatholicLetters/1Peter.js"></script>
+        <script src="js/Scripture/NT/Letters/CatholicLetters/2Peter.js"></script>
+        <script src="js/Scripture/NT/Letters/CatholicLetters/123JohnJude.js"></script>
+        <script src="js/Scripture/NT/Letters/Revelation.js"></script>
+
+    <!-- Data Files -->
+        <script src="js/Scripture/ScriptureJSON.js"></script> 
+        <script src="js/Data_Media.js"></script>
+        <script src="js/Data_View.js" ></script> 
+        <script src="js/Data_Selection.js"></script>
+
+    <!-- JIT Library File -->
+        <script src="js/jit.js"></script>
+
+    <!-- Class Files --> 
+        <script src="js/Classes_Objects_Functions_Global.js"></script>
+        <script src="js/Classes_Objects_Functions_Home.js"></script>
+        <script src="js/Classes_Objects_Functions_Selection.js"></script>
+        <script src="js/Classes_Objects_Functions_W_SpaceTreeLabel_View.js"></script> 
+    <!--    <script src="js/Classes_Objects_Functions_WO_SpaceTreeLabel_View.js"></script> -->
+
+
+
+        <script>
+
+        </script>
+
+        <style>
+        </style>
+
+    </head>
+
+    <body onload="init()">
+
+        <div class="main-container">
+
+           <section id="home-container-id" class="home-container show-opacity z-50">
+                <label class="nav-item z-2" onclick="PageManager.goToExercises()">Exercises</label>
+
+                 <section id="main-image-container-id" class="main-image-container show-opacity">
+                    <div class="images-container">
+                        <img class="main-image" src="imgs/crucifix.jpg" alt="No Image">
+                        <img id="english-image-id" class="main-image eng-image show-opacity" src="imgs/I_Am_eng.png" alt="No Image">
+                        <img id="kirundi-image-id" class="main-image kir-image hide-opacity" src="imgs/I_Am_kir.png" alt="No Image">
+                        <img id="spanish-image-id" class="main-image spa-image hide-opacity" src="imgs/I_Am_spa.png" alt="No Image">   
+                    </div>  
+                </section>   
+
+                <section id="language-container-id" class="page-absolute language-container">
+                    <div class="language-label-container z-40">   
+                        <div id="language-label-id" class="language-label z-60" onclick="LanguageManager.openCloseSelectOptions()">Language</div> 
+                    </div>
+                    <div id="language-options-container-id" class="language-options-container hide-language-options-container z-10" onmouseleave="LanguageManager.leave()">
+                        <ul>
+                            <li id="english-id" class="language-item selected-language" onclick="LanguageManager.selectLanguage(event)">English</li>
+                            <li id="kirundi-id" class="language-item" onclick="LanguageManager.selectLanguage(event)">Kirundi</li>
+                            <li id="spanish-id" class="language-item" onclick="LanguageManager.selectLanguage(event)">Spanish</li>
+                            <li id="lakota-id" class="language-item disabled">Lakota</li>
+                        </ul>
+                    </div> 
+                </section> 
+
+            </section> 
+
+            <section id="selection-container-id" class="selection-container hide-opacity">
+                <label class="nav-item z-40" onclick="PageManager.goToHome()">Home</label>
+            
+                <div id="week-day-subject-container-id z-30" class="week-day-subject-container">
+
+                    <div class="week-selector-container">
+                        <label>Week:</label>
+                        <ul class="week-tab">
+                            <li><a id="week-1-link-id" href="javascript:void(0)" class="tab-links selected-link" onclick="WeekSelectorUpdate.changeWeek('week-1')">1</a></li>
+                            <li><a id="week-2-link-id" href="javascript:void(0)" class="tab-links un-selected-link" onclick="WeekSelectorUpdate.changeWeek('week-2')">2</a></li>
+                            <li><a id="week-3-link-id" href="javascript:void(0)" class="tab-links un-selected-link" onclick="WeekSelectorUpdate.changeWeek('week-3')">3</a></li>
+                            <li><a id="week-4-link-id" href="javascript:void(0)" class="tab-links un-selected-link" onclick="WeekSelectorUpdate.changeWeek('week-4')">4</a></li>
+                        </ul>   
+                    </div>  
+
+                    <div class="day-selector-container">
+                        <label>Day:</label>
+                        <ul class="day-tab">
+                            <li><a id="day-1-link-id" href="javascript:void(0)" class="tab-links selected-link" onclick="DaySelectorUpdate.changeDay('day-1')">Sun</a></li>
+                            <li><a id="day-2-link-id" href="javascript:void(0)" class="tab-links un-selected-link" onclick="DaySelectorUpdate.changeDay('day-2')">Mon</a></li>
+                            <li><a id="day-3-link-id" href="javascript:void(0)" class="tab-links un-selected-link" onclick="DaySelectorUpdate.changeDay('day-3')">Tue</a></li>
+                            <li><a id="day-4-link-id" href="javascript:void(0)" class="tab-links un-selected-link" onclick="DaySelectorUpdate.changeDay('day-4')">Wed</a></li>
+                            <li><a id="day-5-link-id" href="javascript:void(0)" class="tab-links un-selected-link" onclick="DaySelectorUpdate.changeDay('day-5')">Thu</a></li>
+                            <li><a id="day-6-link-id" href="javascript:void(0)" class="tab-links un-selected-link" onclick="DaySelectorUpdate.changeDay('day-6')">Fri</a></li>
+                            <li><a id="day-7-link-id" href="javascript:void(0)" class="tab-links un-selected-link" onclick="DaySelectorUpdate.changeDay('day-7')">Sat</a></li>
+                        </ul>  
+                    </div>  
+
+                    <div class="subject-selector-container">
+                        <div class="subject-item">
+                            <label><u>Gospel</u></label>
+                            <div id="gospel-value-id" class="subject-value" onclick="PageManager.goToView(event)">Value</div>  
+                        </div>
+
+                        <div class="subject-item">
+                            <label><u>Letter</u></label>
+                            <div id="letter-value-id" class="subject-value" onclick="PageManager.goToView(event)">Value</div>
+                        </div>
+
+                        <div class="subject-item">
+                            <label><u>Psalm</u></label>
+                            <div id="psalm-value-id" class="subject-value" onclick="PageManager.goToView(event)">Value</div>
+                        </div> 
+
+                        <div class="subject-item">
+                            <label><u>Devout</u></label>
+                            <div id="devout-value-id" class="subject-value" onclick="PageManager.goToView(event)">Value</div>
+                        </div>
+                    </div>   
+
+                </div>
+                        
+                <div id="study-test-container-id" class="page-absolute study-test-container z-40">
+                    <div class="study-test-label-container z-40">   
+                        <label id="study-test-label-id" class="study-test-label z-2" onclick="SelectedMode.openCloseSelectOptions()">Study/Test</label>
+                    </div>
+                    <ul id="study-test-options-container-id" class="study-test-options-container hide-study-test-options" onmouseleave="SelectedMode.leave()"> 
+                        <li id="study-id" class="study-test-item selected-option" onclick="SelectedMode.changeMode(event)">Study</li>
+                        <li id="test-id" class="study-test-item" onclick="SelectedMode.changeMode(event)">Test</li>
+                    </ul>
+                </div> 
+                            
+            </section> <!-- End of <section id="selection-container-id"  "> -->
+
+            <section id="view-container-id" class="view-container hide-opacity">
+                <label class="nav-item z-20" onclick="PageManager.goToHome()">Home</label>
+                <div id="space-tree-container-id" class= "space-tree-container">space-tree-container
+                    <label id="select-button-id" class="select-button z-6" onclick="PageManager.goToSelection()" >Select</label>
+                    <div id="space-tree-log-id" class="space-tree-log z-2">Log</div>
+                    <div id="space-tree-id" class="space-tree"></div>
+                    <div id="author-credit-id" class="author-credit hide-opacity">Author Credit Goes Here</div>  
+                </div>          
+                
+            </section> 
+
+        <!--    <section class="section empty-container z-40">
+            </section>     -->
+
+            <section class="audio-video-container">
+                <section class="controls-season-container">
+                    <section class="controls-container">
+
+                        <label class="controls-button z-70" onclick="ControlButtonHandler.showHidePlayerControls()">Audio</label> 
+
+                      	<div id="control-images-container-id" class="control-images-container hide-controls z-60">
+                            <img id="play-button-id" src="imgs/Controls/play_white.png" alt="Example image" onclick="PlayerControl.startVideo()">
+                            <img id="stop-button-id" src="imgs/Controls/stop_white.png" alt="Example image" onclick="PlayerControl.stopVideo()">
+                            <img id="pause-button-id" src="imgs/Controls/pause_white.png" alt="Example image" onclick="PlayerControl.pauseVideo()">
+                            <img src="imgs/Controls/prev_white.png" alt="Example image" onclick="PlayerControl.prevVideo()">
+                            <img src="imgs/Controls/next_white.png" alt="Example image" onclick="PlayerControl.nextVideo()">
+                            <img id="shuffle-button-id" src="imgs/Controls/playlist_shuffle_white.png" alt="Example image" onclick="PlayerControl.shuffle(event)">
+                        </div> 
+
+                    </section> 
+
+                    <section class="season-container">
+                        <div class="season-label-container z-70">
+                            <label id="season-id" class="season-button" onclick="SeasonButtonHandler.showHideSeasonList()" >Season</label> 
+                        </div>
+                        <ul id="season-options-id" class="season-options hide-season z-60" onmouseleave="SeasonButtonHandler.leave()">
+                            <li id="ordinary-id" class="options-item selected-season" onclick="SeasonButtonHandler.changeSeason(event)">Ordinary Time</li> 
+                            <li id="advent-id" class="options-item" onclick="SeasonButtonHandler.changeSeason(event)">Advent</li>
+                            <li id="christmas-id" class="options-item" onclick="SeasonButtonHandler.changeSeason(event)">Christmas</li>
+                            <li id="lent-id" class="options-item" onclick="SeasonButtonHandler.changeSeason(event)">Lent</li>
+                            <li id="easter-id" class="options-item" onclick="SeasonButtonHandler.changeSeason(event)">Easter</li> 
+                        </ul>  
+                    </section> 
+
+                </section> 
+
+                     
+                <section class="video-container z-50">
+                    <div class="player-container">
+                        <div id="player"></div>
+                    </div>
+
+                    <div class="player-cover"> 
+                    </div>
+                </section> 
+
+
+                <section class="page-absolute title-container z-70">
+                    <label id="song-title"></label>
+                </section> 
+            </section> 
+
+        </div> 
+
+        <script> 
+            function init(){
+       //     alert("in init()");
+
+                DOMCalls.initialize();
+
+                /* TODO  Set all "Selection data for week='1' and day='Sun'" */
+                SelectedData.setData();
+
+                /* TODO  reset control buttons */
+                ButtonState.reset();
+                
+                let weekNodes = [sNode0210,sNode0211,sNode0212,sNode0213];
+                for(var week=0;week<4;week++) {
+                    for(var day = 0;day < 7;day++) {
+                        let thisPsalmNode = weekNodes[week].children[day];
+                 //   alert("nodeName: " + thisPsalmNode.name);
+                        // calculate Wd & Ht of the node itself(eg "Psalm 1"
+    //??????????????                    CalcWdHt.calc(thisPsalmNode);
+                        //TODO for each child of weekNodes[week].children[day]
+                        let nmbrChildren = thisPsalmNode.children.length;
+            
+                    } // end of for 'day'
+                } // end of for 'week'
+            }
+            
+        </script>
+        
+    </body>
 </html>
