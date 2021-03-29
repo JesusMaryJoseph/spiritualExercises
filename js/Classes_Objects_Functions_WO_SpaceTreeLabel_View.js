@@ -363,7 +363,7 @@ var SpaceTree = {
     //Methods
     createNewST: function(selectedNode,mode) {
        alert("in createNewSt new");
-    //  alert("selectedNode.name:  + selectedNode.name");
+      alert("mode: " + mode);
         DOMCalls.authorCreditElement.innerHTML = "";
         DOMCalls.spaceTreeElement.style.backgroundImage =  "none";
       alert("after DOMCalls");
