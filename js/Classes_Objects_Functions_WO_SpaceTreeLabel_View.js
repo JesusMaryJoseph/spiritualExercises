@@ -362,6 +362,7 @@ var SpaceTree = {
 
     //Methods
     createNewST: function(selectedNode,mode) {
+       alert("in createNewSt");
         DOMCalls.authorCreditElement.innerHTML = "";
         DOMCalls.spaceTreeElement.style.backgroundImage =  "none";
         if(document.getElementById("space-tree-id-canvaswidget")){
@@ -406,6 +407,7 @@ var SpaceTree = {
             },
             
             onCreateLabel: function(label, node){ 
+               alert("in onCreateLabel");
                 label.id = node.id; 
                 if(node.id.slice(0,4) != "s021"){
                     if(SelectedMode.mode == "study"){
@@ -506,7 +508,7 @@ var SpaceTree = {
                 }
             }
         });
-        
+       alert("ready to loadJSON");
         DOMCalls.spaceTreeElement.style.backgroundColor = "black";
         monasticST.loadJSON(jsonObj);
         monasticST.compute();
