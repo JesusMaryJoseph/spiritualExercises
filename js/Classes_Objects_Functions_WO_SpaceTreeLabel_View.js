@@ -375,6 +375,7 @@ var SpaceTree = {
         if(thisId.slice(0,4)=="s021"){
             levelDist = 100;
         };
+       alert("now creating new $jit.ST");
         var monasticST = new $jit.ST({
             injectInto: 'space-tree-id',
             orientation:'top',
@@ -481,6 +482,7 @@ var SpaceTree = {
             },
             
             onBeforePlotNode: function(node){
+              alert("in onBeforePlotNode");
                 node.data.$width = node.data.width;
                 node.data.$height = node.data.height;
                 
@@ -498,6 +500,7 @@ var SpaceTree = {
             },
             
             onBeforePlotLine: function(adj){
+              alert("in onBeforePlotLine");
                 if (adj.nodeFrom.selected && adj.nodeTo.selected) {
                     adj.data.$color = "#00f";// "#eed";
                     adj.data.$lineWidth = 3; //3;
