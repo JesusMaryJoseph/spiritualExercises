@@ -362,13 +362,15 @@ var SpaceTree = {
 
     //Methods
     createNewST: function(selectedNode,mode) {
-       alert("in createNewSt");
+       alert("in createNewSt new");
+      alert("selectedNode.name: " + selectedNode.name);
         DOMCalls.authorCreditElement.innerHTML = "";
         DOMCalls.spaceTreeElement.style.backgroundImage =  "none";
         if(document.getElementById("space-tree-id-canvaswidget")){
             var infoEle = document.getElementById("space-tree-id-canvaswidget");
             infoEle.remove();
         } 
+      alert("after ST clear");
         let jsonObj = selectedNode;
         let thisId = jsonObj.id;
         let levelDist = 2;
