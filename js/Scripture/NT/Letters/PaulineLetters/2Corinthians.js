@@ -154,13 +154,119 @@
               
                 // Children of sNode12111 (Chapters:<br>8-13)
               
-                    // Children of sNode121110 (Collection)
+                    // Children of sNode121110 (Collection:)
+              
+                        // Children of sNode1211100 (Generosity<br>in Giving:)
+              
+                            // Children of sNode12111000 (The Churches<br>Of Macedonia:)
+                                
+                            var sNode121110000 = {
+                                id: "s121110000",
+                                name: "We Want You To Know<br>Brothers, Of The Grace<br>Of God Given To Them -",
+                                data:{"width":"185","height":"57"},
+                                children:[]         
+                            };
+                                
+                            var sNode121110001 = {
+                                id: "s121110001",
+                                name: "They Gave Themselves<br>First To The Lord & To Us<br>Then They Begged Us -",
+                                data:{"width":"195","height":"57"},
+                                children:[]         
+                            };
+                                
+                            var sNode121110002 = {
+                                id: "s121110002",
+                                name: "Insistently For The Favor<br>Of Taking Part In The<br>Service To The Holy Ones",
+                                data:{"width":"195","height":"57"},
+                                children:[]         
+                            };
+                            
+                        var sNode12111000 = {
+                            id: "s12111000",
+                            name: "The Churches<br>Of Macedonia:",
+                            data:{"width":"115","height":"39"},
+                            children:[sNode121110000,sNode121110001,sNode121110002]         
+                        };
+              
+                            // Children of sNode12111001 (Jesus:)
+                                
+                            var sNode121110010 = {
+                                id: "s121110010",
+                                name: "For Your Sake<br>Became Poor Although<br>He Was Rich, So That -",
+                                data:{"width":"180","height":"57"},
+                                children:[]         
+                            };
+                                
+                            var sNode121110011 = {
+                                id: "s121110011",
+                                name: "By His Poverty<br>You Might<br>Become Rich",
+                                data:{"width":"120","height":"57"},
+                                children:[]         
+                            };
+                            
+                        var sNode12111001 = {
+                            id: "s12111001",
+                            name: "Jesus:",
+                            data:{"width":"60","height":"23"},
+                            children:[sNode121110010,sNode121110011]         
+                        };
+              
+                            // Children of sNode12111002 (To The Church<br>In Corinth:)
+                                
+                            var sNode121110020 = {
+                                id: "s121110020",
+                                name: "As You Excel In Faith,<br>Discourse, Knowledge,<br>All Earnestness -",
+                                data:{"width":"175","height":"57"},
+                                children:[]         
+                            };
+                                
+                            var sNode121110021 = {
+                                id: "s121110021",
+                                name: "May You Excel In<br>This Gracious Act<br>I Say This To -",
+                                data:{"width":"145","height":"57"},
+                                children:[]         
+                            };
+                                
+                            var sNode121110022 = {
+                                id: "s121110022",
+                                name: "Test The Genuineness<br>Of Your Love By Your<br>Concern For Others",
+                                data:{"width":"170","height":"57"},
+                                children:[]         
+                            };
+                                
+                            var sNode121110023 = {
+                                id: "s121110023",
+                                name: "You Acted Willing<br>Last Year, Now Bring<br>It To Completion -",
+                                data:{"width":"165","height":"57"},
+                                children:[]         
+                            };
+                                
+                            var sNode121110024 = {
+                                id: "s121110024",
+                                name: "Your Surplus At The<br>Present Time Should<br>Supply Their Needs So -",
+                                data:{"width":"190","height":"57"},
+                                children:[]         
+                            };
+                                
+                            var sNode121110025 = {
+                                id: "s121110025",
+                                name: "That Their Surplus<br>May Also Supply<br>Your Needs (Equality)",
+                                data:{"width":"165","height":"57"},
+                                children:[]         
+                            };
+                            
+                        var sNode12111002 = {
+                            id: "s12111002",
+                            name: "To The Church<br>In Corinth:",
+                            data:{"width":"115","height":"39"},
+                            children:[sNode121110020,sNode121110021,sNode121110022,sNode121110023,sNode121110024,sNode121110025]         
+                        };
                         
                     var sNode1211100 = {
                         id: "s1211100",
-                        name: "Generosity<br>in Giving",
+                        name: "Generosity<br>in Giving:",
                         data:{"width":"90","height":"39"},
-                        children:[]         
+                        children:[sNode12111000,sNode12111001,sNode12111002]         
                     };
                         
                     var sNode1211101 = {

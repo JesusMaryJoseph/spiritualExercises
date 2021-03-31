@@ -2855,15 +2855,15 @@
                 
                     var dNode13000 = {
                         id: "d13000",
-                        name: "When Love Enters<br>The Heart It Brings<br>All Other Virtues<br>In It's Train",
+                        name: "When Love Enters<br>The Heart It Brings<br>All Other Virtues<br>In It's Train -",
                         data:{"width":"145","height":"75"},
                         children:[]         
                     };
                 
                     var dNode13001 = {
                         id: "d13001",
-                        name: "Marshalls & Employes<br>Them As A<br>Captain His Soldiers",
-                        data:{"width":"165","height":"57"},
+                        name: "Marshalls & Employes<br>Them As A<br>Captain His Soldiers -",
+                        data:{"width":"170","height":"57"},
                         children:[]         
                     };
                 
@@ -2943,7 +2943,7 @@
             
                 var dNode1302 = {
                     id: "d1302",
-                    name: "Chose<br>According To:",
+                    name: "Choose<br>According To:",
                     data:{"width":"110","height":"39"},
                     children:[dNode13020,dNode13021,dNode13022,dNode13023]         
                 };
@@ -3107,27 +3107,183 @@
                 children:[dNode1320,dNode1321,dNode1322]         
             };
 
-                // Children of dNode133 (On<br>Patience:)
+                // Children of dNode133 (Patience:)
+
+                    // Children of dNode1330 (True<br>Patience:)
+            
+                    var dNode13300 = {
+                        id: "d13300",
+                        name: "Our Savior<br>Redemmed Us By<br>Bearing & Suffering",
+                        data:{"width":"155","height":"57"},
+                        children:[]         
+                    };
+            
+                    var dNode13301 = {
+                        id: "d13301",
+                        name: "We Must Seek Our<br>Own Salvation Amid<br>Suffering & Affliction",
+                        data:{"width":"165","height":"57"},
+                        children:[]         
+                    };
         
-                var dNode133 = {
-                    id: "d133",
-                    name: "",
-                    data:{"width":"75","height":"39"},
-                    children:[]         
+                var dNode1330 = {
+                    id: "d1330",
+                    name: "True<br>Patience:",
+                    data:{"width":"80","height":"39"},
+                    children:[dNode13300,dNode13301]         
                 };
+
+                    // Children of dNode1331 (False<br>Patience:)
+            
+                    var dNode13310 = {
+                        id: "d13310",
+                        name: "A Love Of Honor<br>That Attends Tribulation<br>But Not The Tribulation",
+                        data:{"width":"180","height":"57"},
+                        children:[]         
+                    };
+            
+                    var dNode13311 = {
+                        id: "d13311",
+                        name: "A Rediness To Accept The<br>Trial But Are Impatient<br>With The Consequences",
+                        data:{"width":"200","height":"57"},
+                        children:[]         
+                    };
         
-                var dNode133 = {
-                    id: "d133",
-                    name: "",
-                    data:{"width":"75","height":"39"},
-                    children:[]         
+                var dNode1331 = {
+                    id: "d1331",
+                    name: "False<br>Patience:",
+                    data:{"width":"80","height":"39"},
+                    children:[dNode13310,dNode13311]         
+                };
+
+                    // Children of dNode1332 (Counsels:)
+
+                        // Children of dNode13320 (Possession<br>Of Our Soul:)
+                
+                        var dNode133200 = {
+                            id: "d133200",
+                            name: "The Greatest Happiness<br>Of Any One Is To<br>'Possess His Soul' -",
+                            data:{"width":"180","height":"57"},
+                            children:[]         
+                        };
+                
+                        var dNode133201 = {
+                            id: "d133201",
+                            name: "The More Perfect Our<br>Patience, The More Fully<br>We Possess Our Souls",
+                            data:{"width":"180","height":"57"},
+                            children:[]         
+                        };
+            
+                    var dNode13320 = {
+                        id: "d13320",
+                        name: "Possession<br>Of Our Soul:",
+                        data:{"width":"100","height":"39"},
+                        children:[dNode133200,dNode133201]         
+                    };
+
+                        // Children of dNode13321 (A Really Patient<br>Servant Of God:)
+                
+                        var dNode133210 = {
+                            id: "d133210",
+                            name: "Is As Ready To Bear<br>Inglorious Troubles -",
+                            data:{"width":"165","height":"39"},
+                            children:[]         
+                        };
+                
+                        var dNode133211 = {
+                            id: "d133211",
+                            name: "As Those Which<br>Are Honorable",
+                            data:{"width":"125","height":"39"},
+                            children:[]         
+                        };
+            
+                    var dNode13321 = {
+                        id: "d13321",
+                        name: "A Really Patient<br>Servant Of God:",
+                        data:{"width":"125","height":"39"},
+                        children:[dNode133210,dNode133211]         
+                    };
+
+                        // Children of dNode13322 (Injuries Or<br>Contradictions:)
+                
+                        var dNode133220 = {
+                            id: "d133220",
+                            name: "That We Endure<br>From Good People -",
+                            data:{"width":"160","height":"39"},
+                            children:[]         
+                        };
+                
+                        var dNode133221 = {
+                            id: "d133221",
+                            name: "Are Much Harder<br>To Bear Than<br>Any Other",
+                            data:{"width":"130","height":"57"},
+                            children:[]         
+                        };
+            
+                    var dNode13322 = {
+                        id: "d13322",
+                        name: "Injuries Or<br>Contradictions:",
+                        data:{"width":"125","height":"39"},
+                        children:[dNode133220,dNode133221]         
+                    };
+
+                        // Children of dNode13323 (When Justly<br>Blamed:)
+                
+                        var dNode133230 = {
+                            id: "d133230",
+                            name: "Humble Yourself<br>Deeply -",
+                            data:{"width":"130","height":"39"},
+                            children:[]         
+                        };
+                
+                        var dNode133231 = {
+                            id: "d133231",
+                            name: "Confess That<br>You Deserve<br>The Blame",
+                            data:{"width":"105","height":"57"},
+                            children:[]         
+                        };
+            
+                    var dNode13323 = {
+                        id: "d13323",
+                        name: "When Justly<br>Blamed:",
+                        data:{"width":"100","height":"39"},
+                        children:[dNode133230,dNode133231]         
+                    };
+
+                        // Children of dNode13324 (When Falsely<br>Accused:)
+                
+                        var dNode133240 = {
+                            id: "d133240",
+                            name: "Defend Yourself Quietly<br>Denying The Fact<br>(Due Respect For Truth) -",
+                            data:{"width":"185","height":"57"},
+                            children:[]         
+                        };
+                
+                        var dNode133241 = {
+                            id: "d133241",
+                            name: "If Still Accused, Do Not<br>Be Troubled Or Try To<br>Press Your Defense<br>(Due Respect For Humility)",
+                            data:{"width":"200","height":"75"},
+                            children:[]         
+                        };
+            
+                    var dNode13324 = {
+                        id: "d13324",
+                        name: "When Falsely<br>Accused:",
+                        data:{"width":"105","height":"39"},
+                        children:[dNode133240,dNode133241]         
+                    };
+        
+                var dNode1332 = {
+                    id: "d1332",
+                    name: "Counsels:",
+                    data:{"width":"85","height":"23"},
+                    children:[dNode13320,dNode13321,dNode13322,dNode13323,dNode13324]         
                 };
             
             var dNode133 = {
                 id: "d133",
                 name: "Patience:",
                 data:{"width":"75","height":"23"},
-                children:[]         
+                children:[dNode1330,dNode1331,dNode1332]         
             };
         
         var dNode13 = {

@@ -362,23 +362,18 @@ var SpaceTree = {
 
     //Methods
     createNewST: function(selectedNode,mode) {
-       alert("in createNewSt new");
-      alert("selectedNode.id: " + selectedNode.id);
         DOMCalls.authorCreditElement.innerHTML = "";
         DOMCalls.spaceTreeElement.style.backgroundImage =  "none";
-      alert("after DOMCalls");
         if(document.getElementById("space-tree-id-canvaswidget")){
             var infoEle = document.getElementById("space-tree-id-canvaswidget");
             infoEle.remove();
         } 
-      alert("after ST clear");
         let jsonObj = selectedNode;
         let thisId = jsonObj.id;
         let levelDist = 2;
         if(thisId.slice(0,4)=="s021"){
             levelDist = 100;
         };
-       alert("now creating new $jit.ST");
         var monasticST = new $jit.ST({
             injectInto: 'space-tree-id',
             orientation:'top',
@@ -411,7 +406,6 @@ var SpaceTree = {
             },
             
             onCreateLabel: function(label, node){ 
-               alert("in onCreateLabel");
                 label.id = node.id; 
                 if(node.id.slice(0,4) != "s021"){
                     if(SelectedMode.mode == "study"){
@@ -485,7 +479,6 @@ var SpaceTree = {
             },
             
             onBeforePlotNode: function(node){
-              alert("in onBeforePlotNode");
                 node.data.$width = node.data.width;
                 node.data.$height = node.data.height;
                 
@@ -503,7 +496,6 @@ var SpaceTree = {
             },
             
             onBeforePlotLine: function(adj){
-              alert("in onBeforePlotLine");
                 if (adj.nodeFrom.selected && adj.nodeTo.selected) {
                     adj.data.$color = "#00f";// "#eed";
                     adj.data.$lineWidth = 3; //3;
@@ -514,7 +506,7 @@ var SpaceTree = {
                 }
             }
         });
-       alert("ready to loadJSON");
+        
         DOMCalls.spaceTreeElement.style.backgroundColor = "black";
         monasticST.loadJSON(jsonObj);
         monasticST.compute();

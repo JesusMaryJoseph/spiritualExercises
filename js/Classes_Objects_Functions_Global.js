@@ -417,8 +417,10 @@ var PageManager = {
         DOMCalls.viewContainerElement.classList.add("z-50");
         DOMCalls.viewContainerElement.classList.replace("hide-opacity","show-opacity");
         let clickedId = evt.target.id;
+    //  alert("clickedId: " + clickedId);
         if(clickedId.length != 4){
             clickedId = clickedId.charAt(0) + "w" + SelectedData.week + (SelectedData.day + 1);
+    //  alert("formed clickedId: " + clickedId);
         }
         this.selectedNode = spExHT[clickedId];
     	SpaceTree.createNewST(this.selectedNode,SelectedMode.mode);
@@ -478,29 +480,6 @@ var DOMCalls = {
 	    languageLabElement: {},
 	    languageOptionsContainerElement: {},
 	//Selection
-		//SelectedData
-	    gospelValueElement: {},
-	    letterlValueElement: {},
-	    psalmValueElement: {},
-	    devoutValueElement: {},
-    	//WeekSelectorUpdate
-	    weekOneLinkElement: {},
-	    weekTwoLinkElement: {},
-	    weekThreeLinkElement: {},
-	    weekFourLinkElement: {},
-        //DaySelectorUpdate
-	    dayOneLinkElement: {},
-	    dayTwoLinkElement: {},
-	    dayThreeLinkElement: {},
-	    dayFourLinkElement: {},
-	    dayFiveLinkElement: {},
-	    daySixLinkElement: {},
-	    daySevenLinkElement: {},
-        //SelectedMode
-	    studyTestLabelElement: {},
-	    studyTestOptionsContainerElement: {},
-	    studyElement: {},
-	    testElement: {}, 
         //SpaceTreeLog
 		spaceTreeLogElement: {},
         //SpaceTreeLabel
@@ -539,29 +518,6 @@ var DOMCalls = {
         this.languageLabElement = document.getElementById("language-label-id");
         this.languageOptionsContainerElement = document.getElementById("language-options-container-id");
 	//Selection
-		//SelectedData
-        this.gospelValueElement = document.getElementById("gospel-value-id");
-        this.letterValueElement = document.getElementById("letter-value-id");
-        this.psalmValueElement = document.getElementById("psalm-value-id");
-        this.devoutValueElement = document.getElementById("devout-value-id");
-    	//WeekSelectorUpdate
-        this.weekOneLinkElement = document.getElementById("week-1-link-id");
-        this.weekTwoLinkElement = document.getElementById("week-2-link-id");
-        this.weekThreeLinkElement = document.getElementById("week-3-link-id");
-        this.weekFourLinkElement = document.getElementById("week-4-link-id");
-        //DaySelectorUpdate
-        this.dayOneLinkElement = document.getElementById("day-1-link-id");
-        this.dayTwoLinkElement = document.getElementById("day-2-link-id");
-        this.dayThreeLinkElement = document.getElementById("day-3-link-id");
-        this.dayFourLinkElement = document.getElementById("day-4-link-id");
-        this.dayFiveLinkElement = document.getElementById("day-5-link-id");
-        this.daySixLinkElement = document.getElementById("day-6-link-id");
-        this.daySevenLinkElement = document.getElementById("day-7-link-id");
-        //SelectedMode
-        this.studyTestLabelElement = document.getElementById("study-test-label-id");
-        this.studyTestOptionsContainerElement = document.getElementById("study-test-options-container-id");
-        this.studyElement = document.getElementById("study-id");
-        this.testElement = document.getElementById("test-id"); 
         //SpaceTreeLog
 		this.spaceTreeLogElement = document.getElementById('space-tree-log-id');
         //SpaceTreeLabel

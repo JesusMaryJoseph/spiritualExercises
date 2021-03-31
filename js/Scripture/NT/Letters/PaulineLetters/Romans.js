@@ -653,11 +653,27 @@
                     data:{"width":"140","height":"39"},
                     children:[]
                 };
+    
+                    // Children of sNode120202 (Endurance &<br>Encouragement:)
+                
+                    var sNode1202022 =  {
+                        id: "s1202022",
+                        name: "",
+                        data:{"width":"90","height":"39"},
+                        children:[]
+                    };
+                
+                    var sNode1202022 =  {
+                        id: "s1202022",
+                        name: "",
+                        data:{"width":"90","height":"39"},
+                        children:[]
+                    };
                 
                 var sNode1202022 =  {
                     id: "s1202022",
-                    name: "Patience<br>Self Denial",
-                    data:{"width":"90","height":"39"},
+                    name: "The God Of<br>Endurance &<br>Encouragement:",
+                    data:{"width":"130","height":"57"},
                     children:[]
                 };
                 
@@ -670,8 +686,8 @@
             
             var sNode120202 =  {
                 id: "s120202",
-                name: "Chapters<br>14, 15-",
-                data:{"width":"75","height":"39"},
+                name: "Chapters<br>14 - 15:13",
+                data:{"width":"95","height":"39"},
                 children:[sNode1202020,sNode1202021,sNode1202022,sNode1202023]
             };
             
