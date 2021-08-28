@@ -9,21 +9,76 @@
                     var sNode1211000 = {
                         id: "s1211000",
                         name: "Greeting",
-                        data:{"width":"70","height":"22"},
+                        data:{"width":"70","height":"23"},
                         children:[]         
                     };
+              
+                        // Children of sNode1211001 (Thanksgiving:)
+              
+                            // Children of sNode12110010 (Blessed Be The<br>God & Father Of Our<br>Lord Jesus Christ:)
+              
+                                // Children of sNode121100100 (Father's<br>Compassion And<br>Encouragement:)
+                                
+                                var sNode1211001000 = {
+                                    id: "s1211001000",
+                                    name: "Who Encourages Us In<br>Our Every Affliction<br>So That We -",
+                                    data:{"width":"170","height":"57"},
+                                    children:[]         
+                                };
+                                
+                                var sNode1211001001 = {
+                                    id: "s1211001001",
+                                    name: "May Be Able To<br>Encourage Those Who<br>Are In Any Affliction -",
+                                    data:{"width":"175","height":"57"},
+                                    children:[]         
+                                };
+                                
+                                var sNode1211001002 = {
+                                    id: "s1211001002",
+                                    name: "With The Encouragement<br>With Which We Ourselves<br>Are Encouraged By God",
+                                    data:{"width":"190","height":"57"},
+                                    children:[]         
+                                };
+                            
+                            var sNode121100100 = {
+                                id: "s121100100",
+                                name: "The Father Of<br>Compassion And<br>Encouragement:",
+                                data:{"width":"135","height":"57"},
+                                children:[sNode1211001000,sNode1211001001,sNode1211001002]         
+                            };
+                            
+                            var sNode121100101 = {
+                                id: "s121100101",
+                                name: "Christ's<br>Sufferings:",
+                                data:{"width":"90","height":"39"},
+                                children:[]         
+                            };
+                        
+                        var sNode12110010 = {
+                            id: "s12110010",
+                            name: "Blessed Be The<br>God & Father Of Our<br>Lord Jesus Christ:",
+                            data:{"width":"155","height":"57"},
+                            children:[sNode121100100,sNode121100101]         
+                        };
+                        
+                        var sNode12110011 = {
+                            id: "s12110011",
+                            name: "Affliction In<br>The Providence<br>Of Asia:",
+                            data:{"width":"120","height":"57"},
+                            children:[]         
+                        };
                         
                     var sNode1211001 = {
                         id: "s1211001",
-                        name: "Thanksgiving",
-                        data:{"width":"100","height":"22"},
-                        children:[]         
+                        name: "Thanksgiving:",
+                        data:{"width":"110","height":"23"},
+                        children:[sNode12110010,sNode12110011]         
                     };
                                 
                 var sNode121100 = {
                     id: "s121100",
-                    name: "Address",
-                    data:{"width":"70","height":"22"},
+                    name: "Address:",
+                    data:{"width":"75","height":"23"},
                     children:[sNode1211000,sNode1211001]            
                 };
 
@@ -141,14 +196,14 @@
                 var sNode121101 = {
                     id: "s121101",
                     name: "Crisis:",
-                    data:{"width":"55","height":"22"},
+                    data:{"width":"55","height":"23"},
                     children:[sNode1211010,sNode1211011,sNode1211012]           
                 };
                                 
             var sNode12110 = {
                 id: "s12110",
-                name: "Chapters:<br>1-7",
-                data:{"width":"75","height":"39"},
+                name: "<u>2nd Corinthians</u><br>Chapters 1-7:",
+                data:{"width":"125","height":"39"},
                 children:[sNode121100,sNode121101]          
             };
               
@@ -286,7 +341,7 @@
                 var sNode121110 = {
                     id: "s121110",
                     name: "Collection:",
-                    data:{"width":"90","height":"22"},
+                    data:{"width":"90","height":"23"},
                     children:[sNode1211100,sNode1211101,sNode1211102]           
                 };
               
@@ -330,7 +385,7 @@
                 var sNode121111 = {
                     id: "s121111",
                     name: "Defense:",
-                    data:{"width":"70","height":"22"},
+                    data:{"width":"70","height":"23"},
                     children:[sNode1211110,sNode1211111,sNode1211112,sNode1211113,sNode1211114]         
                 };
               
@@ -353,21 +408,21 @@
                 var sNode121112 = {
                     id: "s121112",
                     name: "Conclusion:",
-                    data:{"width":"95","height":"22"},
+                    data:{"width":"95","height":"23"},
                     children:[sNode1211120,sNode1211121]            
                 };
                                 
             var sNode12111 = {
                 id: "s12111",
-                name: "Chapters:<br>8-13",
-                data:{"width":"80","height":"39"},
+                name: "<u>2nd Corinthians</u><br>Chapters 8-13:",
+                data:{"width":"125","height":"39"},
                 children:[sNode121110,sNode121111,sNode121112]          
             };
     
         var sNode1211 = {
             id: "s1211",
-            name: "2nd<br>Corinthians",
-            data:{"width":"100","height":"39"},
+            name: "2nd<br>Corinthians:",
+            data:{"width":"105","height":"39"},
             children:[sNode12110,sNode12111]            
         };
         

@@ -56,38 +56,22 @@
              
                     var sNode12000010 =  {
                         id: "s12000010",
+                        name: " The Beloved Of<br>God In Rome -",
+                        data:{"width":"120","height":"39"},
+                        children:[]
+                    };
+             
+                    var sNode12000011 =  {
+                        id: "s12000011",
                         name: "Called<br>To Be Holy",
                         data:{"width":"90","height":"39"},
                         children:[]
                     };
-    
-                        // Children of sNode12000011 (Grace To You<br>& Peace From:)
-                 
-                        var sNode120000110 =  {
-                            id: "s120000110",
-                            name: "God Our<br>Father",
-                            data:{"width":"70","height":"39"},
-                            children:[]
-                        };
-                 
-                        var sNode120000111 =  {
-                            id: "s120000111",
-                            name: "And The Lord<br>Jesus Christ",
-                            data:{"width":"110","height":"39"},
-                            children:[]
-                        };
-                 
-                    var sNode12000011 =  {
-                        id: "s12000011",
-                        name: "Grace To You<br>& Peace From:",
-                        data:{"width":"115","height":"39"},
-                        children:[sNode120000110,sNode120000111]
-                    };
              
                 var sNode1200001 =  {
                     id: "s1200001",
-                    name: "To All The<br>Beloved Of God<br>In Rome:",
-                    data:{"width":"125","height":"57"},
+                    name: "To All:",
+                    data:{"width":"55","height":"23"},
                     children:[sNode12000010,sNode12000011]
                 };
          
@@ -104,12 +88,35 @@
                 data:{"width":"105","height":"23"},
                 children:[]
             };
+    
+                // Children of sNode120002 (Grace To You<br>& Peace From:)
+         
+                var sNode1200020 =  {
+                    id: "s1200020",
+                    name: "From God<br>Our Father- ",
+                    data:{"width":"100","height":"39"},
+                    children:[]
+                };
+         
+                var sNode1200021 =  {
+                    id: "s1200021",
+                    name: "And The Lord<br>Jesus Christ",
+                    data:{"width":"110","height":"39"},
+                    children:[]
+                };
+         
+            var sNode120002 =  {
+                id: "s120002",
+                name: "Grace To You<br>And Peace:",
+                data:{"width":"110","height":"39"},
+                children:[sNode1200020,sNode1200021]
+            };
             
         var sNode12000 =  {
             id: "s12000",
             name: "Address:",
             data:{"width":"75","height":"23"},
-            children:[sNode120000,sNode120001]
+            children:[sNode120000,sNode120001,sNode120002]
         };
     
             // Children of sNode12001 (Humanity Lost<br>without Gospel)
@@ -454,7 +461,7 @@
                     var sNode12020011 =  {
                         id: "s12020011",
                         name: "We, Though Many, Are<br>One Body In Christ,<br>And Individually Parts<br>Of One Another:",
-                        data:{"width":"160","height":"75"},
+                        data:{"width":"170","height":"75"},
                         children:[]
                     };
             
@@ -498,7 +505,7 @@
                         var sNode120200125 =  {
                             id: "s120200125",
                             name: "If One Is<br>Over Others,<br>With Diligence",
-                            data:{"width":"110","height":"57"},
+                            data:{"width":"115","height":"57"},
                             children:[]
                         };
                         
@@ -512,7 +519,7 @@
                     var sNode12020012 =  {
                         id: "s12020012",
                         name: "Since We Have Gifts<br>That Differ According To<br>The Grace Given Us,<br>Let Us Exercise Them:",
-                        data:{"width":"175","height":"75"},
+                        data:{"width":"180","height":"75"},
                         children:[sNode120200120,sNode120200121,sNode120200122,sNode120200123,sNode120200124,sNode120200125,sNode120200126]
                     };
                 
@@ -643,7 +650,7 @@
                 var sNode1202020 =  {
                     id: "s1202020",
                     name: "Live & Die<br>For Christ",
-                    data:{"width":"90","height":"39"},
+                    data:{"width":"85","height":"39"},
                     children:[]
                 };
                 
@@ -672,8 +679,8 @@
                 
                 var sNode1202022 =  {
                     id: "s1202022",
-                    name: "The God Of<br>Endurance &<br>Encouragement:",
-                    data:{"width":"130","height":"57"},
+                    name: "Patience And<br>Self-Denial:",
+                    data:{"width":"105","height":"39"},
                     children:[]
                 };
                 
@@ -687,7 +694,7 @@
             var sNode120202 =  {
                 id: "s120202",
                 name: "Chapters<br>14 - 15:13",
-                data:{"width":"95","height":"39"},
+                data:{"width":"80","height":"39"},
                 children:[sNode1202020,sNode1202021,sNode1202022,sNode1202023]
             };
             
@@ -709,8 +716,8 @@
             
             var sNode120211 =  {
                 id: "s120211",
-                name: "Paul's Plans<br>Need for Prayer",
-                data:{"width":"120","height":"39"},
+                name: "Paul's Plans;<br>Need for Prayers",
+                data:{"width":"135","height":"39"},
                 children:[]
             };
             

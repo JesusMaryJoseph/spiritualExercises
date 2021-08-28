@@ -143,14 +143,14 @@
             var sNode129023 =  {
                 id: "s129023",
                 name: "Jesus,<br>Compassionate<br>High Priest",
-                data:{"width":"120","height":"56"},
+                data:{"width":"120","height":"57"},
                 children:[]
             };
             
         var sNode12902 =  {
             id: "s12902",
             name: "Jesus Faithful &<br>Compassionate<br>High Priest:",
-            data:{"width":"125","height":"56"},
+            data:{"width":"125","height":"57"},
             children:[sNode129020,sNode129021,sNode129022,sNode129023]
         };
             
@@ -161,55 +161,55 @@
         children:[sNode12900,sNode12901,sNode12902]
     };
     
-	    // Children of sNode1291 (Jesus' Eternal<br>Priesthood &<br>Eternal Sacrifice)
+	    // Children of sNode1291 (Jesus' Eternal<br>Priesthood &<br>Eternal Sacrifice:)
     
-            // Children of sNode12910 (Renewal<br>Promise)
+            // Children of sNode12910 (Renewal<br>Promise:)
           
             var sNode129100 =  {
                 id: "s129100",
                 name: "Exhortation<br>To Spiritual<br>Renewal",
-                data:{"width":"100","height":"56"},
+                data:{"width":"100","height":"57"},
                 children:[]
             };
                 
             var sNode129101 =  {
                 id: "s129101",
-                name: "God's<br>Promise<br>Immutable",
-                data:{"width":"85","height":"56"},
+                name: "God's Promise<br>Immutable",
+                data:{"width":"115","height":"39"},
                 children:[]
             };
           
         var sNode12910 =  {
             id: "s12910",
-            name: "Renewal,<br>Promise",
-            data:{"width":"75","height":"39"},
+            name: "Renewal,<br>Promise:",
+            data:{"width":"80","height":"39"},
             children:[sNode129100,sNode129101]
         };
     
-            // Children of sNode12910 (Renewal<br>Promise)
+            // Children of sNode12910 (Renewal<br>Promise:)
             
             var sNode129110 =  {
                 id: "s129110",
-                name: "Melchizedek,<br>A Type<br>Of Christ",
-                data:{"width":"105","height":"56"},
+                name: "Melchizedek<br>A Type Of Christ",
+                data:{"width":"130","height":"39"},
                 children:[]
             };
                 
             var sNode129111 =  {
                 id: "s129111",
-                name: "Heavenly<br>Priesthood<br>Of Jesus",
-                data:{"width":"90","height":"56"},
+                name: "Heavenly Priesthood<br>Of Jesus",
+                data:{"width":"160","height":"39"},
                 children:[]
             };
           
         var sNode12911 =  {
             id: "s12911",
-            name: "Priesthood",
-            data:{"width":"90","height":"23"},
+            name: "Priesthood:",
+            data:{"width":"95","height":"23"},
             children:[sNode129110,sNode129111]
         };
     
-            // Children of sNode12912 (Covenants)
+            // Children of sNode12912 (Covenants:)
                 
             var sNode129120 =  {
                 id: "s129120",
@@ -221,18 +221,18 @@
             var sNode129121=  {
                 id: "s129121",
                 name: "The Worship<br>Of The<br>1st Covenant",
-                data:{"width":"105","height":"56"},
+                data:{"width":"105","height":"57"},
                 children:[]
             };
           
         var sNode12912 =  {
             id: "s12912",
-            name: "Covenants",
-            data:{"width":"85","height":"23"},
+            name: "Covenants:",
+            data:{"width":"95","height":"23"},
             children:[sNode129120,sNode129121]
         };
     
-            // Children of sNode12913 (Sacrifice)
+            // Children of sNode12913 (Sacrifice:)
                 
             var sNode129130 =  {
                 id: "s129130",
@@ -243,35 +243,35 @@
                 
             var sNode129131 =  {
                 id: "s129131",
-                name: "One Sacrifice<br>Instead<br>Of Many",
-                data:{"width":"105","height":"56"},
+                name: "One Sacrifice<br>Instead Of Many",
+                data:{"width":"125","height":"39"},
                 children:[]
             };
           
         var sNode12913 =  {
             id: "s12913",
-            name: "Sacrifice",
-            data:{"width":"70","height":"23"},
+            name: "Sacrifice:",
+            data:{"width":"80","height":"23"},
             children:[sNode129130,sNode129131]
         };
             
         var sNode12914 =  {
             id: "s12914",
             name: "Recalling<br>The Past",
-            data:{"width":"75","height":"39"},
+            data:{"width":"80","height":"39"},
             children:[]
         };
             
     var sNode1291 =  {
         id: "s1291",
-        name: "Jesus' Eternal<br>Priesthood &<br>Eternal Sacrifice",
-        data:{"width":"135","height":"56"},
+        name: "Jesus' Eternal<br>Priesthood And<br>Eternal Sacrifice:",
+        data:{"width":"140","height":"57"},
         children:[sNode12910,sNode12911,sNode12912,sNode12913,sNode12914]
     };
     
 	    // Children of sNode1292 (Chapters 11-13)
 	
-	        // Children of sNode12920 (Examples,<br>Discipline,<br>Disobedience)
+	        // Children of sNode12920 (Examples,<br>Discipline,<br>Disobedience:)
 	   
             var sNode129200 =  {
                 id: "s129200",
@@ -296,16 +296,16 @@
             
         var sNode12920 =  {
             id: "s12920",
-            name: "Examples,<br>Discipline,<br>Disobedience",
-            data:{"width": "105","height": "56"},
+            name: "Examples,<br>Discipline,<br>Disobedience:",
+            data:{"width": "115","height": "56"},
             children:[sNode129200,sNode129201,sNode129202]
         };
     
-            // Children of sNode12921 (Final Exhortation,<br>Blessing,<br>Greetings)
+            // Children of sNode12921 (Final Exhortation,<br>Blessing,<br>Greetings:)
     
-                // Children of sNode129210 (Exhortations)
+                // Children of sNode129210 (Exhortations:)
     
-                    // Children of sNode1292100 (Love)
+                    // Children of sNode1292100 (Love:)
                     
                     var sNode12921000 =  {
                         id: "s12921000",
@@ -330,8 +330,8 @@
                 
                 var sNode1292100 =  {
                     id: "s1292100",
-                    name: "Love",
-                    data:{"width":"45","height":"23"},
+                    name: "Love:",
+                    data:{"width":"50","height":"23"},
                     children:[sNode12921000,sNode12921001,sNode12921002]
                 };
     
@@ -360,14 +360,14 @@
                 
                 var sNode1292101 =  {
                     id: "s1292101",
-                    name: "Leaders",
-                    data:{"width":"65","height":"23"},
+                    name: "Leaders:",
+                    data:{"width":"70","height":"23"},
                     children:[sNode12921010,sNode12921011,sNode12921012]
                 };
             
             var sNode129210 =  {
                 id: "s129210",
-                name: "Exhortations",
+                name: "Exhortations:",
                 data:{"width":"110","height":"23"},
                 children:[sNode1292100,sNode1292101]
             };
@@ -388,8 +388,8 @@
             
         var sNode12921 =  {
             id: "s12921",
-            name: "Final Exhortation,<br>Blessing,<br>Greetings",
-            data:{"width":"135","height":"56"},
+            name: "Final Exhortation,<br>Blessing,<br>Greetings:",
+            data:{"width":"135","height":"57"},
             children:[sNode129210,sNode129211,sNode129212]
         };
             

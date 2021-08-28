@@ -527,7 +527,7 @@
               
                         // Children of sNode1210102 (Spiritual<br>Gifts)
               
-                            // Children of sNode12101020 (Integrity)
+                            // Children of sNode12101020 (Integrity:)
                                 
                             var sNode121010200 = {
                                 id: "s121010200",
@@ -542,12 +542,118 @@
                                 data:{"width":"95","height":"39","img":"maps.20"},
                                 children:[]         
                             };
+              
+                                // Children of sNode121010202 (Application<br>To Christ:)
+              
+                                    // Children of sNode1210102020 (You Are:)
+                                    
+                                    var sNode12101020200 = {
+                                        id: "s12101020200",
+                                        name: "Christ's<br>Body And -",
+                                        data:{"width":"95","height":"39","img":"maps.20"},
+                                        children:[]         
+                                    };
+                                    
+                                    var sNode12101020201 = {
+                                        id: "s12101020201",
+                                        name: "Individually<br>Parts Of It",
+                                        data:{"width":"100","height":"39","img":"maps.20"},
+                                        children:[]         
+                                    };
+                                
+                                var sNode1210102020 = {
+                                    id: "s1210102020",
+                                    name: "You Are:",
+                                    data:{"width":"75","height":"23","img":"maps.20"},
+                                    children:[sNode12101020200,sNode12101020201]         
+                                };
+              
+                                    // Children of sNode1210102021 (God Designated<br>In The Church:)
+                                    
+                                    var sNode12101020210 = {
+                                        id: "s12101020210",
+                                        name: "First<br>Apostles",
+                                        data:{"width":"75","height":"39","img":"maps.20"},
+                                        children:[]         
+                                    };
+                                    
+                                    var sNode12101020211 = {
+                                        id: "s12101020211",
+                                        name: "Second<br>Prophets",
+                                        data:{"width":"75","height":"39","img":"maps.20"},
+                                        children:[]         
+                                    };
+                                
+                                    var sNode12101020212 = {
+                                        id: "s12101020212",
+                                        name: "Third<br>Teachers",
+                                        data:{"width":"75","height":"39","img":"maps.20"},
+                                        children:[]         
+                                    };
+              
+                                        // Children of sNode12101020213 (Then:)
+                                    
+                                        var sNode121010202130 = {
+                                            id: "s121010202130",
+                                            name: "Mighty<br>Deads",
+                                            data:{"width":"60","height":"39","img":"maps.20"},
+                                            children:[]         
+                                        };
+                                    
+                                        var sNode121010202131 = {
+                                            id: "s121010202131",
+                                            name: "Gifts Of<br>Healing",
+                                            data:{"width":"75","height":"39","img":"maps.20"},
+                                            children:[]         
+                                        };
+                                    
+                                        var sNode121010202132 = {
+                                            id: "s121010202132",
+                                            name: "Assistance",
+                                            data:{"width":"95","height":"23","img":"maps.20"},
+                                            children:[]         
+                                        };
+                                    
+                                        var sNode121010202133 = {
+                                            id: "s121010202133",
+                                            name: "Administration",
+                                            data:{"width":"125","height":"23","img":"maps.20"},
+                                            children:[]         
+                                        };
+                                    
+                                        var sNode121010202134 = {
+                                            id: "s121010202134",
+                                            name: "Varieties<br>Of Tongues",
+                                            data:{"width":"95","height":"39","img":"maps.20"},
+                                            children:[]         
+                                        };
+                                    
+                                    var sNode12101020213 = {
+                                        id: "s12101020213",
+                                        name: "Then:",
+                                        data:{"width":"50","height":"23","img":"maps.20"},
+                                        children:[sNode121010202130,sNode121010202131,sNode121010202132,sNode121010202133,sNode121010202134]         
+                                    };
+
+                                var sNode1210102021 = {
+                                    id: "s1210102021",
+                                    name: "God Designated<br>In The Church:",
+                                    data:{"width":"125","height":"39","img":"maps.20"},
+                                    children:[sNode12101020210,sNode12101020211,sNode12101020212,sNode12101020213]         
+                                };
+                                
+                                var sNode1210102022 = {
+                                    id: "s1210102022",
+                                    name: "Strive Eagerly<br>For The Greatest<br>Spiritual Gifts",
+                                    data:{"width":"130","height":"57","img":"maps.20"},
+                                    children:[]         
+                                };
                                 
                             var sNode121010202 = {
                                 id: "s121010202",
-                                name: "Application<br>To Christ",
+                                name: "Application<br>To Christ:",
                                 data:{"width":"95","height":"39","img":"maps.20"},
-                                children:[]         
+                                children:[sNode1210102020,sNode1210102021,sNode1210102022]         
                             };
                                 
                             var sNode121010203 = {

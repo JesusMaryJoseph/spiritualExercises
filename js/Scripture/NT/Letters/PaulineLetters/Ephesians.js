@@ -176,7 +176,7 @@
         var sNode12321 = {
             id: "s12321",
             name: "Generosity Of<br>God's Plan",
-            data:{"width":"105","height":"39"},
+            data:{"width":"110","height":"39"},
             children:[]         
         };
         
@@ -223,15 +223,15 @@
             
             var sNode123310 = {
                 id: "s123310",
-                name: "Preserve<br>The Unity",
-                data:{"width":"80","height":"39"},
+                name: "Preserve<br>The Unity -",
+                data:{"width":"90","height":"39"},
                 children:[]         
             };
             
             var sNode123311 = {
                 id: "s123311",
-                name: "Through The<br>Diversity<br>Of Gifts",
-                data:{"width":"100","height":"57"},
+                name: "Through<br>The Diversity<br>Of Gifts -",
+                data:{"width":"110","height":"57"},
                 children:[]         
             };
         

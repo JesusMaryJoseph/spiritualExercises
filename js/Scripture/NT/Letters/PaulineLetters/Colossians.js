@@ -23,22 +23,22 @@
             
             var sNode125000 = {
                 id: "s125000",
-                name: "Paul",
-                data:{"width":"45","height":"22","img":"apostles.4"},
+                name: "Paul:",
+                data:{"width":"50","height":"23","img":"apostles.4"},
                 children:[sNode1250000,sNode1250001]            
             };
             
             var sNode125001 = {
                 id: "s125001",
                 name: "Timothy<br>Our Brother",
-                data:{"width":"90","height":"39","img":"apostles.7"},
+                data:{"width":"100","height":"39","img":"apostles.7"},
                 children:[]         
             };
         
         var sNode12500 = {
             id: "s12500",
-            name: "Greeting",
-            data:{"width":"70","height":"22","img":"apostles.4"},
+            name: "Greeting:",
+            data:{"width":"75","height":"23","img":"apostles.4"},
             children:[sNode125000,sNode125001]          
         };
        
@@ -63,7 +63,7 @@
                 var sNode1250102 = {
                     id: "s1250102",
                     name: "Hope Reserved For<br>You In Heaven",
-                    data:{"width":"140","height":"39"},
+                    data:{"width":"145","height":"39"},
                     children:[]         
                 };
         
@@ -99,15 +99,15 @@
         
             var sNode125011 = {
                 id: "s125011",
-                name: "The Gospel<br>Word Of Truth:",
+                name: "The Gospel,<br>Word Of Truth:",
                 data:{"width":"115","height":"39"},
                 children:[sNode1250110,sNode1250111,sNode1250112]           
             };
         
         var sNode12501 = {
             id: "s12501",
-            name: "Thanksgiving",
-            data:{"width":"105","height":"22"},
+            name: "Thanksgiving:",
+            data:{"width":"110","height":"23"},
             children:[sNode125010,sNode125011]          
         };
         
@@ -122,22 +122,52 @@
         
     var sNode1250 = {
         id: "s1250",
-        name: "Address",
-        data:{"width":"70","height":"22","img":"pauline.1"},
+        name: "Address:",
+        data:{"width":"75","height":"23","img":"pauline.1"},
         children:[sNode12500,sNode12501,sNode12502]         
     };
         
-        // Children of sNode1251 (Preeminence<br>Of Christ)
+        // Children of sNode1251 (Preeminence<br>Of Christ:)
+        
+            // Children of sNode12510 (His Person:)
+            
+            var sNode12510 = {
+                id: "s12510",
+                name: "",
+                data:{"width":"90","height":"23"},
+                children:[]         
+            };
+            
+            var sNode12510 = {
+                id: "s12510",
+                name: "",
+                data:{"width":"90","height":"23"},
+                children:[]         
+            };
+            
+            var sNode12510 = {
+                id: "s12510",
+                name: "",
+                data:{"width":"90","height":"23"},
+                children:[]         
+            };
         
         var sNode12510 = {
             id: "s12510",
-            name: "His Person<br>& His Work",
-            data:{"width":"90","height":"39"},
+            name: "His Person:",
+            data:{"width":"99","height":"23"},
             children:[]         
         };
         
         var sNode12511 = {
             id: "s12511",
+            name: "His Work",
+            data:{"width":"75","height":"23"},
+            children:[]         
+        };
+        
+        var sNode12512 = {
+            id: "s12512",
             name: "Christ<br>In Us",
             data:{"width":"55","height":"39"},
             children:[]         
@@ -145,9 +175,9 @@
                 
     var sNode1251 = {
         id: "s1251",
-        name: "Preeminence<br>Of Christ",
+        name: "Preeminence<br>Of Christ:",
         data:{"width":"100","height":"39"},
-        children:[sNode12510,sNode12511]            
+        children:[sNode12510,sNode12511,sNode12512]            
     };
         
         // Children of sNode1252 (Warnings Against<br>False Teachers)
@@ -169,7 +199,7 @@
         var sNode12522 = {
             id: "s12522",
             name: "Practices<br>Contrary To Faith",
-            data:{"width":"130","height":"39"},
+            data:{"width":"135","height":"39"},
             children:[]         
         };
         
@@ -180,8 +210,8 @@
         children:[sNode12520,sNode12521,sNode12522]         
     };
         
-        // Children of sNode1253 (Ideal Christian Life<br>In The World)
-        
+        // Children of sNode1253 (Ideal Christian Life<br>In The World:)
+       
         var sNode12530 = {
             id: "s12530",
             name: "Mystical Death<br>& Resurrection",
@@ -198,20 +228,27 @@
         
         var sNode12532 = {
             id: "s12532",
-            name: "Christian<br>Family",
-            data:{"width":"75","height":"39"},
+            name: "Practice<br>Of Virtue",
+            data:{"width":"80","height":"39"},
             children:[]         
         };
-        
+         
         var sNode12533 = {
             id: "s12533",
-            name: "Slaves &<br>Masters",
+            name: "Christian<br>Family",
             data:{"width":"75","height":"39"},
             children:[]         
         };
         
         var sNode12534 = {
             id: "s12534",
+            name: "Slaves &<br>Masters",
+            data:{"width":"75","height":"39"},
+            children:[]         
+        };
+        
+        var sNode12535 = {
+            id: "s12535",
             name: "Prayer &<br>Apostolic Spirit",
             data:{"width":"120","height":"39"},
             children:[]         
@@ -219,9 +256,9 @@
                 
     var sNode1253 = {
         id: "s1253",
-        name: "Ideal Christian Life<br>In The World",
+        name: "Ideal Christian Life<br>In The World:",
         data:{"width":"140","height":"39"},
-        children:[sNode12530,sNode12531,sNode12532,sNode12533,sNode12534]           
+        children:[sNode12530,sNode12531,sNode12532,sNode12533,sNode12534,sNode12535]           
     };
         
         // Children of sNode1254 (Conclusion)
@@ -243,13 +280,13 @@
         var sNode12542 = {
             id: "s12542",
             name: "A Message For<br>The Laodiceans",
-            data:{"width":"115","height":"39"},
+            data:{"width":"120","height":"39"},
             children:[]         
         };
                 
     var sNode1254 = {
         id: "s1254",
-        name: "Conclusion",
-        data:{"width":"85","height":"22"},
+        name: "Conclusion:",
+        data:{"width":"95","height":"23"},
         children:[sNode12540,sNode12541,sNode12542]         
     };

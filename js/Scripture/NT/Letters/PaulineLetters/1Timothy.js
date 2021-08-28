@@ -101,7 +101,7 @@
 				    var sNode12710000 = {
 				        id: "s12710000",
 				        name: "The Law Itself<br>Is Good",
-				        data:{"width":"105","height":"39"},
+				        data:{"width":"110","height":"39"},
 				        children:[]         
 				    };
 	        
@@ -110,7 +110,7 @@
 					    var sNode127100010 = {
 					        id: "s127100010",
 					        name: "The Lawless Person<br>Not The Righteous",
-					        data:{"width":"145","height":"39"},
+					        data:{"width":"150","height":"39"},
 					        children:[]         
 					    };
 	        
@@ -124,7 +124,7 @@
 				    var sNode12710001 = {
 				        id: "s12710001",
 				        name: "The Law<br>Is Meant For:",
-				        data:{"width":"100","height":"39"},
+				        data:{"width":"105","height":"39"},
 				        children:[sNode127100010,sNode127100011]         
 				    };
 	        
@@ -152,7 +152,7 @@
 	        var sNode127100 = {
 	            id: "s127100",
 	            name: "To Instruct<br>Those Who Are:",
-	            data:{"width":"120","height":"39"},
+	            data:{"width":"125","height":"39"},
 	            children:[sNode1271000,sNode1271001,sNode1271002]         
 	        };
 	        
@@ -182,7 +182,7 @@
 		    var sNode127101 = {
 		        id: "s127101",
 		        name: "With The<br>Aim Of:",
-		        data:{"width":"70","height":"39"},
+		        data:{"width":"75","height":"39"},
 		        children:[sNode1271010,sNode1271011,sNode1271012]         
 		    };
         
@@ -204,8 +204,8 @@
 			        
 		    var sNode127120 = {
 		        id: "s127120",
-		        name: "In Accordance With<br>The Prophetic Words<br>Once Spoken About You",
-		        data:{"width":"180","height":"57"},
+		        name: "In Accordance With<br>The Prophetic Words<br>Once Spoken About You -",
+		        data:{"width":"190","height":"57"},
 		        children:[]         
 		    };
         
@@ -213,43 +213,52 @@
 			        
 			     var sNode1271210 = {
 			        id: "s1271210",
-			        name: "Having<br>Faith &",
+			        name: "Faith<br>And -",
 			        data:{"width":"60","height":"39"},
 			        children:[]         
 			    };
+        
+			    	// Children of sNode1271211 (A Good<br>Conscience:)
+		        
+				    var sNode12712110 = {
+				        id: "s12712110",
+				        name: "Some,<br>By Rejecting<br>Conscience -",
+				        data:{"width":"110","height":"59"},
+				        children:[]         
+				    };
+		        
+				    var sNode12712111 = {
+				        id: "s12712111",
+				        name: "Have Made A<br>Shipwreck Of<br>Their Faith",
+				        data:{"width":"110","height":"59"},
+				        children:[]         
+				    };
 			        
 			    var sNode1271211 = {
 			        id: "s1271211",
-			        name: "Having A Good<br>Conscience",
-			        data:{"width":"120","height":"39"},
-			        children:[]         
+			        name: "A Good<br>Conscience:",
+			        data:{"width":"100","height":"39"},
+			        children:[sNode12712110,sNode12712111]         
 			    };
 		        
 		    var sNode127121 = {
 		        id: "s127121",
-		        name: "To Fight A<br>Good Fight By:",
-		        data:{"width":"115","height":"39"},
+		        name: "To Fight A<br>Good Fight<br>By Having:",
+		        data:{"width":"95","height":"57"},
 		        children:[sNode1271210,sNode1271211]         
-		    };
-		        
-		    var sNode127122 = {
-		        id: "s127122",
-		        name: "Some, By Rejecting<br>Conscience, Have<br>Made A Shipwreck<br>Of Their Faith",
-		        data:{"width":"145","height":"74"},
-		        children:[]         
 		    };
 			        
 	    var sNode12712 = {
 	        id: "s12712",
 	        name: "I Entrust This<br>Charge To You:",
 	        data:{"width":"120","height":"39"},
-	        children:[sNode127120,sNode127121,sNode127122]         
+	        children:[sNode127120,sNode127121]         
 	    };
                 
     var sNode1271 = {
         id: "s1271",
         name: "Sound<br>Teaching:",
-        data:{"width":"75","height":"39"},
+        data:{"width":"80","height":"39"},
         children:[sNode12710,sNode12711,sNode12712]         
     };
         
@@ -293,7 +302,7 @@
     var sNode1272 = {
         id: "s1272",
         name: "Problems Of<br>Discipline:",
-        data:{"width":"95","height":"39"},
+        data:{"width":"100","height":"39"},
         children:[sNode12720,sNode12721,sNode12722,sNode12723,sNode12724]           
     };
         
@@ -323,7 +332,7 @@
     var sNode1273 = {
         id: "s1273",
         name: "Duties Toward<br>Others<br>Rules For:",
-        data:{"width":"110","height":"57"},
+        data:{"width":"115","height":"57"},
         children:[sNode12730,sNode12731,sNode12732]         
     };
         
@@ -353,7 +362,7 @@
     var sNode1274 = {
         id: "s1274",
         name: "Conclusion:",
-        data:{"width":"90","height":"22"},
+        data:{"width":"95","height":"22"},
         children:[sNode12740,sNode12741,sNode12742]         
     };
 

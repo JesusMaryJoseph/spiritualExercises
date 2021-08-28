@@ -1,7 +1,7 @@
            
     // Children of sNode124 (Philippians)
         
-        // Children of sNode1240 (Address)
+        // Children of sNode1240 (Address:)
         
         var sNode12400 = {
             id: "s12400",
@@ -19,8 +19,8 @@
         
     var sNode1240 = {
         id: "s1240",
-        name: "Address",
-        data:{"width":"70","height":"22"},
+        name: "Address:",
+        data:{"width":"75","height":"22"},
         children:[sNode12400,sNode12401]            
     };
                 
@@ -31,7 +31,7 @@
         children:[]         
     };
         
-        // Children of sNode1242 (Instructions for<br>the Community)
+        // Children of sNode1242 (Instructions for<br>the Community:)
         
         var sNode12420 = {
             id: "s12420",
@@ -56,12 +56,12 @@
         
     var sNode1242 = {
         id: "s1242",
-        name: "Instructions for<br>the Community",
-        data:{"width":"120","height":"39"},
+        name: "Instructions for<br>the Community:",
+        data:{"width":"125","height":"39"},
         children:[sNode12420,sNode12421,sNode12422]         
     };
         
-        // Children of sNode1243 (Travel<br>Plans)
+        // Children of sNode1243 (Travel<br>Plans:)
         
         var sNode12430 = {
             id: "s12430",
@@ -86,7 +86,7 @@
                 
     var sNode1243 = {
         id: "s1243",
-        name: "Travel<br>Plans",
+        name: "Travel<br>Plans:",
         data:{"width":"55","height":"39"},
         children:[sNode12430,sNode12431,sNode12432]         
     };
@@ -123,15 +123,15 @@
         
         var sNode12444 = {
             id: "s12444",
-            name: "Wrong Conduct:<br>Our Goal",
+            name: "Wrong Conduct,<br>Our Goal",
             data:{"width":"125","height":"39"},
             children:[]         
         };
                 
     var sNode1244 = {
         id: "s1244",
-        name: "Polemic",
-        data:{"width":"65","height":"22"},
+        name: "Polemic:",
+        data:{"width":"75","height":"22"},
         children:[sNode12440,sNode12441,sNode12442,sNode12443,sNode12444]           
     };
         
