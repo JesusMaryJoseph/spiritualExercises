@@ -561,8 +561,16 @@ body {
             }
 
                 .study-test-label:hover {
-                    color: orange;
+              /*      color: orange; */
                 }
+
+                    .study-label {
+                        color: orange;
+                    }
+
+                    .test-label {
+                        color: orange;
+                    }
 
             .study-test-options-container {
                 display: flex;
@@ -592,7 +600,7 @@ body {
                 }
 
                 .selected-option {
-                    color: orange;   
+               /*     color: orange;  */ 
                 }
 
     /* End CSS Study/Test:  <section class="study-test-container"> */
