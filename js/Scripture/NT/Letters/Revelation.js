@@ -15,8 +15,8 @@
                     
             var sNode14010 =  {
                 id: "s14010",
-                name: "1st<br>Vision",
-                data:{"width":"55","height":"39","img":"revelation.18"},
+                name: "1st<br>Vision:",
+                data:{"width":"65","height":"39","img":"revelation.18"},
                 children:[]         
             };
         
@@ -24,50 +24,50 @@
             
                 var sNode140110 =  {
                     id: "s140110",
-                    name: "Ephesus",
-                    data:{"width":"70","height":"23","img":"revelation.20"},
+                    name: "Ephesus:",
+                    data:{"width":"75","height":"23","img":"revelation.20"},
                     children:[]         
                 };
                     
                 var sNode140111 =  {
                     id: "s140111",
-                    name: "Smyrna",
-                    data:{"width":"60","height":"23","img":"revelation.20"},
+                    name: "Smyrna:",
+                    data:{"width":"70","height":"23","img":"revelation.20"},
                     children:[]         
                 };
             
                 var sNode140112 =  {
                     id: "s140112",
-                    name: "Pergamum",
-                    data:{"width":"85","height":"23","img":"revelation.20"},
+                    name: "Pergamum:",
+                    data:{"width":"90","height":"23","img":"revelation.20"},
                     children:[]         
                 };
                     
                 var sNode140113 =  {
                     id: "s140113",
-                    name: "Thyatira",
-                    data:{"width":"70","height":"23","img":"revelation.20"},
+                    name: "Thyatira:",
+                    data:{"width":"75","height":"23","img":"revelation.20"},
                     children:[]         
                 };
             
                 var sNode140114 =  {
                     id: "s140114",
-                    name: "Sardis",
-                    data:{"width":"55","height":"23","img":"revelation.20"},
+                    name: "Sardis:",
+                    data:{"width":"60","height":"23","img":"revelation.20"},
                     children:[]         
                 };
                     
                 var sNode140115 =  {
                     id: "s140115",
-                    name: "Philadelphia",
-                    data:{"width":"100","height":"23","img":"revelation.20"},
+                    name: "Philadelphia:",
+                    data:{"width":"105","height":"23","img":"revelation.20"},
                     children:[]         
                 };
                     
                 var sNode140116 =  {
                     id: "s140116",
-                    name: "Laodicea",
-                    data:{"width":"75","height":"23","img":"revelation.20"},
+                    name: "Laodicea:",
+                    data:{"width":"80","height":"23","img":"revelation.20"},
                     children:[]         
                 };
                     
@@ -88,15 +88,15 @@
             // Children of sNode1402 (God & the Lamb<br>in Heaven)      
             var sNode14020 =  {
                 id: "s14020",
-                name: "Vision of<br>Heavenly<br>Worship",
+                name: "Vision of<br>Heavenly<br>Worship:",
                 data:{"width":"80","height":"57","img":"revelation.1"},
                 children:[]         
             };
                     
             var sNode14021 =  {
                 id: "s14021",
-                name: "The Scroll<br>& The Lamb",
-                data:{"width":"95","height":"39","img":"revelation.1"},
+                name: "The Scroll &<br>The Lamb:",
+                data:{"width":"100","height":"39","img":"revelation.1"},
                 children:[]         
             };
             
