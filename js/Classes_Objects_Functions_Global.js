@@ -57,6 +57,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 
 function onYouTubeIframeAPIReady() {
+  alert("in onYouTubeIframeAPIReady()");
 	player = new YT.Player('player', {
 		width: '600',
 		videoId: null, 
@@ -264,6 +265,7 @@ var PlayerControl = {
 
 	// Methods
 	onPlayerStateChange: function(event) {
+	  alert("in PlayerControl.onPlayerStateChange()");
 		if (event.data == YT.PlayerState.ENDED && player.getVideoLoadedFraction() > 0) {
 			if (ButtonState.getState('shuffle') ) {
 				let randomNumber = Math.floor( Math.random() * VideoData.getData(VideoData.selectedSeason).ids.length);
@@ -279,9 +281,12 @@ var PlayerControl = {
 					this.currentVideoId = 0;
 				}
 			}
+		  alert("getting ready to player.loadVideoById()");
 			player.loadVideoById(VideoData.getData(VideoData.selectedSeason).ids[this.currentVideoId]);
 			let labElementle = document.getElementById("songTitle");
 			labElementle.innerHTML = VideoData.getData(VideoData.selectedSeason).names[this.currentVideoId];
+		  alert("startVideo");
+		//  this.startVideo();
 		}
 	},
 

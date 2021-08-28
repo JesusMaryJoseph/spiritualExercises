@@ -22,8 +22,8 @@ var W1 = `{"Day":[{"scripture":{"gospel":"Mt 1-2","letter":"Acts 1-7","psalm":"P
 var W2 = `{"Day":[{"scripture":{"gospel":"Mk 1-2","letter":"1Cor 1-10","psalm":"Ps 33"},"devout":"Part II 12-13","hist":"Yrs: 606-708"},` +
 	 `{"scripture":{"gospel":"Mk 3-4","letter":"1Cor 11-16","psalm":"Ps 51"},"devout":"Part II 14-18","hist":"Yrs: 708-872"},` +
 	 `{"scripture":{"gospel":"Mk 5-6","letter":"2Cor 1-7","psalm":"Ps 63"},"devout":"Part II 19-21","hist":"Yrs: 872-903"},` +
-	 `{"scripture":{"gospel":"Mk 7-8","letter":"2Cor 8-13","psalm":"Ps 91"},"devout":"Part III 1-3","hist":"Yrs: 903-972"},` +
-	 `{"scripture":{"gospel":"Mk 9-10","letter":"Gal","psalm":"Ps 100"},"devout":"Part III 4-7","hist":"Yrs: 972-999"},` +
+	 `{"scripture":{"gospel":"Mk 7-8","letter":"2Cor 8-13","psalm":"Ps 91"},"devout":"Part III 1-2","hist":"Yrs: 903-972"},` +
+	 `{"scripture":{"gospel":"Mk 9-10","letter":"Gal","psalm":"Ps 100"},"devout":"Part III 3-7","hist":"Yrs: 972-999"},` +
 	 `{"scripture":{"gospel":"Mk 11-13","letter":"Eph","psalm":"Ps 95"},"devout":"Part III 8-10","hist":"Yrs: 999-1047"},` +
 	 `{"scripture":{"gospel":"Mk 14-16","letter":"Phil","psalm":"Ps 121"},"devout":"Part III 11-13","hist":"Yrs: 1047-1085"}` +
 	 `]}`; 
@@ -39,8 +39,8 @@ var W3 = `{"Day":[{"scripture":{"gospel":"Lk 1-4:13","letter":"Col","psalm":"Ps 
 
 var W4 = `{"Day":[{"scripture":{"gospel":"Jn 1-3","letter":"Jas","psalm":"Ps 134"},"devout":"Part IV 1-4","hist":"Yrs: 1294-1314"},` +
 	 `{"scripture":{"gospel":"Jn 4-6","letter":"1 Pt","psalm":"Ps 142"},"devout":"Part IV 5-10","hist":"Yrs: 1314-1389"},` +
-	 `{"scripture":{"gospel":"Jn 7-10","letter":"2 Pt","psalm":"Ps 144"},"devout":"Part IV 11-13","hist":"Yrs: 1389-1513"},` +
-	 `{"scripture":{"gospel":"Jn 11-12","letter":"1,2,3 Jn & Jude","psalm":"Ps 146"},"devout":"Part IV 14-15","hist":"Yrs: 1513-1572"},` +
+	 `{"scripture":{"gospel":"Jn 7-10","letter":"2 Pt","psalm":"Ps 144"},"devout":"Part IV 11-12","hist":"Yrs: 1389-1513"},` +
+	 `{"scripture":{"gospel":"Jn 11-12","letter":"1,2,3 Jn & Jude","psalm":"Ps 146"},"devout":"Part IV 13-15","hist":"Yrs: 1513-1572"},` +
 	 `{"scripture":{"gospel":"Jn 13-17","letter":"Rev 1-5","psalm":"Ps 147"},"devout":"Part V 1-7","hist":"Yrs: 1572-1730"},` +
 	 `{"scripture":{"gospel":"Jn 18-19","letter":"Rev 6-16","psalm":"Ps 148"},"devout":"Part V 8-14","hist":"Yrs: 1730-1939"},` +
 	 `{"scripture":{"gospel":"Jn 20-21","letter":"Rev 17-22","psalm":"Ps 150"},"devout":"Part V 15-18","hist":"Yrs: 1939-present"}` +
