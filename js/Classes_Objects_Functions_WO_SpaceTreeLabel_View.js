@@ -273,7 +273,7 @@ var SpaceTreeLabel = {
     //Methods
     addNamesStyles: function (label, node) {      
         label.id = node.id; 
-        if(node.id.slice(0,4) != "s021"){
+        if(node.id.slice(0,4) != "s031"){
             if(SelectedMode.mode == "study"){
                 label.innerHTML = node.name;   
             }else{
@@ -371,7 +371,7 @@ var SpaceTree = {
         let jsonObj = selectedNode;
         let thisId = jsonObj.id;
         let levelDist = 2;
-        if(thisId.slice(0,4)=="s021"){
+        if(thisId.slice(0,4)=="s031"){
             levelDist = 100;
         };
         var monasticST = new $jit.ST({
@@ -406,8 +406,9 @@ var SpaceTree = {
             },
             
             onCreateLabel: function(label, node){ 
+            //alert("Create Label for: " + node.name);
                 label.id = node.id; 
-                if(node.id.slice(0,4) != "s021"){
+                if(node.id.slice(0,4) != "s031"){
                     if(SelectedMode.mode == "study"){
                         label.innerHTML = node.name;   
                     }else{
@@ -415,14 +416,17 @@ var SpaceTree = {
                     }
                 }else{
                     if(node.id.length == 6){
+                    //alert("node.id.length == 6");
                         if(SelectedMode.mode == "study"){
                             label.innerHTML = node.name;            
                         } else {
                             label.innerHTML = "<div style='width:100%;height:100%;' onclick='DivLiClickHandler.divClick(event)'>?</div>";  
                         }
                     } else {
+                    //alert("node.id.length != 6");
                         var vs1Id = parseInt(psalmInfo[node.id].firstVs) + 1;
                         var vss = parseInt(psalmInfo[node.id].vss);
+                    //alert("vss: " + vss);
                         var src = psalmInfo[node.id].src;
                         var ulString = "<ul>";
                         for(var i=vs1Id;i <= vs1Id + vss - 1;i++){
@@ -432,9 +436,10 @@ var SpaceTree = {
                             } else {
                                 ulString += i + ".) ?";
                             }
-                            ulString += "</li>"
+                            ulString += "</li>";
                         }
-                        ulString += "</ul>"
+                        ulString += "</ul>";
+                    //alert("ulString: " + ulString);
                         label.innerHTML = ulString;
                         label.classList.add("psalmLi");
                     }   
@@ -449,7 +454,7 @@ var SpaceTree = {
                 style.fontSize = '0.9em';  
                 style.textAlign= 'center';
                 style.paddingTop = '0.2em';
-                style.fontWeight = '700';
+                style.fontWeight = 'bold';
                 style.backgroundColor = "yellow";
 
                 label.onclick = function() {

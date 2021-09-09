@@ -963,7 +963,7 @@ var VideoData = {
 
 	ordinary: {
 		ids: [
-			'MRUmL1mfS0g',
+			//'MRUmL1mfS0g',
 			'0eSDd8EJjDU',
 			'XmkEXN-um-M',
 			'ZOFiRcJPRzo',
@@ -976,7 +976,7 @@ var VideoData = {
 			'VLPP3XmYxXg',
 			'AmzuO3N4bpU',
 			'H3v9unphfi0',
-			'xsNDxIBVEx8',
+			//'xsNDxIBVEx8',
 			'8kvFtXphmMU',
 			'ihJAJA4ibEs', 
 			'4V-AQbKyg48',
@@ -993,7 +993,7 @@ var VideoData = {
 		],
 
 		names: [
-			'The Nicene Constantinopolitan Creed in Latin Chant<br>Petrus Josephus',
+			//'The Nicene Constantinopolitan Creed in Latin Chant<br>Petrus Josephus',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 4 of 6):<br>Petrus Josephus',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 3 of 6):<br>Petrus Josephus',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 2 of 6):<br>Petrus Josephus',
@@ -1006,7 +1006,7 @@ var VideoData = {
 			'How Can I Keep from Singing:<br>NYC Virtual Choir and Orchestra',
 			'All Hail, Adored Trinity:<br>OCD Session Choir - Topic ',
 			'Miserere mei, Deus:<br>Allegri - Tenebrae Choir<br>www.tenebrae-choir.com',  /*   */
-			'10,000 Reasons<br>Celtic Worship<br>http://celticworship.co.uk', /* OK */
+			//'10,000 Reasons<br>Celtic Worship<br>http://celticworship.co.uk', /* OK */
 			'In Christ Alone<br>Celtic Worship<br>http://celticworship.co.uk', /* OK */
 			'BE THOU MY VISION:<br>NathanPachecoMusic',
 			'O God Beyond All Praising<br>Villanova Pastoral Musicians: Villanova Pastoral Musicians<br>Produced by Andrew Kurzweil',
@@ -1027,7 +1027,7 @@ var VideoData = {
 		ids: [
 			'9RieYaRaZsE',
 			{'videoId':'yr3HJ6-2LhU','endSeconds':445},
-			{'videoId':'lJBxK0IQ6XE','endSeconds':222},
+			//{'videoId':'lJBxK0IQ6XE','endSeconds':222},
 			'dkrW3nRPGo4',
 			{'videoId':'Zz4LBjysReA','endSeconds':231},
 			'Rw9DueQot48',
@@ -1040,7 +1040,7 @@ var VideoData = {
 		names: [
 			'The King Shall Come<br>When The Morning Dawns',  /* ok */
 			'To Save Us All/Prepare Him Room: Feat. Andrea Thomas and Greg & Lizzy - The Vigil Project<br>https://www.thevigilproject.com/blog/devotions/advent', /* OK */
-			'Holy, Holy, Holy! Lord God Almighty<br>The Mormon Tabernacle Choir', /* ok */
+			//'Holy, Holy, Holy! Lord God Almighty<br>The Mormon Tabernacle Choir', /* ok */
 			'Panis angelicus<br>Sissel and The Tabernacle Choir',  /* ok */
 			'Let All Mortal Flesh Keep Silence:',  /* ok */
 			'Schubert Ave Maria<br>Elisabeth Kulman', /* OK http://www.elisabethkulman.com  */
@@ -1069,7 +1069,7 @@ var VideoData = {
 			'7RjAXOcTebI',
 			'WHWqj6gKS9g',
 			'vBOfbPG2xck',
-			'8Rjae0Ew1N0',
+			//'8Rjae0Ew1N0',
 			{'videoId': 'YwgF3Gylu-0','startSeconds': 175, 'endSeconds': 457},
 			{'videoId':'zZTqyUPahcI', 'endSeconds': 229},
 			'6oOwa0CWVVQ', 
@@ -1103,7 +1103,7 @@ var VideoData = {
 			'Es ist ein Ros entsprungen<br>VOCES8 Michael Praetorius<br>http://www.voces8.com/',
 			'Angels We Have Heard On High<br>The Christendom College Choir<br>and Schola Gregoriana',
 			'Away In A Manger<br>Sung by the Antrim Mennonite Choir',
-			'Silent Night<br>--平安夜',
+			//'Silent Night<br>--平安夜',
 			'O Holy Night<br>by So Hyang',
 			'What Child Is This<br>Albright College Concert Choir',
 			'Joy To The World<br>George Fox University',
@@ -1153,7 +1153,7 @@ var VideoData = {
 			'Ul7CLPd14JQ',  /* Immaculate Mary:  */
 			'1gdMVP3JVuY',
 			'rMwPEmUMP7U',
-			'yRh-CkDrw7s',
+			//'yRh-CkDrw7s',
 			'Rw9DueQot48',
 			{'videoId':'H_b3d_Txu9s','startSeconds': 15,'endSeconds':227}
 		],
@@ -1165,7 +1165,7 @@ var VideoData = {
 			'Immaculate Mary<br>Prima Luce<br>https://www.primalucemusic.com/', /* OK from their website */
 			'At The Lamb\'s High Feast:<br>St Mary Choir and Orchestra Littleton, Colorado<br>https://www.youtube.com/user/marchesp/videos', /* OK */
 			'Jesus Christ is risen today:<br>The Choir of King\'s College, Cambridge<br>http://bit.ly/kingslisten', /* OK */
-			'Christ the Lord is Risen Today<br>arr. John Rutter', /* OK */
+			//'Christ the Lord is Risen Today<br>arr. John Rutter', /* OK */
 			'Schubert: Ave Maria<br>Elisabeth Kulman', /* OK http://www.elisabethkulman.com  */
 			'Alleluia, Sing to Jesus!:<br>Blessed Sarnelli Choir,<br>Church of St Alphonsus' /* OK */
 		]

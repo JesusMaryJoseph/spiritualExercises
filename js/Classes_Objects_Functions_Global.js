@@ -57,10 +57,10 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 
 function onYouTubeIframeAPIReady() {
-  alert("in onYouTubeIframeAPIReady()");
+  //alert("VideoData.getData(VideoData.selectedSeason).ids[this.currentVideoId]: " + VideoData.getData(VideoData.selectedSeason).ids[this.currentVideoId]);
 	player = new YT.Player('player', {
 		width: '600',
-		videoId: null, 
+		videoId: '0eSDd8EJjDU',  //null, 
 		playerVars: {
 			controls: 0,
 			autoplay: 1,
@@ -69,7 +69,8 @@ function onYouTubeIframeAPIReady() {
 			'onStateChange': PlayerControl.onPlayerStateChange
 		}
 	});
- }
+	PlayerControl.setSongTitle();
+}
 
 
 
@@ -265,7 +266,6 @@ var PlayerControl = {
 
 	// Methods
 	onPlayerStateChange: function(event) {
-	  alert("in PlayerControl.onPlayerStateChange()");
 		if (event.data == YT.PlayerState.ENDED && player.getVideoLoadedFraction() > 0) {
 			if (ButtonState.getState('shuffle') ) {
 				let randomNumber = Math.floor( Math.random() * VideoData.getData(VideoData.selectedSeason).ids.length);
@@ -275,18 +275,15 @@ var PlayerControl = {
 				this.playedVideos.unshift(randomNumber);
 				this.playedVideos.pop();
 				this.currentVideoId = randomNumber;
-			}else{           
+			}else{         
 				this.currentVideoId = this.currentVideoId + 1;
 				if (this.currentVideoId >= VideoData.getData(VideoData.selectedSeason).ids.length) {
 					this.currentVideoId = 0;
 				}
 			}
-		  alert("getting ready to player.loadVideoById()");
 			player.loadVideoById(VideoData.getData(VideoData.selectedSeason).ids[this.currentVideoId]);
 			let labElementle = document.getElementById("songTitle");
 			labElementle.innerHTML = VideoData.getData(VideoData.selectedSeason).names[this.currentVideoId];
-		  alert("startVideo");
-		//  this.startVideo();
 		}
 	},
 
@@ -309,6 +306,7 @@ var PlayerControl = {
 			return;
 		}
 		player.pauseVideo();
+		this.setSongTitle();
 		ButtonState.changeState('pause');
 		ButtonState.changeState('play');
 	},
@@ -367,7 +365,7 @@ var PlayerControl = {
 	},
 
 	setSongTitle: function() {
-		let labElementle = document.getElementById("songTitle");
+		let labElementle = document.getElementById("song-title");
 		labElementle.innerHTML = VideoData.getData(VideoData.selectedSeason).names[this.currentVideoId];        
 	},
 }   /* End of Class(Object) "PlayerControl" */ 
@@ -422,10 +420,11 @@ var PageManager = {
         DOMCalls.viewContainerElement.classList.add("z-50");
         DOMCalls.viewContainerElement.classList.replace("hide-opacity","show-opacity");
         let clickedId = evt.target.id;
-    //  alert("clickedId: " + clickedId);
+    //  alert("clickedId.slice(0,2): " + clickedId.slice(0,2));
         if(clickedId.length != 4){
-            clickedId = clickedId.charAt(0) + "w" + SelectedData.week + (SelectedData.day + 1);
-    //  alert("formed clickedId: " + clickedId);
+            clickedId = clickedId.slice(0,2) + SelectedData.week + (SelectedData.day + 1);
+         //   clickedId = clickedId.charAt(0) + "w" + SelectedData.week + (SelectedData.day + 1);
+      //alert("formed clickedId: " + clickedId);
         }
         this.selectedNode = spExHT[clickedId];
     	SpaceTree.createNewST(this.selectedNode,SelectedMode.mode);
@@ -494,6 +493,7 @@ var DOMCalls = {
 
     //Methods
     initialize: function() {
+    //alert("in DOMCalls.initialize()");
     //Globel_Video_Home
     	//ControlButtonHandler
   		this.controlImagesContainerElement = document.getElementById("control-images-container-id");
@@ -528,6 +528,7 @@ var DOMCalls = {
         //SpaceTreeLabel
         this.authorCreditElement = document.getElementById("author-credit-id");
         this.spaceTreeElement = document.getElementById("space-tree-id");
+       //alert("end of DOMCalls.initialize()");
     }
 } /* End of Class(Object) "DOMCalls" */
 
