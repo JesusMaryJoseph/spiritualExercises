@@ -50,3 +50,11 @@
                     .subject-value {
                         font-size: var(--tabLink6);
                     }
+
+    /* CSS for Video */
+
+        .title-container {
+            font-size: 0.7em;
+        }
+
+}

@@ -51,4 +51,11 @@
                         font-size: var(--tabLink16);
                     }
 
+    /* CSS for Video */
+
+        .title-container {
+            font-size: 1.3em;
+            height: 4.5em;
+        }
+
 }
