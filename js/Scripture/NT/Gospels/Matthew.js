@@ -1969,8 +1969,8 @@
             
                         var sNode100402210 = {
                             id: "s100402210",
-                            name: "Peter:",
-                            data:{"width":"55","height":"23"},
+                            name: "Peter",
+                            data:{"width":"50","height":"23"},
                             children:[sNode1004022100,sNode1004022101]         
                         };
         
@@ -2047,8 +2047,8 @@
             
                         var sNode100402211 = {
                             id: "s100402211",
-                            name: "Jesus:",
-                            data:{"width":"60","height":"23"},
+                            name: "Jesus",
+                            data:{"width":"55","height":"23"},
                             children:[sNode1004022110,sNode1004022111,sNode1004022112]         
                       };
          
