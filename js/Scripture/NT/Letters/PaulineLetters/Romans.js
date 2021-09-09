@@ -56,22 +56,38 @@
              
                     var sNode12000010 =  {
                         id: "s12000010",
-                        name: " The Beloved Of<br>God In Rome -",
-                        data:{"width":"120","height":"39"},
-                        children:[]
-                    };
-             
-                    var sNode12000011 =  {
-                        id: "s12000011",
                         name: "Called<br>To Be Holy",
                         data:{"width":"90","height":"39"},
                         children:[]
                     };
+    
+                        // Children of sNode12000011 (Grace To You<br>& Peace From:)
+                 
+                        var sNode120000110 =  {
+                            id: "s120000110",
+                            name: "God Our<br>Father",
+                            data:{"width":"70","height":"39"},
+                            children:[]
+                        };
+                 
+                        var sNode120000111 =  {
+                            id: "s120000111",
+                            name: "And The Lord<br>Jesus Christ",
+                            data:{"width":"110","height":"39"},
+                            children:[]
+                        };
+                 
+                    var sNode12000011 =  {
+                        id: "s12000011",
+                        name: "Grace To You<br>& Peace From:",
+                        data:{"width":"115","height":"39"},
+                        children:[sNode120000110,sNode120000111]
+                    };
              
                 var sNode1200001 =  {
                     id: "s1200001",
-                    name: "To All:",
-                    data:{"width":"55","height":"23"},
+                    name: "To All The<br>Beloved Of God<br>In Rome:",
+                    data:{"width":"125","height":"57"},
                     children:[sNode12000010,sNode12000011]
                 };
          
@@ -88,35 +104,12 @@
                 data:{"width":"105","height":"23"},
                 children:[]
             };
-    
-                // Children of sNode120002 (Grace To You<br>& Peace From:)
-         
-                var sNode1200020 =  {
-                    id: "s1200020",
-                    name: "From God<br>Our Father- ",
-                    data:{"width":"100","height":"39"},
-                    children:[]
-                };
-         
-                var sNode1200021 =  {
-                    id: "s1200021",
-                    name: "And The Lord<br>Jesus Christ",
-                    data:{"width":"110","height":"39"},
-                    children:[]
-                };
-         
-            var sNode120002 =  {
-                id: "s120002",
-                name: "Grace To You<br>And Peace:",
-                data:{"width":"110","height":"39"},
-                children:[sNode1200020,sNode1200021]
-            };
             
         var sNode12000 =  {
             id: "s12000",
             name: "Address:",
             data:{"width":"75","height":"23"},
-            children:[sNode120000,sNode120001,sNode120002]
+            children:[sNode120000,sNode120001]
         };
     
             // Children of sNode12001 (Humanity Lost<br>without Gospel)
