@@ -1,156 +1,81 @@
 
 	
-            // Children of sNode03 (The Prophetic Books)
+            // Children of sNode04 (The Prophetic Books)
 
-	            // Children of sNode030 (Major Prophets)
+	            // Children of sNode040 (Major<br>Prophets:)
 				
-                var sNode0300 = {
-	                id: "s0300",
-		            name: "Isaiah",
-		            data:{"width": "55","height": "20"},
+                var sNode0402 = {
+	                id: "s0402",
+		            name: "Ezekiel<br>1-24:",
+		            data:{"width": "70","height": "39"},
 		            children:[]			
 	            };
 				
-                var sNode0301 = {
-	                id: "s0301",
-		            name: "Jeremiah",
-		            data:{"width": "70","height": "20"},
+                var sNode0403 = {
+	                id: "s0403",
+		            name: "Ezekiel 25-48<br>And Baruch:",
+		            data:{"width": "115","height": "39"},
 		            children:[]			
 	            };
 				
-                var sNode0302 = {
-	                id: "s0302",
-		            name: "Lamentations",
-		            data:{"width": "95","height": "20"},
-		            children:[]			
-	            };
-				
-                var sNode0303 = {
-	                id: "s0303",
-		            name: "Baruch",
-		            data:{"width": "60","height": "20"},
-		            children:[]			
-	            };
-				
-                var sNode0304 = {
-	                id: "s0304",
-		            name: "Ezekiel",
-		            data:{"width": "60","height": "20"},
-		            children:[]			
-	            };
-				
-                var sNode0305 = {
-	                id: "s0305",
-		            name: "Daniel",
-		            data:{"width": "55","height": "20"},
+                var sNode0404 = {
+	                id: "s0404",
+		            name: "Daniel:",
+		            data:{"width": "70","height": "23"},
 		            children:[]			
 	            };				
 				
-	        var sNode030 = {
-	            id: "s030",
-		        name: "Major Prophets",
-		        data:{"width": "100","height": "20"},
-		        children:[sNode0300,sNode0301,sNode0302,sNode0303,sNode0304,sNode0305]			
+	        var sNode040 = {
+	            id: "s040",
+		        name: "Major<br>Prophets:",
+		        data:{"width": "100","height": "23"},
+		        children:[sNode0400,sNode0401,sNode0402,sNode0404,sNode0404]			
 	        };
 
-	            // Children of sNode031 (Minor Prophets<br>(Hosea - Micah))
+	            // Children of sNode041 (Minor Prophets<br>(Hosea - Micah))
 				
-                var sNode0310 = {
-	                id: "s0310",
-		            name: "Hosea",
-		            data:{"width": "45","height": "20"},
-		            children:[]			
+                var sNode0413 = {
+	                id: "s0413",
+		            name: "Obadiah<br>Jonah:",
+		            data:{"width": "75","height": "39"},
+		            children:[sNode04130,sNode04131]			
 	            };
 				
-                var sNode0311 = {
-	                id: "s0311",
-		            name: "Joel",
-		            data:{"width": "40","height": "20"},
-		            children:[]			
-	            };
-				
-                var sNode0312 = {
-	                id: "s0312",
-		            name: "Amos",
-		            data:{"width": "45","height": "20"},
-		            children:[]			
-	            };
-				
-                var sNode0313 = {
-	                id: "s0313",
-		            name: "Obadiah",
-		            data:{"width": "60","height": "20"},
-		            children:[]			
-	            };
-				
-                var sNode0314 = {
-	                id: "s0314",
-		            name: "Jonah",
-		            data:{"width": "50","height": "20"},
-		            children:[]			
-	            };
-				
-                var sNode0315 = {
-	                id: "s0315",
-		            name: "Micah",
-		            data:{"width": "50","height": "20"},
-		            children:[]			
+                var sNode0414 = {
+	                id: "s0414",
+		            name: "Micah<br>Nahum:",
+		            data:{"width": "70","height": "39"},
+		            children:[sNode04140,sNode04141]			
 	            };				
 				
-	        var sNode031 = {
-	            id: "s031",
-		        name: "Minor Prophets<br>(Hosea - Micah)",
+	        var sNode041 = {
+	            id: "s041",
+		        name: "Minor Prophets<br>(Hosea - Nahum):",
 		        data:{"width": "100","height": "40"},
-		        children:[sNode0310,sNode0311,sNode0312,sNode0313,sNode0314,sNode0315]			
+		        children:[sNode0410,sNode0411,sNode0412,sNode0413,sNode0414]			
 	        };
 
-	            // Children of sNode032 (Minor Prophets<br>(Naham - Malichi))
+	            // Children of sNode042 (Minor Prophets<br>(Habakkuk - Malachi:)
+
+		            // Children of sNode0420 (Habakkuk<br>Zephaniah<br>& Haggai:)
 				
-                var sNode0320 = {
-	                id: "s0320",
-		            name: "Nahum",
-		            data:{"width": "55","height": "20"},
-		            children:[]			
+                var sNode0420 = {
+	                id: "s0420",
+		            name: "Habakkuk<br>Zephaniah<br>& Haggai:",
+		            data:{"width": "90","height": "57"},
+		            children:[sNode04200,sNode04201,sNode04202]			
 	            };
 				
-                var sNode0321 = {
-	                id: "s0321",
-		            name: "Habakkuk",
-		            data:{"width": "75","height": "20"},
-		            children:[]			
-	            };
+                var sNode0421 = {
+	                id: "s0421",
+		            name: "Zechariah<br>& Malachi:",
+		            data:{"width": "90","height": "39"},
+		            children:[sNode04210,sNode04211]			
+	            };			
 				
-                var sNode0322 = {
-	                id: "s0322",
-		            name: "Zephaniah",
-		            data:{"width": "80","height": "20"},
-		            children:[]			
-	            };
-				
-                var sNode0323 = {
-	                id: "s0323",
-		            name: "Haggai",
-		            data:{"width": "60","height": "20"},
-		            children:[]			
-	            };
-				
-                var sNode0324 = {
-	                id: "s0324",
-		            name: "Zechariah",
-		            data:{"width": "75","height": "20"},
-		            children:[]			
-	            };
-				
-                var sNode0325 = {
-	                id: "s0325",
-		            name: "Malachi",
-		            data:{"width": "65","height": "20"},
-		            children:[]			
-	            };				
-				
-	        var sNode032 = {
-	            id: "s032",
-		        name: "Minor Prophets<br>(Naham - Malichi)",
-		        data:{"width": "105","height": "40"},
-		        children:[sNode0320,sNode0321,sNode0322,sNode0323,sNode0324,sNode0325]			
+	        var sNode042 = {
+	            id: "s042",
+		        name: "Minor Prophets<br>(Habakkuk - Malachi):",
+		        data:{"width": "165","height": "39"},
+		        children:[sNode0420,sNode0421]			
 	        };
