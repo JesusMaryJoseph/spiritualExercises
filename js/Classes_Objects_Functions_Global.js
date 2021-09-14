@@ -282,7 +282,7 @@ var PlayerControl = {
 					this.currentVideoId = 0;
 				}
 			}
-		  alert("ready to load, setTitle, and play");
+		  alert("ready to load, setSongTitle, and play");
 		  alert("currentVideoId is now: " + this currentVideoId);
 			player.loadVideoById(VideoData.getData(VideoData.selectedSeason).ids[this.currentVideoId]);
 			PlayerControl.setSongTitle();
