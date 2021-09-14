@@ -271,14 +271,11 @@ var PlayerControl = {
 			player.loadVideoById(VideoData.getData(VideoData.selectedSeason).ids[PlayerControl.currentVideoId]);
 			PlayerControl.setSongTitle();
 			PlayerControl.startVideo();
-		  alert("done");
 		}
 	},
 	
 	setNextVideoId: function() {
-	   alert("in setNextVideoId, currentVideoId: " + PlayerControl.currentVideoId);
 		if (ButtonState.getState('shuffle') ) {
-		   alert("shuffling");
 			let randomNumber = Math.floor( Math.random() * VideoData.getData(VideoData.selectedSeason).ids.length);
 			while ( PlayerControl.playedVideos.includes(randomNumber) ) {
 				randomNumber = Math.floor( Math.random() * VideoData.getData(VideoData.selectedSeason).ids.length);
@@ -287,13 +284,11 @@ var PlayerControl = {
 			PlayerControl.playedVideos.pop();
 			PlayerControl.currentVideoId = randomNumber;
 		}else{ 
-		   alert("no shuffle");
 			PlayerControl.currentVideoId = PlayerControl.currentVideoId + 1;
 			if (PlayerControl.currentVideoId >= VideoData.getData(VideoData.selectedSeason).ids.length) {
 				PlayerControl.currentVideoId = 0;
 			}
 		}
-	   alert("currentVideoId is now: " + PlayerControl.currentVideoId);
 	},
 
 	startVideo: function() {
