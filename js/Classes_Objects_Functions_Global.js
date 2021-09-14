@@ -267,29 +267,34 @@ var PlayerControl = {
 	// Methods
 	onPlayerStateChange: function(event) {
 		if (event.data == YT.PlayerState.ENDED && player.getVideoLoadedFraction() > 0) {
-		  alert("in onPllayerStateChange, currentVideoId: " + PlayerControl.currentVideoId);
-			if (ButtonState.getState('shuffle') ) {
-				let randomNumber = Math.floor( Math.random() * VideoData.getData(VideoData.selectedSeason).ids.length);
-				while ( PlayerControl.playedVideos.includes(randomNumber) ) {
-					randomNumber = Math.floor( Math.random() * VideoData.getData(VideoData.selectedSeason).ids.length);
-				}
-				this.playedVideos.unshift(randomNumber);
-				this.playedVideos.pop();
-				this.currentVideoId = randomNumber;
-			}else{         
-				this.currentVideoId = PlayerControl.currentVideoId + 1;
-				if (PlayerControl.currentVideoId >= VideoData.getData(VideoData.selectedSeason).ids.length) {
-					PlayerControl.currentVideoId = 0;
-				}
-			}
-		 // alert("ready to load, setSongTitle, and play");
-		  alert("currentVideoId is now: " + PlayerControl.currentVideoId);
+			PlayerControl.setNextVideoId();	
 			player.loadVideoById(VideoData.getData(VideoData.selectedSeason).ids[PlayerControl.currentVideoId]);
 			PlayerControl.setSongTitle();
 			PlayerControl.startVideo();
 		  alert("done");
 		}
 	},
+	
+	setNextVideoId: function() {
+	   alert("in setNextVideoId, currentVideoId: " + PlayerControl.currentVideoId);
+		if (ButtonState.getState('shuffle') ) {
+		   alert("shuffling");
+			let randomNumber = Math.floor( Math.random() * VideoData.getData(VideoData.selectedSeason).ids.length);
+			while ( PlayerControl.playedVideos.includes(randomNumber) ) {
+				randomNumber = Math.floor( Math.random() * VideoData.getData(VideoData.selectedSeason).ids.length);
+			}
+			PlayerControl.playedVideos.unshift(randomNumber);
+			PlayerControl.playedVideos.pop();
+			PlayerControl.currentVideoId = randomNumber;
+		}else{ 
+		   alert("no shuffle");
+			PlayerControl.currentVideoId = PlayerControl.currentVideoId + 1;
+			if (PlayerControl.currentVideoId >= VideoData.getData(VideoData.selectedSeason).ids.length) {
+				PlayerControl.currentVideoId = 0;
+			}
+		}
+	   alert("currentVideoId is now: " + PlayerControl.currentVideoId);
+	}
 
 	startVideo: function() {
 		if( ButtonState.getState('play') ) {
