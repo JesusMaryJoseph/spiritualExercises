@@ -281,9 +281,11 @@ var PlayerControl = {
 					this.currentVideoId = 0;
 				}
 			}
+		  alert("ready to load, setTitle, and play");
 			player.loadVideoById(VideoData.getData(VideoData.selectedSeason).ids[this.currentVideoId]);
-			this.setTitle();
+			PlayerControl.setSongTitle();
 			PlayerControl.startVideo();
+		  alert("done");
 		}
 	},
 
