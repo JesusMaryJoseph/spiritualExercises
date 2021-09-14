@@ -963,7 +963,6 @@ var VideoData = {
 
 	ordinary: {
 		ids: [
-			//'MRUmL1mfS0g',
 			'0eSDd8EJjDU',
 			'XmkEXN-um-M',
 			'ZOFiRcJPRzo',
@@ -976,7 +975,6 @@ var VideoData = {
 			'VLPP3XmYxXg',
 			'AmzuO3N4bpU',
 			'H3v9unphfi0',
-			//'xsNDxIBVEx8',
 			'8kvFtXphmMU',
 			'ihJAJA4ibEs', 
 			'4V-AQbKyg48',
@@ -993,7 +991,6 @@ var VideoData = {
 		],
 
 		names: [
-			//'The Nicene Constantinopolitan Creed in Latin Chant<br>Petrus Josephus',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 4 of 6):<br>Petrus Josephus',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 3 of 6):<br>Petrus Josephus',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 2 of 6):<br>Petrus Josephus',
@@ -1006,11 +1003,11 @@ var VideoData = {
 			'How Can I Keep from Singing:<br>NYC Virtual Choir and Orchestra',
 			'All Hail, Adored Trinity:<br>OCD Session Choir - Topic ',
 			'Miserere mei, Deus:<br>Allegri - Tenebrae Choir<br>www.tenebrae-choir.com',  /*   */
-			//'10,000 Reasons<br>Celtic Worship<br>http://celticworship.co.uk', /* OK */
 			'In Christ Alone<br>Celtic Worship<br>http://celticworship.co.uk', /* OK */
 			'BE THOU MY VISION:<br>NathanPachecoMusic',
 			'O God Beyond All Praising<br>Villanova Pastoral Musicians: Villanova Pastoral Musicians<br>Produced by Andrew Kurzweil',
 			'Praise the Lord! Ye Heavens, Adore Him:<br>The Chancel Choir of First United Methodist Church, Dallas', 
+			'Pescadore de Hombres',
 			'Adoro te devote<br>by Música Católica<br>https://www.cantocatolico.org/ ', /* OK */
 			'Praise God, from whom all blessing flow<br>Cross Culture Thailand VBS,<br>Group Publishing, Life Tree Kids', /* OK */
 			'Immaculate Mary<br>Prima Luce<br>https://www.primalucemusic.com/', /* OK from their website */
