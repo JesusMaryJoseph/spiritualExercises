@@ -267,6 +267,7 @@ var PlayerControl = {
 	// Methods
 	onPlayerStateChange: function(event) {
 		if (event.data == YT.PlayerState.ENDED && player.getVideoLoadedFraction() > 0) {
+		  alert("in onPllayerStateChange, currentVideoId: " + this currentVideoId);
 			if (ButtonState.getState('shuffle') ) {
 				let randomNumber = Math.floor( Math.random() * VideoData.getData(VideoData.selectedSeason).ids.length);
 				while ( this.playedVideos.includes(randomNumber) ) {
@@ -282,6 +283,7 @@ var PlayerControl = {
 				}
 			}
 		  alert("ready to load, setTitle, and play");
+		  alert("currentVideoId is now: " + this currentVideoId);
 			player.loadVideoById(VideoData.getData(VideoData.selectedSeason).ids[this.currentVideoId]);
 			PlayerControl.setSongTitle();
 			PlayerControl.startVideo();
