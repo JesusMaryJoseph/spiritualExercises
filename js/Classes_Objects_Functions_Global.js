@@ -267,24 +267,24 @@ var PlayerControl = {
 	// Methods
 	onPlayerStateChange: function(event) {
 		if (event.data == YT.PlayerState.ENDED && player.getVideoLoadedFraction() > 0) {
-		  alert("in onPllayerStateChange, currentVideoId: " + this.currentVideoId);
+		  alert("in onPllayerStateChange, currentVideoId: " + PlayerControl.currentVideoId);
 			if (ButtonState.getState('shuffle') ) {
 				let randomNumber = Math.floor( Math.random() * VideoData.getData(VideoData.selectedSeason).ids.length);
-				while ( this.playedVideos.includes(randomNumber) ) {
+				while ( PlayerControl.playedVideos.includes(randomNumber) ) {
 					randomNumber = Math.floor( Math.random() * VideoData.getData(VideoData.selectedSeason).ids.length);
 				}
 				this.playedVideos.unshift(randomNumber);
 				this.playedVideos.pop();
 				this.currentVideoId = randomNumber;
 			}else{         
-				this.currentVideoId = this.currentVideoId + 1;
-				if (this.currentVideoId >= VideoData.getData(VideoData.selectedSeason).ids.length) {
-					this.currentVideoId = 0;
+				this.currentVideoId = PlayerControl.currentVideoId + 1;
+				if (PlayerControl.currentVideoId >= VideoData.getData(VideoData.selectedSeason).ids.length) {
+					PlayerControl.currentVideoId = 0;
 				}
 			}
 		 // alert("ready to load, setSongTitle, and play");
-		  alert("currentVideoId is now: " + this.currentVideoId);
-			player.loadVideoById(VideoData.getData(VideoData.selectedSeason).ids[this.currentVideoId]);
+		  alert("currentVideoId is now: " + PlayerControl.currentVideoId);
+			player.loadVideoById(VideoData.getData(VideoData.selectedSeason).ids[PlayerControl.currentVideoId]);
 			PlayerControl.setSongTitle();
 			PlayerControl.startVideo();
 		  alert("done");
@@ -310,7 +310,7 @@ var PlayerControl = {
 			return;
 		}
 		player.pauseVideo();
-		this.setSongTitle();
+		PlayerControl.setSongTitle();
 		ButtonState.changeState('pause');
 		ButtonState.changeState('play');
 	},
@@ -336,13 +336,13 @@ var PlayerControl = {
 		if( ButtonState.getState('pause') ) {
 			ButtonState.changeState('pause');
 		}
-		if (this.currentVideoId < VideoData.getData(VideoData.selectedSeason).ids.length - 1) {
-			this.currentVideoId = this.currentVideoId + 1;
+		if (PlayerControl.currentVideoId < VideoData.getData(VideoData.selectedSeason).ids.length - 1) {
+			PlayerControl.currentVideoId = PlayerControl.currentVideoId + 1;
 		}else{
-			this.currentVideoId = 0;
+			PlayerControl.currentVideoId = 0;
 		}
-		player.loadVideoById(VideoData.getData(VideoData.selectedSeason).ids[this.currentVideoId]);
-		this.setSongTitle();
+		player.loadVideoById(VideoData.getData(VideoData.selectedSeason).ids[PlayerControl.currentVideoId]);
+		PlayerControl.setSongTitle();
 	},
 
 	prevVideo: function() {
@@ -355,13 +355,13 @@ var PlayerControl = {
 		if( ButtonState.getState('pause') ) {
 			ButtonState.changeState('pause');
 		}
-		if (this.currentVideoId > 0) {
-			this.currentVideoId = this.currentVideoId - 1;
+		if (PlayerControl.currentVideoId > 0) {
+			PlayerControl.currentVideoId = PlayerControl.currentVideoId - 1;
 		}else{
-			this.currentVideoId = VideoData.getData(VideoData.selectedSeason).ids.length - 1;
+			PlayerControl.currentVideoId = VideoData.getData(VideoData.selectedSeason).ids.length - 1;
 		}
-		player.loadVideoById(VideoData.getData(VideoData.selectedSeason).ids[this.currentVideoId]);
-		this.setSongTitle();
+		player.loadVideoById(VideoData.getData(VideoData.selectedSeason).ids[PlayerControl.currentVideoId]);
+		PlayerControl.setSongTitle();
 	},
 
 	shuffle: function() {
@@ -370,7 +370,7 @@ var PlayerControl = {
 
 	setSongTitle: function() {
 		let labElementle = document.getElementById("song-title");
-		labElementle.innerHTML = VideoData.getData(VideoData.selectedSeason).names[this.currentVideoId];        
+		labElementle.innerHTML = VideoData.getData(VideoData.selectedSeason).names[PlayerControl.currentVideoId];        
 	},
 }   /* End of Class(Object) "PlayerControl" */ 
 
