@@ -294,7 +294,7 @@ var PlayerControl = {
 			}
 		}
 	   alert("currentVideoId is now: " + PlayerControl.currentVideoId);
-	}
+	},
 
 	startVideo: function() {
 		if( ButtonState.getState('play') ) {
