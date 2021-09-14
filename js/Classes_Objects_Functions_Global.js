@@ -282,8 +282,8 @@ var PlayerControl = {
 				}
 			}
 			player.loadVideoById(VideoData.getData(VideoData.selectedSeason).ids[this.currentVideoId]);
-			let labElementle = document.getElementById("songTitle");
-			labElementle.innerHTML = VideoData.getData(VideoData.selectedSeason).names[this.currentVideoId];
+			this.setTitle();
+			PlayerControl.startVideo();
 		}
 	},
 
