@@ -267,14 +267,14 @@ var PlayerControl = {
 	// Methods
 	onPlayerStateChange: function(event) {
 		if (event.data == YT.PlayerState.ENDED && player.getVideoLoadedFraction() > 0) {
-			PlayerControl.setNextVideoId("next");	
+			setCurrentVideoId("next");
 			player.loadVideoById(VideoData.getData(VideoData.selectedSeason).ids[PlayerControl.currentVideoId]);
 			PlayerControl.setSongTitle();
 			PlayerControl.startVideo();
 		}
 	},
-	
-	setNextVideoId: function(direction) {
+
+	setCurrentVideoId: function(direction){
 		if (ButtonState.getState('shuffle') ) {
 			let randomNumber = Math.floor( Math.random() * VideoData.getData(VideoData.selectedSeason).ids.length);
 			while ( PlayerControl.playedVideos.includes(randomNumber) ) {
@@ -284,17 +284,17 @@ var PlayerControl = {
 			PlayerControl.playedVideos.pop();
 			PlayerControl.currentVideoId = randomNumber;
 		}else{
-			if(direction == "next"){
-				PlayerControl.currentVideoId = PlayerControl.currentVideoId + 1;
-				if (PlayerControl.currentVideoId >= VideoData.getData(VideoData.selectedSeason).ids.length) {
+			if(direction == "next"){ 
+				if (PlayerControl.currentVideoId < VideoData.getData(VideoData.selectedSeason).ids.length - 1) {
+					PlayerControl.currentVideoId = PlayerControl.currentVideoId + 1;
+				}else{
 					PlayerControl.currentVideoId = 0;
-				}
+				} 
 			}else{
 				if (PlayerControl.currentVideoId > 0) {
 					PlayerControl.currentVideoId = PlayerControl.currentVideoId - 1;
 				}else{
 					PlayerControl.currentVideoId = VideoData.getData(VideoData.selectedSeason).ids.length - 1;
-		
 				}
 			}
 		}
@@ -319,7 +319,7 @@ var PlayerControl = {
 			return;
 		}
 		player.pauseVideo();
-		PlayerControl.setSongTitle();
+		this.setSongTitle();
 		ButtonState.changeState('pause');
 		ButtonState.changeState('play');
 	},
@@ -335,7 +335,7 @@ var PlayerControl = {
 	},
 
 
-	nextVideo: function("next") {
+	nextVideo: function() {
 		if( !ButtonState.getState('play') ) {
 			ButtonState.changeState('play');
 		}
@@ -345,12 +345,12 @@ var PlayerControl = {
 		if( ButtonState.getState('pause') ) {
 			ButtonState.changeState('pause');
 		}
-		PlayerControl.setNextVideoId("next");
-		player.loadVideoById(VideoData.getData(VideoData.selectedSeason).ids[PlayerControl.currentVideoId]);
+		setCurrentVideoId("next");
+		player.loadVideoById(VideoData.getData(VideoData.selectedSeason).ids[this.currentVideoId]);
 		PlayerControl.setSongTitle();
 	},
 
-	prevVideo: function("prev") {
+	prevVideo: function() {
 		if( !ButtonState.getState('play') ) {
 			ButtonState.changeState('play');
 		}
@@ -360,16 +360,18 @@ var PlayerControl = {
 		if( ButtonState.getState('pause') ) {
 			ButtonState.changeState('pause');
 		}
-		PlayerControl.setNextVideoId("previous");
+		setCurrentVideoId("previous");
 		player.loadVideoById(VideoData.getData(VideoData.selectedSeason).ids[PlayerControl.currentVideoId]);
 		PlayerControl.setSongTitle();
 	},
 
 	shuffle: function() {
+	  //alert("in shuffle");
 		ButtonState.changeState('shuffle');
 	},
 
 	setSongTitle: function() {
+	  //alert("in setSongTitle");
 		let labElementle = document.getElementById("song-title");
 		labElementle.innerHTML = VideoData.getData(VideoData.selectedSeason).names[PlayerControl.currentVideoId];        
 	},
