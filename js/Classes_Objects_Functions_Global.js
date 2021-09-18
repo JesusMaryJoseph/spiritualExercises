@@ -345,7 +345,7 @@ var PlayerControl = {
 		if( ButtonState.getState('pause') ) {
 			ButtonState.changeState('pause');
 		}
-		setCurrentVideoId("next");
+		PlayerControl.setCurrentVideoId("next");
 		player.loadVideoById(VideoData.getData(VideoData.selectedSeason).ids[this.currentVideoId]);
 		PlayerControl.setSongTitle();
 	},
@@ -360,7 +360,7 @@ var PlayerControl = {
 		if( ButtonState.getState('pause') ) {
 			ButtonState.changeState('pause');
 		}
-		setCurrentVideoId("previous");
+		PlayerControl.setCurrentVideoId("previous");
 		player.loadVideoById(VideoData.getData(VideoData.selectedSeason).ids[PlayerControl.currentVideoId]);
 		PlayerControl.setSongTitle();
 	},
