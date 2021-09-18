@@ -267,7 +267,7 @@ var PlayerControl = {
 	// Methods
 	onPlayerStateChange: function(event) {
 		if (event.data == YT.PlayerState.ENDED && player.getVideoLoadedFraction() > 0) {
-			setCurrentVideoId("next");
+			PlayerControl.setCurrentVideoId("next");
 			player.loadVideoById(VideoData.getData(VideoData.selectedSeason).ids[PlayerControl.currentVideoId]);
 			PlayerControl.setSongTitle();
 			PlayerControl.startVideo();
