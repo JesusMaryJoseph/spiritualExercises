@@ -1,12 +1,13 @@
 
-// Data for all Scripture
+
+            // Data for all Scripture
 
     // Children of sNodeRoot(The Bible)
-				
-	    // Children of sNode0 (The Old Testament)
+                
+        // Children of sNode0 (The Old Testament)
                 
             // Children of sNode00 (Pentateuch:)
-                    
+                
             var sNode000 = {
                  id: "s000",
                 name: "Genesis:",
@@ -52,7 +53,7 @@
             // Children of sNode01 (Historical<br>Books:)
                 
                 // Children of sNode010 (Joshua, Judges<br>And Ruth:)
-                
+              
                 var sNode0100 = {
                      id: "s0100",
                     name: "Joshua:",
@@ -87,14 +88,14 @@
                      id: "s0110",
                     name: "1st Samuel:",
                     data:{"width": "100","height": "23"},
-                    children:[sNode01100,sNode01101,sNode01102,sNode01103,sNode01104]
+                    children:[sNode01100,sNode01101,sNode01102]
                 };
                     
                 var sNode0111 = {
                      id: "s0111",
                     name: "2nd Samuel:",
                     data:{"width": "100","height": "23"},
-                    children:[]
+                    children:[sNode01110,sNode01111,sNode01112]
                 };
             
             var sNode011 =  {
@@ -110,14 +111,14 @@
                      id: "s0120",
                     name: "1st Kings:",
                     data:{"width": "95","height": "23"},
-                    children:[]
+                    children:[sNode01200,sNode01201,sNode01202,sNode01203,sNode01204]
                 };
                     
                 var sNode0121 = {
                      id: "s0121",
                     name: "2nd Kings:",
                     data:{"width": "95","height": "23"},
-                    children:[]
+                    children:[sNode01210,sNode01211,sNode01212,sNode01213,sNode01214,sNode01215]
             };
             
             var sNode012 =  {
@@ -132,15 +133,15 @@
                 var sNode0130 =  {
                     id: "s0130",
                     name: "1 Cronicles:",
-                    data:{"width": "105","height": "23"},
-                    children:[sNode01400,sNode01401]            
+                    data:{"width": "100","height": "23"},
+                    children:[sNode01300,sNode01301]            
                 };
                 
                 var sNode0131 =  {
                     id: "s0131",
                     name: "Nehemia:",
-                    data:{"width": "75","height": "23"},
-                    children:[sNode01410,sNode01411,sNode01412]         
+                    data:{"width": "80","height": "23"},
+                    children:[sNode01310,sNode01311,sNode01312]         
                 }; 
                 
             var sNode013 =  {
@@ -155,7 +156,7 @@
                 var sNode0140 =  {
                     id: "s0140",
                     name: "2 Cronicles:",
-                    data:{"width": "115","height": "23"},
+                    data:{"width": "105","height": "23"},
                     children:[sNode01400,sNode01401]            
                 };
                 
@@ -163,13 +164,13 @@
                     id: "s0141",
                     name: "Ezra:",
                     data:{"width": "50","height": "23"},
-                    children:[sNode01410,sNode01411,sNode01412]         
+                    children:[sNode01410,sNode01411]         
                 }; 
             
             var sNode014 =  {
                 id: "s014",
                 name: "2 Cronicles<br>Ezra:",
-                data:{"width": "100","height": "39"},
+                data:{"width": "95","height": "39"},
                 children:[sNode0140,sNode0141]         
             };
             
@@ -181,33 +182,26 @@
         };
                 
             // Children of sNode02 (Novellas:)
-            
+              
             var sNode020 =  {
                 id: "s020",
                 name: "Tobit:",
                 data:{"width": "50","height": "23"},
-                children:[]         
+                children:[sNode0200,sNode0201,sNode0202]         
             };
-            
-                var sNode0210 =  {
-                    id: "s0210",
-                    name: "node 0210:",
-                    data:{"width": "85","height": "23"},
-                    children:[]         
-                };
             
             var sNode021 =  {
                 id: "s021",
                 name: "Judith:",
-                data:{"width": "55","height": "23"},
-                children:[sNode0210]         
+                data:{"width": "60","height": "23"},
+                children:[sNode0210,sNode0211,sNode0212,sNode0213,sNode0214]         
             };
             
             var sNode022 =  {
                 id: "s022",
-                name: "Ester:",
-                data:{"width": "50","height": "23"},
-                children:[]         
+                name: "Esther:",
+                data:{"width": "65","height": "23"},
+                children:[sNode0220,sNode0221,sNode0222,sNode0223,sNode0224,sNode0225,sNode0226]         
             };
                 
                 // Children of sNode023 (1 & 2<br>Maccabees:)
@@ -223,7 +217,7 @@
                     id: "s0231",
                     name: "2nd<br>Maccabees",
                     data:{"width": "95","height": "39"},
-                    children:[]         
+                    children:[sNode02310,sNode02311]         
                 };
             
             var sNode023 =  {
@@ -261,7 +255,7 @@
         children:[sNode00,sNode01,sNode02,sNode03,sNode04]
     };
 
-
+    
     
     // Children of sNode1 (The New Testament)
         
