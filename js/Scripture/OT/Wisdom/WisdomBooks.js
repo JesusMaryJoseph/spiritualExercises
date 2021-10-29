@@ -66,12 +66,28 @@
 		        data:{"width": "80","height": "23"},
 		        children:[]			
 	        };
+			
+				// Children of sNode033 (Ecclesiastes<br>Song Of Songs:)		
+		
+                var sNode0330 = {
+	                id: "s0330",
+	                name: "Ecclesiastes:",
+	                data:{"width": "105","height": "23"},
+                    children:[]			
+                };
+
+                var sNode0331 = {
+	                id: "s0331",
+	                name: "Song Of Songs:",
+	                data:{"width": "120","height": "23"},
+	                children:[]			
+                };
 				
 	        var sNode033 = {
 	            id: "s033",
 		        name: "Ecclesiastes<br>Song Of Songs:",
 		        data:{"width": "120","height": "39"},
-		        children:[]			
+		        children:[sNode0330,sNode0331]			
 	        };
 				
 	        var sNode034 = {
@@ -85,12 +101,12 @@
 	            id: "s035",
 		        name: "Sirach<br>1-26",
 		        data:{"width": "60","height": "39"},
-		        children:[]			
+		        children:[sNode0350,sNode0351,sNode0352,sNode0353,sNode0354,sNode0355,sNode0356,sNode0357]			
 	        };
 				
 	        var sNode036 = {
 	            id: "s036",
 		        name: "Sirach<br>27-51",
 		        data:{"width": "60","height": "39"},
-		        children:[]			
+		        children:[sNode0360,sNode0361,sNode0362,sNode0363,sNode0364,sNode0365]			
 	        };
