@@ -3,14 +3,14 @@
 	var sNode042000 = {
 	    id: "s042000",
 	    name: "Habakkuk's<br>First Complaint:",
-	    data:{"width": "130","height": "39"},
+	    data:{"width": "125","height": "39"},
 	    children:[]			
 	};
 
 	var sNode042001 = {
 	    id: "s042001",
 	    name: "God's<br>Response:",
-	    data:{"width": "85","height": "39"},
+	    data:{"width": "90","height": "39"},
 	    children:[]			
 	};
 
@@ -24,7 +24,7 @@
 	var sNode042003 = {
 	    id: "s042003",
 	    name: "God's<br>Response:",
-	    data:{"width": "85","height": "39"},
+	    data:{"width": "90","height": "39"},
 	    children:[]			
 	};
 

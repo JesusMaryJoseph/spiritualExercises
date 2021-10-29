@@ -32,8 +32,8 @@
 
     var sNode042110 = {
         id: "s042110",
-        name: "Malachi<br>Part I:",
-        data:{"width": "65","height": "39"},
+        name: "Part I:",
+        data:{"width": "55","height": "23"},
         children:[sNode0421100,sNode0421101,sNode0421102,sNode0421103]         
     };
 
@@ -69,8 +69,8 @@
 
     var sNode042111 = {
         id: "s042111",
-        name: "Malachi<br>Part II:",
-        data:{"width": "65","height": "39"},
+        name: "Part II:",
+        data:{"width": "60","height": "23"},
         children:[sNode0421110,sNode0421111,sNode0421112,sNode0421113]         
     };
 

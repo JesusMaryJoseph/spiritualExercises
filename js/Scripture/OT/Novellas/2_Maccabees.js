@@ -136,5 +136,5 @@ var sNode0231 =  {
     id: "s0231",
     name: "1st<br>Maccabees:",
     data:{"width": "80","height": "57"},
-    children:[sNode02310,sNode02311,sNode02312,sNode02313]			
+    children:[sNode02310,sNode02311]			
 }; */

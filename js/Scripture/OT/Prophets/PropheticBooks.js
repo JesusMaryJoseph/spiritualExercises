@@ -3,33 +3,40 @@
             // Children of sNode04 (The Prophetic Books)
 
 	            // Children of sNode040 (Major<br>Prophets:)
+
+				var sNode0400 = {
+				    id: "s0400",
+				    name: "Isaiah:",
+				    data:{"width": "70","height": "23"},
+				    children:[sNode04000,sNode04001,sNode04002]			
+				};
+
+				var sNode0401 = {
+				    id: "s0401",
+				    name: "Jeremiah:",
+				    data:{"width": "95","height": "23"},
+				    children:[sNode04010,sNode04011]			
+				};
 				
                 var sNode0402 = {
 	                id: "s0402",
-		            name: "Ezekiel<br>1-24:",
-		            data:{"width": "70","height": "39"},
-		            children:[]			
+		            name: "Ezekiel:",
+		            data:{"width": "75","height": "23"},
+		            children:[sNode04020,sNode04021]			
 	            };
 				
                 var sNode0403 = {
 	                id: "s0403",
-		            name: "Ezekiel 25-48<br>And Baruch:",
-		            data:{"width": "115","height": "39"},
-		            children:[]			
-	            };
-				
-                var sNode0404 = {
-	                id: "s0404",
 		            name: "Daniel:",
 		            data:{"width": "70","height": "23"},
-		            children:[]			
+		            children:[sNode04040,sNode04041,sNode04042]			
 	            };				
 				
 	        var sNode040 = {
 	            id: "s040",
 		        name: "Major<br>Prophets:",
 		        data:{"width": "100","height": "23"},
-		        children:[sNode0400,sNode0401,sNode0402,sNode0404,sNode0404]			
+		        children:[sNode0400,sNode0401,sNode0402,sNode0403]			
 	        };
 
 	            // Children of sNode041 (Minor Prophets<br>(Hosea - Micah))

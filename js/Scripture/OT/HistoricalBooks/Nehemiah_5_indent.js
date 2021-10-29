@@ -117,125 +117,56 @@
 		    children:[sNode013100,sNode013101,sNode013102]			
 	    };
 
-	    // Children of sNode01311 (Promulgation<br>Of The Law:)
+		    // Children of sNode01311 (Promulgation<br>Of The Law:)
 
-	    var sNode013110 =  {
-	        id: "s013110",
-		    name: "Ezar Reads<br>The Law:",
-		    data:{"width": "95","height": "39"},
-		    children:[]			
-	    };
-		    
-	    var sNode013111 =  {
-	        id: "s013111",
-		    name: "The Feast<br>Of Booths:",
-		    data:{"width": "90","height": "39"},
-		    children:[]			
-	    };
-
-	    var sNode013112 =  {
-	        id: "s013112",
-		    name: "Public Confesion<br>Of Sin:",
-		    data:{"width": "135","height": "39"},
-		    children:[]			
-	    };
-     
-	    var sNode013113 =  {
-	        id: "s013113",
-		    name: "Signatures<br>To The Pact:",
-		    data:{"width": "105","height": "39"},
-		    children:[]			
-	    };
-
-	    var sNode013114 =  {
-	        id: "s013114",
-		    name: "Provisions<br>Of The Pact:",
-		    data:{"width": "105","height": "39"},
-	        children:[]			
-	    };
-            
-    var sNode01311 =  {
-        id: "s01311",
-	   name: "Promulgation<br>Of The Law:",
-	   data:{"width": "110","height": "39"},
-	   children:[sNode013110,sNode013111,sNode013112,sNode013113,sNode013114]			
-    };
-
-		// Children of sNode01312 (Dedication Of The Wall<br>And Other Reforms:)
-
-		    // Children of sNode013120 (Chapters<br>11-12:)
-
-		    var sNode0131200 =  {
-		        id: "s0131200",
-			    name: "Resettlement<br>Of Jerusalem:",
-			    data:{"width": "110","height": "39"},
+		    var sNode013110 =  {
+		        id: "s013110",
+			    name: "Ezar Reads<br>The Law:",
+			    data:{"width": "95","height": "39"},
 			    children:[]			
 		    };
-
-		    var sNode0131201=  {
-		        id: "s0131201",
-			    name: "Other<br>Settlements:",
-			    data:{"width": "105","height": "39"},
-			    children:[]			
-		    };
-
-		    var sNode0131202 =  {
-		        id: "s0131202",
-			    name: "Priests And<br>Levites:",
-			    data:{"width": "100","height": "39"},
-			    children:[]			
-		    };
-
-		    var sNode0131203 =  {
-		        id: "s0131203",
-			    name: "Dedication<br>Of The Wall:",
-			    data:{"width": "100","height": "39"},
-			    children:[]			
-		    };
-
-	    var sNode013120 =  {
-	        id: "s013120",
-		    name: "Chapters<br>11-12:",
-		    data:{"width": "75","height": "39"},
-		    children:[sNode0131200,sNode0131201,sNode0131202,sNode0131203]			
-	    };
-
-		    // Children of sNode013121 (Chapters<br>13:)
-
-		    var sNode0131210 =  {
-		        id: "s0131210",
-			    name: "Reform In<br>The Temple:",
-			    data:{"width": "100","height": "39"},
-			    children:[]			
-		    };
-
-		    var sNode0131211=  {
-		        id: "s0131211",
-			    name: "Sabbath<br>Observance:",
-			    data:{"width": "105","height": "39"},
-			    children:[]			
-		    };
-
-		    var sNode0131212 =  {
-		        id: "s0131212",
-			    name: "Mixed<br>Marriages:",
+			    
+		    var sNode013111 =  {
+		        id: "s013111",
+			    name: "The Feast<br>Of Booths:",
 			    data:{"width": "90","height": "39"},
 			    children:[]			
 		    };
 
-	    var sNode013121 =  {
-	        id: "s013121",
-		    name: "Chapters<br>13:",
-		    data:{"width": "75","height": "39"},
-		    children:[sNode0131210,sNode0131211,sNode0131212]			
-	    };
-         
-    var sNode01312 =  {
-        id: "s01312",
+	   var sNode013112 =  {
+	        id: "s013112",
+		 name: "Public Confesion<br>Of Sin:",
+		 data:{"width": "135","height": "39"},
+		 children:[]			
+	   };
+
+	   var sNode013113 =  {
+	        id: "s013113",
+		 name: "Signatures<br>To The Pact:",
+		 data:{"width": "105","height": "39"},
+		 children:[]			
+	   };
+
+	   var sNode013114 =  {
+	        id: "s013114",
+		 name: "Provisions<br>Of The Pact:",
+		 data:{"width": "105","height": "39"},
+		 children:[]			
+	   };
+
+     var sNode01311 =  {
+          id: "s01311",
+	   name: "Promulgation<br>Of The Law:",
+	   data:{"width": "110","height": "39"},
+	   children:[sNode013110,sNode013111,sNode013112,sNode013113,sNode013114]			
+     };
+    
+     var sNode01312 =  {
+          id: "s01312",
 	   name: "Dedication Of The Wall<br>And Other Reforms:",
 	   data:{"width": "175","height": "39"},
-	   children:[sNode013120,sNode013121]			
-    };
+	   children:[]			
+     };
 
  /*  
 var sNode0131 =  {

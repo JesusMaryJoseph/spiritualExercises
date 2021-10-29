@@ -11,14 +11,14 @@
 			    var sNode02300000 =  {
 			        id: "s02300000",
 				    name: "From Alexander<br>To Antiochus:",
-				    data:{"width": "115","height": "39"},
+				    data:{"width": "125","height": "39"},
 				    children:[]			
 			    };
 
 			    var sNode02300001 =  {
 			        id: "s02300001",
 				    name: "Lawless<br>Jews:",
-				    data:{"width": "65","height": "39"},
+				    data:{"width": "70","height": "39"},
 				    children:[]			
 			    };
 
@@ -32,7 +32,7 @@
 			    var sNode02300003 =  {
 			        id: "s02300003",
 				    name: "Robbery Of<br>The Temple:",
-				    data:{"width": "95","height": "39"},
+				    data:{"width": "100","height": "39"},
 				    children:[]			
 			    };
 
@@ -46,14 +46,14 @@
 			    var sNode02300005 =  {
 			        id: "s02300005",
 				    name: "Religious<br>Persecution:",
-				    data:{"width": "110","height": "39"},
+				    data:{"width": "105","height": "39"},
 				    children:[]			
 			    };
 
 		    var sNode0230000 =  {
 		        id: "s0230000",
 			    name: "Chapter<br>1:",
-			    data:{"width": "95","height": "39"},
+			    data:{"width": "70","height": "39"},
 			    children:[sNode02300000,sNode02300001,sNode02300002,sNode02300003,sNode02300004,sNode02300005]			
 		    };
 
@@ -69,21 +69,21 @@
 			    var sNode02300011 =  {
 			        id: "s02300011",
 				    name: "Pagan Worship<br>Refused And<br>Resisted:",
-				    data:{"width": "115","height": "57"},
+				    data:{"width": "120","height": "57"},
 				    children:[]			
 			    };
 
 			    var sNode02300012 =  {
 			        id: "s02300012",
 				    name: "Farwell Of<br>Mattathias:",
-				    data:{"width": "100","height": "39"},
+				    data:{"width": "95","height": "39"},
 				    children:[]			
 			    };
 
 		    var sNode0230001 =  {
 		        id: "s0230001",
 			    name: "Chapter<br>2:",
-			    data:{"width": "95","height": "39"},
+			    data:{"width": "70","height": "39"},
 			    children:[sNode02300010,sNode02300011,sNode02300012]			
 		    };
 
@@ -110,11 +110,41 @@
 
 	    // Children of sNode02301 (<u>1st Maccabees</u><br>Part Two:)
 
+		    // Children of sNode023010 (Leadership Of<br>Jonathan:)
+
+		    var sNode0230100 =  {
+		        id: "s0230100",
+			    name: "Chapter<br>9:",
+			    data:{"width": "70","height": "39"},
+			    children:[]			
+		    };
+
+		    var sNode0230101 =  {
+		        id: "s0230101",
+			    name: "Chapter<br>10:",
+			    data:{"width": "70","height": "39"},
+			    children:[]			
+		    };
+
+		    var sNode0230102 =  {
+		        id: "s0230102",
+			    name: "Chapter<br>11:",
+			    data:{"width": "70","height": "39"},
+			    children:[]			
+		    };
+
+		    var sNode0230103 =  {
+		        id: "s0230103",
+			    name: "Chapter<br>12:",
+			    data:{"width": "70","height": "39"},
+			    children:[]			
+		    };
+
 	    var sNode023010 =  {
 	        id: "s023010",
 		    name: "Leadership Of<br>Jonathan:",
 		    data:{"width": "115","height": "39"},
-		    children:[]			
+		    children:[sNode0230100,sNode0230101,sNode0230102,sNode0230103]			
 	    };
 
 	    var sNode023011 =  {

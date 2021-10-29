@@ -133,22 +133,8 @@
 
     var sNode01102 =  {
         id: "s01102",
-	    name: "Saul And<br>David:",
-	    data:{"width": "75","height": "39"},
-	    children:[]			
-    };
-
-    var sNode01103 =  {
-        id: "s01103",
-	    name: "The Reign<br>Of David:",
-	    data:{"width": "85","height": "39"},
-	    children:[]			
-    };
-
-    var sNode01104 =  {
-        id: "s01104",
-	    name: "Appendixes:",
-	    data:{"width": "100","height": "23"},
+	    name: "Saul & David<br>Part I:",
+	    data:{"width": "105","height": "39"},
 	    children:[]			
     };
 
@@ -157,6 +143,6 @@ var sNode0110 = {
      id: "s0110",
     name: "1st Samuel:",
     data:{"width": "100","height": "23"},
-    children:[sNode01100,sNode01101,sNode01102,sNode01103,sNode01104]
+    children:[sNode01100,sNode01101,sNode01102]
 };	
 }; */

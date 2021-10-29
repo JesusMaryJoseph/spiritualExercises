@@ -139,22 +139,22 @@
 
 			var sNode0412400 = {
 			    id: "s0412400",
-			    name: "<u>First Vision</u><br>The Locust Swarm:",
-			    data:{"width": "145","height": "39"},
+			    name: "The<br>Locust Swarm:",
+			    data:{"width": "120","height": "39"},
 			    children:[]			
 			};
 
 			var sNode0412401 = {
 			    id: "s0412401",
-			    name: "<u>Second Vision</u><br>The Rain Of Fire:",
-			    data:{"width": "130","height": "39"},
+			    name: "The Rain<br>Of Fire:",
+			    data:{"width": "80","height": "39"},
 			    children:[]			
 			};
 
 			var sNode0412402 = {
 			    id: "s0412402",
-			    name: "<u>Third Vision</u><br>The Plummet:",
-			    data:{"width": "110","height": "39"},
+			    name: "The<br>Plummet:",
+			    data:{"width": "80","height": "39"},
 			    children:[]			
 			};
 
@@ -176,15 +176,15 @@
 
 			var sNode0412420 = {
 			    id: "s0412420",
-			    name: "<u>Fourth Vision</u><br>The Summer Fruit:",
-			    data:{"width": "145","height": "39"},
+			    name: "The Summer<br>Fruit:",
+			    data:{"width": "100","height": "39"},
 			    children:[]			
 			};
 
 			var sNode0412421 = {
 			    id: "s0412421",
-			    name: "<u>Fifth Vision</u><br>The Destruction<br>Of The Sanctuary:",
-			    data:{"width": "140","height": "57"},
+			    name: "The Destruction<br>Of The Sanctuary:",
+			    data:{"width": "140","height": "39"},
 			    children:[]			
 			};
 
