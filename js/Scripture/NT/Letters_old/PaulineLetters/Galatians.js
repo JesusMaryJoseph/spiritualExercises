@@ -17,7 +17,7 @@
                 var sNode1220001 = {
                     id: "s1220001",
                     name: "Through<br>Jesus Christ And<br>God The Father",
-                    data:{"width":"135","height":"57"},
+                    data:{"width":"140","height":"57"},
                     children:[]         
                 };
             

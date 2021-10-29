@@ -299,7 +299,7 @@
                     var sNode10300032 = {
                         id: "s10300032",
                         name: "The Glory As<br>Of The Father's<br>Only Son -",
-                        data:{"width":"120","height":"57","img":"nativities.22"},
+                        data:{"width":"135","height":"57","img":"nativities.22"},
                         children:[]         
                     }; 
                 
@@ -550,7 +550,7 @@
                     var sNode10300102 = {
                         id: "s10300102",
                         name: "The 1st<br>Disciples:",
-                        data:{"width":"85","height":"39","img":"apostles.9"},
+                        data:{"width":"80","height":"39","img":"apostles.9"},
                         children:[sNode103001020,sNode103001021,sNode103001022,sNode103001023,sNode103001024]         
                     };
 
@@ -558,7 +558,7 @@
                 var sNode1030010 = {
                     id: "s1030010",
                     name: "John the Baptist<br>And The<br>First Disciples:",
-                    data:{"width":"130","height":"57"},
+                    data:{"width":"140","height":"57"},
                     children:[sNode10300100,sNode10300101,sNode10300102]            
                 };
         
@@ -2366,8 +2366,8 @@
         
                     var sNode10311111 = {
                         id: "s10311111",
-                        name: "Jesus The Nazorean,<br>The King<br>Of The Jews",
-                        data:{"width":"160","height":"57","img":"passion.24"},
+                        name: "Jesus The Nazorean,<br>The King Of The Jews",
+                        data:{"width":"160","height":"39","img":"passion.24"},
                         children:[]         
                     };
         
@@ -2402,14 +2402,14 @@
                 var sNode1031112 = {
                     id: "s1031112",
                     name: "The Blood<br>& Water",
-                    data:{"width":"85","height":"39","img":"passion.23"},
+                    data:{"width":"80","height":"39","img":"passion.23"},
                     children:[]         
                 };
         
                 var sNode1031113 = {
                     id: "s1031113",
                     name: "The<br>Burial",
-                    data:{"width":"60","height":"39","img":"passion.3"},
+                    data:{"width":"55","height":"39","img":"passion.3"},
                     children:[]         
                 };
         
@@ -2601,8 +2601,8 @@
         
                 var sNode1031211 = {
                     id: "s1031211",
-                    name: "Jesus<br>& Peter:",
-                    data:{"width":"75","height":"39","img":"resurrection.11"},
+                    name: "Jesus<br>& Peter",
+                    data:{"width":"65","height":"39","img":"resurrection.11"},
                     children:[sNode10312110,sNode10312111,sNode10312112]         
                 };
         
@@ -2647,7 +2647,7 @@
             
                 var sNode1031212 = {
                     id: "s1031212",
-                    name: "The Beloved<br>Disciple:",
+                    name: "The Beloved<br>Disciple",
                     data:{"width":"95","height":"39","img":"apostles.10"},
                     children:[sNode10312120,sNode10312121]         
                 };

@@ -1,15 +1,15 @@
     // Children of sNode11 (Acts Of The Apostles)  
 
-	    // Children of sNode110 (Chapters 1-7:)   
+	    // Children of sNode110 (Chapters 1-7)   
 
-            // Children of sNode1100 (Preparation:)   
+            // Children of sNode1100 (Preparation)   
 
                 // Children of sNode11000 (The First<br>Book)
  
                 var sNode110000 = {
                     id: "s110000",
                     name: "What Jesus<br>Did & Taught",
-                    data: {"width":"105","height":"39","img":"acts.28"},
+                    data: {"width":"100","height":"39","img":"acts.28"},
                     children: []
                 };      
 
@@ -17,22 +17,22 @@
 
                     var sNode1100010 = {
                         id: "s1100010",
-                        name: "Instruction Via<br>Holy Spirit About<br>Kingdom Of God",
-                        data: {"width":"140","height":"57","img":"acts.28"},
+                        name: "Instruction<br>Via Holy Spirit<br>About Kingdom Of God",
+                        data: {"width":"170","height":"57","img":"acts.28"},
                         children: []
                     };
 
                     var sNode1100011 = {
                         id: "s1100011",
                         name: "Many Proofs<br>He Was Alive",
-                        data: {"width":"105","height":"39","img":"acts.28"},
+                        data: {"width":"100","height":"39","img":"acts.28"},
                         children: []
                     };
 
                     var sNode1100012 = {
                         id: "s1100012",
                         name: "<u>Father's Promise</u><br>Baptism With<br>The Holy Spirit",
-                        data: {"width":"130","height":"57","img":"acts.28"},
+                        data: {"width":"125","height":"57","img":"acts.28"},
                         children: []
                     };
 
@@ -40,21 +40,21 @@
 
                         var sNode11000130 = {
                             id: "s11000130",
-                            name: "Restoration Of<br>Kingdom Of Israel:<br>When? -",
+                            name: "Restoration Of<br>Kingdom Of Israel:<br>When?",
                             data: {"width":"145","height":"57","img":"acts.28"},
                             children: []
                         };
 
                         var sNode11000131 = {
                             id: "s11000131",
-                            name: "Not For You<br>To Know -",
+                            name: "Not For You<br>To Know",
                             data: {"width":"100","height":"39","img":"acts.28"},
                             children: []
                         };
 
                         var sNode11000132 = {
                             id: "s11000132",
-                            name: "You Will Receive Power<br>When The Holy Spirit<br>Comes Upon You -",
+                            name: "You Will Receive Power<br>When The Holy Spirit<br>Comes Upon You",
                             data: {"width":"175","height":"57","img":"acts.28"},
                             children: []
                         };
@@ -76,41 +76,41 @@
 
                 var sNode110001 = {
                     id: "s110001",
-                    name: "40 Days:",
-                    data: {"width":"75","height":"23","img":"acts.28"},
+                    name: "40 Days",
+                    data: {"width":"65","height":"23","img":"acts.28"},
                     children: [sNode1100010,sNode1100011,sNode1100012,sNode1100013]
                 };
             
-                var sNode110002 =  {
-                    id: "s110002",
-                    name: "Ascension<br>Of Jesus",
-                    data: {"width":"85","height":"39","img":"acts.2"},
-                    children:[]
-                };
-                
             var sNode11000 =  {
                 id: "s11000",
-                name: "<u>Transition</u><br>From Gospel<br>To Acts:",
+                name: "Transition:<br>From Gospel<br>To Acts",
                 data:{"width":"105","height":"57","img":"acts.28"},
-                children:[sNode110000,sNode110001,sNode110002]
+                children:[sNode110000,sNode110001]
             };
             
             var sNode11001 =  {
                 id: "s11001",
-                name: "1st Community<br>In Jerusalem",
-                data:{"width":"115","height":"39","img":"acts.30"},
+                name: "Ascension<br>Of Jesus",
+                data: {"width":"85","height":"39","img":"acts.2"},
                 children:[]
             };
             
             var sNode11002 =  {
                 id: "s11002",
+                name: "1st Community<br>In Jerusalem",
+                data:{"width":"115","height":"39","img":"acts.30"},
+                children:[]
+            };
+            
+            var sNode11003 =  {
+                id: "s11003",
                 name: "Choice Of<br>Judas' Successor",
                 data:{"width":"135","height":"39","img":"acts.29"},
                 children:[]
             }; 
             
-            var sNode11003 =  {
-                id: "s11003",
+            var sNode11004 =  {
+                id: "s11004",
                 name: "Coming Of<br>The Spirit",
                 data: {"width":"85","height":"39","img": "acts.1"},
                 children:[]
@@ -120,7 +120,7 @@
             id: "s1100",
             name: "Preparation:",
             data:{"width":"100","height":"23"},
-            children:[sNode11000,sNode11001,sNode11002,sNode11003]
+            children:[sNode11000,sNode11001,sNode11002,sNode11003,sNode11004]
         };  
 
             // Children of sNode1101 (Mission in<br>Jerusalem:)   
@@ -151,21 +151,21 @@
                 var sNode110103 =  {
                     id: "s110103",
                     name: "Before The<br>Sanhedrin",
-                    data:{"width":"90","height":"39"},
+                    data:{"width":"85","height":"39"},
                     children:[]
                 }; 
 
                 var sNode110104 =  {
                     id: "s110104",
                     name: "Trial Before<br>The Sanhedrin",
-                    data:{"width":"115","height":"39","img":"acts.17"},
+                    data:{"width":"110","height":"39","img":"acts.17"},
                     children:[]
                 };
 
                 var sNode110105 =  {
                     id: "s110105",
                     name: "Signs/Wonders<br>Of The Apostles",
-                    data:{"width":"125","height":"39"},
+                    data:{"width":"120","height":"39"},
                     children:[]
                 };
             
@@ -188,7 +188,7 @@
                 var sNode110111 =  {
                     id: "s110111",
                     name: "Prayer",
-                    data:{"width":"60","height":"23"},
+                    data:{"width":"55","height":"23"},
                     children:[]
                 }; 
 
@@ -209,7 +209,7 @@
             var sNode11011 =  {
                 id: "s11011",
                 name: "Community:",
-                data:{"width":"100","height":"23"},
+                data:{"width":"95","height":"23"},
                 children:[sNode110110,sNode110111,sNode110112,sNode110113]
             };
 
@@ -225,19 +225,26 @@
                 var sNode110121 =  {
                     id: "s110121",
                     name: "Accusations",
-                    data:{"width":"100","height":"23","img":"acts.5"},
+                    data:{"width":"95","height":"23","img":"acts.6"},
                     children:[]
                 }; 
             
                 var sNode110122 =  {
                     id: "s110122",
                     name: "Discourse",
-                    data:{"width":"85","height":"23","img":"acts.5"},
+                    data:{"width":"80","height":"23","img":"acts.6"},
                     children:[]
                 };
             
                 var sNode110123 =  {
                     id: "s110123",
+                    name: "Conclusion",
+                    data:{"width":"90","height":"23","img":"acts.6"},
+                    children:[]
+                }; 
+            
+                var sNode110124 =  {
+                    id: "s110124",
                     name: "Martyrdom",
                     data:{"width":"90","height":"23","img":"acts.6"},
                     children:[]
@@ -246,14 +253,14 @@
             var sNode11012 =  {
                 id: "s11012",
                 name: "Stephen:",
-                data:{"width":"75","height":"23","img":"acts.5"},
-                children:[sNode110120,sNode110121,sNode110122,sNode110123]
+                data:{"width":"70","height":"23","img":"acts.5"},
+                children:[sNode110120,sNode110121,sNode110122,sNode110123,sNode110124]
             };
             
         var sNode1101 =  {
             id: "s1101",
-            name: "Mission In<br>Jerusalem:",
-            data:{"width":"95","height":"39"},
+            name: "Mission In<br>Jerusalem",
+            data:{"width":"85","height":"39"},
             children:[sNode11010,sNode11011,sNode11012]
         };
 
@@ -354,7 +361,7 @@
                 var sNode111020 =  {
                     id: "s111020",
                     name: "Peter Heals<br>Aeneas",
-                    data:{"width":"95","height":"39"},
+                    data:{"width":"90","height":"39"},
                     children:[]
                 };     
             
@@ -534,14 +541,14 @@
                     
                     var sNode1120000 =  {
                         id: "s1120000",
-                        name: "Unless You Are<br>Circumcised According<br>To The Mosaic Practice -",
+                        name: "'Unless You Are<br>Circumcised According<br>To The Mosaic Practice,'",
                         data:{"width":"185","height":"57"},
                         children:[]
                     };
                     
                     var sNode1120001 =  {
                         id: "s1120001",
-                        name: "You Cannot<br>Be Saved",
+                        name: "'You Cannot<br>Be Saved.'",
                         data:{"width":"95","height":"39"},
                         children:[]
                     };
@@ -572,7 +579,7 @@
                     var sNode1120021 =  {
                         id: "s1120021",
                         name: "To The Apostles<br>& Presbyters About<br>This Question",
-                        data:{"width":"150","height":"57"},
+                        data:{"width":"145","height":"57"},
                         children:[]
                     };
                 
@@ -640,8 +647,8 @@
                     
                     var sNode1120200 =  {
                         id: "s1120200",
-                        name: "My Brothers, You Are<br>Well Aware That:",
-                        data:{"width":"160","height":"39"},
+                        name: "My Brothers,<br>You Are Well<br>Aware That:",
+                        data:{"width":"105","height":"57"},
                         children:[sNode11202000,sNode11202001,sNode11202002,sNode11202003,sNode11202004]
                     };
 
@@ -670,8 +677,8 @@
                         
                         var sNode11202013 =  {
                             id: "s11202013",
-                            name: "The Whole Assembly<br>Fell Silent",
-                            data:{"width":"160","height":"39"},
+                            name: "The<br>Whole Assembly<br>Fell Silent",
+                            data:{"width":"135","height":"57"},
                             children:[]
                         };       
                     
@@ -707,15 +714,15 @@
                 
                 var sNode112022 =  {
                     id: "s112022",
-                    name: "James On<br>Dietary Law:",
-                    data:{"width":"105","height":"39"},
+                    name: "James On<br>Dietary Law",
+                    data:{"width":"95","height":"39"},
                     children:[]
                 };   
                 
                 var sNode112023 =  {
                     id: "s112023",
-                    name: "Letter Of<br>The Apostles:",
-                    data:{"width":"110","height":"39"},
+                    name: "Letter Of<br>The Apostles",
+                    data:{"width":"100","height":"39"},
                     children:[]
                 };   
             
@@ -728,8 +735,8 @@
             
             var sNode11203 =  {
                 id: "s11203",
-                name: "Delegates<br>At Antioch:",
-                data:{"width":"95","height":"39"},
+                name: "Delegates<br>At Antioch",
+                data:{"width":"85","height":"39"},
                 children:[]
             };
             

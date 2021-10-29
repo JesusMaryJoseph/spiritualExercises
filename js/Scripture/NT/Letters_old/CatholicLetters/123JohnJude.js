@@ -93,7 +93,7 @@
                     var sNode1330020 = {
                         id: "s1330020",
                         name: "We Proclaim<br>Now<br>To You -",
-                        data:{"width":"100","height":"57"},
+                        data:{"width":"100","height":"39"},
                         children:[]         
                     };
                 

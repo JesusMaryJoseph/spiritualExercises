@@ -24,17 +24,17 @@
     
                         // Children of sNode12000002 (Set Apart For The<br>Gospel Of God:)
                  
-                        var sNode120000020 =  {
-                            id: "s120000020",
-                            name: "Promised Through<br>Prophets In The<br>holy scriptures",
-                            data:{"width":"140","height":"57"},
+                        var sNode12000002 =  {
+                            id: "s12000002",
+                            name: "Set Apart For The<br>Gospel Of God:",
+                            data:{"width":"135","height":"39"},
                             children:[]
                         };
                  
-                        var sNode120000021 =  {
-                            id: "s120000021",
-                            name: "The Gospel<br>About His Son",
-                            data:{"width":"115","height":"39"},
+                        var sNode12000002 =  {
+                            id: "s12000002",
+                            name: "Set Apart For The<br>Gospel Of God:",
+                            data:{"width":"135","height":"39"},
                             children:[]
                         };
              
@@ -42,143 +42,60 @@
                         id: "s12000002",
                         name: "Set Apart For The<br>Gospel Of God:",
                         data:{"width":"135","height":"39"},
-                        children:[sNode120000020,sNode120000021]
+                        children:[]
                     };
              
                 var sNode1200000 =  {
                     id: "s1200000",
-                    name: "Paul:",
-                    data:{"width":"50","height":"23"},
+                    name: "From<br>Paul:",
+                    data:{"width":"50","height":"39"},
                     children:[sNode12000000,sNode12000001,sNode12000002]
                 };
     
-                    // Children of sNode1200001 (Gospel:)
-                 
+                    // Children of sNode1200001 (To All The<br>Beloved Of God<br>In Rome)
+             
                     var sNode12000010 =  {
                         id: "s12000010",
-                        name: "Promised Through<br>His Prophets<br>In Holy Scriptures:",
-                        data:{"width":"150","height":"57"},
-                        children:[]
-                    };
-             
-                        var sNode120000110 =  {
-                            id: "s120000110",
-                            name: "Descended From<br>David According<br>To The Flesh",
-                            data:{"width":"130","height":"57"},
-                                data:{"width":"175","height":"39"},
-                            children:[]
-                        };
-    
-                            // Children of sNode120000111 (But Established As<br>Son Of God:)
-                 
-                            var sNode1200001110 =  {
-                                id: "s1200001110",
-                                name: "In Power According To<br>The Spirit Of Holiness -",
-                                children:[]
-                            };
-                 
-                            var sNode1200001111 =  {
-                                id: "s1200001111",
-                                name: "Through Resurrection<br>From The Dead",
-                                data:{"width":"165","height":"39"},
-                                children:[]
-                            };
-                 
-                        var sNode120000111 =  {
-                            id: "s120000111",
-                            name: "But Established As<br>Son Of God:",
-                            data:{"width":"145","height":"39"},
-                            children:[sNode1200001110,sNode1200001111]
-                        };
-                 
-                    var sNode12000011 =  {
-                        id: "s12000011",
-                        name: "About<br>His Son:",
-                        data:{"width":"75","height":"39"},
-                        children:[sNode120000110,sNode120000111]
-                    };
-             
-                var sNode1200001 =  {
-                    id: "s1200001",
-                    name: "Gospel:",
-                    data:{"width":"70","height":"23"},
-                    children:[sNode12000010,sNode12000011]
-                };
-    
-                    // Children of sNode1200002 (Apostleship:)
-             
-                    var sNode12000020 =  {
-                        id: "s12000020",
-                        name: "",
-                        data:{"width":"110","height":"23"},
-                        children:[]
-                    };
-             
-                    var sNode12000021 =  {
-                        id: "s12000021",
-                        name: "",
-                        data:{"width":"110","height":"23"},
-                        children:[]
-                    };
-             
-                var sNode1200002 =  {
-                    id: "s1200002",
-                    name: "Apostleship:",
-                    data:{"width":"105","height":"23"},
-                    children:[sNode12000020,sNode12000021]
-                };
-    
-                    // Children of sNode1200003 (To:)
-             
-                    var sNode12000030 =  {
-                        id: "s12000030",
-                        name: "All The Beloved<br>Of God In Rome -",
-                        data:{"width":"135","height":"39"},
-                        children:[]
-                    };
-             
-                    var sNode12000031 =  {
-                        id: "s12000031",
                         name: "Called<br>To Be Holy",
                         data:{"width":"90","height":"39"},
                         children:[]
                     };
     
-                        // Children of sNode12000032 (Grace To You<br>& Peace From:)
+                        // Children of sNode12000011 (Grace To You<br>& Peace From:)
                  
-                        var sNode120000320 =  {
-                            id: "s120000320",
+                        var sNode120000110 =  {
+                            id: "s120000110",
                             name: "God Our<br>Father",
                             data:{"width":"70","height":"39"},
                             children:[]
                         };
                  
-                        var sNode120000321 =  {
-                            id: "s120000321",
+                        var sNode120000111 =  {
+                            id: "s120000111",
                             name: "And The Lord<br>Jesus Christ",
                             data:{"width":"110","height":"39"},
                             children:[]
                         };
                  
-                    var sNode12000032 =  {
-                        id: "s12000032",
+                    var sNode12000011 =  {
+                        id: "s12000011",
                         name: "Grace To You<br>& Peace From:",
                         data:{"width":"115","height":"39"},
-                        children:[sNode120000320,sNode120000321]
+                        children:[sNode120000110,sNode120000111]
                     };
              
-                var sNode1200003 =  {
-                    id: "s1200003",
-                    name: "To:",
-                    data:{"width":"30","height":"23"},
-                    children:[sNode12000030,sNode12000031,sNode12000032]
+                var sNode1200001 =  {
+                    id: "s1200001",
+                    name: "To All The<br>Beloved Of God<br>In Rome:",
+                    data:{"width":"125","height":"57"},
+                    children:[sNode12000010,sNode12000011]
                 };
          
             var sNode120000 =  {
                 id: "s120000",
                 name: "Greeting:",
                 data:{"width":"75","height":"23"},
-                children:[sNode1200000,sNode1200001,sNode1200002,sNode1200003]
+                children:[sNode1200000,sNode1200001]
             };
             
             var sNode120001 =  {
