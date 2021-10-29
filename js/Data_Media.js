@@ -1,8 +1,8 @@
 /* Image/Video Data/Manager 
 *  1.) ImageData					[line 10]
 *  2.) ImageDataOT					[line 660]
-*  3.) VideoData					[line 960]
-*					
+*  3.) ImageDataManager				[line 830]
+*  3.) VideoData					[line 960]					
 */
 
 
@@ -841,87 +841,87 @@ var ImageDataManager = {
         let folderURL = "";
         switch (folder) {
             case "maps":
-                folderURL = "images/NT/Maps/";
+                folderURL = "imgs/NT/Maps/";
                 imgNameCredit = ImageData.maps[imgNmbr];
                 break;
             case "apostles":
-                folderURL = "images/NT/Gospels/Apostles/";
+                folderURL = "imgs/NT/Gospels/Apostles/";
                 imgNameCredit = ImageData.apostles[imgNmbr];
                 break;
             case "call":
-                folderURL = "images/NT/Gospels/Call/";
+                folderURL = "imgs/NT/Gospels/Call/";
                 imgNameCredit = ImageData.call[imgNmbr];
                 break;
             case "jn":
-                folderURL = "images/NT/Gospels/John/";
+                folderURL = "imgs/NT/Gospels/John/";
                 imgNameCredit = ImageData.jn[imgNmbr];
                 break;
             case "lk":
-                folderURL = "images/NT/Gospels/Luke/";
+                folderURL = "imgs/NT/Gospels/Luke/";
                 imgNameCredit = ImageData.lk[imgNmbr];
                 break;
             case "mk":
-                folderURL = "images/NT/Gospels/Mark/";
+                folderURL = "imgs/NT/Gospels/Mark/";
                 imgNameCredit = ImageData.mk[imgNmbr];
                 break;
             case "mt":
-                folderURL = "images/NT/Gospels/Matthew/";
+                folderURL = "imgs/NT/Gospels/Matthew/";
                 imgNameCredit = ImageData.mt[imgNmbr];
                 break;
             case "miracles":
-                folderURL = "images/NT/Gospels/Miracles/";
+                folderURL = "imgs/NT/Gospels/Miracles/";
                 imgNameCredit = ImageData.miracles[imgNmbr];
                 break;
             case "missionJerusalem":
-                folderURL = "images/NT/Gospels/Mission_Jerusalem/";
+                folderURL = "imgs/NT/Gospels/Mission_Jerusalem/";
                 imgNameCredit = ImageData.missionJerusalem[imgNmbr];
                 break;
             case "nativities":
-                folderURL = "images/NT/Gospels/Nativities/";
+                folderURL = "imgs/NT/Gospels/Nativities/";
                 imgNameCredit = ImageData.nativities[imgNmbr];
                 break;
             case "otherEvents":
-                folderURL = "images/NT/Gospels/Other_Events/";
+                folderURL = "imgs/NT/Gospels/Other_Events/";
                 imgNameCredit = ImageData.otherEvents[imgNmbr];
                 break;
             case "parables":
-                folderURL = "images/NT/Gospels/Parables/";
+                folderURL = "imgs/NT/Gospels/Parables/";
                 imgNameCredit = ImageData.parables[imgNmbr];
                 break;
             case "passion":
-                folderURL = "images/NT/Gospels/Passion/";
+                folderURL = "imgs/NT/Gospels/Passion/";
                 imgNameCredit = ImageData.passion[imgNmbr];
                 break;
             case "preparation":
-                folderURL = "images/NT/Gospels/Preparation/";
+                folderURL = "imgs/NT/Gospels/Preparation/";
                 imgNameCredit = ImageData.preparation[imgNmbr];
                 break;
             case "resurrection":
-                folderURL = "images/NT/Gospels/Resurrection/";
+                folderURL = "imgs/NT/Gospels/Resurrection/";
                 imgNameCredit = ImageData.resurrection[imgNmbr];
                 break;
             case "teaching":
-                folderURL = "images/NT/Gospels/Teaching/";
+                folderURL = "imgs/NT/Gospels/Teaching/";
                 imgNameCredit = ImageData.teaching[imgNmbr];
                 break;
             case "acts":
-                folderURL = "images/NT/Letters/Acts/";
+                folderURL = "imgs/NT/Letters/Acts/";
                 imgNameCredit = ImageData.acts[imgNmbr];
                 break;
             case "revelation":
-                folderURL = "images/NT/Letters/Revelation/";
+                folderURL = "imgs/NT/Letters/Revelation/";
                 imgNameCredit = ImageData.revelation[imgNmbr];
                 break;
             case "pauline":
-                folderURL = "images/NT/Letters/PaulineLetters/";
+                folderURL = "imgs/NT/Letters/PaulineLetters/";
                 imgNameCredit = ImageData.pauline[imgNmbr];
                 break;
             case "pastoral":
-                folderURL = "images/NT/Letters/Pastoral/";
+                folderURL = "imgs/NT/Letters/Pastoral/";
                 imgNameCredit = ImageData.pastoral[imgNmbr];
                 break;
             case "catholic":
-                folderURL = "images/NT/Letters/CatholicLetters/";
+                folderURL = "imgs/NT/Letters/CatholicLetters/";
                 imgNameCredit = ImageData.catholic[imgNmbr];
                 break;
             case "kings":
@@ -936,8 +936,12 @@ var ImageDataManager = {
                 folderURL = "imgs/OT/Holy_Land/";
                 imgNameCredit = ImageDataOT.holyLand[imgNmbr];
                 break;
+            case "saints":
+                folderURL = "imgs/Church_History/Saints/";
+                imgNameCredit = ImageData.saints[imgNmbr];
+                break;
             default :
-                alert("No folder exist with this name: " + folder);
+                alert("No folder Exist with this Name: " + folder);
         }
         let separatorLoc = imgNameCredit.indexOf("$");
         this.url = folderURL + imgNameCredit.slice(0,separatorLoc);
@@ -945,10 +949,6 @@ var ImageDataManager = {
         return [this.url,this.credit];
     }
 } /* End of Class(Object) "ImageDataManager" */
-
-
-
-
 
 
 

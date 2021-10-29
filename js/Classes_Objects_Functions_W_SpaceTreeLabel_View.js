@@ -1,6 +1,6 @@
 /* View Javascript Classes
 *  1.) DivLiClickHandler	    [line 10]
-*  2.) ImageDataManager         [line 120]
+*  2.) ImageDataManager (blocked out - located in Data_Media.js)        [line 120]
 *  3.) SpaceTreeLog 		    [line 260]     
 *  4.) SpaceTreeLabel			[line 280]
 *  5.) SpaceTree                [line 370] 		
@@ -116,7 +116,7 @@ var DivLiClickHandler = {
 
 
 
-
+/*
 var ImageDataManager = {
       // Properties
       url: "",
@@ -234,7 +234,7 @@ var ImageDataManager = {
         this.credit = imgNameCredit.slice(separatorLoc + 1,imgNameCredit.length);
         return [this.url,this.credit];
     }
-} /* End of Class(Object) "ImageDataManager" */
+}*/ /* End of Class(Object) "ImageDataManager" */
 
 
 

@@ -1,6 +1,6 @@
 /* View Javascript Classes
 *  1.) DivLiClickHandler	    [line 10]
-*  2.) ImageDataManager         [line 120]
+*  2.) ImageDataManager (blocked out - located in Data_Media.js)         [line 120]
 *  3.) SpaceTreeLog 		    [line 260]     
 *  4.) SpaceTreeLabel			[line 280]
 *  5.) SpaceTree                [line 370] 		
@@ -12,10 +12,12 @@ var DivLiClickHandler = {
 
     //methods
     divClick: function(evt) {
+     // alert("in DivLiClickHandler.divClick()");
         if(SelectedMode.mode == "study") {
             return
         }
         let nodeObj;
+      //alert("evt.target.parentNode.ID.charAt(0): " + evt.target.parentNode.id.charAt(0));
         let bookLetter = evt.target.parentNode.id.charAt(0);
         let startIndex = 1; 
         if(bookLetter == 's'){
@@ -29,7 +31,8 @@ var DivLiClickHandler = {
             nodeObj = chNodeRoot;
         }
         let labelId = evt.target.parentNode.id;
-            let childNumber;
+      //alert("labelId: " + labelId);
+        let childNumber;
         for(let i = startIndex;i < labelId.length;i++){
             if (labelId.charAt(i) < 10){
                 childNumber = labelId.charAt(i);
@@ -84,7 +87,9 @@ var DivLiClickHandler = {
                         alert("Number of Nodes<br>must be < 25");
                 }
             }
+        //alert("childNumber: " + childNumber);
             nodeObj = nodeObj.children[childNumber];
+      //alert("nodeObj.children[childNumber].id: " + nodeObj.id);
         }
         document.getElementById(labelId).innerHTML = nodeObj.name;
     },
@@ -116,7 +121,7 @@ var DivLiClickHandler = {
 
 
 
-
+/*
 var ImageDataManager = {
       // Properties
       url: "",
@@ -234,7 +239,7 @@ var ImageDataManager = {
         this.credit = imgNameCredit.slice(separatorLoc + 1,imgNameCredit.length);
         return [this.url,this.credit];
     }
-} /* End of Class(Object) "ImageDataManager" */
+}*/ /* End of Class(Object) "ImageDataManager" */
 
 
 
@@ -467,7 +472,7 @@ var SpaceTree = {
                         creditEle.classList.replace("hide-opacity","show-opacity");
                         let folderImgNmbr = node.data.img; 
                         urlCredit = ImageDataManager.getData(folderImgNmbr);
-
+                  //  alert("urlCredit[0]: " + urlCredit[0]);
                         url = urlCredit[0];
                         credit = urlCredit[1];
                         visEle.style.backgroundImage = "url(" + url + ")";

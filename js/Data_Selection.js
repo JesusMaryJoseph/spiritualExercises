@@ -187,7 +187,6 @@ var monasticScheduleObj = JSON.parse(monasticSchedule);
 	//				MinorProphets "mp"
 	
 	var spExHT = {};
-	
 	spExHT['go01'] = sNode1000;    spExHT['go02'] = sNode1001;	spExHT['go03'] = sNode1002;	spExHT['go04'] = sNode1003;	spExHT['go05'] = sNode1004;	spExHT['go06'] = sNode1005;	spExHT['go07'] = sNode1006;	
 	spExHT['go11'] = sNode1010;	spExHT['go12'] = sNode1011;	spExHT['go13'] = sNode1012;	spExHT['go14'] = sNode1013;	spExHT['go15'] = sNode1014;	spExHT['go16'] = sNode1015;	spExHT['go17'] = sNode1016;
 	spExHT['go21'] = sNode1020/*Lk1-4:13*/;	spExHT['go22'] = sNode1021/*Lk4:14-6*/;	spExHT['go23'] = sNode1022/*Lk7-9:50*/;	spExHT['go24'] = sNode1023/*Lk9:51-14*/;	spExHT['go25'] = sNode1024/*Lk15-19:27*/;	spExHT['go26'] = sNode1025/*Lk19:28-21*/;	spExHT['go27'] = sNode1026/*Lk22-24*/;
@@ -202,20 +201,20 @@ var monasticScheduleObj = JSON.parse(monasticSchedule);
 	spExHT['ps11'] = sNode03110;	spExHT['ps12'] = sNode03111;	spExHT['ps13'] = sNode03112;	spExHT['ps14'] = sNode03113;	spExHT['ps15'] = sNode03114;	spExHT['ps16'] = sNode03115;	spExHT['ps17'] = sNode03116;
 	spExHT['ps21'] = sNode03120;	spExHT['ps22'] = sNode03121;	spExHT['ps23'] = sNode03122;	spExHT['ps24'] = sNode03123;	spExHT['ps25'] = sNode03124;	spExHT['ps26'] = sNode03125;	spExHT['ps27'] = sNode03126;
 	spExHT['ps31'] = sNode03130;	spExHT['ps32'] = sNode03131;	spExHT['ps33'] = sNode03132;	spExHT['ps34'] = sNode03133;	spExHT['ps35'] = sNode03134;	spExHT['ps36'] = sNode03135;	spExHT['ps37'] = sNode03136;
-	 
+	
 	spExHT['de01'] = dNode00/*"PartI:1-4"*/; spExHT['de02'] = dNode01/*"PartI:5-8"*/;	spExHT['de03'] = dNode02/*"PartI:9-13"*/;	spExHT['de04'] = dNode03/*"PartI:14-18"*/;	spExHT['de05'] = dNode04/*"PartI:19-24"*/;	spExHT['de06'] = dNode05/*"Part II 1-7"*/;	spExHT['de07'] = dNode06/*"Part II 8-11"*/;	
 	spExHT['de11'] = dNode10/*"PartII:12-13"*/;	spExHT['de12'] = dNode11/*"PartII:14-18"*/;	spExHT['de13'] = dNode12/*"PartII:19-21"*/;	spExHT['de14'] = dNode13/*"PartIII:Ch 1-3"*/;	spExHT['de15'] = dNode14/*"PartIII:4-6"*/;	spExHT['de16'] = dNode15/*"PartIII:7-9"*/;	spExHT['de17'] = dNode16/*"PartIII:10-13"*/;
 	spExHT['de21'] = dNode20/*"PartIII:14-16"*/; spExHT['de22'] = dNode21/*"PartIII:17-22"*/; spExHT['de23'] = dNode22/*"PartIII:23-25"*/;	spExHT['de24'] = dNode23/*"PartIII:26-28"*/;	spExHT['de25'] = dNode24/*"PartIII:29-30"*/;	spExHT['de26'] = dNode25/*"PartIII:31-37"*/;	spExHT['de27'] = dNode26/*"PartIII:38-41"*/;
 	spExHT['de31'] = dNode30/*"PartIV:1-4"*/; spExHT['de32'] = dNode31/*"PartIV:5-10"*/;	spExHT['de33'] = dNode32/*"PartIV:11-13"*/;	spExHT['de34'] = dNode33/*"PartIV:14-15"*/;	spExHT['de35'] = dNode34/*"PartV:1-5"*/;	spExHT['de36'] = dNode35/*"PartV:6-14"*/;	spExHT['de37'] = dNode36/*"PartV:15-18"*/;
-
+ 
 	spExHT['pe01'] = sNode0000/*Genesis(1)*/;    spExHT['pe02'] = sNode0001/*Genesis(2)*/;	spExHT['pe03'] = sNode0010/*Exodus(1)*/;	spExHT['pe04'] = sNode0011/*Exodus(2)*/;	spExHT['pe05'] = sNode002/*Leviticus*/;	spExHT['pe06'] = sNode003/*Numbers*/;	spExHT['pe07'] = sNode004/*Deuteronomy*/;	
 	
 	spExHT['no01'] = sNode020/*Tobit*/;    spExHT['no02'] = sNode021/*Judith*/;	spExHT['no03'] = sNode022/*Esther*/;	spExHT['no04'] = sNode02300/*1Maccabees(1)*/;	spExHT['no05'] = sNode02301/*1Maccabees(2)*/;	spExHT['no06'] = sNode02310/*2Maccabees(1)*/;	spExHT['no07'] = sNode02311/*2Maccabees(2)*/;	
 
-	spExHT['hi11'] = sNode010/*Joshua-Judges-Ruth*/;	spExHT['hi12'] = sNode0110/*1Samuel*/;	spExHT['hi13'] = sNode0111/*2Samuel*/;	spExHT['hi14'] = sNode0120/*1Kings*/;	spExHT['hi15'] = sNode0121/*2Kings*/;	spExHT['hi16'] = sNode013/*1 Chronicles-Nehemiah*/;	spExHT['hi17'] = sNode014/*1 Chronicles-Ezra*/;
-
+    spExHT['hi11'] = sNode010/*Joshua-Judges-Ruth*/;    spExHT['hi12'] = sNode0110/*1Samuel*/;  spExHT['hi13'] = sNode0111/*2Samuel*/;  spExHT['hi14'] = sNode0120/*1Kings*/;   spExHT['hi15'] = sNode0121/*2Kings*/;   spExHT['hi16'] = sNode013/*1 Chronicles-Nehemiah*/; spExHT['hi17'] = sNode014/*1 Chronicles-Ezra*/;
+	
 	spExHT['wi21'] = sNode0300/*Job(1)*/;	spExHT['wi22'] = sNode0301/*Job(2)*/;	spExHT['wi23'] = sNode032/*Proverbs*/;	spExHT['wi24'] = sNode033/*Ecclesiastes_SongOfSongs*/;	spExHT['wi25'] = sNode034/*Wisdom*/;	spExHT['wi26'] = sNode035/*Sirach(1)"*/;	spExHT['wi27'] = sNode036/*Sirach(2)*/;
 
-	spExHT['pr31'] = sNode04000/*"Isaiah(1)*/;	spExHT['pr32'] = sNode04001/*Isaiah(2)*/;	spExHT['pr33'] = sNode04010/*Jeremiah(1)*/;	spExHT['pr34'] = sNode04011/*Jeremiah(2)-Lametations*/;	spExHT['pr35'] = sNode0402/*Ezekiel(1)*/;	spExHT['pr36'] = sNode0403/*Ezekiel(2) Baruch*/;	spExHT['pr37'] = sNode0404/*Daniel"*/;
+	spExHT['pr31'] = sNode04000/*"Isaiah(1)*/;	spExHT['pr32'] = sNode04001/*Isaiah(2)*/;	spExHT['pr33'] = sNode04010/*Jeremiah(1)*/;	spExHT['pr34'] = sNode04011/*Jeremiah(2)-Lametations*/;	spExHT['pr35'] = sNode04020/*Ezekiel(1)*/;	spExHT['pr36'] = sNode04021/*Ezekiel(2) Baruch*/;	spExHT['pr37'] = sNode0403/*Daniel"*/;
 
 	spExHT['mi31'] = sNode0410/*Hosea*/;	spExHT['mi32'] = sNode0411/*Joel*/;	spExHT['mi33'] = sNode0412/*Amos*/;	spExHT['mi34'] = sNode0413/*Obadiah-Jonah*/;	spExHT['mi35'] = sNode0414/*Micah-Nahum*/;	spExHT['mi36'] = sNode0420/*Habakkuk-Zephaniah-Haggai*/;	spExHT['mi37'] = sNode0421/*Zechariah-Malachi*/;
