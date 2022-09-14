@@ -963,8 +963,8 @@ var VideoData = {
 
 	ordinary: {
 		ids: [
-			{'videoId':'WZxXjsWFah0', 'startSeconds':0, 'endSeconds': 287 },
 			'0eSDd8EJjDU',
+			{'videoId':'WZxXjsWFah0', 'startSeconds':0, 'endSeconds': 287 },
 			'XmkEXN-um-M',
 			'ZOFiRcJPRzo',
 			'akb0kD7EHIk',
@@ -992,8 +992,8 @@ var VideoData = {
 		],
 
 		names: [
-			'Easter Hallelujah<br>Cassandra & sister Callahan (in Washington, DC)',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 4 of 6):<br>Petrus Josephus',
+			'Easter Hallelujah<br>Cassandra & sister Callahan (in Washington, DC)',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 3 of 6):<br>Petrus Josephus',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 2 of 6):<br>Petrus Josephus',
 			'World\’s Largest Virtual #Hallelujah Chorus<br>ComeUntoChrist.org',
