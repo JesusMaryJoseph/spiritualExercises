@@ -963,7 +963,7 @@ var VideoData = {
 
 	ordinary: {
 		ids: [
-			'WZxXjsWFah0',
+			{'videoId':'WZxXjsWFah0', 'startSeconds':0, 'endSeconds': 287 },
 			'0eSDd8EJjDU',
 			'XmkEXN-um-M',
 			'ZOFiRcJPRzo',
@@ -992,6 +992,7 @@ var VideoData = {
 		],
 
 		names: [
+			'Easter Hallelujah - Cassandra & sister Callahan (in Washington, DC)',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 4 of 6):<br>Petrus Josephus',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 3 of 6):<br>Petrus Josephus',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 2 of 6):<br>Petrus Josephus',
