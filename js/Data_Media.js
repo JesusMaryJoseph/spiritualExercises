@@ -963,7 +963,6 @@ var VideoData = {
 
 	ordinary: {
 		ids: [
-			{'videoId':'WZxXjsWFah0', 'startSeconds':0, 'endSeconds': 287 }, /*'GRIjjDR0he0', */
 			'0eSDd8EJjDU',
 			{'videoId':'WZxXjsWFah0', 'startSeconds':0, 'endSeconds': 287 },
 			'XmkEXN-um-M',
@@ -993,7 +992,7 @@ var VideoData = {
 		],
 
 		names: [
-			'Holy Is His Name - John Michael Talbot',
+			'Holy Is His Name - Connie Salazar - Topic',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 4 of 6):<br>Petrus Josephus',
 			'Easter Hallelujah<br>Cassandra & sister Callahan (in Washington, DC)',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 3 of 6):<br>Petrus Josephus',
