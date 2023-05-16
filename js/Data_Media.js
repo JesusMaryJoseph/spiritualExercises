@@ -963,8 +963,8 @@ var VideoData = {
 
 	ordinary: {
 		ids: [
-			'3tqSeu47iIc',
 			'0eSDd8EJjDU',
+			'3tqSeu47iIc',
 			{'videoId':'WZxXjsWFah0', 'startSeconds':0, 'endSeconds': 287 },
 			'XmkEXN-um-M',
 			'ZOFiRcJPRzo',
@@ -993,8 +993,8 @@ var VideoData = {
 		],
 
 		names: [
-			'Holy Is His Name - Connie Salazar - Topic',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 4 of 6):<br>Petrus Josephus',
+			'Holy Is His Name - Connie Salazar - Topic',
 			'Easter Hallelujah<br>Cassandra & sister Callahan (in Washington, DC)',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 3 of 6):<br>Petrus Josephus',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 2 of 6):<br>Petrus Josephus',
@@ -1027,6 +1027,7 @@ var VideoData = {
 	advent: {
 		ids: [
 			'9RieYaRaZsE',
+			'GRIjjDR0he0',
 			{'videoId':'yr3HJ6-2LhU','endSeconds':445},
 			'dkrW3nRPGo4',
 			{'videoId':'Zz4LBjysReA','endSeconds':231},
@@ -1039,6 +1040,7 @@ var VideoData = {
 
 		names: [
 			'The King Shall Come<br>When The Morning Dawns',  /* ok */
+			'Holy Is His Nanme<br>John Michael Talbot',
 			'To Save Us All/Prepare Him Room: Feat. Andrea Thomas and Greg & Lizzy - The Vigil Project<br>https://www.thevigilproject.com/blog/devotions/advent', /* OK */
 			'Panis angelicus<br>Sissel and The Tabernacle Choir',  /* ok */
 			'Let All Mortal Flesh Keep Silence:',  /* ok */
