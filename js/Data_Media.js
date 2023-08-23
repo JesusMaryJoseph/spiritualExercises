@@ -963,9 +963,10 @@ var VideoData = {
 
 	ordinary: {
 		ids: [
-			'0eSDd8EJjDU',
+			'QZ4vLAHttmY', /* "You raise me up"<br> by Riyandi Kusuma*/
 			'3tqSeu47iIc',
 			{'videoId':'WZxXjsWFah0', 'startSeconds':0, 'endSeconds': 287 },
+			'0eSDd8EJjDU',
 			'XmkEXN-um-M',
 			'ZOFiRcJPRzo',
 			'akb0kD7EHIk',
@@ -993,9 +994,10 @@ var VideoData = {
 		],
 
 		names: [
-			'The TimElementss Wisdom of the Saints - Meditations (Part 4 of 6):<br>Petrus Josephus',
+			'You raise me up<br> by Riyandi Kusuma',
 			'Holy Is His Name - Connie Salazar - Topic',
 			'Easter Hallelujah<br>Cassandra & sister Callahan (in Washington, DC)',
+			'The TimElementss Wisdom of the Saints - Meditations (Part 4 of 6):<br>Petrus Josephus',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 3 of 6):<br>Petrus Josephus',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 2 of 6):<br>Petrus Josephus',
 			'World\’s Largest Virtual #Hallelujah Chorus<br>ComeUntoChrist.org',
@@ -1158,6 +1160,7 @@ var VideoData = {
 		],
 
 		names:[
+			'You raise me up<br> by Riyandi Kusuma',
 			'TWO SISTERS SINGING ABOUT OUR LORD<br>AS A 365 DAY "EASTER" BLESSING',
 			'Alleluia! Alleluia! Let the Holy Anthem Rise:<br>for organ and brass<br>www.wmglennosborne.com or www.audubonparkmusic.com',  /* OK */
 			'The Strife is O\'er:<br>The Episcopal Church Virtual Choir and Orchestra<br>https://episcopalchurch.org/virtual-choir', /* OK */
