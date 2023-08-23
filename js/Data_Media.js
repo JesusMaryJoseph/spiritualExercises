@@ -1146,6 +1146,7 @@ var VideoData = {
 
 	easter: {
 		ids:[
+			'QZ4vLAHttmY', /* "You raise me up"<br> by Riyandi Kusuma*/
 			'716yq1MEUic',
 			'8p03kMcjnU0',
 			'JAyi64eagTI',
