@@ -60,7 +60,7 @@ function onYouTubeIframeAPIReady() {
   //alert("VideoData.getData(VideoData.selectedSeason).ids[this.currentVideoId]: " + VideoData.getData(VideoData.selectedSeason).ids[this.currentVideoId]);
 	player = new YT.Player('player', {
 		width: '600',
-		videoId: '0eSDd8EJjDU',  //null, 
+		videoId: 'QZ4vLAHttmY',  //null, 
 		playerVars: {
 			controls: 0,
 			autoplay: 1,
