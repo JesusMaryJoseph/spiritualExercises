@@ -54,8 +54,8 @@
                         
                             var dNode0000011 = {
                                 id: "d0000011",
-                                name: "So Far As<br>Externals<br>Are Concerned",
-                                data:{"width":"120","height":"57"},
+                                name: "So Far As Externals<br>Are Concerned",
+                                data:{"width":"150","height":"39"},
                                 children:[]          
                             };
                     
@@ -79,22 +79,22 @@
                         
                             var dNode0000100 = {
                                 id: "d0000100",
-                                name: "The World<br>Untainted By -",
-                                data:{"width":"115","height":"39"},
+                                name: "In<br>The World -",
+                                data:{"width":"95","height":"39"},
                                 children:[]          
                             };
                         
                             var dNode0000101 = {
                                 id: "d0000101",
-                                name: "Worldly Breath",
-                                data:{"width":"120","height":"23"},
+                                name: "Untainted By<br>Worldly Breath",
+                                data:{"width":"120","height":"39"},
                                 children:[]          
                             };
                     
                         var dNode000010 = {
                             id: "d000010",
-                            name: "Live In:",
-                            data:{"width":"70","height":"23"},
+                            name: "Live:",
+                            data:{"width":"50","height":"23"},
                             children:[dNode0000100,dNode0000101]          
                         };
         
@@ -102,14 +102,14 @@
                         
                             var dNode0000110 = {
                                 id: "d0000110",
-                                name: "A Well-Spring Of<br>Holy Piety Amid -",
-                                data:{"width":"145","height":"39"},
+                                name: "A Well-Spring Of<br>Holy Piety -",
+                                data:{"width":"130","height":"39"},
                                 children:[]          
                             };
                         
                             var dNode0000111 = {
                                 id: "d0000111",
-                                name: "The Bitter Waves<br>Of Society",
+                                name: "Amid The Bitter<br>Waves Of Society",
                                 data:{"width":"135","height":"39"},
                                 children:[]          
                             };
@@ -125,8 +125,8 @@
                         
                             var dNode0000120 = {
                                 id: "d0000120",
-                                name: "Hovering Amid<br>The Flames Of<br>Earthly Lusts -",
-                                data:{"width":"125","height":"57"},
+                                name: "Amid The Flames<br>Of Earthly Lusts -",
+                                data:{"width":"140","height":"39"},
                                 children:[]          
                             };
                         
@@ -164,22 +164,22 @@
                     
                         var dNode000100 = {
                             id: "d000100",
-                            name: "Suggestions And<br>Eexercises To -",
-                            data:{"width":"130","height":"39"},
+                            name: "Turn Philothea’s<br>Mere Desire -",
+                            data:{"width":"125","height":"39"},
                             children:[]          
                         };
                     
                         var dNode000101 = {
                             id: "d000101",
-                            name: "Turn Philothea’s<br>Mere Desire Into<br>A Hearty Resolution",
-                            data:{"width":"155","height":"57"},
+                            name: " Into A<br>Hearty Resolution",
+                            data:{"width":"140","height":"39"},
                             children:[]          
                         };
                 
                     var dNode00010 = {
                         id: "d00010",
-                        name: "<u>Part I</u>:",
-                        data:{"width":"60","height":"23"},
+                        name: "<u>Part I</u><br>Suggestions And<br>Exercises To:",
+                        data:{"width":"135","height":"57"},
                         children:[dNode000100,dNode000101]          
                     };
         
@@ -202,7 +202,7 @@
                     var dNode00011 = {
                         id: "d00011",
                         name: "<u>Part II</u><br>Sacraments And<br>Mental Prayer:",
-                        data:{"width":"125","height":"57"},
+                        data:{"width":"130","height":"57"},
                         children:[dNode000110,dNode000111]          
                     };
         
@@ -210,15 +210,22 @@
                     
                         var dNode000120 = {
                             id: "d000120",
-                            name: ":",
-                            data:{"width":"100","height":"23"},
+                            name: "How She Should<br>Practise -",
+                            data:{"width":"130","height":"39"},
                             children:[]          
                         };
                     
                         var dNode000121 = {
                             id: "d000121",
-                            name: ":",
-                            data:{"width":"70","height":"39"},
+                            name: "Certain Virtues<br>Most Suitable -",
+                            data:{"width":"120","height":"39"},
+                            children:[]          
+                        };
+                    
+                        var dNode000122 = {
+                            id: "d000122",
+                            name: "To Her<br>Advancement",
+                            data:{"width":"110","height":"39"},
                             children:[]          
                         };
                 
@@ -226,7 +233,7 @@
                         id: "d00012",
                         name: "<u>Part III</u><br>Virtues:",
                         data:{"width":"75","height":"39"},
-                        children:[dNode000120,dNode000121]          
+                        children:[dNode000120,dNode000121,dNode000122]          
                     };
                 
                     var dNode00013 = {
@@ -268,25 +275,32 @@
                             children:[]          
                         };
             
+                            var dNode0002110 = {
+                                id: "d0002110",
+                                name: "The Comfort Which<br>It Brings To -",
+                                data:{"width":"150","height":"39"},
+                                children:[]          
+                            };
+            
+                            var dNode0002111 = {
+                                id: "d0002111",
+                                name: "Those Who<br>Bear It",
+                                data:{"width":"90","height":"39"},
+                                children:[]          
+                            };
+            
                         var dNode000211 = {
                             id: "d000211",
-                            name: "Refreshes And<br>Invigorates<br>The Heart By -",
+                            name: "Refreshes And<br>Invigorates<br>The Heart By:",
                             data:{"width":"115","height":"57"},
-                            children:[]          
-                        };
-            
-                        var dNode000212 = {
-                            id: "d000212",
-                            name: "The Comfort Which<br>It Brings To<br>Those Who Bear It",
-                            data:{"width":"150","height":"57"},
-                            children:[]          
+                            children:[dNode0002110,dNode0002111]          
                         };
             
                     var dNode00021 = {
                         id: "d00021",
                         name: "Is A Labor<br>Which:",
                         data:{"width":"90","height":"39"},
-                        children:[dNode000210,dNode000211,dNode000212]          
+                        children:[dNode000210,dNode000211]          
                     };
             
                 var dNode0002 = {
@@ -454,8 +468,8 @@
                 
                     var dNode00100 = {
                         id: "d00100",
-                        name: "While It Presupposes<br>The Love Of God<br>Upon Us -",
-                        data:{"width":"155","height":"57"},
+                        name: "While Devotion<br>Presupposes The Love<br>Of God Upon Us -",
+                        data:{"width":"170","height":"57"},
                         children:[]          
                     };
                 
@@ -499,7 +513,7 @@
                 var dNode0011 = {
                     id: "d0011",
                     name: "Grace, Charity<br>& Devotion:",
-                    data:{"width":"110","height":"39"},
+                    data:{"width":"115","height":"39"},
                     children:[dNode00110,dNode00111,dNode00112]          
                 };
         
@@ -528,8 +542,8 @@
             
                 var dNode0012 = {
                     id: "d0012",
-                    name: "Devotion Causes<br>Us To<br>Follow God's:",
-                    data:{"width":"130","height":"57"},
+                    name: "It Causes Us<br>To Follow God's:",
+                    data:{"width":"130","height":"39"},
                     children:[dNode00120,dNode00121,dNode00122]          
                 };
         
@@ -538,35 +552,35 @@
                     var dNode00130 = {
                         id: "d00130",
                         name: "Quickly, Promptly<br>And Readily",
-                        data:{"width":"130","height":"38"},
+                        data:{"width":"135","height":"38"},
                         children:[]          
                     };
                 
                     var dNode00131 = {
                         id: "d00131",
                         name: "Diligently<br>And Carefully",
-                        data:{"width":"105","height":"38"},
+                        data:{"width":"110","height":"38"},
                         children:[]          
                     };
                 
                     var dNode00132 = {
                         id: "d00132",
                         name: "Eagerly And<br>Energetically",
-                        data:{"width":"100","height":"38"},
+                        data:{"width":"105","height":"38"},
                         children:[]          
                     };
                 
                     var dNode00133 = {
                         id: "d00133",
-                        name: "And<br>Lovingly",
-                        data:{"width":"70","height":"38"},
+                        name: "Lovingly",
+                        data:{"width":"75","height":"23"},
                         children:[]          
                     };
             
                 var dNode0013 = {
                     id: "d0013",
-                    name: "Devotion Leads<br>Us To Act:",
-                    data:{"width":"120","height":"39"},
+                    name: "It Leads Us<br>To Act:",
+                    data:{"width":"95","height":"39"},
                     children:[dNode00130,dNode00131,dNode00132,dNode00133]          
                 };
         
@@ -580,59 +594,171 @@
                 // Children of dNode002 (Nature and<br>Excellence<br>of Devotion)
         
                     // Children of dNode0020 (Devotion Is The<br>Real Spiritual Sweetness<br>Which:)
+        
+                        // Children of dNode00200 (Takes Away:)
+                
+                        var dNode002000 = {
+                            id: "d002000",
+                            name: "All<br>Bitterness -",
+                            data:{"width":"95","height":"39"},
+                            children:[]         
+                        };
+                
+                        var dNode002001 = {
+                            id: "d002001",
+                            name: "From<br>Mortifications",
+                            data:{"width":"110","height":"39"},
+                            children:[]         
+                        };
             
                     var dNode00200 = {
                         id: "d00200",
-                        name: "Takes Away<br>All Bitterness<br>From Mortifications",
-                        data:{"width":"145","height":"57"},
-                        children:[]         
+                        name: "Takes Away:",
+                        data:{"width":"100","height":"23"},
+                        children:[dNode002000,dNode002001]         
                     };
+        
+                        // Children of dNode00201 (Prevents:)
+                
+                        var dNode002010 = {
+                            id: "d002010",
+                            name: "Consolations<br>From -",
+                            data:{"width":"105","height":"39"},
+                            children:[]         
+                        };
+                
+                        var dNode002011 = {
+                            id: "d002011",
+                            name: "Disagreeing<br>With The Soul",
+                            data:{"width":"110","height":"39"},
+                            children:[]         
+                        };
             
                     var dNode00201 = {
                         id: "d00201",
-                        name: "Prevents Consolations<br>From Disagreeing<br>With The Soul",
-                        data:{"width":"170","height":"57"},
-                        children:[]         
+                        name: "Prevents:",
+                        data:{"width":"85","height":"23"},
+                        children:[dNode002010,dNode002011]         
                     };
+        
+                        // Children of dNode00202 (Cures:)
+                
+                        var dNode002020 = {
+                            id: "d002020",
+                            name: "The Poor<br>Of Sadness",
+                            data:{"width":"95","height":"39"},
+                            children:[]         
+                        };
+                
+                        var dNode002021 = {
+                            id: "d002021",
+                            name: "The Rich<br>Of Presumption",
+                            data:{"width":"125","height":"39"},
+                            children:[]         
+                        };
             
                     var dNode00202 = {
                         id: "d00202",
-                        name: "Cures The Poor<br>Of Sadness And The<br>Rich Of Presumption",
-                        data:{"width":"155","height":"57"},
-                        children:[]         
+                        name: "Cures:",
+                        data:{"width":"60","height":"23"},
+                        children:[dNode002020,dNode002021]         
                     };
+        
+                        // Children of dNode00203 (Averts:)
+                
+                        var dNode002030 = {
+                            id: "d002030",
+                            name: "Sadness From<br>The Lonely -",
+                            data:{"width":"115","height":"39"},
+                            children:[]         
+                        };
+                
+                        var dNode002031 = {
+                            id: "d002031",
+                            name: "Dissipation<br>From Social Life",
+                            data:{"width":"130","height":"39"},
+                            children:[]         
+                        };
             
                     var dNode00203 = {
                         id: "d00203",
-                        name: "Averts Sadness From<br>The Lonely & Dissipation<br>From Social Life",
-                        data:{"width":"185","height":"57"},
-                        children:[]         
+                        name: "Averts:",
+                        data:{"width":"65","height":"23"},
+                        children:[dNode002030,dNode002031]         
                     };
+        
+                        // Children of dNode00204 (Knows How:)
+                
+                        var dNode002040 = {
+                            id: "d002040",
+                            name: "Abound",
+                            data:{"width":"70","height":"23"},
+                            children:[]         
+                        };
+                
+                        var dNode002041 = {
+                            id: "d002041",
+                            name: "Suffer Want",
+                            data:{"width":"100","height":"23"},
+                            children:[]         
+                        };
             
                     var dNode00204 = {
                         id: "d00204",
-                        name: "Knows How To<br>Abound & How<br>To Suffer Want",
-                        data:{"width":"120","height":"57"},
-                        children:[]         
+                        name: "Knows<br>How To:",
+                        data:{"width":"75","height":"39"},
+                        children:[dNode002040,dNode002041]         
                     };
+        
+                        // Children of dNode00205 (Accepts:)
+                
+                        var dNode002050 = {
+                            id: "d002050",
+                            name: "Sweetness<br>And Gladness -",
+                            data:{"width":"120","height":"39"},
+                            children:[]         
+                        };
+                
+                        var dNode002051 = {
+                            id: "d002051",
+                            name: "With<br>An Even Mind",
+                            data:{"width":"115","height":"39"},
+                            children:[]         
+                        };
             
                     var dNode00205= {
                         id: "d00205",
-                        name: "Accepts Sweetness<br>And Gladness<br>With An Even Mind",
-                        data:{"width":"150","height":"57"},
-                        children:[]         
+                        name: "Accepts:",
+                        data:{"width":"80","height":"23"},
+                        children:[dNode002050,dNode002051]         
                     };
+        
+                        // Children of dNode00206 (Fills:)
+                
+                        var dNode002060 = {
+                            id: "d002060",
+                            name: "Our Hearts<br>With -",
+                            data:{"width":"95","height":"39"},
+                            children:[]         
+                        };
+                
+                        var dNode002061 = {
+                            id: "d002061",
+                            name: "A Wonderful<br>Sweetness",
+                            data:{"width":"100","height":"39"},
+                            children:[]         
+                        };
             
                     var dNode00206= {
                         id: "d00206",
-                        name: "Fills Our Hearts<br>With A Wonderful<br>Sweetness",
-                        data:{"width":"135","height":"57"},
-                        children:[]         
+                        name: "Fills:",
+                        data:{"width":"45","height":"23"},
+                        children:[dNode002060,dNode002061]         
                     };
         
                 var dNode0020 = {
                     id: "d0020",
-                    name: "Devotion Is The<br>Real Spiritual<br>Sweetness Which:",
+                    name: "Devotion Is The<br>Real Spiritual<br>Sweetness Which:<br><br>",
                     data:{"width":"140","height":"57"},
                     children:[dNode00200,dNode00201,dNode00202,dNode00203,dNode00204,dNode00205,dNode00206]         
                 };
@@ -717,8 +843,8 @@
                         children:[]         
                     };
             
-                    var dNode00301 = {
-                        id: "d00301",
+                    var dNode00302 = {
+                        id: "d00302",
                         name: "Modified According To<br>Strength, Calling, & Duties",
                         data:{"width":"195","height":"39"},
                         children:[]         
@@ -728,7 +854,7 @@
                     id: "d0030",
                     name: "God Bids Christians<br>To Bring Forth Fruits<br>Of Devotion According To:",
                     data:{"width":"195","height":"57"},
-                    children:[dNode00300,dNode00301]         
+                    children:[dNode00300,dNode00302]         
                 };
         
                 var dNode0031 = {
@@ -809,8 +935,8 @@
                         children:[]         
                     };
             
-                    var dNode00301 = {
-                        id: "d00301",
+                    var dNode00302 = {
+                        id: "d00302",
                         name: "",
                         data:{"width":"195","height":"39"},
                         children:[]         
@@ -820,7 +946,7 @@
                     id: "d0040",
                     name: "",
                     data:{"width":"195","height":"57"},
-                    children:[dNode00300,dNode00301]         
+                    children:[dNode00300,dNode00302]         
                 };
         
                 var dNode0041 = {
@@ -839,7 +965,7 @@
         
         var dNode00 = {
             id: "d00",
-            name: "<u>Sunday</u><br>Counsels:",
+            name: "<u>Sunday</u><br>Counsels:<br><br>",
             data:{"width":"85","height":"39","img":"saints.1"},
             children:[dNode000,dNode001,dNode002,dNode003,dNode004]         
         };
@@ -866,7 +992,7 @@
 	        
 	            var dNode0100 = {
 	                id: "d0100",
-	                name: "Our Aim:",
+	                name: "Our Aim:<br><br>",
 	                data:{"width":"75","height":"23"},
 	                children:[dNode01000,dNode01001]         
 	            };
@@ -893,14 +1019,14 @@
                     
                             var dNode0101110 = {
                                 id: "d0101110",
-                                name: "<u>Every</u> Impediment<br>Which Can -",
+                                name: "<u>Every Impediment</u><br>Which Hinders -",
                                 data:{"width":"140","height":"39"},
                                 children:[]         
                             };
                     
                             var dNode0101111 = {
                                 id: "d0101111",
-                                name: "Hinder The<br>Love Of God",
+                                name: "The<br>Love Of God",
                                 data:{"width":"100","height":"39"},
                                 children:[]         
                             };
@@ -921,7 +1047,7 @@
 	        
 	            var dNode0101 = {
 	                id: "d0101",
-	                name: "Our Work:",
+	                name: "Our Work:<br><br>",
 	                data:{"width":"85","height":"23"},
 	                children:[dNode01010,dNode01011]         
 	            }; 
@@ -932,7 +1058,7 @@
 		        
 			            var dNode010200 = {
 			                id: "d010200",
-			                name: "Come On Horseback<br>And Express, While -",
+			                name: "Come On Horseback<br>And Express",
 			                data:{"width":"160","height":"39"},
 			                children:[]         
 			            }; 
@@ -962,8 +1088,8 @@
 		        
 			            var dNode010211 = {
 			                id: "d010211",
-			                name: "Slow Degrees,<br>Step By Step, -",
-			                data:{"width":"125","height":"39"},
+			                name: "Slow Degrees,<br>Step By Step -",
+			                data:{"width":"120","height":"39"},
 			                children:[]         
 			            }; 
 		        
@@ -1009,43 +1135,43 @@
 			                name: "A Great Danger<br>Of A Relapse",
 			                data:{"width":"125","height":"39"},
 			                children:[]         
-			            };  
-     
-	            			// Children of dNode010223 (<u>Remember</u><br>The Work Of:)  
-		        
-				            var dNode0102230 = {
-				                id: "d0102230",
-				                name: "The Soul’s Purification<br>Cannot End But<br>With Life Itself",
-				                data:{"width":"170","height":"57"},
-				                children:[]         
-				            };   
-		        
-				            var dNode0102231 = {
-				                id: "d0102231",
-				                name: "Our Very Perfection Lies<br>In Diligently Contending<br>Against Them",
-				                data:{"width":"190","height":"57"},
-				                children:[]         
-				            };       
-		        
-			            var dNode010223 = {
-			                id: "d010223",
-			                name: "<u>Remember</u><br>The Work Of:",
-			                data:{"width":"110","height":"39"},
-			                children:[dNode0102230,dNode0102231]         
-			            };  
+			            };
 	        
 		            var dNode01022 = {
 		                id: "d01022",
-		                name: "<u>Extreme<br>DANGER!</u>",
-		                data:{"width":"85","height":"39"},
-		                children:[dNode010220,dNode010221,dNode010222,dNode010223]         
-		            };
+		                name: "<u>Extreme<br>DANGER!:</u>",
+		                data:{"width":"90","height":"39"},
+		                children:[dNode010220,dNode010221,dNode010222]         
+		            };  
+ 
+                        // Children of dNode01023 (<u>Remember</u><br>The Work Of:)  
+            
+                        var dNode010230 = {
+                            id: "d010230",
+                            name: "The Soul’s Purification<br>Cannot End But<br>With Life Itself",
+                            data:{"width":"170","height":"57"},
+                            children:[]         
+                        };   
+            
+                        var dNode010231 = {
+                            id: "d010231",
+                            name: "Our Very Perfection Lies<br>In Diligently Contending<br>Against Them",
+                            data:{"width":"190","height":"57"},
+                            children:[]         
+                        };       
+            
+                    var dNode01023 = {
+                        id: "d01023",
+                        name: "<u>Remember</u><br>The Work Of:",
+                        data:{"width":"105","height":"39"},
+                        children:[dNode010230,dNode010231]         
+                    };  
 	        
 	            var dNode0102 = {
 	                id: "d0102",
-	                name: "Counsels:",
+	                name: "Counsels:<br><br>",
 	                data:{"width":"85","height":"23"},
-	                children:[dNode01020,dNode01021,dNode01022]         
+	                children:[dNode01020,dNode01021,dNode01022,dNode01023]         
 	            }; 
         
             var dNode010 = {
@@ -1071,14 +1197,14 @@
         
             var dNode013 = {
                 id: "d013",
-                name: "How To<br>Effect This 2nd<br>Purification:",
-                data:{"width":"120","height":"57"},
+                name: "<u>How To Effect</u><br>This 2nd<br>Purification:",
+                data:{"width":"115","height":"57"},
                 children:[]         
             }; 
         
         var dNode01 = {
             id: "d01",
-            name: "<u>Monday</u><br>Purification:",
+            name: "<u>Monday</u><br>Purification:<br><br>",
             data:{"width":"105","height":"39"},
             children:[dNode010,dNode011,dNode012,dNode013]          
         };
@@ -1212,7 +1338,7 @@
                 var dNode0203 = {
                     id: "d0203",
                     name: "Resolutions:",
-                    data:{"width":"95","height":"23"},
+                    data:{"width":"100","height":"23"},
                     children:[]         
                 }; 
             
@@ -1284,15 +1410,15 @@
                 };  
         
             var dNode021 = {
-                id: "d021",
-                name: "<u>2nd Meditation</u><br>End For Which<br>We Were Created:",
+                id: "d021",                 
+                name: "<u>2nd Meditation</u><br>End For Which<br>We Were Created :",
                 data:{"width":"140","height":"57"},
                 children:[dNode0210,dNode0211,dNode0212,dNode0213,dNode0214]         
             };
         
                 // Children of dNode022 (3rd Meditation:<br>Gifts Of God)
         
-                    // Children of dNode0220 (Preparation)
+                    // Children of dNode0220 (Preparation)   
                 
                     var dNode02200 = {
                         id: "d02200",
@@ -1361,8 +1487,8 @@
                         children:[]         
                     };
                 
-                    var dNode02301 = {
-                        id: "d02301",
+                    var dNode02302 = {
+                        id: "d02302",
                         name: "Ask Him To<br>Inspire Your Heart",
                         data:{"width":"135","height":"57"},
                         children:[]         
@@ -1372,7 +1498,7 @@
                     id: "d0230",
                     name: "Preparation:",
                     data:{"width":"95","height":"23"},
-                    children:[dNode02300,dNode02301]         
+                    children:[dNode02300,dNode02302]         
                 };
             
                 var dNode0231 = {
@@ -1462,8 +1588,8 @@
                 
                     var dNode02410 = {
                         id: "d02410",
-                        name: "The Uncertainty<br>As To The Day<br>Of Your Death",
-                        data:{"width":"125","height":"57"},
+                        name: "The Uncertainty As To<br>The Day Of Your Death",
+                        data:{"width":"170","height":"39"},
                         children:[]         
                     };
                 
@@ -1498,7 +1624,7 @@
                 var dNode0243 = {
                     id: "d0243",
                     name: "Resolutions",
-                    data:{"width":"90","height":"23"},
+                    data:{"width":"95","height":"23"},
                     children:[]         
                 }; 
             
@@ -1637,7 +1763,7 @@
             
                 var dNode0301 = {
                     id: "d0301",
-                    name: "Considerations:",
+                    name: "Considerations:<br><span>.....</span>",
                     data:{"width":"120","height":"23"},
                     children:[dNode03010,dNode03011,dNode03012,dNode03013]         
                 };
@@ -1953,7 +2079,7 @@
                             var dNode0341010 = {
                                 id: "d0341010",
                                 name: "Calling These<br>Unhappy Wretches:",
-                                data:{"width":"110","height":"57"},
+                                data:{"width":"150","height":"39"},
                                 children:[dNode03410100,dNode03410101]         
                             };
 
@@ -1973,8 +2099,8 @@
                 
                     var dNode03410 = {
                         id: "d03410",
-                        name: "Image Yourself In An<br>Open Plain Alone With<br>Your Guardian Angel:",
-                        data:{"width":"165","height":"57"},
+                        name: "Image Yourself<br>In An Open Plain Alone<br>With Your Guardian Angel:",
+                        data:{"width":"200","height":"57"},
                         children:[dNode034100,dNode034101]         
                     };
                     
@@ -1983,14 +2109,14 @@
                         var dNode034110 = {
                             id: "d034110",
                             name: "You Have Renounced Satan<br>By The Good Resolutions<br>You Have Made But -",
-                            data:{"width":"200","height":"57"},
+                            data:{"width":"205","height":"57"},
                             children:[]         
                         };
                 
                         var dNode034111 = {
                             id: "d034111",
-                            name: "You Have Not<br>Attained To<br>The King Jesus Or -",
-                            data:{"width":"150","height":"57"},
+                            name: "You Have<br>Not Attained To<br>The King Jesus Or -",
+                            data:{"width":"155","height":"57"},
                             children:[]         
                         };
                 
@@ -2003,8 +2129,8 @@
                 
                     var dNode03411 = {
                         id: "d03411",
-                        name: "You Have<br>Hovered Between<br>The Two:",
-                        data:{"width":"135","height":"57"},
+                        name: "You Have Hovered<br>Between The Two:",
+                        data:{"width":"140","height":"39"},
                         children:[dNode034110,dNode034111,dNode034112]         
                     };
             
@@ -2020,7 +2146,7 @@
                 var dNode0342 = {
                     id: "d0342",
                     name: "Affections",
-                    data:{"width":"80","height":"23"},
+                    data:{"width":"85","height":"23"},
                     children:[]         
                 };
         
@@ -2035,8 +2161,8 @@
                             children:[]         
                         };
                 
-                        var dNode034301 = {
-                            id: "d034301",
+                        var dNode034302 = {
+                            id: "d034302",
                             name: "I Detest Thee<br>And All<br>Thy Works",
                             data:{"width":"105","height":"57"},
                             children:[]         
@@ -2044,9 +2170,9 @@
             
                     var dNode03430 = {
                         id: "d03430",
-                        name: "O World,<br>O Vile Company:",
-                        data:{"width":"130","height":"39"},
-                        children:[dNode034300,dNode034301]         
+                        name: "Oh World,<br>Oh Vile Company:",
+                        data:{"width":"140","height":"39"},
+                        children:[dNode034300,dNode034302]         
                     }; 
         
                         // Children of dNode03431 (O Sweet Jesus,<br>King Of Blessedness<br>And Of Eternal Glory:)
@@ -2054,14 +2180,14 @@
                         var dNode034310 = {
                             id: "d034310",
                             name: "I Cleave To Thee<br>With All The<br>Powers Of My Soul",
-                            data:{"width":"145","height":"57"},
+                            data:{"width":"150","height":"57"},
                             children:[]         
                         };
                 
                         var dNode034311 = {
                             id: "d034311",
-                            name: "I Adore Thee<br>With All<br>My Heart",
-                            data:{"width":"105","height":"57"},
+                            name: "I Adore Thee<br>With All My Heart",
+                            data:{"width":"135","height":"39"},
                             children:[]         
                         };
                 
@@ -2074,7 +2200,7 @@
             
                     var dNode03431 = {
                         id: "d03431",
-                        name: "O Sweet Jesus,<br>King Of Blessedness<br>And Of Eternal Glory:",
+                        name: "Oh Sweet Jesus,<br>King Of Blessedness<br>& Of Eternal Glory:",
                         data:{"width":"165","height":"57"},
                         children:[dNode034310,dNode034311,dNode034312]         
                     };  
@@ -2097,8 +2223,8 @@
             
                     var dNode03432 = {
                         id: "d03432",
-                        name: "O Blessed Virgin<br>Mother Of God:",
-                        data:{"width":"130","height":"39"},
+                        name: "Oh Blessed Virgin<br>Mother Of God:",
+                        data:{"width":"135","height":"39"},
                         children:[dNode034320,dNode034321]         
                     };  
             
@@ -2119,7 +2245,7 @@
             var dNode034 = {
                 id: "d034",
                 name: "<u>10th Meditation</u><br>How The Soul Chooses<br>The Devout Life:",
-                data:{"width":"170","height":"57"},
+                data:{"width":"175","height":"57"},
                 children:[dNode0340,dNode0341,dNode0342,dNode0343,dNode0344]         
             };
         
@@ -2142,7 +2268,7 @@
             var dNode041 = {
                 id: "d041",
                 name: "Hearty Protest Confirming<br>Soul's Resolution<br>To Serve God",
-                data:{"width":"190","height":"57"},
+                data:{"width":"195","height":"57"},
                 children:[]         
             };  
         
@@ -2351,14 +2477,14 @@
         
             var dNode042 = {
                 id: "d042",
-                name: "Conclusion<br>of This 1st<br>Purification:",
-                data:{"width":"100","height":"57"},
+                name: "Conclusion<br>of This<br>1st Purification:",
+                data:{"width":"120","height":"57"},
                 children:[dNode0420,dNode0421,dNode0422]         
             }; 
         
                 // Children of dNode043 (Second<br>Purification) 
         
-                    // Children of dNode0430 (Venial<br>Sins:)
+                    // Children of dNode0430 (From<br>Venial Sins:)
                 
                     var dNode04300 = {
                         id: "d04300",
@@ -2367,8 +2493,8 @@
                         children:[]         
                     }; 
                 
-                    var dNode04301 = {
-                        id: "d04301",
+                    var dNode04302 = {
+                        id: "d04302",
                         name: "Venial<br>Sins",
                         data:{"width":"60","height":"39"},
                         children:[]         
@@ -2390,12 +2516,12 @@
             
                 var dNode0430 = {
                     id: "d0430",
-                    name: "Venial<br>Sins:",
-                    data:{"width":"55","height":"39"},
-                    children:[dNode04300,dNode04301,dNode04302,dNode04303]         
+                    name: "From<br>Venial Sins:",
+                    data:{"width":"100","height":"39"},
+                    children:[dNode04300,dNode04302,dNode04302,dNode04303]         
                 };  
         
-                    // Children of dNode0431 (Put Away All Inclination<br>For Useless &<br>Dangerous Things)  
+                    // Children of dNode0431 (From Useless And<br>Dangerous Things:)  
                     
                         // Children of dNode04310 (Sports, balls,<br>plays, festivities,<br>pomps etc.:)
 
@@ -2431,15 +2557,15 @@
 
                         var dNode043110 = {
                             id: "d043110",
-                            name: "Not In<br>Doing Them<br>But -",
+                            name: "Not In<br>Doing Them<br>But In -",
                             data:{"width":"100","height":"57"},
                             children:[]         
                         }; 
 
                         var dNode043111 = {
                             id: "d043111",
-                            name: "In The Degree<br>To Which You<br>Care For Them",
-                            data:{"width":"115","height":"57"},
+                            name: "The Degree<br>To Which You<br>Care For Them",
+                            data:{"width":"120","height":"57"},
                             children:[]         
                         }; 
 
@@ -2460,19 +2586,19 @@
 
                 var dNode0431 = {
                     id: "d0431",
-                    name: "Useless And<br>Dangerous<br>Things:",
-                    data:{"width":"100","height":"57"},
+                    name: "From Useless And<br>Dangerous Things:<br><br>",
+                    data:{"width":"145","height":"39"},
                     children:[dNode04310,dNode04311,dNode04312]         
                 };  
         
-                    // Children of dNode0432 (Imperfections) 
+                    // Children of dNode0432 (From<br.Imperfections:) 
         
                         // Children of dNode04320 (Examples)
                 
                         var dNode043200 = {
                             id: "d043200",
                             name: "Cross",
-                            data:{"width":"50","height":"23"},
+                            data:{"width":"55","height":"23"},
                             children:[]         
                         };
                 
@@ -2485,8 +2611,8 @@
                 
                         var dNode043202 = {
                             id: "d043202",
-                            name: "Indisposed<br>To Accepting<br>Other's Opinions",
-                            data:{"width":"130","height":"57"},
+                            name: "Indisposed To Accepting<br>Other's Opinions",
+                            data:{"width":"185","height":"39"},
                             children:[]         
                         };
             
@@ -2509,41 +2635,41 @@
                         var dNode043211 = {
                             id: "d043211",
                             name: "Our Earnest And<br>Diligent Endeavor",
-                            data:{"width":"135","height":"39"},
+                            data:{"width":"140","height":"39"},
                             children:[]         
                         };
                 
                         var dNode043212 = {
                             id: "d043212",
                             name: "Cultivating The<br>Reverse Disposition",
-                            data:{"width":"150","height":"39"},
+                            data:{"width":"155","height":"39"},
                             children:[]         
                         };
             
                     var dNode04321 = {
                         id: "d04321",
-                        name: "Remedy, Correct<br>And Even<br>Eraticate By:",
-                        data:{"width":"130","height":"57"},
+                        name: "Remedy, Correct And<br>Even Eraticate By:",
+                        data:{"width":"160","height":"39"},
                         children:[dNode043210,dNode043211,dNode043212]         
                     };
             
                 var dNode0432 = {
                     id: "d0432",
-                    name: "Imperfections:",
-                    data:{"width":"110","height":"23"},
+                    name: "From<br>Imperfections:",
+                    data:{"width":"115","height":"39"},
                     children:[dNode04320,dNode04321]         
                 };
         
             var dNode043 = {
                 id: "d043",
                 name: "Second<br>Purification:",
-                data:{"width":"95","height":"39"},
+                data:{"width":"100","height":"39"},
                 children:[dNode0430,dNode0431,dNode0432]         
             }; 
         
         var dNode04 = {
             id: "d04",
-            name: "<u>Week 1</u><br>Thursday:",
+            name: "<u>Week 1</u><br>Thursday<br>:",
             data:{"width":"80","height":"39"},
             children:[dNode040,dNode041,dNode042,dNode043]            
         };
@@ -2581,15 +2707,15 @@
                     
                         var dNode050010 = {
                             id: "d050010",
-                            name: "The Mind From<br>Its Many<br>Ignorances",
-                            data:{"width":"115","height":"57"},
+                            name: "The Mind From<br>Its Many Ignorances",
+                            data:{"width":"155","height":"39"},
                             children:[]         
                         };
                     
                         var dNode050011 = {
                             id: "d050011",
-                            name: "The Will From<br>Its Perverse<br>Affections",
-                            data:{"width":"110","height":"57"},
+                            name: "The Will From<br>Its Perverse Affections",
+                            data:{"width":"170","height":"39"},
                             children:[]         
                         };
                 
@@ -2603,39 +2729,46 @@
                         // Children of dNode05002 (Causes:)
         
                             // Children of dNode050020 (The Roots Of Our Good<br>Desires To Send Forth<br>Fresh Shoots, Which:)
-                        
-                            var dNode0500200 = {
-                                id: "d0500200",
-                                name: "Washes Away<br>The Soul’s<br>Imperfections",
-                                data:{"width":"115","height":"57"},
-                                children:[]         
-                            };
-                        
-                            var dNode0500201 = {
-                                id: "d0500201",
-                                name: "Allays<br>The Thirst<br>Of Passion",
-                                data:{"width":"95","height":"57"},
-                                children:[]         
-                            };
                     
                         var dNode050020 = {
                             id: "d050020",
-                            name: "The Roots Of Our Good<br>Desires To Send Forth<br>Fresh Shoots, Which:",
-                            data:{"width":"175","height":"57"},
-                            children:[dNode0500200,dNode0500201]         
+                            name: "The Roots Of Our<br>Good Desires To -",
+                            data:{"width":"140","height":"39"},
+                            children:[]         
+                        };
+                        
+                            var dNode0500210 = {
+                                id: "d0500210",
+                                name: "Washes Away The<br>Soul’s Imperfections",
+                                data:{"width":"155","height":"39"},
+                                children:[]         
+                            };
+                        
+                            var dNode0500211 = {
+                                id: "d0500211",
+                                name: "Allays The Thirst<br>Of Passion",
+                                data:{"width":"130","height":"39"},
+                                children:[]         
+                            };
+                    
+                        var dNode050021 = {
+                            id: "d050021",
+                            name: "Send Forth<br>Fresh Shoots, Which:",
+                            data:{"width":"165","height":"39"},
+                            children:[dNode0500210,dNode0500211]         
                         };
                 
                     var dNode05002 = {
                         id: "d05002",
                         name: "Causes:",
-                        data:{"width":"65","height":"23"},
-                        children:[dNode050020]          
+                        data:{"width":"70","height":"23"},
+                        children:[dNode050020,dNode050021]          
                     }; 
             
                 var dNode0500 = {
                     id: "d0500",
                     name: "Results<br>Of Prayer:",
-                    data:{"width":"80","height":"39"},
+                    data:{"width":"85","height":"39"},
                     children:[dNode05000,dNode05001,dNode05002]         
                 }; 
         
@@ -2643,8 +2776,8 @@
             
                     var dNode05010 = {
                         id: "d05010",
-                        name: "Such That Bears<br>Upon The Life &<br>Passion Of Our Lord",
-                        data:{"width":"155","height":"57"},
+                        name: "Such That Bears Upon<br>The Life & Passion<br>Of Our Lord",
+                        data:{"width":"170","height":"57"},
                         children:[]         
                     }; 
         
@@ -2659,8 +2792,8 @@
 
                         var dNode050111 = {
                             id: "d050111",
-                            name: "You Will<br>Grow In<br>His Likeness",
-                            data:{"width":"105","height":"57"},
+                            name: "You Will Grow<br>In His Likeness",
+                            data:{"width":"125","height":"39"},
                             children:[]         
                         };
 
@@ -2680,38 +2813,141 @@
             
                 var dNode0501 = {
                     id: "d0501",
-                    name: "Mental<br>Prayer:",
+                    name: "Mental<br>Prayer:<br><br>",
                     data:{"width":"65","height":"39"},
                     children:[dNode05010,dNode05011]         
                 };
         
-                    // Children of dNode0502 (Counsels<br>As To:)
+                    // Children of dNode0502 (Counsels<br>As To Prayer:)
+        
+                        // Children of dNode05020 (Time:)
+        
+                            // Children of dNode050200 (1 Hour:)
+                        
+                            var dNode0502000 = {
+                                id: "d0502000",
+                                name: "No More Than<br>1 Hour",
+                                data:{"width":"110","height":"39"},
+                                children:[]         
+                            };
+                    
+                        var dNode050200 = {
+                            id: "d050200",
+                            name: "1 Hour:",
+                            data:{"width":"70","height":"23"},
+                            children:[dNode0502000]         
+                        };
+                    
+                        var dNode050201 = {
+                            id: "d050201",
+                            name: "Every<br>Morning",
+                            data:{"width":"75","height":"39"},
+                            children:[]         
+                        };
+                    
+                        var dNode050202 = {
+                            id: "d050202",
+                            name: "Before<br>Dinner",
+                            data:{"width":"65","height":"39"},
+                            children:[]         
+                        };
                 
                     var dNode05020 = {
                         id: "d05020",
-                        name: "Time",
-                        data:{"width":"45","height":"23"},
-                        children:[]         
+                        name: "Time:",
+                        data:{"width":"50","height":"23"},
+                        children:[dNode050200,dNode050201,dNode050202]         
                     };
+        
+                        // Children of dNode05021 (Place:)
+        
+                            // Children of dNode050210 (In<br>Church:)
+                        
+                            var dNode0502100 = {
+                                id: "d0502100",
+                                name: "Quietly",
+                                data:{"width":"65","height":"23"},
+                                children:[]         
+                            };
+                        
+                            var dNode0502101 = {
+                                id: "d0502101",
+                                name: "No One Can<br>Object To This",
+                                data:{"width":"120","height":"39"},
+                                children:[]         
+                            };
+                    
+                        var dNode050210 = {
+                            id: "d050210",
+                            name: "In<br>Church:",
+                            data:{"width":"70","height":"39"},
+                            children:[dNode0502100,dNode0502101]         
+                        };
+        
+                            // Children of dNode050211 (At<br>Home:)
+                        
+                            var dNode0502110 = {
+                                id: "d0502110",
+                                name: "Very Probably<br>Can Not Secure -",
+                                data:{"width":"135","height":"39"},
+                                children:[]         
+                            };
+                        
+                            var dNode0502111 = {
+                                id: "d0502111",
+                                name: "A Time So Free<br>From Interruption<br>At Home",
+                                data:{"width":"140","height":"57"},
+                                children:[]         
+                            };
+                    
+                        var dNode050211 = {
+                            id: "d050211",
+                            name: "At<br>Home:",
+                            data:{"width":"60","height":"39"},
+                            children:[dNode0502110,dNode0502111]         
+                        };
                 
                     var dNode05021 = {
                         id: "d05021",
-                        name: "Place",
-                        data:{"width":"50","height":"23"},
-                        children:[]         
-                    }; 
+                        name: "Place:",
+                        data:{"width":"55","height":"23"},
+                        children:[dNode050210,dNode050211]         
+                    };
+        
+                        // Children of dNode05022 (Begin:)
+                    
+                        var dNode050220 = {
+                            id: "d050220",
+                            name: "All Prayer By<br>An Act Of<br>The Presence Of God",
+                            data:{"width":"160","height":"57"},
+                            children:[]         
+                        };
+                    
+                        var dNode050221 = {
+                            id: "d050221",
+                            name: "Observe This Rule<br>Strictly And -",
+                            data:{"width":"140","height":"39"},
+                            children:[]         
+                        };
+                    
+                        var dNode050222 = {
+                            id: "d050222",
+                            name: "You Will Soon See<br>How Useful It Is",
+                            data:{"width":"140","height":"39"},
+                            children:[]         
+                        };
                 
                     var dNode05022 = {
                         id: "d05022",
-                        name: "Its<br>Beginning",
-                        data:{"width":"85","height":"39"},
-                        children:[]         
+                        name: "Begin:",
+                        data:{"width":"60","height":"23"},
+                        children:[dNode050220,dNode050221,dNode050222]         
                     };
                 
                     var dNode05023 = {
                         id: "d05023",
-                        name: "Omission",
-                        data:{"width":"80","height":"23"},
+                        name: "Omission:",
+                        data:{"width":"85","height":"23"},
                         children:[]         
                     }; 
             
@@ -2746,22 +2982,22 @@
                         
                             var dNode0510001 = {
                                 id: "d0510001",
-                                name: "Heart Of Your Heart<br>Spirit Of Your Spirit",
-                                data:{"width":"150","height":"39"},
+                                name: "Heart Of Your Heart<br>And<br>Spirit Of Your Spirit",
+                                data:{"width":"150","height":"57"},
                                 children:[]         
                             };   
                         
                             var dNode0510002 = {
                                 id: "d0510002",
-                                name: "His Ascended<br>Humanity Looking<br>Down Upon You",
-                                data:{"width":"140","height":"58"},
+                                name: "His Ascended Humanity<br>Looking Down<br>Upon You",
+                                data:{"width":"175","height":"57"},
                                 children:[]         
                             };    
                         
                             var dNode0510003 = {
                                 id: "d0510003",
-                                name: "His Sacred<br>Humanity<br>Beside You",
-                                data:{"width":"95","height":"57"},
+                                name: "His Sacred Humanity<br>Beside You",
+                                data:{"width":"155","height":"39"},
                                 children:[]         
                             };                         
                     
@@ -2774,8 +3010,8 @@
                     
                         var dNode051001 = {
                             id: "d051001",
-                            name: "Take One<br>At A Time<br>Briefly & Simply",
-                            data:{"width":"130","height":"57"},
+                            name: "Take One At A Time<br>Briefly & Simply",
+                            data:{"width":"145","height":"39"},
                             children:[]         
                         };     
                 
@@ -2854,7 +3090,7 @@
                 var dNode0514 = {
                     id: "d0514",
                     name: "Spiritual<br>Bouquet",
-                    data:{"width":"70","height":"39"},
+                    data:{"width":"75","height":"39"},
                     children:[]         
                 };
         
@@ -2864,219 +3100,258 @@
                 data:{"width":"120","height":"39"},
                 children:[dNode0510,dNode0511,dNode0512,dNode0513,dNode0514]            
             };
-        
-        var dNode05 = {
-            id: "d05",
-            name: "<u>Week 1</u><br>Friday:",
-            data:{"width":"65","height":"39"},
-            children:[dNode050,dNode051]            
-        };
-        
-            // Children of dNode06 (Part II 8-11)
+
+                // Children of dNode052 (Some Useful Hints<br>As To Meditation)
             
-                // Children of dNode060 (Some Useful Hints<br>As To Meditation)
-            
-                    // Children of dNode0600 (General<br>Rules)
+                    // Children of dNode0520 (General<br>Rules)
                 
-                    var dNode06000 = {
-                        id: "d06000",
+                    var dNode05200 = {
+                        id: "d05200",
                         name: "Considerations<br>Should Precede<br>Affections",
                         data:{"width":"125","height":"57"},
                         children:[]         
                     };
             
-                        // Children of dNode06001 (When<br>Affections<br>Arise:)
+                        // Children of dNode05201 (When<br>Affections<br>Arise:)
                     
-                        var dNode060010 = {
-                            id: "d060010",
+                        var dNode052010 = {
+                            id: "d052010",
                             name: "They Are<br>Never To Be<br>Checked -",
                             data:{"width":"100","height":"57"},
                             children:[]         
                         };
                     
-                        var dNode060011 = {
-                            id: "d060011",
+                        var dNode052011 = {
+                            id: "d052011",
                             name: "But Always<br>Encouraged<br>To Flow Freely",
                             data:{"width":"115","height":"57"},
                             children:[]         
                         };
                 
-                    var dNode06001 = {
-                        id: "d06001",
+                    var dNode05201 = {
+                        id: "d05201",
                         name: "When<br>Affections<br>Arise:",
                         data:{"width":"85","height":"57"},
-                        children:[dNode060010,dNode060011]         
+                        children:[dNode052010,dNode052011]         
                     };
             
-                        // Children of dNode06002 (Resolutions<br>Must Be Made:)
+                        // Children of dNode05202 (Resolutions<br>Must Be Made:)
                     
-                        var dNode060020 = {
-                            id: "d060020",
-                            name: "After The<br>Affections -",
-                            data:{"width":"95","height":"39"},
+                        var dNode052020 = {
+                            id: "d052020",
+                            name: "After The<br>Affections",
+                            data:{"width":"90","height":"39"},
                             children:[]         
                         };
                     
-                        var dNode060021 = {
-                            id: "d060021",
-                            name: "And Quite<br>At The End<br>Of Meditation",
-                            data:{"width":"110","height":"57"},
+                        var dNode052021 = {
+                            id: "d052021",
+                            name: "Quite At The End<br>Of Meditation",
+                            data:{"width":"135","height":"39"},
                             children:[]         
                         };
                 
-                    var dNode06002 = {
-                        id: "d06002",
+                    var dNode05202 = {
+                        id: "d05202",
                         name: "Resolutions<br>Must<br>Be Made:",
-                        data:{"width":"95","height":"57"},
-                        children:[dNode060020,dNode060021]         
+                        data:{"width":"100","height":"57"},
+                        children:[dNode052020,dNode052021]         
                     };
             
-                        // Children of dNode06003 (Acts Of Thanksgiving,<br>Oblation & Petition:)
+                        // Children of dNode05203 (Acts Of Thanksgiving,<br>Oblation & Petition:)
                     
-                        var dNode060030 = {
-                            id: "d060030",
+                        var dNode052030 = {
+                            id: "d052030",
                             name: "Must Not<br>Be Restrained<br>Either -",
                             data:{"width":"115","height":"57"},
                             children:[]         
                         };
                     
-                        var dNode060031 = {
-                            id: "d060031",
+                        var dNode052031 = {
+                            id: "d052031",
                             name: "Repeat & Renew<br>Them At The End<br>Of Meditation",
                             data:{"width":"130","height":"57"},
                             children:[]         
                         };
                 
-                    var dNode06003 = {
-                        id: "d06003",
+                    var dNode05203 = {
+                        id: "d05203",
                         name: "Acts Of<br>Thanksgiving,<br>Oblation & Petition:",
                         data:{"width":"150","height":"57"},
-                        children:[dNode060030,dNode060031]         
+                        children:[dNode052030,dNode052031]         
                     };
             
-                var dNode0600 = {
-                    id: "d0600",
+                var dNode0520 = {
+                    id: "d0520",
                     name: "General<br>Rules:",
                     data:{"width":"70","height":"39"},
-                    children:[dNode06000,dNode06001,dNode06002,dNode06003]         
+                    children:[dNode05200,dNode05201,dNode05202,dNode05203]         
                 };
             
-                    // Children of dNode0601 (Amid Affections<br>And Resolutions:)
+                    // Children of dNode0521 (Amid Affections<br>And Resolutions:)
             
-                    var dNode06010 = {
-                        id: "d06010",
+                    var dNode05210 = {
+                        id: "d05210",
                         name: "Accept Them<br>And Give Them<br>Preference",
                         data:{"width":"120","height":"57"},
                         children:[]         
                     };
             
-                        // Children of dNode06011 (Occasionally<br>Speak To:)
+                        // Children of dNode05211 (Occasionally<br>Speak To:)
                 
-                        var dNode060110 = {
-                            id: "d060110",
+                        var dNode052110 = {
+                            id: "d052110",
                             name: "The Lord,<br>Guardian Angel,<br>The Saints",
                             data:{"width":"125","height":"57"},
                             children:[]         
                         };
                 
-                        var dNode060111 = {
-                            id: "d060111",
+                        var dNode052111 = {
+                            id: "d052111",
                             name: "Those Concerned<br>In The Mystery<br>You Are Meditating",
                             data:{"width":"145","height":"57"},
                             children:[]         
                         };
                 
-                        var dNode060112 = {
-                            id: "d060112",
+                        var dNode052112 = {
+                            id: "d052112",
                             name: "Yourself,<br>Your Own Heart,<br>Sinners",
                             data:{"width":"125","height":"57"},
                             children:[]         
                         };
                 
-                        var dNode060113 = {
-                            id: "d060113",
+                        var dNode052113 = {
+                            id: "d052113",
                             name: "The Inanimate<br>Creation",
                             data:{"width":"110","height":"39"},
                             children:[]         
                         };
             
-                    var dNode06011 = {
-                        id: "d06011",
+                    var dNode05211 = {
+                        id: "d05211",
                         name: "Occasionally<br>Speak To:",
                         data:{"width":"105","height":"39"},
-                        children:[dNode060110,dNode060111,dNode060112,dNode060113]         
+                        children:[dNode052110,dNode052111,dNode052112,dNode052113]         
                     };
             
-                var dNode0601 = {
-                    id: "d0601",
+                var dNode0521 = {
+                    id: "d0521",
                     name: "Amid Affections<br>And Resolutions:",
                     data:{"width":"135","height":"39"},
-                    children:[dNode06010,dNode06011]         
+                    children:[dNode05210,dNode05211]         
                 };
             
-                    // Children of dNode0602 (When Meditation<br>Has Ended:)
+                    // Children of dNode0522 (When Meditation<br>Has Ended:)
             
-                    var dNode06020 = {
-                        id: "d06020",
-                        name: ":",
-                        data:{"width":"125","height":"39"},
-                        children:[]         
+                        // Children of dNode05220 (Let Your<br>Thoughts Be:)
+            
+                        var dNode052200 = {
+                            id: "d052200",
+                            name: "Transferred Gradually<br>From Devotion<br>To Business -",
+                            data:{"width":"165","height":"57"},
+                            children:[]         
+                        };
+             
+                        var dNode052201 = {
+                            id: "d052201",
+                            name: "Keeping Alive<br>The Feelings<br>And Affections -",
+                            data:{"width":"135","height":"57"},
+                            children:[]         
+                        };
+            
+                        var dNode052202 = {
+                            id: "d052202",
+                            name: "Aroused In Meditation<br>As Long As Possible",
+                            data:{"width":"165","height":"39"},
+                            children:[]         
+                        };
+        
+                    var dNode05220 = {
+                        id: "d05220",
+                        name: "Let Your<br>Thoughts Be:",
+                        data:{"width":"110","height":"39"},
+                        children:[dNode052200,dNode052201,dNode052202]         
                     };
             
-                    var dNode06021 = {
-                        id: "d06021",
-                        name: ":",
-                        data:{"width":"125","height":"39"},
-                        children:[]         
+                        // Children of dNode05221 (Diligently<br>Endeavour To:)
+                
+                        var dNode052210 = {
+                            id: "d052210",
+                            name: "Carry Out<br>Your Resolutions",
+                            data:{"width":"135","height":"39"},
+                            children:[]         
+                        };
+                
+                        var dNode052211 = {
+                            id: "d052211",
+                            name: "Practice Them<br>Throughout The Day",
+                            data:{"width":"155","height":"39"},
+                            children:[]         
+                        };
+            
+                    var dNode05221 = {
+                        id: "d05221",
+                        name: "Diligently<br>Endeavour To:",
+                        data:{"width":"115","height":"39"},
+                        children:[dNode052210,dNode052211]         
                     };
             
-                    var dNode06022 = {
-                        id: "d06022",
-                        name: ":",
-                        data:{"width":"125","height":"39"},
-                        children:[]         
-                    };
-            
-                var dNode0602 = {
-                    id: "d0602",
+                var dNode0522 = {
+                    id: "d0522",
                     name: "When Meditation<br>Has Ended:",
-                    data:{"width":"125","height":"39"},
-                    children:[dNode06020,dNode06021,dNode06022]         
+                    data:{"width":"130","height":"39"},
+                    children:[dNode05220,dNode05221]         
                 };
+        
+            var dNode052 = {
+                id: "d052",
+                name: "Some Useful Hints<br>As To Meditation:",
+                data:{"width":"140","height":"39"},
+                children:[dNode0520,dNode0521,dNode0522]         
+            };
+        
+            var dNode053 = {
+                id: "d053",
+                name: "Concerning Dryness<br>In Meditation",
+                data:{"width":"155","height":"39"},
+                children:[]         
+            };
+        
+        var dNode05 = {
+            id: "d05",
+            name: "<u>Week 1</u><br>Meditation:",
+            data:{"width":"95","height":"39"},
+            children:[dNode050,dNode051,dNode052,dNode053]            
+        };
+        
+            // Children of dNode06 (Part II 10-11)
         
             var dNode060 = {
                 id: "d060",
-                name: "Some Useful<br>Hints As To<br>Meditation:",
-                data:{"width":"100","height":"57"},
-                children:[dNode0600,dNode0601,dNode0602]         
+                name: "Morning<br>Prayer",
+                data:{"width":"75","height":"39"},
+                children:[]         
             };
         
             var dNode061 = {
                 id: "d061",
-                name: "Concerning<br>Dryness<br>In Meditation",
-                data:{"width":"110","height":"57"},
+                name: "Evening<br>Prayer",
+                data:{"width":"75","height":"39"},
                 children:[]         
             };
         
             var dNode062 = {
                 id: "d062",
-                name: "Morning<br>Prayer",
-                data:{"width":"70","height":"39"},
-                children:[]         
-            };
-        
-            var dNode063 = {
-                id: "d063",
-                name: "Evening Prayer<br>& Examination<br>Of Conscience",
-                data:{"width":"115","height":"57"},
+                name: "Examination<br>Of Conscience",
+                data:{"width":"115","height":"39"},
                 children:[]         
             };
         
         var dNode06 = {
             id: "d06",
-            name: "<u>Part II</u><br>Ch 8-11:",
-            data:{"width":"70","height":"39"},
-            children:[dNode060,dNode061,dNode062,dNode063]           
+            name: "<u>Part II</u><br>Ch 10-11:",
+            data:{"width":"80","height":"39"},
+            children:[dNode060,dNode061,dNode062]           
         };
                 
     var dNode0 = {
@@ -3093,157 +3368,223 @@
             // Children of dNode10 (Part II<br>Ch 12-13)
 		
 	            // Children of dNode100 (On Spiritual<br>Retiremen)
-	        
-	            var dNode1000 = {
-	                id: "d1000",
-	                name: "One Of The<br>Surest Means Of<br>Spiritual Progress",
-	                data:{"width":"135","height":"57"},
-	                children:[]         
-	            };
-		
-		            // Children of dNode1001 (Frequently Retire<br>To The Solitude<br>Of Your Own Heart)
-	        
-		            var dNode10010 = {
-		                id: "d10010",
-		                name: "Frequently Retire<br>To The Solitude<br>Of Your Own Heart -",
-		                data:{"width":"150","height":"57"},
-		                children:[]         
-		            };
-		        
-		            var dNode10011 = {
-		                id: "d10011",
-		                name: "Where You Are<br>Face To Face<br>With God -",
-		                data:{"width":"115","height":"57"},
-		                children:[]         
-		            };
-		        
-		            var dNode10012 = {
-		                id: "d10012",
-		                name: "You Will See His Eyes<br>Ever Fixed Upon You<br>In Love Incomparable",
-		                data:{"width":"165","height":"57"},
-		                children:[]         
-		            };
-	        
-	            var dNode1001 = {
-	                id: "d1001",
-	                name: "Strive As Often As Possible<br>To Place Yourself In<br>The Presence Of God:",
-	                data:{"width":"205","height":"57"},
-	                children:[dNode10010,dNode10011,dNode10012]         
-	            };
-		
-		            // Children of dNode1002 (Three Excellent<br>Kinds Of Retreats:)
-		
-			            // Children of dNode10020 (Mount<br>Calvary:)
-			        
-			            var dNode100200 = {
-			                id: "d100200",
-			                name: "Like The Pelican<br>Of The Wilderness -",
-			                data:{"width":"150","height":"39","img":"passion.22"},
-			                children:[]         
-			            };
-			        
-			            var dNode100201 = {
-			                id: "d100201",
-			                name: "Feeding<br>Her Young Ones<br>With Her Blood",
-			                data:{"width":"125","height":"57","img":"passion.22"},
-			                children:[]         
-			            };
-		        
-		            var dNode10020 = {
-		                id: "d10020",
-		                name: "Mount<br>Calvary:",
-		                data:{"width":"70","height":"39","img":"passion.22"},
-		                children:[dNode100200,dNode100201]         
-		            };
-		
-			            // Children of dNode10021 (Nativity:)
-		        
-			            var dNode100210 = {
-			                id: "d100210",
-			                name: "The Lonely Stable<br>Might Find A -",
-			                data:{"width":"135","height":"39","img":"nativities.6"},
-			                children:[]         
-			            };
-		        
-			            var dNode100211 = {
-			                id: "d100211",
-			                name: "Foreshadowing<br>In The Owl<br>Of The Desert",
-			                data:{"width":"120","height":"57","img":"nativities.6"},
-			                children:[]         
-			            };
-		        
-		            var dNode10021 = {
-		                id: "d10021",
-		                name: "Nativity:",
-		                data:{"width":"75","height":"23","img":"nativities.6"},
-		                children:[dNode100210,dNode100211]         
-		            };
-		
-			            // Children of dNode10022 (Acension:)
-		        
-			            var dNode100220 = {
-			                id: "d100220",
-			                name: "Like The Sparrow<br>Rising -",
-			                data:{"width":"135","height":"39","img":"resurrection.4"},
-			                children:[]         
-			            };
-		        
-			            var dNode100221 = {
-			                id: "d100221",
-			                name: "High Above The<br>Dwellings Of Men",
-			                data:{"width":"140","height":"39","img":"resurrection.4"},
-			                children:[]         
-			            };
-		        
-		            var dNode10022 = {
-		                id: "d10022",
-		                name: "Acension:",
-		                data:{"width":"85","height":"23","img":"resurrection.4"},
-		                children:[dNode100220,dNode100221]         
-		            };
-	        
-	            var dNode1002 = {
-	                id: "d1002",
-	                name: "Three<br>Excellent Kinds<br>Of Retreats:",
-	                data:{"width":"120","height":"57"},
-	                children:[dNode10020,dNode10021,dNode10022]         
-	            };
-		        
-	            var dNode1003 = {
-	                id: "d1003",
-	                name: "There Are Few<br>Social Duties<br>Preventing This",
-	                data:{"width":"125","height":"57"},
-	                children:[]         
-	            };
-		
-	            	// Children of dNode1004 (Blessed Indeed Is<br>The Soul Which<br>Can Truly Say:)
-		        
-		            var dNode10040 = {
-		                id: "d10040",
-		                name: "'Thou, Lord, Art<br>My Refuge, My Castle<br>My Stay, My Shelter -",
-		                data:{"width":"165","height":"57"},
-		                children:[]         
-		            };
-			        
-		            var dNode10041 = {
-		                id: "d10041",
-		                name: "In The Storm<br>And In The Heat<br>Of The Day'",
-		                data:{"width":"130","height":"57"},
-		                children:[]         
-		            };
-		        
-	            var dNode1004 = {
-	                id: "d1004",
-	                name: "Blessed Indeed Is<br>The Soul Which<br>Can Truly Say:",
-	                data:{"width":"140","height":"57"},
-	                children:[dNode10040,dNode10041]         
-	            };
+        
+                    // Children of dNode1000 (How:)
+        
+                        // Children of dNode10000 (The Presence<br>Of God:)
+                
+                        var dNode100000 = {
+                            id: "d100000",
+                            name: "Frequently Retire<br>To The Solitude<br>Of Your Own Heart -",
+                            data:{"width":"155","height":"57"},
+                            children:[]         
+                        };
+            
+                            // Children of dNode100001 (Where You Are<br>Face To Face<br>With God:)
+                    
+                            var dNode1000010 = {
+                                id: "d1000010",
+                                name: "You Will See<br>His Eyes<br>Ever Fixed -",
+                                data:{"width":"110","height":"57"},
+                                children:[]         
+                            };
+                    
+                            var dNode1000011 = {
+                                id: "d1000011",
+                                name: "Upon You<br>In Love<br>Incomparable",
+                                data:{"width":"115","height":"57"},
+                                children:[]         
+                            };
+                    
+                        var dNode100001 = {
+                            id: "d100001",
+                            name: "Where You Are<br>Face To Face<br>With God:",
+                            data:{"width":"120","height":"57"},
+                            children:[dNode1000010,dNode1000011]         
+                        };
+                
+                    var dNode10000 = {
+                        id: "d10000",
+                        name: "The Presence<br>Of God:",
+                        data:{"width":"110","height":"39"},
+                        children:[dNode100000,dNode100001]         
+                    };
+        
+                        // Children of dNode10001 (Retreats:)
+        
+                            // Children of dNode100010 (Mount<br>Calvary:)
+                        
+                            var dNode1000100 = {
+                                id: "d1000100",
+                                name: "Like The Pelican<br>Of The<br>Wilderness -",
+                                data:{"width":"130","height":"57","img":"passion.22"},
+                                children:[]         
+                            };
+                        
+                            var dNode1000101 = {
+                                id: "d1000101",
+                                name: "Feeding<br>Her Young Ones<br>With Her Blood",
+                                data:{"width":"130","height":"57","img":"passion.22"},
+                                children:[]         
+                            };
+                    
+                        var dNode100010 = {
+                            id: "d100010",
+                            name: "Mount<br>Calvary:",
+                            data:{"width":"70","height":"39","img":"passion.22"},
+                            children:[dNode1000100,dNode1000101]         
+                        };
+            
+                            // Children of dNode100011 (Nativity:)
+                    
+                            var dNode1000110 = {
+                                id: "d1000110",
+                                name: "The Lonely Stable<br>Might Find A -",
+                                data:{"width":"135","height":"39","img":"nativities.6"},
+                                children:[]         
+                            };
+                    
+                            var dNode1000111 = {
+                                id: "d1000111",
+                                name: "Foreshadowing<br>In The Owl<br>Of The Desert",
+                                data:{"width":"125","height":"57","img":"nativities.6"},
+                                children:[]         
+                            };
+                    
+                        var dNode100011 = {
+                            id: "d100011",
+                            name: "Nativity:",
+                            data:{"width":"75","height":"23","img":"nativities.6"},
+                            children:[dNode1000110,dNode1000111]         
+                        };
+            
+                            // Children of dNode100012 (Acension:)
+                    
+                            var dNode1000120 = {
+                                id: "d1000120",
+                                name: "Like The Sparrow<br>Rising High -",
+                                data:{"width":"135","height":"39","img":"resurrection.4"},
+                                children:[]         
+                            };
+                    
+                            var dNode1000121 = {
+                                id: "d1000121",
+                                name: "Above The<br>Dwellings Of Men",
+                                data:{"width":"140","height":"39","img":"resurrection.4"},
+                                children:[]         
+                            };
+                    
+                        var dNode100012 = {
+                            id: "d100012",
+                            name: "Acension:",
+                            data:{"width":"85","height":"23","img":"resurrection.4"},
+                            children:[dNode1000120,dNode1000121]         
+                        };
+            
+                    var dNode10001 = {
+                        id: "d10001",
+                        name: "Retreats:",
+                        data:{"width":"80","height":"23"},
+                        children:[dNode100010,dNode100011,dNode100012]         
+                    };
+            
+                var dNode1000 = {
+                    id: "d1000",
+                    name: "How:",
+                    data:{"width":"50","height":"23"},
+                    children:[dNode10000,dNode10001]         
+                };
+        
+                    // Children of dNode1001 (Results:)
+        
+                        // Children of dNode10010 (Spiritual<br>Progress:)
+            
+                        var dNode100100 = {
+                            id: "d100100",
+                            name: "One Of The<br>Surest Means",
+                            data:{"width":"115","height":"39"},
+                            children:[]         
+                        };
+            
+                    var dNode10010 = {
+                        id: "d10010",
+                        name: "Spiritual<br>Progress:",
+                        data:{"width":"85","height":"39"},
+                        children:[dNode100100]         
+                    };
+            
+                        // Children of dNode10011 (Blessed Indeed Is<br>The Soul Which<br>Can Truly Say:)
+                    
+                        var dNode100110 = {
+                            id: "d100110",
+                            name: "Blessed Indeed Is<br>The Soul Which -",
+                            data:{"width":"140","height":"39"},
+                            children:[]         
+                        };
+                    
+                        var dNode100111 = {
+                            id: "d100111",
+                            name: "In The<br>Storm And Heat<br>Of The Day -",
+                            data:{"width":"125","height":"57"},
+                            children:[]         
+                        };
+                        
+                        var dNode100112 = {
+                            id: "d100112",
+                            name: "Can<br>Truly Say -",
+                            data:{"width":"90","height":"39"},
+                            children:[]         
+                        };
+                        
+                        var dNode100113 = {
+                            id: "d100113",
+                            name: "Thou, Lord, Art<br>My Refuge, My Castle,<br>My Stay, My Shelter",
+                            data:{"width":"170","height":"57"},
+                            children:[]         
+                        };
+                    
+                    var dNode10011 = {
+                        id: "d10011",
+                        name: "Blessing:",
+                        data:{"width":"80","height":"23"},
+                        children:[dNode100110,dNode100111,dNode100112,dNode100113]         
+                    };
+            
+                var dNode1001 = {
+                    id: "d1001",
+                    name: "Results:",
+                    data:{"width":"75","height":"23"},
+                    children:[dNode10010,dNode10011]         
+                };
+        
+                    // Children of dNode1002 (Counsels:)
+                
+                    var dNode10020 = {
+                        id: "d10020",
+                        name: "There Are Few<br>Social Duties -",
+                        data:{"width":"120","height":"39"},
+                        children:[]         
+                    };
+                
+                    var dNode10021 = {
+                        id: "d10021",
+                        name: "Preventing<br>This",
+                        data:{"width":"90","height":"39"},
+                        children:[]         
+                    };
+            
+                var dNode1002 = {
+                    id: "d1002",
+                    name: "Counsels:",
+                    data:{"width":"85","height":"23"},
+                    children:[dNode10020,dNode10021]         
+                };
         
             var dNode100 = {
                 id: "d100",
-                name: "On Spiritual<br>Retirement:",
+                name: "Spiritual<br>Retirement:",
                 data:{"width":"95","height":"39"},
-                children:[dNode1000,dNode1001,dNode1002,dNode1003,dNode1004]         
+                children:[dNode1000,dNode1001,dNode1002]         
             };
 		
 	            // Children of dNode101 (Aspirations,<br>Ejaculatory Prayer,<br>& Holy Thoughts:)
@@ -3252,22 +3593,22 @@
 		        
 		            var dNode10100 = {
 		                id: "d10100",
-		                name: "Aspiration After God<br>& Spiritual Retreat<br>Excite One Another",
-		                data:{"width":"160","height":"57"},
+		                name: "The Source Of<br><u>Aspirations After God &<br>Holy Thoughts</u> Which -",
+		                data:{"width":"175","height":"57"},
 		                children:[]         
 		            };
 		        
 		            var dNode10101 = {
 		                id: "d10101",
-		                name: "Both Spring From<br>The <u>One SOURCE</u> Of<br>All - <u>Holy Thoughts</u>",
-		                data:{"width":"160","height":"57"},
+		                name: "Excite<br>One Another",
+		                data:{"width":"105","height":"39"},
 		                children:[]         
 		            };
 	        
 	            var dNode1010 = {
 	                id: "d1010",
-	                name: "Spiritual Retreat,<br>Aspirations And<br>Holy Thoughts:",
-	                data:{"width":"130","height":"57"},
+	                name: "Holy<br>Thoughts:",
+	                data:{"width":"85","height":"39"},
 	                children:[dNode10100,dNode10101]         
 	            };
 		
@@ -3292,102 +3633,120 @@
 			            var dNode101111 = {
 			                id: "d101111",
 			                name: "Living<br>For Him",
-			                data:{"width":"65","height":"39"},
+			                data:{"width":"70","height":"39"},
 			                children:[]         
 			            };
 		        
 			            var dNode101112 = {
 			                id: "d101112",
 			                name: "Longing<br>After Him",
-			                data:{"width":"75","height":"39"},
+			                data:{"width":"80","height":"39"},
 			                children:[]         
 			            };
+        
+                            // Children of dNode101113 (Longing<br>After Him:)
+                    
+                            var dNode1011130 = {
+                                id: "d1011130",
+                                name: "With The Desire<br>To Grave  -",
+                                data:{"width":"125","height":"39"},
+                                children:[]         
+                            };
+                    
+                            var dNode1011131 = {
+                                id: "d1011131",
+                                name: "The Holy Name<br>Of Jesus<br>In The Hearts Of -",
+                                data:{"width":"140","height":"57"},
+                                children:[]         
+                            };
+                    
+                            var dNode1011132 = {
+                                id: "d1011132",
+                                name: "Every Living Creature<br>They Behold",
+                                data:{"width":"165","height":"39"},
+                                children:[]         
+                            };
 		        
 			            var dNode101113 = {
 			                id: "d101113",
-			                name: "Speaking<br>Of Him",
-			                data:{"width":"75","height":"39"},
-			                children:[]         
-			            };
-		        
-			            var dNode101114 = {
-			                id: "d101114",
-			                name: "Longing To Grave<br>The Holy Name<br>Of Jesus -",
-			                data:{"width":"140","height":"57"},
-			                children:[]         
-			            };
-		        
-			            var dNode101115 = {
-			                id: "d101115",
-			                name: "In The Hearts<br>Of Every Living<br>Creature They Behold",
-			                data:{"width":"160","height":"57"},
-			                children:[]         
+			                name: "Speaking<br>Of Him:",
+			                data:{"width":"80","height":"39"},
+			                children:[dNode1011130,dNode1011131,dNode1011132]         
 			            };
 		        
 		            var dNode10111 = {
 		                id: "d10111",
 		                name: "Those Who<br>Love God<br>Cannot Cease:",
-		                data:{"width":"110","height":"57"},
-		                children:[dNode101110,dNode101111,dNode101112,dNode101113,dNode101114,dNode101115]         
+		                data:{"width":"120","height":"57"},
+		                children:[dNode101110,dNode101111,dNode101112,dNode101113]         
 		            };
 	        
 	            var dNode1011 = {
 	                id: "d1011",
 	                name: "Love<br>Of God:",
-	                data:{"width":"65","height":"39"},
+	                data:{"width":"70","height":"39"},
 	                children:[dNode10110,dNode10111]         
 	            };
 		
-		            // Children of dNode1012 (A Source Of<br>Good Thoughts &<br>Holy Aspirations:)
+		            // Children of dNode1012 (Creation:)
+        
+                        // Children of dNode10120 (A Source Of<br>Good Thoughts And<br>Holy Aspirations:)
 	        
-		            var dNode10120 = {
-		                id: "d10120",
-		                name: "Drawn From All<br>That Surrounds Us<br>In Our Ordinary Life",
-		                data:{"width":"155","height":"57"},
-		                children:[]         
-		            };
-	        
-		            var dNode10121 = {
-		                id: "d10121",
-		                name: "Woe To Them That<br>Turn Aside The Creature<br>From The Creator",
-		                data:{"width":"175","height":"57"},
-		                children:[]         
-		            };
-		
-		            	// Children of dNode10122 (Thrice Blessed<br>Are They Who:)
-	        
-			            var dNode101220 = {
-			                id: "d101220",
-			                name: "Turn All Creation<br>To Their<br>Creator’s Glory",
-			                data:{"width":"135","height":"57"},
-			                children:[]         
-			            };
-	        
-			            var dNode101221 = {
-			                id: "d101221",
-			                name: "Make Human Vanities<br>Subservient To<br>The Truth",
-			                data:{"width":"160","height":"57"},
-			                children:[]         
-			            };
-	        
-		            var dNode10122 = {
-		                id: "d10122",
-		                name: "Thrice Blessed<br>Are They Who:",
-		                data:{"width":"115","height":"39"},
-		                children:[dNode101220,dNode101221]         
-		            };
+    		            var dNode101200 = {
+    		                id: "d101200",
+    		                name: "Drawn From All<br>That Surrounds Us<br>In Our Ordinary Life",
+    		                data:{"width":"155","height":"57"},
+    		                children:[]         
+    		            };
+    	        
+    		            var dNode101201 = {
+    		                id: "d101201",
+    		                name: "Woe To Them That<br>Turn Aside The Creature<br>From The Creator",
+    		                data:{"width":"180","height":"57"},
+    		                children:[]         
+    		            };
+    		
+    		            	// Children of dNode101202 (Thrice Blessed<br>Are They Who:)
+    	        
+    			            var dNode1012020 = {
+    			                id: "d1012020",
+    			                name: "Turn All Creation<br>To<br>Their Creator’s Glory",
+    			                data:{"width":"160","height":"57"},
+    			                children:[]         
+    			            };
+    	        
+    			            var dNode1012021 = {
+    			                id: "d1012021",
+    			                name: "Make Human Vanities<br>Subservient To<br>The Truth",
+    			                data:{"width":"165","height":"57"},
+    			                children:[]         
+    			            };
+    	        
+    		            var dNode101202 = {
+    		                id: "d101202",
+    		                name: "Thrice Blessed<br>Are They Who:",
+    		                data:{"width":"120","height":"39"},
+    		                children:[dNode1012020,dNode1012021]         
+    		            };
+            
+                    var dNode10120 = {
+                        id: "d10120",
+                        name: "A Source Of<br>Good Thoughts And<br>Holy Aspirations:",
+                        data:{"width":"155","height":"57"},
+                        children:[dNode101200,dNode101201,dNode101202]         
+                    };
 	        
 	            var dNode1012 = {
 	                id: "d1012",
-	                name: "<u>Creation</u><br>A Source Of Good Thoughts<br>& Holy Aspirations:",
-	                data:{"width":"205","height":"57"},
-	                children:[dNode10120,dNode10121,dNode10122]         
+	                name: "Creation:",
+	                data:{"width":"80","height":"23"},
+	                children:[dNode10120]         
 	            };
         
             var dNode101 = {
                 id: "d101",
                 name: "Aspirations,<br>Ejaculatory Prayer,<br>& Holy Thoughts:",
-                data:{"width":"140","height":"57"},
+                data:{"width":"145","height":"57"},
                 children:[dNode1010,dNode1011,dNode1012]         
             };
         
@@ -3400,21 +3759,21 @@
         
             // Children of dNode11 (Part II<br>Ch 14-18)
         
-                // Children of dNode110 (Of Holy Communion<br>How To Join In It)
+                // Children of dNode110 (Holy<br>Communion:)
         
-                    // Children of dNode1100 (Of Holy Communion)
+                    // Children of dNode1100 (About Holy<br>Communion:)
                 
                     var dNode11000 = {
                         id: "d11000",
                         name: "The Sun Of All<br>Spiritual Exercises",
-                        data:{"width":"140","height":"39"},
+                        data:{"width":"145","height":"39"},
                         children:[]         
                     };
                 
                     var dNode11001 = {
                         id: "d11001",
-                        name: "The Heart Of<br>All Devotion",
-                        data:{"width":"100","height":"39"},
+                        name: "The Heart<br>Of All Devotion",
+                        data:{"width":"120","height":"39"},
                         children:[]         
                     };
                 
@@ -3427,8 +3786,8 @@
                 
                     var dNode11003 = {
                         id: "d11003",
-                        name: "The Very Centre<br>Point Of Our<br>Christian Religion",
-                        data:{"width":"140","height":"57"},
+                        name: "The Very Centre Point<br>Of Our<br>Christian Religion",
+                        data:{"width":"170","height":"57"},
                         children:[]         
                     };
         
@@ -3437,7 +3796,7 @@
 	                    var dNode110040 = {
 	                        id: "d110040",
 	                        name: "Which Embraces<br>The Whole Depth<br>Of Devine Love",
-	                        data:{"width":"130","height":"57"},
+	                        data:{"width":"135","height":"57"},
 	                        children:[]         
 	                    };
         
@@ -3446,7 +3805,7 @@
 		                    var dNode1100410 = {
 		                        id: "d1100410",
 		                        name: "God Gives<br>Himself<br>Really To Us",
-		                        data:{"width":"100","height":"57"},
+		                        data:{"width":"105","height":"57"},
 		                        children:[]         
 		                    };
                 
@@ -3473,46 +3832,260 @@
             
                 var dNode1100 = {
                     id: "d1100",
-                    name: "Holy<br>Communion:",
+                    name: "About Holy<br>Communion:",
                     data:{"width":"105","height":"39"},
                     children:[dNode11000,dNode11001,dNode11002,dNode11003,dNode11004]         
                 };
         
-                    // Children of dNode1101 (How To<br>Join In It)
+                    // Children of dNode1101 (How To<br>Join In It:)
+        
+                        // Children of dNode11010 (In The<br>Beginning:)
+                    
+                        var dNode110100 = {
+                            id: "d110100",
+                            name: "Place Yourself<br>In God’s Presence",
+                            data:{"width":"140","height":"39"},
+                            children:[]         
+                        };
+                    
+                        var dNode110101 = {
+                            id: "d110101",
+                            name: "Confess Your<br>Unworthiness",
+                            data:{"width":"115","height":"39"},
+                            children:[]         
+                        };
+                    
+                        var dNode110102 = {
+                            id: "d110102",
+                            name: "Ask For<br>Forgiveness",
+                            data:{"width":"100","height":"39"},
+                            children:[]         
+                        };
                 
                     var dNode11010 = {
                         id: "d11010",
-                        name: "",
-                        data:{"width":"100","height":"39"},
-                        children:[]         
+                        name: "In The<br>Beginning:",
+                        data:{"width":"95","height":"39"},
+                        children:[dNode110100,dNode110101,dNode110102]         
                     };
+        
+                        // Children of dNode11011 (Until<br>The Gospel:)
+                    
+                        var dNode110110 = {
+                            id: "d110110",
+                            name: "Dwell Simply And<br>Generally Upon -",
+                            data:{"width":"140","height":"39"},
+                            children:[]         
+                        };
+                    
+                        var dNode110111 = {
+                            id: "d110111",
+                            name: "The Coming & Life<br>Of Our Lord<br>In This World",
+                            data:{"width":"145","height":"57"},
+                            children:[]         
+                        };
                 
-                    var dNode11010 = {
-                        id: "d11010",
-                        name: "",
+                    var dNode11011 = {
+                        id: "d11011",
+                        name: "Until<br>The Gospel:",
                         data:{"width":"100","height":"39"},
-                        children:[]         
+                        children:[dNode110110,dNode110111]         
+                    };
+        
+                        // Children of dNode11012 (Gospel To<br>End Of Creed:)
+                    
+                        var dNode110120 = {
+                            id: "d110120",
+                            name: "Dwell Upon<br>Our Dear Lord’s<br>Teaching, And -",
+                            data:{"width":"130","height":"57"},
+                            children:[]         
+                        };
+                    
+                        var dNode110121 = {
+                            id: "d110121",
+                            name: "Renew<br>Your Resolution<br>To Live & Die In -",
+                            data:{"width":"135","height":"57"},
+                            children:[]         
+                        };
+                    
+                        var dNode110122 = {
+                            id: "d110122",
+                            name: "The Faith<br>Of The Holy<br>Catholic Church",
+                            data:{"width":"130","height":"57"},
+                            children:[]         
+                        };
+                
+                    var dNode11012 = {
+                        id: "d11012",
+                        name: "Gospel To<br>End Of Creed:",
+                        data:{"width":"115","height":"39"},
+                        children:[dNode110120,dNode110121,dNode110122]         
+                    };
+        
+                        // Children of dNode11013 (After<br>The Creed:)
+                    
+                        var dNode110130 = {
+                            id: "d110130",
+                            name: "Fix Your Heart<br>On The Mysteries<br>Of The Word",
+                            data:{"width":"135","height":"57"},
+                            children:[]         
+                        };
+                    
+                        var dNode110131 = {
+                            id: "d110131",
+                            name: "Unite Yourself To<br>The Death And Passion<br>Of Our Redeemer",
+                            data:{"width":"180","height":"57"},
+                            children:[]         
+                        };
+                
+                    var dNode11013 = {
+                        id: "d11013",
+                        name: "After<br>The Creed:",
+                        data:{"width":"95","height":"39"},
+                        children:[dNode110130,dNode110131]         
+                    };
+        
+                        // Children of dNode11014 (Up To The Moment<br>Of Communicating:)
+                    
+                        var dNode110140 = {
+                            id: "d110140",
+                            name: "Offer All The<br>Longings & Desires<br>Of Your Heart",
+                            data:{"width":"150","height":"57"},
+                            children:[]         
+                        };
+                    
+                        var dNode110141 = {
+                            id: "d110141",
+                            name: "Desire Most Earnestly<br>To Be<br>United For Ever To -",
+                            data:{"width":"170","height":"57"},
+                            children:[]         
+                        };
+                    
+                        var dNode110142 = {
+                            id: "d110142",
+                            name: "Our Saviour<br>By His Eternal Love",
+                            data:{"width":"150","height":"39"},
+                            children:[]         
+                        };
+                
+                    var dNode11014 = {
+                        id: "d11014",
+                        name: "Up To The Moment<br>Of Communicating:",
+                        data:{"width":"150","height":"39"},
+                        children:[dNode110140,dNode110141,dNode110142]         
+                    };
+        
+                        // Children of dNode11015 (Communion<br>To The End:)
+            
+                            // Children of dNode110150 (Thank His Gracious<br>Majesty For -)
+                        
+                            var dNode1101500 = {
+                                id: "d1101500",
+                                name: "His Incarnation<br>His Life, Death,<br>Passion, And -",
+                                data:{"width":"125","height":"57"},
+                                children:[]         
+                            };
+                        
+                            var dNode1101501 = {
+                                id: "d1101501",
+                                name: "The Love Which He<br>Sets Forth In<br>This Holy Sacrifice",
+                                data:{"width":"150","height":"57"},
+                                children:[]         
+                            };
+                    
+                        var dNode110150 = {
+                            id: "d110150",
+                            name: "Thank His Gracious<br>Majesty For:",
+                            data:{"width":"150","height":"39"},
+                            children:[dNode1101500,dNode1101501]         
+                        };
+                    
+                        var dNode110151 = {
+                            id: "d110151",
+                            name: "Desire Most Earnestly<br>To Be United<br>For Ever To -",
+                            data:{"width":"170","height":"57"},
+                            children:[]         
+                        };
+                    
+                        var dNode110152 = {
+                            id: "d110152",
+                            name: "Our Saviour<br>By His<br>Eternal Love",
+                            data:{"width":"105","height":"57"},
+                            children:[]         
+                        };
+                
+                    var dNode11015 = {
+                        id: "d11015",
+                        name: "Communion<br>To The End:",
+                        data:{"width":"105","height":"39"},
+                        children:[dNode110150,dNode110151,dNode110152]         
                     };
             
                 var dNode1101 = {
                     id: "d1101",
-                    name: "How To<br>Join In It",
-                    data:{"width":"75","height":"39"},
-                    children:[]         
+                    name: "How To<br>Join In It:",
+                    data:{"width":"80","height":"39"},
+                    children:[dNode11010,dNode11011,dNode11012,dNode11013,dNode11014,dNode11015]         
                 };
         
             var dNode110 = {
                 id: "d110",
-                name: "Holy Communion,<br>How To Join In It:",
-                data:{"width":"140","height":"39"},
+                name: "Holy<br>Communion:",
+                data:{"width":"105","height":"39"},
                 children:[dNode1100,dNode1101]         
             };
+ 
+                // Children of dNode111 (Other Public<br>Services:)
+ 
+                    // Children of dNode1110 (Offices, Hours,<br>Vespers, etc:)
+            
+                    var dNode11100 = {
+                        id: "d11100",
+                        name: "Endeavour To Assist<br>Especially<br>On Sundays And -",
+                        data:{"width":"155","height":"57"},
+                        children:[]         
+                    };
+            
+                    var dNode11101 = {
+                        id: "d11101",
+                        name: "Festivals Which Are<br>Dedicated To God<br>Wherein We Ought To -",
+                        data:{"width":"175","height":"57"},
+                        children:[]         
+                    };
+            
+                    var dNode11102 = {
+                        id: "d11102",
+                        name: "Strive To Do More<br>For His Honour & Glory<br>Than On Others",
+                        data:{"width":"180","height":"57"},
+                        children:[]         
+                    };
+        
+                var dNode1110 = {
+                    id: "d1110",
+                    name: "Offices, Hours,<br>Vespers, etc:",
+                    data:{"width":"120","height":"39"},
+                    children:[dNode11100,dNode11101,dNode11102]         
+                };
+        
+                var dNode1111 = {
+                    id: "d1111",
+                    name: "Confraternities<br>And Associations:",
+                    data:{"width":"145","height":"39"},
+                    children:[]         
+                };
+        
+                var dNode1112 = {
+                    id: "d1112",
+                    name: "Public Services<br>And Prayers:",
+                    data:{"width":"125","height":"39"},
+                    children:[]         
+                };
         
             var dNode111 = {
                 id: "d111",
-                name: "Other Public Offices<br>Of The Church",
-                data:{"width":"150","height":"39"},
-                children:[]         
+                name: "Other Public<br>Services:",
+                data:{"width":"105","height":"39"},
+                children:[dNode1110,dNode1111,dNode1112]         
             };
         
             var dNode112 = {
@@ -3532,7 +4105,7 @@
             var dNode114 = {
                 id: "d114",
                 name: "How To Receive<br>Insipirations",
-                data:{"width":"120","height":"39"},
+                data:{"width":"125","height":"39"},
                 children:[]         
             };
         
@@ -3552,20 +4125,20 @@
                     var dNode12000 = {
                         id: "d12000",
                         name: "From<br>Our Savior",
-                        data:{"width":"85","height":"39"},
+                        data:{"width":"90","height":"39"},
                         children:[]         
                     };
                 
                     var dNode12001 = {
                         id: "d12001",
-                        name: "To His<br>Church",
-                        data:{"width":"65","height":"39"},
+                        name: "To<br>His Church",
+                        data:{"width":"95","height":"39"},
                         children:[]         
                     };
             
                 var dNode1200 = {
                     id: "d1200",
-                    name: "Gift:",
+                    name: "Gift:<br><br>",
                     data:{"width":"40","height":"23"},
                     children:[dNode12000,dNode12001]         
                 };
@@ -3573,33 +4146,83 @@
                     // Children of dNode1201 (Why:)
  
                         // Children of dNode12010 (To<br>Receive:)
+ 
+                            // Children of dNode120100 (To<br>Receive:)
+                    
+                            var dNode1201000 = {
+                                id: "d1201000",
+                                name: "For<br>Venial Sins",
+                                data:{"width":"95","height":"39"},
+                                children:[]         
+                            };
                 
                         var dNode120100 = {
                             id: "d120100",
-                            name: "Absolution For<br>Venial Sins",
-                            data:{"width":"115","height":"39"},
-                            children:[]         
+                            name: "Absolution:",
+                            data:{"width":"95","height":"23"},
+                            children:[dNode1201000]         
                         };
+ 
+                            // Children of dNode120101 (Light:)
+                    
+                            var dNode1201010 = {
+                                id: "d1201010",
+                                name: "To Discover<br>Our Failings",
+                                data:{"width":"100","height":"39"},
+                                children:[]         
+                            };
                     
                         var dNode120101 = {
                             id: "d120101",
-                            name: "Great Strength To<br>Help Us Avoid<br>Them Henceforth",
-                            data:{"width":"135","height":"57"},
-                            children:[]         
+                            name: "Light:",
+                            data:{"width":"55","height":"23"},
+                            children:[dNode1201010]         
                         };
+ 
+                            // Children of dNode120102 (Strength:)
+                    
+                            var dNode1201020 = {
+                                id: "d1201020",
+                                name: "To<br>Help Us -",
+                                data:{"width":"80","height":"39"},
+                                children:[]         
+                            };
+                    
+                            var dNode1201021 = {
+                                id: "d1201021",
+                                name: "Avoid Them<br>Henceforth",
+                                data:{"width":"95","height":"39"},
+                                children:[]         
+                            };
                     
                         var dNode120102 = {
                             id: "d120102",
-                            name: "Clearer Light<br>To Discover<br>Our Failings",
-                            data:{"width":"105","height":"57"},
-                            children:[]         
+                            name: "Strength:",
+                            data:{"width":"80","height":"23"},
+                            children:[dNode1201020,dNode1201021]         
                         };
+ 
+                            // Children of dNode120103 (Abundant<br>Grace:)
+                    
+                            var dNode1201030 = {
+                                id: "d1201030",
+                                name: "To Make Up<br>For The Loss -",
+                                data:{"width":"115","height":"39"},
+                                children:[]         
+                            };
+                    
+                            var dNode1201031 = {
+                                id: "d1201031",
+                                name: "Incurred<br>Through Our Failings",
+                                data:{"width":"160","height":"39"},
+                                children:[]         
+                            };
                     
                         var dNode120103 = {
                             id: "d120103",
-                            name: "Abundant Grace To Make<br>Up For The Loss Incurred<br>Through Our Failings",
-                            data:{"width":"190","height":"57"},
-                            children:[]         
+                            name: "Abundant<br>Grace:",
+                            data:{"width":"80","height":"39"},
+                            children:[dNode1201030,dNode1201031]         
                         };
                 
                     var dNode12010 = {
@@ -3639,17 +4262,24 @@
                             children:[]         
                         };
                     
+                            var dNode1201140 = {
+                                id: "d1201140",
+                                name: "Than In<br>Any Other Act",
+                                data:{"width":"115","height":"39"},
+                                children:[]         
+                            };
+                    
                         var dNode120114 = {
                             id: "d120114",
-                            name: "More Virtues Than<br>In Any Other Act",
-                            data:{"width":"140","height":"39"},
-                            children:[]         
+                            name: "More Virtues:",
+                            data:{"width":"110","height":"23"},
+                            children:[dNode1201140]         
                         };
                 
                     var dNode12011 = {
                         id: "d12011",
                         name: "To Exercise<br>The Graces Of:",
-                        data:{"width":"115","height":"39"},
+                        data:{"width":"120","height":"39"},
                         children:[dNode120110,dNode120111,dNode120112,dNode120113,dNode120114]         
                     };
             
@@ -3687,15 +4317,15 @@
                     
                         var dNode120230 = {
                             id: "d120230",
-                            name: "Give Account<br>Of Your<br>Conscience",
-                            data:{"width":"110","height":"57"},
+                            name: "Give Account Of<br>Your Conscience",
+                            data:{"width":"130","height":"39"},
                             children:[]         
                         };
                     
                         var dNode120231 = {
                             id: "d120231",
-                            name: "Telling Your<br>Faults, Simply<br>And Frankly",
-                            data:{"width":"115","height":"57"},
+                            name: "Telling Your Faults<br>Simply And Frankly",
+                            data:{"width":"150","height":"39"},
                             children:[]         
                         };
                 
@@ -3742,7 +4372,7 @@
                                 children:[dNode12030000,dNode12030001]         
                             };
  
-                                // Children of dNode1203001 (A Steadfast<br>Resolution:)
+                                // Children of dNode120301 (A Steadfast<br>Resolution:)
                         
                                 var dNode12030010 = {
                                     id: "d12030010",
@@ -3799,13 +4429,13 @@
                             id: "d120301",
                             name: "Examine:",
                             data:{"width":"75","height":"23"},
-                            children:[dNode1203010,dNode1203011]         
+                            children:[dNode1203010,dNode1203011,dNode1203012]         
                         };
                 
                     var dNode12030 = {
                         id: "d12030",
                         name: "Examination:",
-                        data:{"width":"110","height":"23"},
+                        data:{"width":"105","height":"23"},
                         children:[dNode120300,dNode120301]         
                     };
  
@@ -3815,7 +4445,7 @@
                 
                             var dNode1203100 = {
                                 id: "d1203100",
-                                name: "Intending To<br>Put It<br>Altogether Away -",
+                                name: "Intending<br>To Put It<br>Altogether Away -",
                                 data:{"width":"140","height":"57"},
                                 children:[]         
                             };
@@ -3913,27 +4543,36 @@
                 name: "Confession:",
                 data:{"width":"100","height":"23"},
                 children:[dNode1200,dNode1201,dNode1202,dNode1203]         
-            };
+                };
+        
+                // Children of dNode121 (Communion:)
+
+                var dNode1210 = {
+                    id: "d1210",
+                    name: "Frequent<br>Communion:",
+                    data:{"width":"105","height":"39"},
+                    children:[]         
+                };
+            
+                var dNode1211 = {
+                    id: "d1211",
+                    name: "How To<br>Communicate:",
+                    data:{"width":"115","height":"39"},
+                    children:[]         
+                };
 
             var dNode121 = {
                 id: "d121",
-                name: "Frequent<br>Communion:",
-                data:{"width":"105","height":"39"},
-                children:[]         
-            };
-        
-            var dNode122 = {
-                id: "d122",
-                name: "How To<br>Communicate:",
-                data:{"width":"115","height":"39"},
-                children:[]         
+                name: "Communion:<br><br>",
+                data:{"width":"105","height":"23"},
+                children:[dNode1210,dNode1211]         
             };
         
         var dNode12 = {
             id: "d12",
             name: "<u>Part II</u><br>Ch 19-21:",
             data:{"width":"80","height":"39"},
-            children:[dNode120,dNode121,dNode122]           
+            children:[dNode120,dNode121]           
         };
         
             // Children of dNode13 (Part III<br>Ch 1-3)
@@ -4006,8 +4645,8 @@
                 
                         var dNode130200 = {
                             id: "d130200",
-                            name: "Duty<br>Rather<br>Than Taste",
-                            data:{"width":"95","height":"57"},
+                            name: "By Duty<br>Rather Than<br>Taste",
+                            data:{"width":"100","height":"57"},
                             children:[]         
                         };
                     
@@ -4064,15 +4703,15 @@
                 
                     var dNode13021 = {
                         id: "d13021",
-                        name: "Special Virtue:",
-                        data:{"width":"115","height":"23"},
+                        name: "Special<br>Virtue:",
+                        data:{"width":"70","height":"39"},
                         children:[dNode130210,dNode130211,dNode130212]         
                     };
 
                         // Children of dNode13022 (Counter Vice:)
                     
                         var dNode130220 = {
-                            id: "d13040",
+                            id: "d130220",
                             name: "Make The<br>Opposite Virtue -",
                             data:{"width":"135","height":"39"},
                             children:[]         
@@ -4083,28 +4722,21 @@
                             var dNode1302210 = {
                                 id: "d1302210",
                                 name: "For Pride<br>Humility",
-                                data:{"width":"85","height":"39"},
+                                data:{"width":"80","height":"39"},
                                 children:[]         
                             };
                     
                             var dNode1302211 = {
                                 id: "d1302211",
                                 name: "For Anger<br>Gentleness",
-                                data:{"width":"90","height":"39"},
+                                data:{"width":"95","height":"39"},
                                 children:[]         
                             };
                     
                             var dNode1302212 = {
                                 id: "d1302212",
-                                name: "Turn All Prayer,<br>Sacraments etc To -",
-                                data:{"width":"160","height":"39"},
-                                children:[]         
-                            };
-                    
-                            var dNode1302213 = {
-                                id: "d1302213",
-                                name: "The<br>Same Subject",
-                                data:{"width":"110","height":"39"},
+                                name: "To Turn All Prayer,<br>Sacraments etc To<br>The Same Subject",
+                                data:{"width":"145","height":"57"},
                                 children:[]         
                             };
                     
@@ -4112,13 +4744,13 @@
                             id: "d130221",
                             name: "Our<br>Special Aim:",
                             data:{"width":"105","height":"39"},
-                            children:[dNode1302210,dNode1302211,dNode1302212,dNode1302213]         
+                            children:[dNode1302210,dNode1302211,dNode1302212]         
                         };
                 
                     var dNode13022 = {
                         id: "d13022",
-                        name: "Counter Vice:",
-                        data:{"width":"120","height":"23"},
+                        name: "Counter<br>Vice:",
+                        data:{"width":"70","height":"39"},
                         children:[dNode130220,dNode130221]         
                     };
             
@@ -4171,7 +4803,7 @@
                 var dNode1310 = {
                     id: "d1310",
                     name: "Beginners In<br>Devotion Commit:",
-                    data:{"width":"135","height":"39"},
+                    data:{"width":"140","height":"39"},
                     children:[dNode13100,dNode13101,dNode13102,dNode13103]         
                 };
 
@@ -4211,22 +4843,22 @@
         
 		            var dNode13200 = {
 		                id: "d13200",
-		                name: "Ecstasies,<br>Trances &<br>Rhapsodies",
-		                data:{"width":"100","height":"57"},
+		                name: "Ecstasies, Trances<br>And Rhapsodies",
+		                data:{"width":"145","height":"39"},
 		                children:[]         
 		            };
 	        
 		            var dNode13201 = {
 		                id: "d13201",
-		                name: "Extraordinary<br>Transformations,<br>And The Like",
-		                data:{"width":"130","height":"57"},
+		                name: "Extraordinary Transformations<br>And The Like",
+		                data:{"width":"225","height":"39"},
 		                children:[]         
 		            };
         
 	            var dNode1320 = {
 	                id: "d1320",
-	                name: "That Which<br>God Gives<br>To Virtues:",
-	                data:{"width":"90","height":"57"},
+	                name: "That Which God<br>Gives To Virtues:",
+	                data:{"width":"135","height":"39"},
 	                children:[dNode13200,dNode13201]         
 	            };
 
@@ -4255,8 +4887,8 @@
         
 	            var dNode1321 = {
 	                id: "d1321",
-	                name: "We Must Not<br>Aspire To<br>Such Graces:",
-	                data:{"width":"110","height":"57"},
+	                name: "We Must Not Aspire<br>To Such Graces:",
+	                data:{"width":"150","height":"39"},
 	                children:[dNode13210,dNode13211,dNode13212]         
 	            };
 
@@ -4265,7 +4897,7 @@
 		            var dNode13220 = {
 		                id: "d13220",
 		                name: "To Become Good,<br>Devout People,<br>Pious Men & Women",
-		                data:{"width":"155","height":"57"},
+		                data:{"width":"160","height":"57"},
 		                children:[]         
 		            };
         
@@ -4292,8 +4924,8 @@
         
         var dNode13 = {
             id: "d13",
-            name: "<u>Part III</u><br>Ch 1-2:",
-            data:{"width":"70","height":"39"},
+            name: "<u>How To Select That Which<br>We Should Chiefly Practice</u><br>Part III Ch 1-2:",
+            data:{"width":"210","height":"57"},
             children:[dNode130,dNode131,dNode132]           
         };
        
@@ -4951,12 +5583,12 @@
             children:[dNode140,dNode141]           
         };
         
-            // Children of dNode15 (Part III: Ch 8-10<br>Gentleness &<br>Business Life:)
+            // Children of dNode15 (<u>Gentleness &<br>Business Of Life:</u><br>Part III Ch 8-10:)
         
                 // Children of dNode150 (Part III: Ch 8-9<br>Gentleness:)
             
-                    // Children of dNode1500 (Councils:<br>As To Gentleness<br>Toward Others:)
-            
+                    // Children of dNode1500 (Humility &<br>Meekness:)
+            /*
                         // Children of dNode15000 (Humility &<br>Meekness:)
                     
                         var dNode150000 = {
@@ -4979,8 +5611,7 @@
                         data:{"width":"90","height":"39"},
                         children:[dNode150000,dNode150001]         
                     };
-                
-                
+                               
                     var dNode15001 = {
                         id: "d15001",
                         name: "Nothing So Stills A<br>Raging Bull Elephant<br>Then The Sight Of<br>A Little Lamb",
@@ -4997,12 +5628,212 @@
                 
                 var dNode1500 = {
                     id: "d1500",
-                    name: "Toward Others:",
-                    data:{"width":"120","height":"23"},
+                    name: "Toward<br>Others:",
+                    data:{"width":"70","height":"39"},
+                    children:[dNode15000,dNode15001,dNode15002]         
+                }; */
+                
+                        // Children of dNode15000 (Humility &<br>Meekness:)
+                            
+                        var dNode150000 = {
+                            id: "d150000",
+                            name: "Take My Yoke<br>Upon You And -",
+                            data:{"width":"125","height":"39"},
+                            children:[]         
+                        };
+                    
+                        var dNode150001 = {
+                            id: "d150001",
+                            name: "Learn From Me<br>For I Am -",
+                            data:{"width":"120","height":"39"},
+                            children:[]         
+                        };
+                    
+                        var dNode150002 = {
+                            id: "d150002",
+                            name: "Meek And Humble<br>Of Heart And -",
+                            data:{"width":"140","height":"39"},
+                            children:[]         
+                        };
+                    
+                        var dNode150003 = {
+                            id: "d150003",
+                            name: "You Will Find<br>Rest For Yourselfs",
+                            data:{"width":"145","height":"39"},
+                            children:[]         
+                        };
+                
+                    var dNode15000 = {
+                        id: "d15000",
+                        name: "Mt 11:29 :",
+                        data:{"width":"85","height":"23"},
+                        children:[dNode150000,dNode150001,dNode150002,dNode150003]         
+                    };
+                        
+                        // Children of dNode15001 (Holy Chrism:)
+                        
+                            // Children of dNode150010 (Is Made Of:)
+                        
+                                // Children of dNode1500100 (Olive Oil<br>Which:)
+                                       
+                                var dNode15001000 = {
+                                    id: "d15001000",
+                                    name: "Floats<br>To The Top",
+                                    data:{"width":"95","height":"39"},
+                                    children:[]         
+                                };
+                                       
+                                var dNode15001001 = {
+                                    id: "d15001001",
+                                    name: "Is Emblematic<br>Of Meekness",
+                                    data:{"width":"115","height":"39"},
+                                    children:[]         
+                                };
+                                   
+                            var dNode1500100 = {
+                                id: "d1500100",
+                                name: "Olive Oil<br>Which:",
+                                data:{"width":"80","height":"39"},
+                                children:[dNode15001000,dNode15001001]         
+                            };
+
+                                // Children of dNode1500101 (Olive Oil<br>Which:)
+                                       
+                                var dNode15001010 = {
+                                    id: "d15001010",
+                                    name: "Sinks<br>To The Bottom",
+                                    data:{"width":"115","height":"39"},
+                                    children:[]         
+                                };
+                                       
+                                var dNode15001011 = {
+                                    id: "d15001011",
+                                    name: "Is Emblematic<br>Of Humility",
+                                    data:{"width":"115","height":"39"},
+                                    children:[]         
+                                };
+                                   
+                            var dNode1500101 = {
+                                id: "d1500101",
+                                name: "Balm<br>Which:",
+                                data:{"width":"70","height":"39"},
+                                children:[dNode15001010,dNode15001011]         
+                            };
+                               
+                        var dNode150010 = {
+                            id: "d150010",
+                            name: "Is Made<br>Of:",
+                            data:{"width":"70","height":"39"},
+                            children:[dNode1500100,dNode1500101]         
+                        };
+
+                            // Children of dNode150011 (Therefore:)
+                    
+                            var dNode1500110 = {
+                                id: "d1500110",
+                                name: "Keep This Mystic<br>Chrism In Your Heart",
+                                data:{"width":"160","height":"39"},
+                                children:[]         
+                            };
+
+                                // Children of dNode1500111 (Beware!:)
+                    
+                                var dNode15001110 = {
+                                    id: "d15001110",
+                                    name: "A Favourite Device<br>Of The Enemy Is -",
+                                    data:{"width":"145","height":"39"},
+                                    children:[]         
+                                };
+                    
+                                var dNode15001111 = {
+                                    id: "d15001111",
+                                    name: "To Make People<br>Content With",
+                                    data:{"width":"120","height":"39"},
+                                    children:[]         
+                                };
+                    
+                                var dNode15001112 = {
+                                    id: "d15001112",
+                                    name: "A Fair Outside Semblance<br>Of These Graces",
+                                    data:{"width":"195","height":"39"},
+                                    children:[]         
+                                };
+                    
+                            var dNode1500111 = {
+                                id: "d1500111",
+                                name: "Beware!:",
+                                data:{"width":"75","height":"23"},
+                                children:[dNode15001110,dNode15001111,dNode15001112]         
+                            };
+                                  
+                        var dNode150011 = {
+                            id: "d150011",
+                            name: "Therefore:",
+                            data:{"width":"90","height":"23"},
+                            children:[dNode1500110,dNode1500111]         
+                        };
+                               
+                    var dNode15001 = {
+                        id: "d15001",
+                        name: "Holy Chrism:",
+                        data:{"width":"105","height":"23"},
+                        children:[dNode150010,dNode150011]         
+                    };
+                
+                        // Children of dNode15002 (Effects:)
+                               
+                        var dNode150020 = {
+                            id: "d150020",
+                            name: "Humility<br>Makes Our Lives<br>Acceptable To God",
+                            data:{"width":"145","height":"57"},
+                            children:[]         
+                        };
+                               
+                        var dNode150021 = {
+                            id: "d150021",
+                            name: "Meekness<br>Makes Us<br>Acceptable To Men",
+                            data:{"width":"145","height":"57"},
+                            children:[]         
+                        };
+                
+                            // Children of dNode150022 (True Gentleness And Humility Will:)
+                               
+                            var dNode1500220 = {
+                                id: "d1500220",
+                                name: "The Burning &<br>Swelling Which -",
+                                data:{"width":"135","height":"39"},
+                                children:[]         
+                            };
+                               
+                            var dNode1500221 = {
+                                id: "d1500221",
+                                name: "Contradiction<br>Is Apt To Excite<br>In Our Hearts",
+                                data:{"width":"125","height":"57"},
+                                children:[]         
+                            };
+                               
+                        var dNode150022 = {
+                            id: "d150022",
+                            name: "True Gentleness &<br>Humility Will Avert:",
+                            data:{"width":"150","height":"39"},
+                            children:[dNode1500220,dNode1500221]         
+                        };
+                               
+                    var dNode15002 = {
+                        id: "d15002",
+                        name: "Effects:",
+                        data:{"width":"70","height":"23"},
+                        children:[dNode150020,dNode150021,dNode150022]         
+                    };
+
+                var dNode1500 = {
+                    id: "d1500",
+                    name: "Humility &<br>Meekness:",
+                    data:{"width":"95","height":"39"},
                     children:[dNode15000,dNode15001,dNode15002]         
                 };
             
-                    // Children of dNode1501 (Gentleness<br>Toward Ourselves:)
+                    // Children of dNode1501 (Toward<br>Ourselves:)
             
                         // Children of dNode15010 (Guard<br>Against:)
                 
@@ -5076,21 +5907,21 @@
                     var dNode15011 = {
                         id: "d15011",
                         name: "What<br>We Want:",
-                        data:{"width":"75","height":"39"},
+                        data:{"width":"80","height":"39"},
                         children:[]         
                     };
             
                     var dNode15012 = {
                         id: "d15012",
                         name: "If That<br>Doesn't Work:",
-                        data:{"width":"120","height":"39"},
+                        data:{"width":"115","height":"39"},
                         children:[]         
                     };
             
                 var dNode1501 = {
                     id: "d1501",
-                    name: "Toward Ourselves:",
-                    data:{"width":"145","height":"23"},
+                    name: "Toward<br>Ourselves:",
+                    data:{"width":"95","height":"39"},
                     children:[dNode15010,dNode15011,dNode15012]         
                 };
             
@@ -5100,8 +5931,8 @@
 
                         var dNode150200 = {
                             id: "d150200",
-                            name: "Anger Feeds<br>Upon Endless<br>False Fancies",
-                            data:{"width":"115","height":"57"},
+                            name: "Feeds Upon<br>Endless<br>False Fancies",
+                            data:{"width":"95","height":"57"},
                             children:[]         
                         };
             
@@ -5146,15 +5977,15 @@
               
                         var dNode150210 = {
                             id: "d150210",
-                            name: "Once Entered In,<br>It Is Hard To<br>Get Rid Of & -",
-                            data:{"width":"130","height":"57"},
+                            name: "Once Entered In,<br>It Is Hard<br>To Get Rid Of & -",
+                            data:{"width":"135","height":"57"},
                             children:[]         
                         };
                 
                         var dNode150211 = {
                             id: "d150211",
                             name: "What Was But A<br>Little Mote Soon Waxes<br>Into A Great Beam",
-                            data:{"width":"185","height":"57"},
+                            data:{"width":"180","height":"57"},
                             children:[]         
                         };
             
@@ -5171,8 +6002,8 @@
                 
                             var dNode1502200 = {
                                 id: "d1502200",
-                                name: "Gently And<br>Seriously And -",
-                                data:{"width":"125","height":"39"},
+                                name: "Gently And<br>Seriously Then -",
+                                data:{"width":"130","height":"39"},
                                 children:[]         
                             };
                 
@@ -5252,8 +6083,8 @@
                 
                 var dNode1502 = {
                     id: "d1502",
-                    name: "Remedies<br>Against Anger:",
-                    data:{"width":"115","height":"39"},
+                    name: "Remedies<br>Against Anger:<br><br>",
+                    data:{"width":"120","height":"39"},
                     children:[dNode15020,dNode15021,dNode15022,dNode15023]         
                 };
         
@@ -5300,8 +6131,8 @@
                             
                     var dNode15102 = {
                         id: "d15102",
-                        name: "Lean Solely<br>On God’s<br>Providence",
-                        data:{"width": "100","height": "57"},
+                        name: "Lean Solely On<br>God’s Providence",
+                        data:{"width": "140","height": "39"},
                         children:[]         
                     };
                 
@@ -5319,14 +6150,14 @@
 		                    var dNode1510301 = {
 		                        id: "d1510301",
 		                        name: "This World's<br>Goods",
-		                        data:{"width": "105","height": "39"},
+		                        data:{"width": "100","height": "39"},
 		                        children:[]         
 		                    };
                             
 	                    var dNode151030 = {
 	                        id: "d151030",
 	                        name: "With<br>One Hand:",
-	                        data:{"width": "85","height": "39"},
+	                        data:{"width": "90","height": "39"},
 	                        children:[dNode1510300,dNode1510301]         
 	                    };
                 
@@ -5334,16 +6165,32 @@
 	                            
 		                    var dNode1510310 = {
 		                        id: "d1510310",
-		                        name: "Hold Fast<br>To Your -",
-		                        data:{"width": "85","height": "39"},
+		                        name: "Hold Fast<br>To Your Heavenly<br>Father's Hand -",
+		                        data:{"width": "135","height": "57"},
 		                        children:[]         
 		                    };
+                
+                                // Children of dNode1510311 (Looking From<br>Time To Time:)
+                                    
+                                var dNode15103110 = {
+                                    id: "d15103110",
+                                    name: "To Make Sure<br>That He<br>Is Satisfied With -",
+                                    data:{"width": "140","height": "57"},
+                                    children:[]         
+                                };
+                                    
+                                var dNode15103111 = {
+                                    id: "d15103111",
+                                    name: "What You<br>Are Doing Both<br>Home And Abroad",
+                                    data:{"width": "145","height": "57"},
+                                    children:[]         
+                            };
 	                            
 		                    var dNode1510311 = {
 		                        id: "d1510311",
-		                        name: "Heavenly<br>Father's Hand",
+		                        name: "Looking From<br>Time To Time:",
 		                        data:{"width": "115","height": "39"},
-		                        children:[]         
+		                        children:[dNode15103110,dNode15103111]         
 		                    };
                             
 	                    var dNode151031 = {
@@ -5352,35 +6199,12 @@
 	                        data:{"width": "100","height": "39"},
 	                        children:[dNode1510310,dNode1510311]         
 	                    }
-                
-	                    	// Children of dNode151032 (Looking From<br>Time To Time:)
-	                            
-		                    var dNode1510320 = {
-		                        id: "d1510320",
-		                        name: "To Make Sure<br>That He Is<br>Satisfied With -",
-		                        data:{"width": "125","height": "57"},
-		                        children:[]         
-		                    };
-	                            
-		                    var dNode1510321 = {
-		                        id: "d1510321",
-		                        name: "What You Are<br>Doing Both<br>Home & Abroad",
-		                        data:{"width": "125","height": "57"},
-		                        children:[]         
-		                    };
-                            
-	                    var dNode151032 = {
-	                        id: "d151032",
-	                        name: "Looking From<br>Time To Time:",
-	                        data:{"width": "115","height": "39"},
-	                        children:[dNode1510320,dNode1510321]         
-	                    };
                             
                     var dNode15103 = {
                         id: "d15103",
                         name: "Imitate A<br>Little Child:",
-                        data:{"width": "100","height": "39"},
-                        children:[dNode151030,dNode151031,dNode151032]         
+                        data:{"width": "95","height": "39"},
+                        children:[dNode151030,dNode151031]         
                     };
                         
                 var dNode1510 = {
@@ -5397,7 +6221,7 @@
 	                    var dNode151100 = {
 	                        id: "d151100",
 	                        name: "Let Your Heart<br>Be Fixed -",
-	                        data:{"width": "110","height": "39"},
+	                        data:{"width": "115","height": "39"},
 	                        children:[]         
 	                    };
 	                        
@@ -5411,7 +6235,7 @@
 	                var dNode15110 = {
 	                    id: "d15110",
 	                    name: "Less<br>Attention:",
-	                    data:{"width": "80","height": "39"},
+	                    data:{"width": "85","height": "39"},
 	                    children:[dNode151100,dNode151101]           
 	                };
 	                
@@ -5448,14 +6272,14 @@
             var dNode151 = {
                 id: "d151",
                 name: "Business<br>Of Life:",
-                data:{"width":"75","height":"39"},
+                data:{"width":"80","height":"39"},
                 children:[dNode1510,dNode1511]          
             };
         
         var dNode15 = {
             id: "d15",
-            name: "<u>Part III Ch 8-10</u><br>Gentleness &<br>Business Life:",
-            data:{"width":"115","height":"57"},
+            name: "<u>Gentleness &<br>Business Of Life</u><br>Part III Ch 8-10:",
+            data:{"width":"135","height":"57"},
             children:[dNode150,dNode151]           
         };
         
@@ -5465,37 +6289,37 @@
         
                 var dNode1600 = {
                     id: "d1600",
-                    name: "Leads To<br>Perfection<br>But The -",
-                    data:{"width":"90","height":"57"},
+                    name: "Leads To<br>Perfection But -",
+                    data:{"width":"125","height":"39"},
                     children:[]         
                 };
         
                 var dNode1601 = {
                     id: "d1601",
-                    name: "Three Chief Means<br>For Acquiring It<br>Are -",
-                    data:{"width":"145","height":"57"},
+                    name: "The Three Chief Means<br>For Acquiring It Are -",
+                    data:{"width":"170","height":"39"},
                     children:[]         
                 };
         
                 var dNode1602 = {
                     id: "d1602",
-                    name: "Obedience, Chastity<br>And Poverty<br>Which Form -",
-                    data:{"width":"160","height":"57"},
+                    name: "Obedience, Chastity<br>And Poverty Which -",
+                    data:{"width":"160","height":"39"},
                     children:[]         
                 };
         
                 var dNode1603 = {
                     id: "d1603",
-                    name: "A Spiritual Cross<br>Which Must Be<br>Raised On Humility",
-                    data:{"width":"150","height":"57"},
+                    name: "Form A Spiritual Cross<br>Which Must Be<br>Raised On Humility",
+                    data:{"width":"175","height":"57"},
                     children:[]         
                 };
 
         
             var dNode160 = {
                 id: "d160",
-                name: "Love<br>Alone:",
-                data:{"width":"60","height":"39"},
+                name: "Love Alone:<br><span>.........</span>",
+                data:{"width":"100","height":"23"},
                 children:[dNode1600,dNode1601,dNode1602,dNode1603]         
             };
 
@@ -5503,7 +6327,7 @@
                 
                     // Children of dNode1610 (Necessary<br>Obedience:)
             
-	                    // Children of dNode16100 (To<br>Our:)
+	                    // Children of dNode16100 (To Our:)
             
 		                    // Children of dNode161000 (Ecclesiastical<br>Superiors:)
 		           
@@ -5516,57 +6340,57 @@
 		            
 		                    var dNode1610001 = {
 		                        id: "d1610001",
-		                        name: "Those<br>Commisioned<br>By Them",
-		                        data:{"width":"115","height":"57"},
+		                        name: "Those Commisioned<br>By Them",
+		                        data:{"width":"155","height":"39"},
 		                        children:[]         
 		                    };
 	            
 	                    var dNode161000 = {
 	                        id: "d161000",
-	                        name: "Ecclesiastical<br>Superiors:",
-	                        data:{"width":"115","height":"39"},
+	                        name: "Ecclesiastical:",
+	                        data:{"width":"115","height":"23"},
 	                        children:[dNode1610000,dNode1610001]         
 	                    };
 	            
 	                    var dNode161001 = {
 	                        id: "d161001",
-	                        name: "Civil<br>Superiors:",
-	                        data:{"width":"90","height":"39"},
+	                        name: "Civil:",
+	                        data:{"width":"55","height":"23"},
 	                        children:[]         
 	                    };
 	            
 	                    var dNode161002 = {
 	                        id: "d161002",
-	                        name: "Domestic<br>Superiors:",
-	                        data:{"width":"90","height":"39"},
+	                        name: "Domestic:",
+	                        data:{"width":"85","height":"23"},
 	                        children:[]         
 	                    };
             
                     var dNode16100 = {
                         id: "d16100",
-                        name: "To<br>Our:",
-                        data:{"width":"50","height":"39"},
+                        name: "To Our<br>Superiors:",
+                        data:{"width":"90","height":"39"},
                         children:[dNode161000,dNode161001,dNode161002]         
                     };
             
                     var dNode16101 = {
                         id: "d16101",
                         name: "A Humble<br>Obedience:",
-                        data:{"width":"90","height":"39"},
+                        data:{"width":"95","height":"39"},
                         children:[]         
                     };
-        
+       
                 var dNode1610 = {
                     id: "d1610",
-                    name: "Necessary<br>Obedience:",
-                    data:{"width":"95","height":"39"},
+                    name: "Necessary:",
+                    data:{"width":"90","height":"23"},
                     children:[dNode16100,dNode16101]         
-                };
+                };    //<br>Obedience
         
                 var dNode1611 = {
                     id: "d1611",
-                    name: "Voluntary<br>Obedience:",
-                    data:{"width":"95","height":"39"},
+                    name: "Voluntary:",
+                    data:{"width":"85","height":"23"},
                     children:[]         
                 };
                 
@@ -5627,7 +6451,7 @@
             
                     var dNode16200 = {
                         id: "d16200",
-                        name: "About<br>Purity:",
+                        name: "About<br>Purity:<br><span>....</span>",
                         data:{"width":"65","height":"39"},
                         children:[dNode162000,dNode162001,dNode162002,dNode162003,dNode162004,dNode162005]         
                     };
@@ -5688,11 +6512,11 @@
                     var dNode16202 = {
                         id: "d16202",
                         name: "Without<br>Purity:",
-                        data:{"width":"65","height":"39"},
+                        data:{"width":"70","height":"39"},
                         children:[dNode162020,dNode162021]         
                     };
                 
-                    	// Children of dNode16203 (How To<br>Maintain Purity:)
+                    	// Children of dNode16203 (Councels:)
             
 	                    var dNode162030 = {
 	                        id: "d162030",
@@ -5729,7 +6553,7 @@
                     children:[dNode16200,dNode16201,dNode16202,dNode16203]         
                 };
                 
-                    // Children of dNode1621 (How To<br>Maintain Purity:)
+                    // Children of dNode1621 (Maintaining<br>Purity:)
             
                     var dNode16210 = {
                         id: "d16210",
@@ -5742,7 +6566,7 @@
                     id: "d1621",
                     name: "Maintaining<br>Purity:",
                     data:{"width":"100","height":"39"},
-                    children:[dNode16210]         
+                    children:[]         
                 };
         
             var dNode162 = {
@@ -5780,14 +6604,14 @@
 			                
 			            var dNode200000 = {
 			                id: "d200000",
-			                name: "Heart Not<br>Filled With<br>Love Of Riches",
+			                name: "Heart Not Filled<br>With<br>Love Of Riches",
 			                data:{"width": "125","height": "57"},
 			                children:[]			
 			            };
 			                
 			            var dNode200001 = {
 			                id: "d200001",
-			                name: "Mind Not<br>Set On Them",
+			                name: "Mind Not Set<br>On Them",
 			                data:{"width": "105","height": "39"},
 			                children:[]			
 			            };
@@ -5824,7 +6648,7 @@
 					
 				var dNode2000 = {
 				    id: "d2000",
-			        name: "Blessed are The<br>Poor In Spirit:",
+			        name: "Blessed Are The<br>Poor In Spirit:",
 					data:{"width": "125","height": "39"},
 			        children:[dNode20000,dNode20001]			
 			        }; 
@@ -5835,7 +6659,7 @@
 			                
 			            var dNode200100 = {
 			                id: "d200100",
-			                name: "Nest Like A Ball,<br>One Little Aperature<br>In Upper Part",
+			                name: "Nest Like A Ball,<br>One Little Aperature<br>In Upper Part -",
 			                data:{"width":"155","height":"57"},
 			                children:[]         
 			            };
@@ -5955,8 +6779,8 @@
         
             var dNode200 = {
                 id: "d200",
-                name: "On Poverty<br>Of Spirit<br>Amid Riches:",
-                data:{"width":"105","height":"57"},
+                name: "On Poverty<br>Of Spirit:",
+                data:{"width":"95","height":"39"},
                 children:[dNode2000,dNode2001,dNode2002,dNode2003]          
             };  
                     
@@ -5975,8 +6799,8 @@
                 
                         var dNode201001 = {
                             id: "d201001",
-                            name: "A Great Care<br>And Contempt For<br>Temporal Things",
-                            data:{"width":"140","height":"57"},
+                            name: "A Great<br>Care And Contempt<br>For Temporal Things",
+                            data:{"width":"155","height":"57"},
                             children:[]         
                         };  
             
@@ -6049,18 +6873,18 @@
                                 children:[]         
                             };
                 
-                            var dNode2010222 = {
+                        /*    var dNode2010222 = {
                                 id: "d2010222",
                                 name: "Living<br>With Them",
                                 data:{"width":"85","height":"39"},
                                 children:[]         
-                            };
+                            };  */
                 
                         var dNode201022 = {
                             id: "d201022",
                             name: "Take<br>Pleasure In:",
                             data:{"width":"95","height":"39"},
-                            children:[dNode2010220,dNode2010221,dNode2010222]         
+                            children:[dNode2010220,dNode2010221/*,dNode2010222*/]         
                         };
                 
                         var dNode201023 = {
@@ -6394,7 +7218,7 @@
         
         var dNode20 = {
             id: "d20",
-            name: "<u>Evangelical Councels</u><br>Part III: Ch 14-16<br>Poverty:",
+            name: "<u>Evangelical Councels</u><br>Poverty<br>Part III: Ch 14-16:",
             data:{"width":"165","height":"57"},
             children:[dNode200,dNode201,dNode202]           
         };
@@ -6461,7 +7285,7 @@
         
         var dNode21 = {
             id: "d21",
-            name: "<u>Friendship</u><br>Part III Ch 17-22:",
+            name: "<u>Friendship</u><br>Part III Ch 17-22:<br><br>",
             data:{"width":"120","height":"39"},
             children:[dNode210,dNode211,dNode212,dNode213,dNode214,dNode215]            
         };
@@ -6528,7 +7352,7 @@
                         var dNode220100 = {
                             id: "d220100",
                             name: "Effects:",
-                            data:{"width": "60","height": "23"},
+                            data:{"width": "65","height": "23"},
                             children:[dNode2201000,dNode2201001,dNode2201002,dNode2201003]         
                         };
 
@@ -6551,7 +7375,7 @@
                         var dNode220101 = {
                             id: "d220101",
                             name: "Advice:",
-                            data:{"width": "60","height": "23"},
+                            data:{"width": "65","height": "23"},
                             children:[dNode2201010,dNode2201011]         
                         };
                 
@@ -6589,8 +7413,8 @@
                 
                             var dNode2201112 = {
                                 id: "d2201112",
-                                name: "Is Admirably<br>Adapted To<br>Social Life",
-                                data:{"width": "100","height": "57"},
+                                name: "Is Admirably Adapted<br>To Social Life",
+                                data:{"width": "160","height": "39"},
                                 children:[]         
                             };
                 
@@ -6604,7 +7428,7 @@
                     var dNode22011 = {
                         id: "d22011",
                         name: "Submission of<br>Will & Choice:",
-                        data:{"width": "110","height": "39"},
+                        data:{"width": "115","height": "39"},
                         children:[dNode220110,dNode220111]			
                     };
             
@@ -6619,135 +7443,208 @@
 	        var dNode220 = {
 	            id: "d220",
 		        name: "The Practice Of<br>Bodily Mortification:",
-		        data:{"width": "150","height": "39"},
+		        data:{"width": "155","height": "39"},
 		        children:[dNode2200,dNode2201]			
 	        };
-		
-                    // Children of dNode2210 (Society)
+
+                // Children of dNode221 (Society:)
+
+                    // Children of dNode2210 (To Shun Society<br>Implies:)
                 
                     var dNode22100 = {
                         id: "d22100",
-                        name: "To Shun Society Implies<br>Indifference And Contempt<br>For One\’s Neighbours",
-                        data:{"width": "195","height": "57"},
-                        children:[]			
+                        name: "Implies<br>Indifference And -",
+                        data:{"width": "140","height": "39"},
+                        children:[]         
                     };
                 
                     var dNode22101 = {
                         id: "d22101",
-                        name: "To Seek Society<br>Savours Of Idleness<br>And Uselessness.",
-                        data:{"width": "150","height": "57"},
-                        children:[]			
+                        name: "Contempt For<br>One\’s Neighbours",
+                        data:{"width": "140","height": "39"},
+                        children:[]         
                     };
             
                 var dNode2210 = {
                     id: "d2210",
-                    name: "Society:",
-                    data:{"width": "65","height": "23"},
-                    children:[dNode22100,dNode22101]			
+                    name: "To Shun<br>Society:",
+                    data:{"width": "75","height": "39"},
+                    children:[dNode22100,dNode22101]         
                 };
-        
-                    // Children of dNode2211(Solitude)
+
+                    // Children of dNode2211 (To Shun Society<br>Implies:)
                 
                     var dNode22110 = {
                         id: "d22110",
-                        name: "You Should Learn<br>To Like A Real<br>Material Solitude",
-                        data:{"width": "140","height": "57"},
+                        name: "Savours Of<br>Idleness -",
+                        data:{"width": "95","height": "39"},
                         children:[]         
                     };
                 
                     var dNode22111 = {
                         id: "d22111",
-                        name: "Retire In Your Own<br>Chamber Or Grarden<br>Or Wheresoever",
-                        data:{"width": "160","height": "57"},
-                        children:[]         
-                    };
-                
-                    var dNode22112 = {
-                        id: "d22112",
-                        name: "Refress Your Soul With<br>Good & Holy Thoughts,<br>& Some Spiritual Reading",
-                        data:{"width": "195","height": "57"},
+                        name: "And<br>Uselessness",
+                        data:{"width": "105","height": "39"},
                         children:[]         
                     };
             
                 var dNode2211 = {
                     id: "d2211",
-                    name: "Solitude:",
-                    data:{"width": "70","height": "23"},
-                    children:[dNode22110,dNode22111,dNode22112]            
+                    name: "To Seek<br>Society:",
+                    data:{"width": "75","height": "39"},
+                    children:[dNode22110,dNode22111]         
                 };
 		
 	        var dNode221 = {
 	            id: "d221",
-		        name: "Society &<br>Solitude:",
-		        data:{"width": "75","height": "39"},
+		        name: "Society:",
+		        data:{"width": "75","height": "23"},
 		        children:[dNode2210,dNode2211]			
 	        };
-		
-                // Children of dNode222 (Modesty<br>In Dress)
-
+        
+                // Children of dNode222(Solitude:)
+            
                 var dNode2220 = {
                     id: "d2220",
-                    name: "Depends Upon<br>Quality, Fashion<br>And Cleanliness",
-                    data:{"width": "125","height": "57"},
-                    children:[]			
-                };
-
-                var dNode2221 = {
-                    id: "d2221",
-                    name: "External Seemliness<br>An Indication Of<br>Inward Good Order",
-                    data:{"width": "155","height": "57"},
+                    name: "You Should Learn<br>To Like A Real<br>Material Solitude",
+                    data:{"width": "140","height": "57"},
                     children:[]         
                 };
-
+            
+                var dNode2221 = {
+                    id: "d2221",
+                    name: "Retire In Your Own<br>Chamber Or Grarden<br>Or Wheresoever",
+                    data:{"width": "160","height": "57"},
+                    children:[]         
+                };
+            
                 var dNode2222 = {
                     id: "d2222",
-                    name: "Always Be Neat,<br>Never Permit Any Disorder<br>Or Untidiness About You",
-                    data:{"width": "200","height": "57"},
+                    name: "Refress Your Soul With<br>Good & Holy Thoughts,<br>& Some Spiritual Reading",
+                    data:{"width": "195","height": "57"},
                     children:[]         
                 };
         
-                    // Children of dNode2223 (I Should Like<br>My Devout Man &<br>Woman To Be:)
+            var dNode222 = {
+                id: "d222",
+                name: "Solitude:",
+                data:{"width": "80","height": "23"},
+                children:[dNode2220,dNode2221,dNode2222]          
+            };
+		
+                // Children of dNode223 (Modesty<br>In Dress:)
+        
+                    // Children of dNode2230 (Depends<br>Upon:)
 
-                    var dNode22230 = {
-                        id: "d22230",
-                        name: "The Best Dressed<br>In The Company",
-                        data:{"width": "135","height": "39"},
+                    var dNode22300 = {
+                        id: "d22300",
+                        name: "Quality",
+                        data:{"width": "65","height": "23"},
                         children:[]         
                     };
 
-                    var dNode22231 = {
-                        id: "d22231",
-                        name: "But The Least Fine,<br>Splendid Or Adorned",
-                        data:{"width": "160","height": "39"},
+                    var dNode22302 = {
+                        id: "d22302",
+                        name: "Fashion",
+                        data:{"width": "70","height": "23"},
                         children:[]         
                     };
 
-                var dNode2223 = {
-                    id: "d2223",
-                    name: "I Should Like<br>My Devout Man &<br>Woman To Be:",
-                    data:{"width": "135","height": "57"},
-                    children:[dNode22230,dNode22231]         
+                    var dNode22302 = {
+                        id: "d22302",
+                        name: "Cleanliness",
+                        data:{"width": "95","height": "23"},
+                        children:[]         
+                    };
+
+                var dNode2230 = {
+                    id: "d2230",
+                    name: "Depends<br>Upon:",
+                    data:{"width": "75","height": "39"},
+                    children:[dNode22300,dNode22302,dNode22302]			
                 };
+        
+                    // Children of dNode2231 (External<br>Seemliness Is:)
 
-                var dNode2224 = {
-                    id: "d2224",
-                    name: "Keep To What<br>Is Simple &<br>Unpretending",
-                    data:{"width": "115","height": "57"},
-                    children:[]         
+                    var dNode22310 = {
+                        id: "d22310",
+                        name: "An Indication<br>Of -",
+                        data:{"width": "110","height": "39"},
+                        children:[]         
+                    };
+
+                    var dNode22311 = {
+                        id: "d22311",
+                        name: "Inward<br>Good Order",
+                        data:{"width": "95","height": "39"},
+                        children:[]         
+                    };
+
+                var dNode2231 = {
+                    id: "d2231",
+                    name: "External<br>Seemliness Is:",
+                    data:{"width": "115","height": "39"},
+                    children:[dNode22310,dNode22311]         
+                };
+        
+                    // Children of dNode2232 (Further<br>Councels:)
+
+                    var dNode22320 = {
+                        id: "d22320",
+                        name: "Always Be Neat,<br>Never Permit Any Disorder<br>Or Untidiness About You",
+                        data:{"width": "200","height": "57"},
+                        children:[]         
+                    };
+            
+                        // Children of dNode22321 (I Should Like<br>My Devout Man &<br>Woman To Be:)
+
+                        var dNode223210 = {
+                            id: "d223210",
+                            name: "The Best Dressed<br>In The Company",
+                            data:{"width": "135","height": "39"},
+                            children:[]         
+                        };
+
+                        var dNode223211 = {
+                            id: "d223211",
+                            name: "But The Least Fine,<br>Splendid Or Adorned",
+                            data:{"width": "160","height": "39"},
+                            children:[]         
+                        };
+
+                    var dNode22321 = {
+                        id: "d22321",
+                        name: "I Should Like<br>My Devout Man &<br>Woman To Be:",
+                        data:{"width": "140","height": "57"},
+                        children:[dNode223210,dNode223211]         
+                    };
+
+                    var dNode22322 = {
+                        id: "d22322",
+                        name: "Keep To What<br>Is Simple &<br>Unpretending",
+                        data:{"width": "115","height": "57"},
+                        children:[]         
+                    };
+
+                var dNode2232 = {
+                    id: "d2232",
+                    name: "Further<br>Counsels:",
+                    data:{"width": "85","height": "39"},
+                    children:[dNode22320,dNode22321,dNode22322]         
                 };
 		
-	        var dNode222 = {
-	            id: "d222",
+	        var dNode223 = {
+	            id: "d223",
 		        name: "Modesty<br>In Dress:",
 		        data:{"width": "80","height": "39"},
-		        children:[dNode2220,dNode2221,dNode2222,dNode2223,dNode2224]			
+		        children:[dNode2230,dNode2231,dNode2232]			
 	        };
         
         var dNode22 = {
             id: "d22",
             name: "<u>Part III Ch 23-25</u><br>Mortification,<br>Society, Solitude<br>& Modesty",
-            data:{"width":"125","height":"74"},
-            children:[dNode220,dNode221,dNode222]           
+            data:{"width":"135","height":"74"},
+            children:[dNode220,dNode221,dNode222,dNode223]           
         };
         
             // Children of dNode23 (<u>Conversation<br>(Part 1)</u><br>Part III (Ch 26-28):)
@@ -6816,8 +7713,8 @@
         
             var dNode231 = {
                 id: "d231",
-                name: "Unseemly Words<br>And Respect<br>Due Others:",
-                data:{"width":"130","height":"57"},
+                name: "Unseemly Words And<br>Respect Due Others:",
+                data:{"width":"165","height":"39"},
                 children:[]         
             };
          
@@ -6833,14 +7730,14 @@
                 var dNode2321 = {
                     id: "d2321",
                     name: "Contempt<br>For Others",
-                    data:{"width":"85","height":"39"},
+                    data:{"width":"90","height":"39"},
                     children:[]         
                 };
             
                 var dNode2322 = {
                     id: "d2322",
                     name: "Pride And<br>Self-Sufficiency",
-                    data:{"width":"120","height":"39"},
+                    data:{"width":"125","height":"39"},
                     children:[]         
                 };
             
@@ -6853,15 +7750,15 @@
         
             var dNode232 = {
                 id: "d232",
-                name: "Hasty Judgments<br>And Pernicious<br>Results:",
-                data:{"width":"135","height":"57"},
+                name: "Hasty Judgments And<br>Pernicious Results:",
+                data:{"width":"165","height":"39"},
                 children:[dNode2320,dNode2321,dNode2322,dNode2323]         
             };
         
         var dNode23 = {
             id: "d23",
             name: "<u>Conversation<br>(Part 1)</u><br>Part III (Ch 26-28):",
-            data:{"width":"130","height":"57"},
+            data:{"width":"140","height":"57"},
             children:[dNode230,dNode231,dNode232]           
         };
         
@@ -6941,7 +7838,7 @@
             var dNode240 = {
                 id: "d240",
                 name: "On<br>Slander:",
-                data:{"width":"70","height":"39"},
+                data:{"width":"75","height":"39"},
                 children:[dNode2400,dNode2401,dNode2402]         
             };
          
@@ -7004,8 +7901,8 @@
         
                     var dNode24112 = {
                         id: "d24112",
-                        name: "Look Less To<br>The Quantity Than<br>The Quality,",
-                        data:{"width":"140","height":"57"},
+                        name: "Look Less<br>To The Quantity<br>Than The Quality",
+                        data:{"width":"135","height":"57"},
                         children:[]         
                     };
          
@@ -7020,8 +7917,8 @@
                                 children:[]         
                             };
             
-                            var dNode2411301 = {
-                                id: "d2411301",
+                            var dNode2411302 = {
+                                id: "d2411302",
                                 name: "A Certain Sort Of<br>Contemptuous Pride",
                                 data:{"width":"155","height":"39"},
                                 children:[]         
@@ -7031,22 +7928,29 @@
                             id: "d241130",
                             name: "An Excessive<br>Reserve & Stiffness:",
                             data:{"width":"155","height":"39"},
-                            children:[dNode2411300,dNode2411301]         
+                            children:[dNode2411300,dNode2411302]         
                         };
          
                             // Children of dNode241131 (An Excessive Reserve And Stiffness:)
             
                             var dNode2411310 = {
                                 id: "d2411310",
-                                name: "Which Leaves<br>No Opportunity<br>For Others To -",
+                                name: "Which Leaves<br>No Opportunity<br>For Others -",
                                 data:{"width":"125","height":"57"},
                                 children:[]         
                             };
             
                             var dNode2411311 = {
                                 id: "d2411311",
-                                name: "Put In Their Word,<br>& Is Frivolous<br>And Troublesome",
-                                data:{"width":"140","height":"57"},
+                                name: " To Put<br>In Their Word -",
+                                data:{"width":"120","height":"39"},
+                                children:[]         
+                            };
+            
+                            var dNode2411312 = {
+                                id: "d2411312",
+                                name: "Is Frivolous<br>And Troublesome",
+                                data:{"width":"140","height":"39"},
                                 children:[]         
                             };
             
@@ -7054,7 +7958,7 @@
                             id: "d241131",
                             name: "An Incessant<br>Chatter & Babble:",
                             data:{"width":"135","height":"39"},
-                            children:[dNode2411310,dNode2411311]         
+                            children:[dNode2411310,dNode2411311,dNode2411312]         
                         };
         
                     var dNode24113 = {
@@ -7075,16 +7979,32 @@
         
                     var dNode24120 = {
                         id: "d24120",
-                        name: "When It Is<br>Necessary To<br>Contradict Someone",
-                        data:{"width":"155","height":"57"},
+                        name: "When Necessary<br>To Contradict Someone",
+                        data:{"width":"175","height":"39"},
                         children:[]         
                     };
+         
+                        // Children of dNode24121 (Avoid:)
+            
+                        var dNode241210 = {
+                            id: "d241210",
+                            name: "Private Confidences<br>And Whisperings -",
+                            data:{"width":"155","height":"39"},
+                            children:[]         
+                        };
+            
+                        var dNode241211 = {
+                            id: "d241211",
+                            name: "In Society And<br>Especially At Table",
+                            data:{"width":"150","height":"39"},
+                            children:[]         
+                        };
         
                     var dNode24121 = {
                         id: "d24121",
-                        name: "Avoid Private Confidences<br>& Whisperings In Society,<br>Especially At Table",
-                        data:{"width":"175","height":"57"},
-                        children:[]         
+                        name: "Avoid:",
+                        data:{"width":"60","height":"23"},
+                        children:[dNode241210,dNode241211]         
                     };
         
                 var dNode2412 = {
@@ -7093,18 +8013,18 @@
                     data:{"width":"80","height":"39"},
                     children:[dNode24120,dNode24121]         
                 };
-        
+            
             var dNode241 = {
                 id: "d241",
-                name: "Further<br>Counsels:",
-                data:{"width":"80","height":"39"},
+                name: "On<br>Speaking:",
+                data:{"width":"85","height":"39"},
                 children:[dNode2410,dNode2411,dNode2412]         
             };
         
         var dNode24 = {
             id: "d24",
-            name: "<u>Part III (Ch 29-30)</u><br>Conversation<br>(Part 2)",
-            data:{"width":"130","height":"57"},
+            name: "<u>Conversation</u><br>(Part 2)<br>Part III (Ch 29-30)",
+            data:{"width":"135","height":"57"},
             children:[dNode240,dNode241]            
         };
           
@@ -7118,15 +8038,15 @@
                     
                         var dNode250000 = {
                             id: "d250000",
-                            name: "Walking, Harmless<br>Games, Music,<br>Field Sports etc.",
-                            data:{"width":"145","height":"57"},
+                            name: "Walking, Music<br>Harmless Games<br>Field Sports etc.",
+                            data:{"width":"135","height":"57"},
                             children:[]         
                         };
                     
                         var dNode250001 = {
                             id: "d250001",
-                            name: "Tennis, Rackets,<br>Chess And<br>The Like",
-                            data:{"width":"125","height":"57"},
+                            name: "Tennis, Rackets, Chess<br>And The Like",
+                            data:{"width":"175","height":"39"},
                             children:[]         
                         };
                 
@@ -7141,7 +8061,7 @@
                         var dNode250010 = {
                             id: "d250010",
                             name: "Keep Everything<br>Within Due Limits Of<br>Time, Place & Degree",
-                            data:{"width":"160","height":"57"},
+                            data:{"width":"165","height":"57"},
                             children:[]         
                         };
                     
@@ -7162,7 +8082,7 @@
                 var dNode2500 = {
                     id: "d2500",
                     name: "What Are<br>Allowable:",
-                    data:{"width":"85","height":"39"},
+                    data:{"width":"90","height":"39"},
                     children:[dNode25000,dNode25001]         
                 };
                    
@@ -7211,8 +8131,8 @@
 
                             var dNode2502011 = {
                                 id: "d2502011",
-                                name: "They Become Full<br>Of Temptation<br>And Danger",
-                                data:{"width":"140","height":"57"},
+                                name: "They Become Full Of<br>Temptation & Danger",
+                                data:{"width":"160","height":"39"},
                                 children:[]         
                             };
 
@@ -7227,15 +8147,15 @@
 
                             var dNode2502020 = {
                                 id: "d2502020",
-                                name: "Their Vanity<br>Which Is<br>Very Conducive To -",
-                                data:{"width":"155","height":"57"},
+                                name: "Their Vanity Which Is<br>Very Conducive To -",
+                                data:{"width":"165","height":"39"},
                                 children:[]         
                             };
 
                             var dNode2502021 = {
                                 id: "d2502021",
-                                name: "Unholy Desires<br>& Dangerous<br>Attachments",
-                                data:{"width":"120","height":"57"},
+                                name: "Unholy Desires &<br>Dangerous Attachments",
+                                data:{"width":"180","height":"39"},
                                 children:[]         
                             };
 
@@ -7280,7 +8200,7 @@
                         var dNode250213 = {
                             id: "d250213",
                             name: "Arouse<br>A Multitude Of<br>Evil Inclinations",
-                            data:{"width":"135","height":"57"},
+                            data:{"width":"130","height":"57"},
                             children:[]         
                         };
             
@@ -7293,55 +8213,156 @@
 
                         // Children of dNode25022 (Councels:)
 
+                            // Children of dNode250220 (So Dance But<br>Little And<br>That Rarely:)
+
+                            var dNode2502200 = {
+                                id: "d2502200",
+                                name: "Lest You Run<br>The Risk Of -",
+                                data:{"width":"110","height":"39"},
+                                children:[]         
+                            };
+
+                            var dNode2502201 = {
+                                id: "d2502201",
+                                name: "Growing Over Fond<br>Of The Amusement",
+                                data:{"width":"150","height":"39"},
+                                children:[]         
+                            };
+
                         var dNode250220 = {
                             id: "d250220",
-                            name: "So Dance But<br>Little And<br>That Rarely",
-                            data:{"width":"110","height":"57"},
-                            children:[]         
+                            name: "So Dance But<br>Little & Rarely:",
+                            data:{"width":"120","height":"39"},
+                            children:[dNode2502200,dNode2502201]         
                         };
 
                             // Children of dNode250221 (After Frequenting Balls<br>You Should Frame<br>Pious Thoughts:)
             
+                                // Children of dNode2502210 (While You<br>Were Dancing:)
+                
+                                var dNode25022100 = {
+                                    id: "d25022100",
+                                    name: "Souls Were Groaning<br>In Hell By Reason -",
+                                    data:{"width":"160","height":"39"},
+                                    children:[]         
+                                };
+                
+                                var dNode25022101 = {
+                                    id: "d25022101",
+                                    name: "Of Sins Committed<br>When Similarly Occupied",
+                                    data:{"width":"195","height":"39"},
+                                    children:[]         
+                                };
+
                             var dNode2502210 = {
                                 id: "d2502210",
-                                name: "While You<br>Were Dancing -",
-                                data:{"width":"125","height":"39"},
-                                children:[]         
+                                name: "While You<br>Were Dancing:",
+                                data:{"width":"120","height":"39"},
+                                children:[dNode25022100,dNode25022101]         
                             };
+            
+                                // Children of dNode2502211 (At The Same Time<br>Other Devout Persons:)
+                
+                                var dNode25022110 = {
+                                    id: "d25022110",
+                                    name: "Were Kneeling<br>Before God -",
+                                    data:{"width":"115","height":"39"},
+                                    children:[]         
+                                };
+                
+                                var dNode25022111 = {
+                                    id: "d25022111",
+                                    name: "Praying Or<br>Praising Him -",
+                                    data:{"width":"115","height":"39"},
+                                    children:[]         
+                                };
+                
+                                var dNode25022112 = {
+                                    id: "d25022112",
+                                    name: "Was Not<br>Their Time Better<br>Spent Than Yours?",
+                                    data:{"width":"145","height":"57"},
+                                    children:[]         
+                                };
                 
                             var dNode2502211 = {
                                 id: "d2502211",
-                                name: "At The Same Time<br>Other Devout Persons -",
+                                name: "At The Same Time<br>Other Devout Persons:",
                                 data:{"width":"175","height":"39"},
-                                children:[]         
+                                children:[dNode25022110,dNode25022111,dNode25022112]         
                             };
+            
+                                // Children of dNode2502212 (A Day Will<br>Come When:)
+                
+                                var dNode25022120 = {
+                                    id: "d25022120",
+                                    name: "You In Your<br>Turn Will -",
+                                    data:{"width":"95","height":"39"},
+                                    children:[]         
+                                };
+                
+                                var dNode25022121 = {
+                                    id: "d25022121",
+                                    name: "Lie On Your Bed<br>Of Sickness, While -",
+                                    data:{"width":"160","height":"39"},
+                                    children:[]         
+                                };
+                
+                                var dNode25022122 = {
+                                    id: "d25022122",
+                                    name: "Others Dance &<br>Make Merry",
+                                    data:{"width":"125","height":"39"},
+                                    children:[]         
+                                };
             
                             var dNode2502212 = {
                                 id: "d2502212",
-                                name: "A Day Will<br>Come When -",
-                                data:{"width":"110","height":"39"},
-                                children:[]         
+                                name: "A Day Will<br>Come When:",
+                                data:{"width":"105","height":"39"},
+                                children:[dNode25022120,dNode25022121,dNode25022122]         
                             };
+            
+                                // Children of dNode2502213 (Think Of<br>Our Dear Lord,<br>Our Lady & -)
+                
+                                var dNode25022130 = {
+                                    id: "d25022130",
+                                    name: "Our Dear Lord,<br>Our Lady And All<br>The Angels & Saints -",
+                                    data:{"width":"165","height":"57"},
+                                    children:[]         
+                                };
+                
+                                var dNode25022131 = {
+                                    id: "d25022131",
+                                    name: "Looking On With<br>Sorrowful Pity -",
+                                    data:{"width":"130","height":"39"},
+                                    children:[]         
+                                };
+                
+                                var dNode25022132 = {
+                                    id: "d25022132",
+                                    name: "While Your Heart,<br>Capable Of<br>Better Things, -",
+                                    data:{"width":"140","height":"57"},
+                                    children:[]         
+                                };
+                
+                                var dNode25022133 = {
+                                    id: "d25022133",
+                                    name: "Was Engrossed With<br>Such Mere Follies",
+                                    data:{"width":"160","height":"39"},
+                                    children:[]         
+                                };
                 
                             var dNode2502213 = {
                                 id: "d2502213",
-                                name: "Our Dear Lord,<br>Our Lady And -",
-                                data:{"width":"120","height":"39"},
-                                children:[]         
-                            };
-                
-                            var dNode2502214 = {
-                                id: "d2502214",
-                                name: "All The Angels<br>& Saints, Saw -",
-                                data:{"width":"125","height":"39"},
-                                children:[]         
+                                name: "Think Of:",
+                                data:{"width":"80","height":"23"},
+                                children:[dNode25022130,dNode25022131,dNode25022132,dNode25022133]         
                             };
 
                         var dNode250221 = {
                             id: "d250221",
                             name: "After Frequenting Balls<br>You Should Frame<br>Pious Thoughts:",
                             data:{"width":"175","height":"57"},
-                            children:[dNode2502210,dNode2502211,dNode2502212,dNode2502213,dNode2502214]         
+                            children:[dNode2502210,dNode2502211,dNode2502212,dNode2502213]         
                         };
             
                     var dNode25022 = {
@@ -7376,7 +8397,7 @@
             
                 var dNode2503 = {
                     id: "d2503",
-                    name: "When To Use<br>Such Amusements<br>Rightly",
+                    name: "When To Use<br>Such Amusements<br>Rightly:",
                     data:{"width":"145","height":"57"},
                     children:[dNode25030,dNode25031]         
                 };
@@ -7384,7 +8405,7 @@
             var dNode250 = {
                 id: "d250",
                 name: "Amusements &<br>Recreations:",
-                data:{"width":"115","height":"39"},
+                data:{"width":"120","height":"39"},
                 children:[dNode2500,dNode2501,dNode2502,dNode2503]         
             };
           
@@ -7401,7 +8422,7 @@
             
                     var dNode25101 = {
                         id: "d25101",
-                        name: "To Give Up, For Him<br>all that you hold<br>most precious",
+                        name: "To Give Up, For Him<br>All That You Hold<br>Most Precious",
                         data:{"width":"150","height":"57"},
                         children:[]         
                     };
@@ -7493,1023 +8514,790 @@
     };
        
         // Children of dNode3 (Week 4)
-		
-            // Children of dNode30 (Part IV<br>Ch 1-4)
         
-                // Children of dNode300 (We Must Not Trifle<br>With The Words<br>Of Worldly Wisdom)
+            // Children of dNode30 (Part IV<br>Ch 1-2)
         
-                    // Children of dNode3001 (The<br>World)
-        
-                        // Children of dNode30000 (The World Is<br>An Unjust Judge:)
-               
-                        var dNode300000 = {
-                            id: "d300000",
-                            name: "Indulgent And<br>Kindly To Its<br>Own Children",
-                            data:{"width":"115","height":"57"},
-                            children:[]         
-                        };
-                
-                        var dNode300001 = {
-                            id: "d300001",
-                            name: "Harsh And<br>Uncharitable To The<br>Children Of God",
-                            data:{"width":"150","height":"57"},
-                            children:[]         
-                        };
-            
-                    var dNode30000 = {
-                        id: "d30000",
-                        name: "The World<br>Is An Unjust<br>Judge:",
-                        data:{"width":"100","height":"57"},
-                        children:[dNode300000,dNode300001]         
-                    };
-            
-                    var dNode30001 = {
-                        id: "d30001",
-                        name: "We Cannot Stand Well<br>With The World Save By<br>Renouncing Its Approval",
-                        data:{"width":"190","height":"57"},
-                        children:[]         
-                    };
-        
+                // Children of dNode300 (Th1s World</u><br>An Unjust Judge:)
+           
                 var dNode3000 = {
                     id: "d3000",
-                    name: "The<br>World:",
-                    data:{"width":"60","height":"39"},
-                    children:[dNode30000,dNode30001]         
+                    name: "Indulgent And<br>Kindly To Its<br>Own Children -",
+                    data:{"width":"120","height":"57"},
+                    children:[]         
                 };
-        
-                    // Children of dNode3001 (<u>John<br>15.19</u>:)
-            
-                    var dNode30010 = {
-                        id: "d30010",
-                        name: "If You Belonged<br>To The World,<br>The World Would<br>Love Its Own -",
-                        data:{"width":"135","height":"74"},
-                        children:[]         
-                    };
-            
-                    var dNode30011 = {
-                        id: "d30011",
-                        name: "But Because You<br>Do Not Belong<br>To The World -",
-                        data:{"width":"135","height":"57"},
-                        children:[]         
-                    };
-            
-                    var dNode30012 = {
-                        id: "d30012",
-                        name: "And I Have Chosen<br>You Out Of The World,<br>The World Hates You",
-                        data:{"width":"170","height":"57"},
-                        children:[]         
-                    };
         
                 var dNode3001 = {
                     id: "d3001",
-                    name: "<u>John<br>15.19</u>:",
-                    data:{"width":"55","height":"39"},
-                    children:[dNode30010,dNode30011,dNode30012]         
+                    name: "Harsh And<br>Uncharitable To The<br>Children Of God -",
+                    data:{"width":"150","height":"57"},
+                    children:[]         
                 };
-      
-                    // Children of dNode3002 (Hypocrisy &<br>Real Goodness:)
-            
-                    var dNode30020 = {
-                        id: "d30020",
-                        name: "Have Much<br>In Outward<br>Resemblance -",
-                        data:{"width":"120","height":"57"},
-                        children:[]         
-                    };
-            
-                    var dNode30021 = {
-                        id: "d30021",
-                        name: "Hypocrisy Is Short-<br>Lived, & Disperses<br>Like A Mist While -",
-                        data:{"width":"145","height":"57"},
-                        children:[]         
-                    };
-            
-                    var dNode30022 = {
-                        id: "d30022",
-                        name: "Real Goodness<br>Is Firm<br>And Abiding",
-                        data:{"width":"120","height":"57"},
-                        children:[]         
-                    };
         
                 var dNode3002 = {
                     id: "d3002",
-                    name: "Hypocrisy &<br>Real Goodness:",
-                    data:{"width":"125","height":"39"},
-                    children:[dNode30020,dNode30021,dNode30022]         
+                    name: "We Cannot Stand Well<br>With The World Save By<br>Renouncing Its Approval",
+                    data:{"width":"190","height":"57"},
+                    children:[]         
                 };
       
-                    // Children of dNode3003 ('fools' vs.<br>'mad')
+            var dNode300 = {
+                id: "d300",
+                name: "This World<br>An Unjust Judge:<br><br>",
+                data:{"width":"135","height":"39"},
+                children:[dNode3000,dNode3001,dNode3002]         
+            };
+      
+                // Children of dNode301 (The Need<br>Of A<br>Good Courage)
+        
+                    // Children of dNode3010 (John 15.19:)
+        
+                        // Children of dNode30100 (If:)
+                
+                        var dNode301000 = {
+                            id: "d301000",
+                            name: "You Belonged<br>To The World -",
+                            data:{"width":"115","height":"39"},
+                            children:[]         
+                        };
+                
+                        var dNode301001 = {
+                            id: "d301001",
+                            name: "The World Would<br>Love Its Own",
+                            data:{"width":"135","height":"39"},
+                            children:[]         
+                        };
             
-                    var dNode30030 = {
-                        id: "d30030",
+                    var dNode30100 = {
+                        id: "d30100",
+                        name: "If:",
+                        data:{"width":"30","height":"23"},
+                        children:[dNode301000,dNode301001]         
+                    };
+        
+                        // Children of dNode30101 (But:)
+            
+                        var dNode301010 = {
+                            id: "d301010",
+                            name: "Because You Do Not<br>Belong To The World -",
+                            data:{"width":"170","height":"39"},
+                            children:[]         
+                        };
+            
+                        var dNode301011 = {
+                            id: "d301011",
+                            name: "And I Have Chosen<br>You Out Of The World -",
+                            data:{"width":"175","height":"39"},
+                            children:[]         
+                        };
+                
+                        var dNode301012 = {
+                            id: "d301012",
+                            name: "The World<br>Hates You",
+                            data:{"width":"85","height":"39"},
+                            children:[]         
+                        };
+            
+                    var dNode30101 = {
+                        id: "d30101",
+                        name: "But:",
+                        data:{"width":"45","height":"23"},
+                        children:[dNode301010,dNode301011,dNode301012]         
+                    };
+        
+                var dNode3010 = {
+                    id: "d3010",
+                    name: "John 15.19:",
+                    data:{"width":"95","height":"23"},
+                    children:[dNode30100,dNode30101]         
+                };
+
+                    // Children of dNode3011 (Hypocrisy &<br>Real Goodness:)
+            
+                    var dNode30110 = {
+                        id: "d30110",
+                        name: "Have Much In<br>Outward Resemblance -",
+                        data:{"width":"180","height":"39"},
+                        children:[]         
+                    };
+                
+                        // Children of dNode30111 (However:)
+                
+                            // Children of dNode301110 (Hypocrisy<br>Is:)
+                
+                            var dNode3011100 = {
+                                id: "d3011100",
+                                name: "Short-Lived<br>And -",
+                                data:{"width":"100","height":"39"},
+                                children:[]         
+                            };
+                
+                            var dNode3011101 = {
+                                id: "d3011101",
+                                name: "Disperses<br>Like A Mist",
+                                data:{"width":"95","height":"39"},
+                                children:[]         
+                            };
+            
+                        var dNode301110 = {
+                            id: "d301110",
+                            name: "Hypocrisy<br>Is:",
+                            data:{"width":"85","height":"39"},
+                            children:[dNode3011100,dNode3011101]         
+                        };
+                
+                            // Children of dNode301111 (Hypocrisy<br>Is:)
+                
+                            var dNode3011110 = {
+                                id: "d3011110",
+                                name: " Firm And -",
+                                data:{"width":"95","height":"23"},
+                                children:[]         
+                            };
+                
+                            var dNode3011111 = {
+                                id: "d3011111",
+                                name: "Abiding",
+                                data:{"width":"70","height":"23"},
+                                children:[]         
+                            };
+                
+                        var dNode301111 = {
+                            id: "d301111",
+                            name: "Real Goodness<br>Is:",
+                            data:{"width":"120","height":"39"},
+                            children:[dNode3011110,dNode3011111]         
+                        };
+            
+                    var dNode30111 = {
+                        id: "d30111",
+                        name: "However:",
+                        data:{"width":"80","height":"23"},
+                        children:[dNode301110,dNode301111]         
+                    };
+        
+                var dNode3011 = {
+                    id: "d3011",
+                    name: "Hypocrisy &<br>Real Goodness:",
+                    data:{"width":"125","height":"39"},
+                    children:[dNode30110,dNode30111]         
+                };
+      
+                    // Children of dNode3012 ('fools' vs.<br>'mad')
+            
+                    var dNode30120 = {
+                        id: "d30120",
                         name: "The World<br>Esteems Us<br>As 'Fools' -",
                         data:{"width":"100","height":"57"},
                         children:[]         
                     };
             
-                    var dNode30031 = {
-                        id: "d30031",
-                        name: "Let Us Esteem<br>The World<br>As 'Mad'",
-                        data:{"width":"115","height":"57"},
+                    var dNode30121 = {
+                        id: "d30121",
+                        name: "Let Us<br>Esteem The World<br>As 'Mad'",
+                        data:{"width":"135","height":"57"},
                         children:[]         
                     };
           
-                var dNode3003 = {
-                    id: "d3003",
+                var dNode3012 = {
+                    id: "d3012",
                     name: "'Fools' Vs.<br>'Mad':",
-                    data:{"width":"80","height":"39"},
-                    children:[dNode30030,dNode30031]         
+                    data:{"width":"85","height":"39"},
+                    children:[dNode30120,dNode30121]         
                 };
       
-                    // Children of dNode3004 (Let us:)
+                    // Children of dNode3013 (Let us:)
             
-                    var dNode30040 = {
-                        id: "d30040",
+                    var dNode30130 = {
+                        id: "d30130",
                         name: "Leave The Blind World<br>To Make As Much<br>Noise As It May -",
                         data:{"width":"170","height":"57"},
                         children:[]         
                     };
             
-                    var dNode30041 = {
-                        id: "d30041",
+                    var dNode30131 = {
+                        id: "d30131",
                         name: "Be Firm & Unchangeable<br>In Our Ways And<br>Resolutions -",
                         data:{"width":"185","height":"57"},
                         children:[]         
                     };
       
-                        // Children of dNode30042 (Then Perseverence<br>Will Be The Test Of Our:)
+                        // Children of dNode30132 (Then Perseverence<br>Will Be The Test Of Our:)
             
-                        var dNode300420 = {
-                            id: "d300420",
+                        var dNode301320 = {
+                            id: "d301320",
                             name: "Self Surender<br>To God",
                             data:{"width":"105","height":"39"},
                             children:[]         
                         };
             
-                        var dNode300421 = {
-                            id: "d300421",
+                        var dNode301321 = {
+                            id: "d301321",
                             name: "Deliberate Choice<br>Of The<br>Devout Life",
                             data:{"width":"140","height":"57"},
                             children:[]         
                         };
             
-                    var dNode30042 = {
-                        id: "d30042",
+                    var dNode30132 = {
+                        id: "d30132",
                         name: "Then Perseverence<br>Will Be The<br>Test Of Our:",
                         data:{"width":"145","height":"57"},
-                        children:[dNode300420,dNode300421]         
+                        children:[dNode301320,dNode301321]         
                     };
         
-                var dNode3004 = {
-                    id: "d3004",
+                var dNode3013 = {
+                    id: "d3013",
                     name: "Let Us:",
                     data:{"width":"60","height":"23"},
-                    children:[dNode30040,dNode30041,dNode30042]         
+                    children:[dNode30130,dNode30131,dNode30132]         
                 };
       
-            var dNode300 = {
-                id: "d300",
-                name: "Words Of<br>Worldly Wisdom:",
-                data:{"width":"130","height":"39"},
-                children:[dNode3000,dNode3001,dNode3002,dNode3003,dNode3004]         
-            };
-      
-                // Children of dNode301 (The Need<br>Of A<br>Good Courage)
-      
-                    // Children of dNode3010 (After You Have Taken<br>A Final Farewell Of<br>The World & Its Follies:)
-            
-                    var dNode30100 = {
-                        id: "d30100",
-                        name: "You May Suffer<br>Loss Of What You<br>Previously Enjoyed -",
-                        data:{"width":"160","height":"57"},
-                        children:[]         
-                    };
-            
-                    var dNode30101 = {
-                        id: "d30101",
-                        name: "These Empty Amusements<br>May Strive To Win You<br>Back To Rest In Them -",
-                        data:{"width":"195","height":"57"},
-                        children:[]         
-                    };
-            
-                    var dNode30102 = {
-                        id: "d30102",
-                        name: "Are You Bold Enough To<br>Give Up A Blessed Eternity<br>For Such Deceitful Snares?",
-                        data:{"width":"205","height":"57"},
-                        children:[]         
-                    };
-        
-                var dNode3010 = {
-                    id: "d3010",
-                    name: "After You Have Taken<br>A Final Farewell Of<br>The World & Its Follies:",
-                    data:{"width":"170","height":"57"},
-                    children:[dNode30100,dNode30101,dNode30102]         
-                };
-      
-                    // Children of dNode3011 (But You See Before<br>You The Mountain Of<br>Christian Perfection:)
-            
-                    var dNode30110 = {
-                        id: "d30110",
-                        name: "You Fear<br>That You Can<br>Never Ascend It -",
-                        data:{"width":"135","height":"57"},
-                        children:[]         
-                    };
-      
-                        // Children of dNode30111 (Be Of Good Cheer<br>My Child:)
-                
-                        var dNode301110 = {
-                            id: "d301110",
-                            name: "Your Wings Will Take<br>Shape Through Your<br>Desires & Resolutions -",
-                            data:{"width":"180","height":"57"},
-                            children:[]         
-                        };
-                
-                        var dNode301111 = {
-                            id: "d301111",
-                            name: "Feed Upon The<br>Honey Of The<br>Holy Ones Of Old -",
-                            data:{"width":"145","height":"57"},
-                            children:[]         
-                        };
-                
-                        var dNode301112 = {
-                            id: "d301112",
-                            name: "Pray That God<br>May Grant You<br>Dove's Wings",
-                            data:{"width":"120","height":"57"},
-                            children:[]         
-                        };
-                
-                    var dNode30111 = {
-                        id: "d30111",
-                        name: "Be Of Good<br>Cheer My Child:",
-                        data:{"width":"120","height":"39"},
-                        children:[dNode301110,dNode301111,dNode301112]         
-                    };
-        
-                var dNode3011 = {
-                    id: "d3011",
-                    name: "But You See Before<br>You The Mountain Of<br>Christian Perfection:",
-                    data:{"width":"160","height":"57"},
-                    children:[dNode30110,dNode30111]         
-                };
-        
             var dNode301 = {
                 id: "d301",
-                name: "Need Of A<br>Good Courage:",
-                data:{"width":"120","height":"39"},
-                children:[dNode3010,dNode3011]         
+                name: "Contrast<br>Between The Two:",
+                data:{"width":"140","height":"39"},
+                children:[dNode3010,dNode3011,dNode3012,dNode3013]         
             };
+      
+                // Children of dNode302 (The Need Of<br>A Good Courage:)
+      
+                    // Children of dNode3020 (After:)
+        
+                    var dNode30200 = {
+                        id: "d30200",
+                        name: "You Have Taken<br>A Final Farewell Of -",
+                        data:{"width":"155","height":"39"},
+                        children:[]         
+                    };
+      
+                        // Children of dNode30201 (The World And<br>Its Follies:)
+      
+                            // Children of dNode302010 (You May:)
+                    
+                            var dNode3020100 = {
+                                id: "d3020100",
+                                name: " Suffer Loss<br>Of What -",
+                                data:{"width":"100","height":"39"},
+                                children:[]         
+                            };
+                    
+                            var dNode3020101 = {
+                                id: "d3020101",
+                                name: "You Previously<br>Enjoyed",
+                                data:{"width":"120","height":"39"},
+                                children:[]         
+                            };
+                
+                        var dNode302010 = {
+                            id: "d302010",
+                            name: "You May:",
+                            data:{"width":"75","height":"23"},
+                            children:[dNode3020100,dNode3020101]         
+                        };
+          
+                            // Children of dNode302011 (These Empty<br>Amusements:)
+                    
+                            var dNode3020110 = {
+                                id: "d3020110",
+                                name: "May Strive To<br>Win You Back -",
+                                data:{"width":"120","height":"39"},
+                                children:[]         
+                            };
+                    
+                            var dNode3020111 = {
+                                id: "d3020111",
+                                name: "To Rest<br>In Them",
+                                data:{"width":"75","height":"39"},
+                                children:[]         
+                            };
+                
+                        var dNode302011 = {
+                            id: "d302011",
+                            name: "These Empty<br>Amusements:",
+                            data:{"width":"110","height":"39"},
+                            children:[dNode3020110,dNode3020111]         
+                        };
+          
+                            // Children of dNode302012 (Are You<br>Bold Enough To:)
+                    
+                            var dNode3020120 = {
+                                id: "d3020120",
+                                name: "Bold Enough<br>To Give Up -",
+                                data:{"width":"110","height":"39"},
+                                children:[]         
+                            };
+                    
+                            var dNode3020121 = {
+                                id: "d3020121",
+                                name: "A Blessed Eternity<br>For Such<br>Deceitful Snares?",
+                                data:{"width":"145","height":"57"},
+                                children:[]         
+                            };
+                    
+                        var dNode302012 = {
+                            id: "d302012",
+                            name: "Are You:",
+                            data:{"width":"75","height":"23"},
+                            children:[dNode3020120,dNode3020121]         
+                        };
+            
+                    var dNode30201 = {
+                        id: "d30201",
+                        name: "The World And<br>Its Follies:",
+                        data:{"width":"120","height":"39"},
+                        children:[dNode302010,dNode302011,dNode302012]         
+                    };
+        
+                var dNode3020 = {
+                    id: "d3020",
+                    name: "After:",
+                    data:{"width":"55","height":"23"},
+                    children:[dNode30200,dNode30201]         
+                };
+      
+                    // Children of dNode3021 (But:)
+            
+                    var dNode30210 = {
+                        id: "d30210",
+                        name: "You See<br>Before You -",
+                        data:{"width":"100","height":"39"},
+                        children:[]         
+                    };
+      
+                        // Children of dNode30211 (You See Before<br>You The Mountain Of<br>Christian Perfection:)
+            
+                        var dNode302110 = {
+                            id: "d302110",
+                            name: "You Fear That You<br>Can Never Ascend It -",
+                            data:{"width":"165","height":"39"},
+                            children:[]         
+                        };
+          
+                            // Children of dNode302111 (Be Of Good Cheer<br>My Child:)
+                    
+                            var dNode3021110 = {
+                                id: "d3021110",
+                                name: "Your Wings Will Take<br>Shape Through Your<br>Desires & Resolutions -",
+                                data:{"width":"180","height":"57"},
+                                children:[]         
+                            };
+                    
+                            var dNode3021111 = {
+                                id: "d3021111",
+                                name: "Feed Upon The<br>Honey Of The<br>Holy Ones Of Old -",
+                                data:{"width":"145","height":"57"},
+                                children:[]         
+                            };
+                    
+                            var dNode3021112 = {
+                                id: "d3021112",
+                                name: "Pray That God<br>May Grant You<br>Dove's Wings",
+                                data:{"width":"120","height":"57"},
+                                children:[]         
+                            };
+                    
+                        var dNode302111 = {
+                            id: "d302111",
+                            name: "Be Of Good<br>Cheer My Child:",
+                            data:{"width":"125","height":"39"},
+                            children:[dNode3021110,dNode3021111,dNode3021112]         
+                        };
+            
+                    var dNode30211 = {
+                        id: "d30211",
+                        name: "The Mountain Of<br>Christian Perfection:",
+                        data:{"width":"160","height":"39"},
+                        children:[dNode302110,dNode302111]         
+                    };
+        
+                var dNode3021 = {
+                    id: "d3021",
+                    name: "But:",
+                    data:{"width":"45","height":"23"},
+                    children:[dNode30210,dNode30211]         
+                };
         
             var dNode302 = {
                 id: "d302",
+                name: "Need Of<br>A Good Courage:",
+                data:{"width":"135","height":"39"},
+                children:[dNode3020,dNode3021]         
+            }; 
+        
+        var dNode30 = {
+            id: "d30",
+            name: "This World Vs<br>The Devout Life<br>(Part IV Ch 1-2)",
+            data:{"width":"130","height":"57"},
+            children:[dNode300,dNode301,dNode302]          
+        };
+                
+            // Children of dNode331 (<u>Counsels Concerning<br> Ordinary Temptations</u><br>Part IV Ch 3-6:)
+        
+            var dNode310 = {
+                id: "d310",
                 name: "Experiencing &<br>Consenting To<br>Temptations:",
                 data:{"width":"120","height":"57"},
                 children:[]         
             };
         
-            var dNode303 = {
-                id: "d303",
+            var dNode311 = {
+                id: "d311",
                 name: "Two Striking<br>Illustration:",
                 data:{"width":"100","height":"39"},
                 children:[]         
             };
         
-        var dNode30 = {
-            id: "d30",
-            name: "<u>Counsels Concerning<br> Ordinary Temptations</u><br>Part IV Ch 1-4:",
-            data:{"width":"175","height":"57"},
-            children:[dNode300,dNode301,dNode302,dNode303]          
-        };
-        
-            // Children of dNode31 (Part IV<br>Ch 5-10)
-        
-            var dNode310 = {
-                id: "d310",
+            var dNode312 = {
+                id: "d312",
                 name: "Encouragement<br>For The<br>Tempted Soul",
                 data:{"width":"125","height":"57"},
                 children:[]         
             };
         
-            var dNode311 = {
-                id: "d311",
+            var dNode313 = {
+                id: "d313",
                 name: "When Temptation<br>& Delectation<br>Are Sin",
-                data:{"width":"130","height":"57"},
+                data:{"width":"135","height":"57"},
                 children:[]         
-            };
+            }; 
         
-                // Children of dNode312 (Major Vs Minor<br>Temptations:)
+        var dNode31 = {
+            id: "d31",
+            name: "<u>Counsels Concerning<br> Ordinary Temptations</u><br>Part IV Ch 3-6:",
+            data:{"width":"175","height":"57"},
+            children:[dNode310,dNode311,dNode312,dNode313]            
+        };
+                
+            // Children of dNode32 (<u>Counsels Concerning<br> Ordinary Temptations</u><br>Part IV Ch 7-10:)
         
-                    // Children of dNode3120 In<br>General:)
+               // Children of dNode320 (Major Vs Minor<br>Temptations:)
+        
+                    // Children of dNode3200 In<br>General:)
                         
-                    var dNode31200 = {
-                        id: "d31200",
+                    var dNode32000 = {
+                        id: "d32000",
                         name: "Greater Temptations<br>Exceed In Power",
                         data:{"width":"150","height":"39"},
                         children:[]         
                     };
                         
-                    var dNode31201 = {
-                        id: "d31201",
+                    var dNode32001 = {
+                        id: "d32001",
                         name: "Little Temptations<br>Exceed In Number",
-                        data:{"width":"135","height":"39"},
+                        data:{"width":"140","height":"39"},
                         children:[]         
                     };
                         
-                    var dNode31202 = {
-                        id: "d31202",
+                    var dNode32002 = {
+                        id: "d32002",
                         name: "Victory Over Either<br>As Fully Important<br>As Victory Over Other",
                         data:{"width":"165","height":"57"},
                         children:[]         
                     };
                 
-                var dNode3120 = {
-                    id: "d3120",
+                var dNode3200 = {
+                    id: "d3200",
                     name: "In<br>General:",
                     data:{"width":"75","height":"39"},
-                    children:[dNode31200,dNode31201,dNode31202]         
+                    children:[dNode32000,dNode32001,dNode32002]         
                 };
         
-                    // Children of dNode3121 (Examples:)
+                    // Children of dNode3201 (Examples:)
                         
-                    var dNode31210 = {
-                        id: "d31210",
+                    var dNode32010 = {
+                        id: "d32010",
                         name: "Murder Vs<br>Fits Of Anger",
                         data:{"width":"105","height":"39"},
                         children:[]         
                     };
                         
-                    var dNode31211 = {
-                        id: "d31211",
+                    var dNode32011 = {
+                        id: "d32011",
                         name: "Stealing Vs<br>Coveting",
                         data:{"width":"90","height":"39"},
                         children:[]         
                     };
                         
-                    var dNode31212 = {
-                        id: "d31212",
+                    var dNode32012 = {
+                        id: "d32012",
                         name: "Adultery Vs Disloyal<br>Words & Glances",
                         data:{"width":"135","height":"57"},
                         children:[]         
                     };
                         
-                    var dNode31213 = {
-                        id: "d31213",
+                    var dNode32013 = {
+                        id: "d32013",
                         name: "Bearing False Witness<br>Vs Not Being Absolutely<br>Truthful In Conversation",
                         data:{"width":"185","height":"57"},
                         children:[]         
                     };
                         
-                    var dNode31214 = {
-                        id: "d31214",
+                    var dNode32014 = {
+                        id: "d32014",
                         name: "Getting Drunk Vs<br>Not Being<br>Absolutely Sober",
                         data:{"width":"135","height":"57"},
                         children:[]         
                     };
                         
-                    var dNode31215 = {
-                        id: "d31215",
+                    var dNode32015 = {
+                        id: "d32015",
                         name: "Wish For A Neighbor's Death<br>Vs Wish Anything<br>Contrary To His Interest",
-                        data:{"width":"210","height":"57"},
+                        data:{"width":"215","height":"57"},
                         children:[]         
                     };
                         
-                    var dNode31216 = {
-                        id: "d31216",
+                    var dNode32016 = {
+                        id: "d32016",
                         name: "Slander Vs<br>Contempt",
-                        data:{"width":"85","height":"39"},
+                        data:{"width":"90","height":"39"},
                         children:[]         
                     };
                 
-                var dNode3121 = {
-                    id: "d3121",
+                var dNode3201 = {
+                    id: "d3201",
                     name: "Examples:",
                     data:{"width":"90","height":"23"},
-                    children:[dNode31210,dNode31211,dNode31212,dNode31213,dNode31214,dNode31215,dNode31216]         
+                    children:[dNode32010,dNode32011,dNode32012,dNode32013,dNode32014,dNode32015,dNode32016]         
                 };
 
-            var dNode312 = {
-                id: "d312",
+            var dNode320 = {
+                id: "d320",
                 name: "Major Vs Minor<br>Temptations:",
                 data:{"width":"120","height":"39"},
-                children:[dNode3120,dNode3121]         
+                children:[dNode3200,dNode3201]         
             };
         
-                // Children of dNode313 (Remedies:)
-            
+                 // Children of dNode321 (Remedies:)
         
-                var dNode3130 = {
-                    id: "d3130",
+                var dNode3210 = {
+                    id: "d3210",
                     name: "For Great<br>Occasions",
                     data:{"width":"85","height":"39"},
                     children:[]         
                 };
         
-                    // Children of dNode3131 (For Minor<br>Temptations:)
+                    // Children of dNode3211 (For Minor<br>Temptations:)
                 
-                    var dNode31310 = {
-                        id: "d31310",
+                    var dNode32110 = {
+                        id: "d32110",
                         name: "How To<br>Resist",
                         data:{"width":"65","height":"39"},
                         children:[]         
                     };
                 
-                    var dNode31311 = {
-                        id: "d31311",
+                    var dNode32111 = {
+                        id: "d32111",
                         name: "How To<br>Resist",
                         data:{"width":"65","height":"39"},
                         children:[]         
                     };
             
-                var dNode3131 = {
-                    id: "d3131",
+                var dNode3211 = {
+                    id: "d3211",
                     name: "For Minor<br>Temptations:",
                     data:{"width":"105","height":"39"},
-                    children:[dNode31310,dNode31311]         
+                    children:[dNode32110,dNode32111]         
                 };
         
-                    // Children of dNode3132 (For Strengthening<br>The Heart<br>Against Temptation:)
+                    // Children of dNode3212 (For Strengthening<br>The Heart<br>Against Temptation:)
         
-                        // Children of dNode31320 (Examine:)
+                        // Children of dNode32120 (Examine:)
                     
-                        var dNode313200 = {
-                            id: "d313200",
+                        var dNode321200 = {
+                            id: "d321200",
                             name: "What Are The<br>Dominant Passions<br>Of Your Soul? Then -",
                             data:{"width":"160","height":"57"},
                             children:[]         
                         };
                     
-                        var dNode313201 = {
-                            id: "d313201",
+                        var dNode321201 = {
+                            id: "d321201",
                             name: "In Thought, Word & Deed<br>Counteract Them<br>As Far As Possible -",
                             data:{"width":"190","height":"57"},
                             children:[]         
                         };
         
-                            // Children of dNode313202 (Example - Disposed<br>To Vainity:)
+                            // Children of dNode321202 (Example - Disposed<br>To Vainity:)
         
-                                // Children of dNode3132020 (Reflect<br>Often Upon:)
+                                // Children of dNode3212020 (Reflect<br>Often Upon:)
                             
-                                var dNode31320200 = {
-                                    id: "d31320200",
+                                var dNode32120200 = {
+                                    id: "d32120200",
                                     name: "The Emptiness<br>Of This<br>Earthly Life -",
                                     data:{"width":"115","height":"57"},
                                     children:[]         
                                 };
         
-                                    // Children of dNode31320201 (How Burdensome<br>Will Be:)
+                                    // Children of dNode32120201 (How Burdensome<br>Will Be:)
                         
-                                    var dNode313202010 = {
-                                        id: "d313202010",
+                                    var dNode321202010 = {
+                                        id: "d321202010",
                                         name: "All<br>Mere Earthly<br>Vanities To -",
                                         data:{"width":"105","height":"57"},
                                         children:[]         
                                     };
                         
-                                    var dNode313202011 = {
-                                        id: "d313202011",
+                                    var dNode321202011 = {
+                                        id: "d321202011",
                                         name: "The Conscience<br>At The Hour<br>Of Death",
                                         data:{"width":"125","height":"57"},
                                         children:[]         
                                     };
                         
-                                var dNode31320201 = {
-                                    id: "d31320201",
+                                var dNode32120201 = {
+                                    id: "d32120201",
                                     name: "How<br>Burdensome<br>Will Be:",
                                     data:{"width":"105","height":"57"},
-                                    children:[dNode313202010,dNode313202011]         
-                                };
+                                    children:[dNode321202010,dNode321202011]         
+                                }; 
                         
-                                var dNode31320202 = {
-                                    id: "d31320202",
+                                var dNode32120202 = {
+                                    id: "d32120202",
                                     name: "How Unworthy<br>Of A<br>Generous Heart -",
                                     data:{"width":"135","height":"57"},
                                     children:[]         
                                 };
                             
-                                var dNode31320203 = {
-                                    id: "d31320203",
+                                var dNode32120203 = {
+                                    id: "d32120203",
                                     name: "How Puerile<br>And Childish,<br>And The Like",
                                     data:{"width":"115","height":"57"},
                                     children:[]         
                                 };
                         
-                            var dNode3132020 = {
-                                id: "d3132020",
+                            var dNode3212020 = {
+                                id: "d3212020",
                                 name: "Reflect Often<br>Upon:",
                                 data:{"width":"105","height":"39"},
-                                children:[dNode31320200,dNode31320201,dNode31320202,dNode31320203]         
-                            };
+                                children:[dNode32120200,dNode32120201,dNode32120202,dNode32120203]         
+                            }; 
                         
-                            var dNode3132021 = {
-                                id: "d3132021",
+                            var dNode3212021 = {
+                                id: "d3212021",
                                 name: "See That Your Words<br>Have No Tendency To<br>Foster Your Vanity",
                                 data:{"width":"165","height":"57"},
                                 children:[]         
                             };
                         
-                            var dNode3132022 = {
-                                id: "d3132022",
+                            var dNode3212022 = {
+                                id: "d3212022",
                                 name: "Strive<br>To Despise It<br>Heartily, And -",
                                 data:{"width":"115","height":"57"},
                                 children:[]         
                             };
                         
-                            var dNode3132023 = {
-                                id: "d3132023",
+                            var dNode3212023 = {
+                                id: "d3212023",
                                 name: "To Rank Yourself<br>In Every Way<br>Among Its Enemies",
                                 data:{"width":"150","height":"57"},
                                 children:[]         
-                            };
+                            }; 
                     
-                        var dNode313202 = {
-                            id: "d313202",
+                        var dNode321202 = {
+                            id: "d321202",
                             name: "<u>Example</u><br>Disposed To<br>Vainity:",
                             data:{"width":"100","height":"57"},
-                            children:[dNode3132020,dNode3132021,dNode3132022,dNode3132023]         
+                            children:[dNode3212020,dNode3212021,dNode3212022,dNode3212023]         
                         };
                 
-                    var dNode31320 = {
-                        id: "d31320",
+                    var dNode32120 = {
+                        id: "d32120",
                         name: "Examine:",
                         data:{"width":"75","height":"23"},
-                        children:[dNode313200,dNode313201,dNode313202]         
+                        children:[dNode321200,dNode321201,dNode321202]         
                     };
                 
-                    var dNode31321 = {
-                        id: "d31321",
+                    var dNode32121 = {
+                        id: "d32121",
                         name: "--<br>--",
                         data:{"width":"35","height":"39"},
                         children:[]         
-                    };
+                    }; 
             
-                var dNode3132 = {
-                    id: "d3132",
-                    name: "For Strengthening<br>The Heart<br>Against Temptation:",
-                    data:{"width":"155","height":"57"},
-                    children:[dNode31320,dNode31321]         
-                };
-
-            var dNode313 = {
-                id: "d313",
-                name: "Remedies:",
-                data:{"width":"85","height":"23"},
-                children:[dNode3130,dNode3131,dNode3132]         
-            };
-        
-        var dNode31 = {
-            id: "d31",
-            name: "<u>Counsels Concerning<br> Ordinary Temptations</u><br>Part IV Ch 5-10:",
-            data:{"width":"175","height":"57"},
-            children:[dNode310,dNode311,dNode312,dNode313]            
-        };
- 
-            // Children of dNode32 (Part IV<br>Ch 11-13)
- 
-	            // Children of dNode320 (Anxiety<br>Of Mind:)
-	 
-		            // Children of dNode3200 (About:)
-		        
-		            var dNode32000 = {
-		                id: "d32000",
-		                name: "Is Not So Much<br>An Abstract<br>Temptation As -",
-		                data:{"width":"125","height":"57"},
-		                children:[]         
-		            };
-		        
-		            var dNode32001 = {
-		                id: "d32001",
-		                name: "The Source From<br>Which Various<br>Temptations Arise -",
-		                data:{"width":"145","height":"57"},
-		                children:[]         
-		            };
-	 
-			            // Children of dNode32002 (Arises From<br>An Unregulated<br>Desire To:)
-	 
-		            		// Children of dNode320020 (Be Delivered<br>From Any<br>Pressing Evil eg.:)
-			 
-					            // Children of dNode3200200 (Exterior:)
-					        
-					            var dNode32002000 = {
-					                id: "d32002000",
-					                name: "Poverty",
-					                data:{"width":"65","height":"23"},
-					                children:[]         
-					            };
-					        
-					            var dNode32002001 = {
-					                id: "d32002001",
-					                name: "Sickness",
-					                data:{"width":"75","height":"23"},
-					                children:[]         
-					            };
-					        
-					            var dNode32002002 = {
-					                id: "d32002002",
-					                name: "Contempt",
-					                data:{"width":"80","height":"23"},
-					                children:[]         
-					            };
-				        
-				            var dNode3200200 = {
-				                id: "d3200200",
-				                name: "Exterior:",
-				                data:{"width":"70","height":"23"},
-				                children:[dNode32002000,dNode32002001,dNode32002002]         
-				            };
-			 
-					            // Children of dNode3200201 (Interior:)
-					        
-					            var dNode32002010 = {
-					                id: "d32002010",
-					                name: "Ignorance",
-					                data:{"width":"80","height":"23"},
-					                children:[]         
-					            };
-					        
-					            var dNode32002011 = {
-					                id: "d32002011",
-					                name: "Dryness",
-					                data:{"width":"70","height":"23"},
-					                children:[]         
-					            };
-					        
-					            var dNode32002012 = {
-					                id: "d32002012",
-					                name: "Depression",
-					                data:{"width":"90","height":"23"},
-					                children:[]         
-					            };
-					        
-					            var dNode32002013 = {
-					                id: "d32002013",
-					                name: "Temptation",
-					                data:{"width":"85","height":"23"},
-					                children:[]         
-					            };
-				        
-				            var dNode3200201 = {
-				                id: "d3200201",
-				                name: "Interior:",
-				                data:{"width":"70","height":"23"},
-				                children:[dNode32002010,dNode32002011,dNode32002012,dNode32002013]         
-				            };
-			        
-			            var dNode320020 = {
-			                id: "d320020",
-			                name: "Be Delivered<br>From Any<br>Pressing Evil eg.:",
-			                data:{"width":"135","height":"57"},
-			                children:[dNode3200200,dNode3200201]         
-			            };
-			        
-			            var dNode320021 = {
-			                id: "d320021",
-			                name: "Obtain Some<br>Hoped-For<br>Good",
-			                data:{"width":"105","height":"57"},
-			                children:[]         
-			            };
-		        
-		            var dNode32002 = {
-		                id: "d32002",
-		                name: "Because Of<br>An Unregulated<br>Desire To:",
-		                data:{"width":"125","height":"57"},
-		                children:[dNode320020,dNode320021]         
-		            };
-	        
-	            var dNode3200 = {
-	                id: "d3200",
-	                name: "About<br>Anxiety:",
-	                data:{"width":"70","height":"39"},
-	                children:[dNode32000,dNode32001,dNode32002]         
-	            };
-	        
-	            var dNode3201 = {
-	                id: "d3201",
-	                name: "Resisting<br>Anxiety:",
-	                data:{"width":"75","height":"39"},
-	                children:[]         
-	            };
-        
-            var dNode320 = {
-                id: "d320",
-                name: "Anxiety<br>Of Mind:",
-                data:{"width":"70","height":"39"},
-                children:[dNode3200,dNode3201]         
-            };
- 
-                // Children of dNode321 (Sadness<br>& Sorrow:)
- 
-                    // Children of dNode3210 (Results<br>Of Sadness:)
- 
-                        // Children of dNode32100 (Good:)
-                
-                        var dNode321000 = {
-                            id: "d321000",
-                            name: "Mercy",
-                            data:{"width":"55","height":"23"},
-                            children:[]         
-                        };
-                
-                        var dNode321001 = {
-                            id: "d321001",
-                            name: "Repentance",
-                            data:{"width":"95","height":"23"},
-                            children:[]         
-                        };
-            
-                    var dNode32100 = {
-                        id: "d32100",
-                        name: "Good:",
-                        data:{"width":"55","height":"23"},
-                        children:[dNode321000,dNode321001]         
-                    };
- 
-                        // Children of dNode32101 (Good:)
-                
-                        var dNode321010 = {
-                            id: "d321010",
-                            name: "Anguish",
-                            data:{"width":"70","height":"23"},
-                            children:[]         
-                        };
-                
-                        var dNode321011 = {
-                            id: "d321011",
-                            name: "Sloth",
-                            data:{"width":"50","height":"23"},
-                            children:[]         
-                        };
-                
-                        var dNode321012 = {
-                            id: "d321012",
-                            name: "Indignation",
-                            data:{"width":"95","height":"23"},
-                            children:[]         
-                        };
-                
-                        var dNode321013 = {
-                            id: "d321013",
-                            name: "Jealousy",
-                            data:{"width":"75","height":"23"},
-                            children:[]         
-                        };
-                
-                        var dNode321014 = {
-                            id: "d321014",
-                            name: "Envy",
-                            data:{"width":"50","height":"23"},
-                            children:[]         
-                        };
-                
-                        var dNode321015 = {
-                            id: "d321015",
-                            name: "Impatience",
-                            data:{"width":"90","height":"23"},
-                            children:[]         
-                        };
-            
-                    var dNode32101 = {
-                        id: "d32101",
-                        name: "Bad:",
-                        data:{"width":"45","height":"23"},
-                        children:[dNode321010,dNode321011,dNode321012,dNode321013,dNode321014,dNode321015]         
-                    };
-        
-                var dNode3210 = {
-                    id: "d3210",
-                    name: "Results<br>Of Sadness:",
-                    data:{"width":"100","height":"39"},
-                    children:[dNode32100,dNode32101]         
-                };
- 
-                    // Children of dNode3211 (Evil One<br>Enemy:)
-            
-                    var dNode32110 = {
-                        id: "d32110",
-                        name: "Sadness & Melancholy<br>Are His<br>Own Characteristics",
-                        data:{"width":"175","height":"57"},
-                        children:[]         
-                    };
- 
-                        // Children of dNode32111 (He Tries<br>To Make:)
-            
-                        var dNode321110 = {
-                            id: "d321110",
-                            name: "The Bad Merry<br>In Their Sin",
-                            data:{"width":"115","height":"39"},
-                            children:[]         
-                        };
-            
-                        var dNode321111 = {
-                            id: "d321111",
-                            name: "The Good Sorrowful<br>Amid Their<br>Works Of Piety",
-                            data:{"width":"155","height":"57"},
-                            children:[]         
-                        };
-            
-                    var dNode32111 = {
-                        id: "d32111",
-                        name: "He Tries<br>To Make:",
-                        data:{"width":"75","height":"39"},
-                        children:[dNode321110,dNode321111]         
-                    };
-        
-                var dNode3211 = {
-                    id: "d3211",
-                    name: "Evil One,<br>Our Enemy:",
-                    data:{"width":"95","height":"39"},
-                    children:[dNode32110,dNode32111]         
-                };
- 
-                    // Children of dNode3212 (Worldly<br>Sorrow:)
-            
-                    var dNode32120 = {
-                        id: "d32120",
-                        name: "Disturbs<br>The Heart -",
-                        data:{"width":"90","height":"39"},
-                        children:[]         
-                    };
-            
-                    var dNode32121 = {
-                        id: "d32121",
-                        name: "Plunges It<br>Into Anxiety",
-                        data:{"width":"95","height":"39"},
-                        children:[]         
-                    };
-            
-                    var dNode32122 = {
-                        id: "d32122",
-                        name: "Stirs Up<br>Unreasonable<br>Fears",
-                        data:{"width":"110","height":"57"},
-                        children:[]         
-                    };
-            
-                    var dNode32123 = {
-                        id: "d32123",
-                        name: "Discusts It<br>With Prayer",
-                        data:{"width":"100","height":"39"},
-                        children:[]         
-                    };
-            
-                    var dNode32124 = {
-                        id: "d32124",
-                        name: "Overwhelms<br>& Stupefies<br>The Brain",
-                        data:{"width":"100","height":"57"},
-                        children:[]         
-                    };
- 
-                        // Children of dNode32125 (Deprives<br>The Soul Of:)
-            
-                        var dNode321250 = {
-                            id: "d321250",
-                            name: "Wisdom",
-                            data:{"width":"65","height":"23"},
-                            children:[]         
-                        };
-            
-                        var dNode321251 = {
-                            id: "d321251",
-                            name: "Judgment",
-                            data:{"width":"80","height":"23"},
-                            children:[]         
-                        };
-            
-                        var dNode321252 = {
-                            id: "d321252",
-                            name: "Resolution",
-                            data:{"width":"90","height":"23"},
-                            children:[]         
-                        };
-            
-                        var dNode321253 = {
-                            id: "d321253",
-                            name: "Courage",
-                            data:{"width":"70","height":"23"},
-                            children:[]         
-                        };
-            
-                    var dNode32125 = {
-                        id: "d32125",
-                        name: "Deprives<br>The Soul Of:",
-                        data:{"width":"100","height":"39"},
-                        children:[dNode321250,dNode321251,dNode321252,dNode321253]         
-                    };
-            
-                    var dNode32126 = {
-                        id: "d32126",
-                        name: "Weakens Off<br>Its Powers",
-                        data:{"width":"100","height":"39"},
-                        children:[]         
-                    };
-        
                 var dNode3212 = {
                     id: "d3212",
-                    name: "Worldly<br>Sorrow:",
-                    data:{"width":"70","height":"39"},
-                    children:[dNode32120,dNode32121,dNode32122,dNode32123,dNode32124,dNode32125,dNode32126]         
-                };
- 
-                    // Children of dNode3213 (Remedies:)
- 
-                        // Children of dNode32130 (Prayer:)
-            
-                        var dNode321300 = {
-                            id: "d321300",
-                            name: "Is A Sovereign<br>Remedy -",
-                            data:{"width":"115","height":"39"},
-                            children:[]         
-                        };
-            
-                        var dNode321301 = {
-                            id: "d321301",
-                            name: "It Lifts The<br>Mind To God<br>Who Is -",
-                            data:{"width":"105","height":"57"},
-                            children:[]         
-                        };
-            
-                        var dNode321302 = {
-                            id: "d321302",
-                            name: "Our Only Joy<br>And Consolation",
-                            data:{"width":"130","height":"39"},
-                            children:[]         
-                        };
-        
-                    var dNode32130 = {
-                        id: "d32130",
-                        name: "Prayer:",
-                        data:{"width":"60","height":"23"},
-                        children:[dNode321300,dNode321301,dNode321302]         
-                    };
-        
-                    var dNode32131 = {
-                        id: "d32131",
-                        name: "Hymns And<br>Spiritual Songs",
-                        data:{"width":"120","height":"39"},
-                        children:[]         
-                    };
-        
-                    var dNode32132 = {
-                        id: "d32132",
-                        name: "External<br>Works",
-                        data:{"width":"70","height":"39"},
-                        children:[]         
-                    };
-        
-                    var dNode32133 = {
-                        id: "d32133",
-                        name: "Bodily<br>Discipline",
-                        data:{"width":"85","height":"39"},
-                        children:[]         
-                    };
-        
-                var dNode3213 = {
-                    id: "d3213",
-                    name: "Remedies:",
-                    data:{"width":"85","height":"23"},
-                    children:[dNode32130,dNode32131,dNode32132,dNode32133]         
-                };
-        
+                    name: "For Strengthening<br>The Heart<br>Against Temptation:",
+                    data:{"width":"155","height":"57"},
+                    children:[dNode32120,dNode32121]         
+                }; 
+
             var dNode321 = {
                 id: "d321",
-                name: "Sadness<br>& Sorrow:",
-                data:{"width":"85","height":"39"},
-                children:[dNode3210,dNode3211,dNode3212,dNode3213]         
-            };
+                name: "Remedies:",
+                data:{"width":"85","height":"23"},
+                children:[dNode3210,dNode3211,dNode3212]         
+            }; 
         
         var dNode32 = {
             id: "d32",
-            name: "<u>Counsels Concerning<br> Ordinary Temptations</u><br>Part IV Ch 11-13:",
+            name: "<u>Counsels Concerning<br> Ordinary Temptations</u><br>Part IV Ch 7-10:",
             data:{"width":"175","height":"57"},
             children:[dNode320,dNode321]           
         };
  
             // Children of dNode33 (Part IV<br>Ch 14-15)
+ 
+                // Children of dNode330 (Spiritual & Sensible<br>Consolations:)
+            
+                var dNode3300 = {
+                    id: "d3300",
+                    name: "How To<br>Receive Them",
+                    data:{"width":"110","height":"39"},
+                    children:[]         
+                };
         
             var dNode330 = {
                 id: "d330",
-                name: "Spiritual & Sensible<br>Consolations, How<br>To Receive Them",
-                data:{"width":"145","height":"57"},
+                name: "Spiritual & Sensible<br>Consolations:",
+                data:{"width":"150","height":"39"},
                 children:[]         
             };
+ 
+                // Children of dNode331 (Dryness And<br>Spiritual Barrenness:)
+        
+                var dNode3310 = {
+                    id: "d3310",
+                    name: "Examination<br>Of Conscience:",
+                    data:{"width":"120","height":"39"},
+                    children:[]         
+                };
+ 
+                    // Children of dNode3311 (An<br>Illustration:)
+        
+                    var dNode33110 = {
+                        id: "d33110",
+                        name: "Geoffroy De Peronne<br>Member Of<br>S. Bernard’s Community",
+                        data:{"width":"175","height":"57"},
+                        children:[]         
+                    };
+        
+                    var dNode33111 = {
+                        id: "d33111",
+                        name: "",
+                        data:{"width":"95","height":"39"},
+                        children:[]         
+                    };    
+        
+                var dNode3311 = {
+                    id: "d3311",
+                    name: "An<br>Illustration:",
+                    data:{"width":"95","height":"39"},
+                    children:[]         
+                };  
         
             var dNode331 = {
                 id: "d331",
-                name: "Dryness<br>& Spiritual<br>Barrenness",
-                data:{"width":"95","height":"57"},
-                children:[]         
-            };
-        
-            var dNode332 = {
-                id: "d332",
-                name: "An<br>Illustration",
-                data:{"width":"85","height":"39"},
-                children:[]         
+                name: "Dryness And<br>Spiritual Barrenness:",
+                data:{"width":"160","height":"39"},
+                children:[dNode3310,dNode3311]         
             };
         
         var dNode33 = {
             id: "d33",
             name: "<u>Counsels Concerning<br> Ordinary Temptations</u><br>Part IV Ch 14-15:",
             data:{"width":"175","height":"57"},
-            children:[dNode330,dNode331,dNode332]            
+            children:[dNode330,dNode331]            
         };
-                
+
             // Children of dNode34 (Part V<br>Ch 1-7:)
                 
                 // Children of dNode340 (Yearly<br>Renewal:)
@@ -8565,7 +9353,7 @@
                 var dNode3400 = {
                     id: "d3400",
                     name: "Why:",
-                    data:{"width":"45","height":"23"},
+                    data:{"width":"50","height":"23"},
                     children:[dNode34000,dNode34001]         
                 };
                 
@@ -8605,21 +9393,21 @@
                 
                         var dNode340111 = {
                             id: "d340111",
-                            name: "Whatever May Be Amiss<br>& Then Lubricate Them -",
-                            data:{"width":"180","height":"39"},
+                            name: "Whatever May Be Amiss<br>And Then<br>Lubricate Them With -",
+                            data:{"width":"185","height":"57"},
                             children:[]         
                         };
                 
                         var dNode340112 = {
                             id: "d340112",
-                            name: "With The<br>Sacraments Of<br>Confession & Eucharist",
-                            data:{"width":"185","height":"57"},
+                            name: "The Sacraments Of<br>Confession & Eucharist",
+                            data:{"width":"180","height":"39"},
                             children:[]         
                         };
             
                     var dNode34011 = {
                         id: "d34011",
-                        name: "At Least<br>Once A Year:",
+                        name: "At Least<br>Once A Year:<br><br>",
                         data:{"width":"105","height":"39"},
                         children:[dNode340110,dNode340111,dNode340112]         
                     };
@@ -8642,8 +9430,8 @@
         
                 var dNode3410 = {
                     id: "d3410",
-                    name: "Repair The<br>Waste Caused<br>By Time",
-                    data:{"width":"115","height":"57"},
+                    name: "Repair The Waste<br>Caused By Time",
+                    data:{"width":"135","height":"39"},
                     children:[]         
                 };
         
@@ -8656,8 +9444,8 @@
         
                 var dNode3412 = {
                     id: "d3412",
-                    name: "Revive<br>Your Good<br>Resolutions",
-                    data:{"width":"100","height":"57"},
+                    name: "Revive Your<br>Good Resolutions",
+                    data:{"width":"135","height":"39"},
                     children:[]         
                 };
         
@@ -8670,7 +9458,7 @@
         
             var dNode341 = {
                 id: "d341",
-                name: "Benefits:",
+                name: "Benefits:<br><br>",
                 data:{"width":"80","height":"23"},
                 children:[dNode3410,dNode3411,dNode3412,dNode3413]         
             };
@@ -8741,51 +9529,51 @@
         
                 var dNode3500 = {
                     id: "d3500",
-                    name: "Humble Yourself<br>Deeply Before<br>God",
-                    data:{"width":"125","height":"57"},
+                    name: "Humble Yourself<br>Deeply<br>Before God",
+                    data:{"width":"130","height":"57"},
                     children:[]         
                 };
         
                 var dNode3501 = {
                     id: "d3501",
                     name: "Ask Forgiveness<br>For The Disloyalty<br>And Faithlessness",
-                    data:{"width":"140","height":"57"},
+                    data:{"width":"145","height":"57"},
                     children:[]         
                 };
         
                 var dNode3502 = {
                     id: "d3502",
                     name: "Entreat Him To<br>Keep You Faithful<br>To Himself",
-                    data:{"width":"135","height":"57"},
+                    data:{"width":"140","height":"57"},
                     children:[]         
                 };
         
                 var dNode3503 = {
                     id: "d3503",
                     name: "Offer Your<br>Whole Heart<br>To Him",
-                    data:{"width":"95","height":"57"},
+                    data:{"width":"105","height":"57"},
                     children:[]         
                 };
         
                 var dNode3504 = {
                     id: "d3504",
                     name: "Promise<br>To Praise Him<br>For Ever",
-                    data:{"width":"110","height":"57"},
+                    data:{"width":"115","height":"57"},
                     children:[]         
                 };
         
-                var dNode3505 = {
+            /*    var dNode3505 = {
                     id: "d3505",
                     name: "Ponder Over<br>The Examples<br>Of The Saints",
                     data:{"width":"110","height":"57"},
                     children:[]         
-                };
+                };  */
     
             var dNode350 = {
                 id: "d350",
                 name: "Affections To<br>Be Excited:",
                 data:{"width":"105","height":"39"},
-                children:[dNode3500,dNode3501,dNode3502,dNode3503,dNode3504,dNode3505]         
+                children:[dNode3500,dNode3501,dNode3502,dNode3503,dNode3504/*,dNode3505*/]         
             };
 
                 // Children of dNode351 (Reflections Suitable<br>To The Renewal<br>Of Good Resolutions:)
@@ -8876,7 +9664,7 @@
                 var dNode3510 = {
                     id: "d3510",
                     name: "The Worth<br>Of Souls:",
-                    data:{"width":"80","height":"39"},
+                    data:{"width":"85","height":"39"},
                     children:[dNode35100,dNode35101]         
                 };
             
@@ -8890,21 +9678,21 @@
                 var dNode3512 = {
                     id: "d3512",
                     name: "The Example<br>Of The Saints",
-                    data:{"width":"105","height":"39"},
+                    data:{"width":"110","height":"39"},
                     children:[]         
                 };
         
                 var dNode3513 = {
                     id: "d3513",
-                    name: "Love Which<br>Jesus Christ<br>Bears To Us",
-                    data:{"width": "105","height": "57"},
+                    name: "The Love<br>Which Jesus Christ<br>Bears To Us",
+                    data:{"width": "150","height": "57"},
                     children:[]         
                 };
             
                 var dNode3514 = {
                     id: "d3514",
-                    name: "Eternal Love<br>God Has<br>For Us",
-                    data:{"width":"100","height":"57"},
+                    name: "Eternal Love<br>God<br>Has For Us",
+                    data:{"width":"105","height":"57"},
                     children:[]         
                 };
             
@@ -8918,7 +9706,7 @@
         
         var dNode35 = {
             id: "d35",
-            name: "<u>Part V Ch 8-14</u><br>After this<br>Examination:",
+            name: "<u>After this<br>Examination</u><br>Part V Ch 8-14:",
             data:{"width":"120","height":"57"},
             children:[dNode350,dNode351]            
         };
@@ -8941,72 +9729,74 @@
                     children:[]         
                 };
             
-                    // Children of dNode3611 (All Our Devout<br>Exercises Must Sink<br>Into The Heart:)
+                    // Children of dNode3611 (Devout Exercises<br>Must Sink<br>Into The Heart So:)
                 
                     var dNode36110 = {
                         id: "d36110",
-                        name: "When We Come Forth<br>From Our Meditation<br>And Retirement -",
-                        data:{"width":"165","height":"57"},
-                        children:[]         
-                    };
-                
-                    var dNode36111= {
-                        id: "d36111",
-                        name: "Tread Warily<br>In Business<br>Or Society -",
-                        data:{"width":"100","height":"57"},
-                        children:[]         
-                    };
-                
-                    var dNode36112 = {
-                        id: "d36112",
-                        name: "Let It Soak In<br>& Penetrate Every<br>Faculty Of The Soul -",
-                        data:{"width":"160","height":"57"},
-                        children:[]         
-                    };
-                
-                    var dNode36113 = {
-                        id: "d36113",
-                        name: "Without<br>Bodily Or Mental<br>Excitement",
+                        name: "Penetrate<br>Every Faculty Of<br>The Soul So -",
                         data:{"width":"130","height":"57"},
                         children:[]         
                     };
             
+                        // Children of dNode3611 (Tread Warily In<br>Business Or Society<br>Without:)
+                
+                        var dNode361110 = {
+                            id: "d361110",
+                            name: "Bodily<br>Or -",
+                            data:{"width":"65","height":"39"},
+                            children:[]         
+                        };
+                
+                        var dNode361111 = {
+                            id: "d361111",
+                            name: "Mental<br>Excitement",
+                            data:{"width":"95","height":"39"},
+                            children:[]         
+                        };
+                
+                    var dNode36111= {
+                        id: "d36111",
+                        name: "Tread Warily In<br>Business Or Society<br>Without:",
+                        data:{"width":"160","height":"57"},
+                        children:[dNode361110,dNode361111]         
+                    };
+            
                 var dNode3611 = {
                     id: "d3611",
-                    name: "All Our Devout<br>Exercises Must Sink<br>Into The Heart:",
-                    data:{"width":"155","height":"57"},
-                    children:[dNode36110,dNode36111,dNode36112,dNode36113]         
+                    name: "Devout Exercises<br>Must Sink<br>Into The Heart:",
+                    data:{"width":"145","height":"57"},
+                    children:[dNode36110,dNode36111]         
                 };
         
             var dNode361 = {
                 id: "d361",
-                name: "Impressions Which<br>Should Remain<br>After This Exercise:",
-                data:{"width":"150","height":"57"},
+                name: "Impressions:",
+                data:{"width":"105","height":"23"},
                 children:[dNode3610,dNode3611]         
             };
         
-                // Children of dNode362 (Answer To Two<br>Objections Which May<br>Be Made To This Book)
+                // Children of dNode362 (Objections/<br>Answers:)
         
                     // Children of dNode3620 (First<br>Objection)
                 
                     var dNode36200 = {
                         id: "d36200",
-                        name: "These Counsels & Practices<br>Are So Numerous, That<br>You Can Pay No Attention<br>To Anything Else",
-                        data:{"width":"205","height":"75"},
+                        name: "Only Use<br>According To -",
+                        data:{"width":"120","height":"39"},
                         children:[]         
                     };
                 
                     var dNode36201 = {
                         id: "d36201",
-                        name: "It Is Only Necessary<br>To Use Them According<br>To Time And Place<br>As They Are Wanted.",
-                        data:{"width":"175","height":"75"},
+                        name: "Time & Place<br>As Wanted",
+                        data:{"width":"105","height":"39"},
                         children:[]         
                     };
             
                 var dNode3620 = {
                     id: "d3620",
-                    name: "First<br>Objection:",
-                    data:{"width":"85","height":"39"},
+                    name: "Too<br>Numerous:",
+                    data:{"width":"95","height":"39"},
                     children:[dNode36200,dNode36201]         
                 };
         
@@ -9014,66 +9804,121 @@
                 
                     var dNode36210 = {
                         id: "d36210",
-                        name: "Not Everyone<br>Has The Gift<br>Of Mental Prayer",
-                        data:{"width":"130","height":"57"},
+                        name: "It Is<br>A Gift Which -",
+                        data:{"width":"115","height":"39"},
                         children:[]         
                     };
                 
                     var dNode36211 = {
                         id: "d36211",
-                        name: "It Is A Gift Which<br>Almost Everyone<br>Can Obtain",
-                        data:{"width":"135","height":"57"},
+                        name: "Almost Everyone<br>Can Obtain",
+                        data:{"width":"135","height":"39"},
                         children:[]         
                     };
             
                 var dNode3621 = {
                     id: "d3621",
-                    name: "Second<br>Objection:",
-                    data:{"width":"85","height":"39"},
+                    name: "Not Everyone<br>Has The Gift<br>Of Mental Prayer:",
+                    data:{"width":"140","height":"57"},
                     children:[dNode36210,dNode36211]         
                 };
         
             var dNode362 = {
                 id: "d362",
-                name: "Answer To Two<br>Objections Which May<br>Be Made To This Book:",
-                data:{"width":"170","height":"57"},
+                name: "Answers<br>To Objections:",
+                data:{"width":"115","height":"39"},
                 children:[dNode3620,dNode3621]         
             };
         
-                // Children of dNode363 (Three Important<br>& Final Counsels)
+                // Children of dNode363 (Counsels:)
+        
+                    // Children of dNode3630 (Renew:)
+                
+                    var dNode36300 = {
+                        id: "d36300",
+                        name: "Your<br>Resolution -",
+                        data:{"width":"105","height":"39"},
+                        children:[]         
+                    };
+                
+                    var dNode36301 = {
+                        id: "d36301",
+                        name: "On The<br>1st Day -",
+                        data:{"width":"80","height":"39"},
+                        children:[]         
+                    };
+                
+                    var dNode36302 = {
+                        id: "d36302",
+                        name: "Of Every<br>Month",
+                        data:{"width":"80","height":"39"},
+                        children:[]         
+                    };
             
                 var dNode3630 = {
                     id: "d3630",
-                    name: "Renew Your Resolution<br>On The First Day<br>Of Every Month",
-                    data:{"width":"175","height":"57"},
-                    children:[]         
+                    name: "Renew:",
+                    data:{"width":"65","height":"23"},
+                    children:[dNode36300,dNode36301,dNode36302]         
                 };
+        
+                    // Children of dNode3631 (Make:)
+                
+                    var dNode36310 = {
+                        id: "d36310",
+                        name: "Open<br>Profession -",
+                        data:{"width":"105","height":"39"},
+                        children:[]         
+                    };
+                
+                    var dNode36311 = {
+                        id: "d36311",
+                        name: "To Be<br>Devout",
+                        data:{"width":"65","height":"39"},
+                        children:[]         
+                    };
             
                 var dNode3631 = {
                     id: "d3631",
-                    name: "Make Open Profession<br>Of Your Desire<br>To Be Devout",
-                    data:{"width":"170","height":"57"},
-                    children:[]         
+                    name: "Make:",
+                    data:{"width":"55","height":"23"},
+                    children:[dNode36310,dNode36311]         
                 };
+        
+                    // Children of dNode36312 (Be:)
+                
+                    var dNode36320 = {
+                        id: "d36320",
+                        name: "Steadfast<br>And -",
+                        data:{"width":"80","height":"39"},
+                        children:[]         
+                    };
+                
+                    var dNode36321 = {
+                        id: "d36321",
+                        name: "Persevere",
+                        data:{"width":"85","height":"23"},
+                        children:[]         
+                    };
             
                 var dNode3632 = {
                     id: "d3632",
-                    name: "Be Steadfast And<br>Persevere In This<br>Most Blessed Undertaking<br><u>To Live A Devout Life</u>",
-                    data:{"width":"195","height":"75"},
-                    children:[]         
+                    name: "Be:",
+                    data:{"width":"35","height":"23"},
+                    children:[dNode36320,dNode36321]         
                 };
         
             var dNode363 = {
                 id: "d363",
-                name: "Three Important<br>& Final Counsels:",
-                data:{"width":"135","height":"39"},
+                name: "Final<br>Counsels:",
+                data:{"width":"85","height":"39"},
                 children:[dNode3630,dNode3631,dNode3632]         
             };
         
         var dNode36 = {
             id: "d36",
             name: "Part V<br>Ch 15-18",
-            data:{"width":"70","height":"39"},
+            data:{"width":"80","height":"39"},
             children:[dNode360,dNode361,dNode362,dNode363]          
         };
 
