@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1">
-
+        
         <title>Spritual Exercises</title>
 
     <!-- CSS Files -->
@@ -57,7 +57,10 @@
         <script src="js/Scripture/OT/Wisdom/Psalms/PsalmsWeek3.js"></script>
         <script src="js/Scripture/OT/Wisdom/Psalms/PsalmsWeek4.js"></script>
             <!-- Other Files -->
+        <script src="js/Scripture/OT/Wisdom/WisdomBooks/Job.js"></script>
         <script src="js/Scripture/OT/Wisdom/WisdomBooks/Sirach.js"></script>
+        <script src="js/Scripture/OT/Wisdom/WisdomBooks/Songs_Of_Songs.js"></script>
+        <script src="js/Scripture/OT/Wisdom/WisdomBooks/Wisdom.js"></script>
         <script src="js/Scripture/OT/Wisdom/WisdomBooks.js"></script>
 
             <!-- Minor Prophets -->
@@ -110,7 +113,7 @@
     <!-- Data Files -->
         <script src="js/Scripture/ScriptureJSON.js"></script> 
         <script src="js/Data_Media.js"></script>
-        <script src="js/Data_View.js" ></script> 
+    <!--   <script src="js/Data_View.js" ></script> -->
         <script src="js/Data_Selection.js"></script>
 
     <!-- JIT Library File -->
@@ -118,10 +121,9 @@
 
     <!-- Class Files --> 
         <script src="js/Classes_Objects_Functions_Global.js"></script>
-        <script src="js/Classes_Objects_Functions_Home.js"></script>
-        <script src="js/Classes_Objects_Functions_Selection .js"></script>
-    <!--    <script src="js/Classes_Objects_Functions_W_SpaceTreeLabel_View.js"></script> -->
-        <script src="js/Classes_Objects_Functions_WO_SpaceTreeLabel_View.js"></script> 
+        <script src="js/Classes_Objects_Functions_Home_Page.js"></script>
+        <script src="js/Classes_Objects_Functions_Exercise_Page-Selection.js"></script>
+        <script src="js/Classes_Objects_Functions_Exercise_Page-View.js"></script> 
 
 
 
@@ -156,14 +158,10 @@
                 width: 100%;
              /*   border: 2px solid orange; */
             }
-
-            #language-label-id{
-                color: green;
-            }
         </style>
 
     </head>
-
+ 
     <body onload="init()">
 
         <div class="main-container">
@@ -308,12 +306,12 @@
                         <label class="controls-button z-70" onclick="ControlButtonHandler.showHidePlayerControls()">Audio</label> 
 
                       	<div id="control-images-container-id" class="control-images-container hide-controls z-60">
-                            <img id="play-button-id" src="imgs/Controls/play_white.png" alt="Example image" onclick="PlayerControl.startVideo()">
-                            <img id="stop-button-id" src="imgs/Controls/stop_white.png" alt="Example image" onclick="PlayerControl.stopVideo()">
-                            <img id="pause-button-id" src="imgs/Controls/pause_white.png" alt="Example image" onclick="PlayerControl.pauseVideo()">
-                            <img src="imgs/Controls/prev_white.png" alt="Example image" onclick="PlayerControl.prevVideo()">
-                            <img src="imgs/Controls/next_white.png" alt="Example image" onclick="PlayerControl.nextVideo()">
-                            <img id="shuffle-button-id" src="imgs/Controls/playlist_shuffle_white.png" alt="Example image" onclick="PlayerControl.shuffle(event)">
+                            <img id="play-button-id" src="imgs/Controls/play_white.png" alt="Example image" onclick="PlayerControlsManager.startVideo()">
+                            <img id="stop-button-id" src="imgs/Controls/stop_white.png" alt="Example image" onclick="PlayerControlsManager.stopVideo()">
+                            <img id="pause-button-id" src="imgs/Controls/pause_white.png" alt="Example image" onclick="PlayerControlsManager.pauseVideo()">
+                            <img src="imgs/Controls/prev_white.png" alt="Example image" onclick="PlayerControlsManager.prevVideo()">
+                            <img src="imgs/Controls/next_white.png" alt="Example image" onclick="PlayerControlsManager.nextVideo()">
+                            <img id="shuffle-button-id" src="imgs/Controls/playlist_shuffle_white.png" alt="Example image" onclick="PlayerControlsManager.shuffle(event)">
                         </div> 
 
                     </section> 
@@ -360,9 +358,10 @@
       //alert("spExHT['hi11'].name: " + spExHT['hi11'].name);
     //alert("sNode0410.name: " + sNode0410.name);
 
-                DOMCalls.initialize();
+                DOMCallsInitializer.initialize();
 
                 /* TODO  Set all "Selection data for week='1' and day='Sun'" */
+        //alert("calling SelectedData.setData()");
         //alert("SelectedData.isInitialized: ");
         //alert("SelectedMode.mode: " + SelectedMode.mode);
         //alert("SelectedData.week: " + SelectedData.week);
@@ -370,7 +369,7 @@
                 SelectedData.setData();                    
 
                 /* TODO  reset control buttons */
-                ButtonState.reset();
+                ButtonStateManager.reset();
                 
            /*     let weekNodes = [sNode0210,sNode0211,sNode0212,sNode0213];
                 for(var week=0;week<4;week++) {
