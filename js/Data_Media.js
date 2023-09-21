@@ -1,8 +1,8 @@
-/* Image/Video Data/Manager 
+/* Media(Image/Video) Data 
 *  1.) ImageData					[line 10]
 *  2.) ImageDataOT					[line 660]
-*  3.) ImageDataManager				[line 830]
-*  3.) VideoData					[line 960]					
+*  3.) VideoData					[line 830]
+*					
 */
 
 
@@ -755,8 +755,8 @@ var ImageDataOT = {
 			 1: "1_-_Call_of_Jeremiah.jpg$Call of Jeremiah:  By Julius Schnorr von Carolsfeld - Die Bibel in Bildern, Public Domain, https://commons.wikimedia.org/w/index.php?curid=5490769",
 			 2: "2_-_Jeremiah_Lamenting_Destruction_of_Jerusalem.jpg$Jeremiah Lamenting the Destruction of Jerusalem:  By Rembrandt - 4gE-j88Uz3znNw at Google Cultural Institute, zoom level maximum, Public Domain, https://commons.wikimedia.org/w/index.php?curid=13410464",
 			 3: "3_-_Antonio_Balestra_-_Prophet_Isaiah.jpg$By Antonio Balestra - The Bridgeman Art Library, Object 569354, Public Domain, https://commons.wikimedia.org/w/index.php?curid=25016733",
-			 4: "",
-			 5: "",
+			 4: "4_-_Prophet_Ezekiel_-_P.P._Rubens_-_Louvre_IN_V_20231.jpg$download credit",
+			 5: "5_-_Ezekiels_vision.jpg$Need To Download Credit",
 			 6: "",
 			 7: "",
 			 8: "",
@@ -827,145 +827,10 @@ var ImageDataOT = {
 
 
 
-var ImageDataManager = {
-      // Properties
-      url: "",
-      credit: "",
-
-    // Methods
-    getData: function(folderImgNmbr) {
-        let periodLoc = folderImgNmbr.indexOf(".");
-        let folder = folderImgNmbr.slice(0,periodLoc);
-        let imgNmbr = folderImgNmbr.slice(periodLoc + 1, folderImgNmbr.length);
-        let imgNameCredit = "";  
-        let folderURL = "";
-        switch (folder) {
-            case "maps":
-                folderURL = "imgs/NT/Maps/";
-                imgNameCredit = ImageData.maps[imgNmbr];
-                break;
-            case "apostles":
-                folderURL = "imgs/NT/Gospels/Apostles/";
-                imgNameCredit = ImageData.apostles[imgNmbr];
-                break;
-            case "call":
-                folderURL = "imgs/NT/Gospels/Call/";
-                imgNameCredit = ImageData.call[imgNmbr];
-                break;
-            case "jn":
-                folderURL = "imgs/NT/Gospels/John/";
-                imgNameCredit = ImageData.jn[imgNmbr];
-                break;
-            case "lk":
-                folderURL = "imgs/NT/Gospels/Luke/";
-                imgNameCredit = ImageData.lk[imgNmbr];
-                break;
-            case "mk":
-                folderURL = "imgs/NT/Gospels/Mark/";
-                imgNameCredit = ImageData.mk[imgNmbr];
-                break;
-            case "mt":
-                folderURL = "imgs/NT/Gospels/Matthew/";
-                imgNameCredit = ImageData.mt[imgNmbr];
-                break;
-            case "miracles":
-                folderURL = "imgs/NT/Gospels/Miracles/";
-                imgNameCredit = ImageData.miracles[imgNmbr];
-                break;
-            case "missionJerusalem":
-                folderURL = "imgs/NT/Gospels/Mission_Jerusalem/";
-                imgNameCredit = ImageData.missionJerusalem[imgNmbr];
-                break;
-            case "nativities":
-                folderURL = "imgs/NT/Gospels/Nativities/";
-                imgNameCredit = ImageData.nativities[imgNmbr];
-                break;
-            case "otherEvents":
-                folderURL = "imgs/NT/Gospels/Other_Events/";
-                imgNameCredit = ImageData.otherEvents[imgNmbr];
-                break;
-            case "parables":
-                folderURL = "imgs/NT/Gospels/Parables/";
-                imgNameCredit = ImageData.parables[imgNmbr];
-                break;
-            case "passion":
-                folderURL = "imgs/NT/Gospels/Passion/";
-                imgNameCredit = ImageData.passion[imgNmbr];
-                break;
-            case "preparation":
-                folderURL = "imgs/NT/Gospels/Preparation/";
-                imgNameCredit = ImageData.preparation[imgNmbr];
-                break;
-            case "resurrection":
-                folderURL = "imgs/NT/Gospels/Resurrection/";
-                imgNameCredit = ImageData.resurrection[imgNmbr];
-                break;
-            case "teaching":
-                folderURL = "imgs/NT/Gospels/Teaching/";
-                imgNameCredit = ImageData.teaching[imgNmbr];
-                break;
-            case "acts":
-                folderURL = "imgs/NT/Letters/Acts/";
-                imgNameCredit = ImageData.acts[imgNmbr];
-                break;
-            case "revelation":
-                folderURL = "imgs/NT/Letters/Revelation/";
-                imgNameCredit = ImageData.revelation[imgNmbr];
-                break;
-            case "pauline":
-                folderURL = "imgs/NT/Letters/PaulineLetters/";
-                imgNameCredit = ImageData.pauline[imgNmbr];
-                break;
-            case "pastoral":
-                folderURL = "imgs/NT/Letters/Pastoral/";
-                imgNameCredit = ImageData.pastoral[imgNmbr];
-                break;
-            case "catholic":
-                folderURL = "imgs/NT/Letters/CatholicLetters/";
-                imgNameCredit = ImageData.catholic[imgNmbr];
-                break;
-            case "kings":
-                folderURL = "imgs/OT/Kings/";
-                imgNameCredit = ImageDataOT.kings[imgNmbr];
-                break;
-            case "prophets":
-                folderURL = "imgs/OT/Prophets/";
-                imgNameCredit = ImageDataOT.prophets[imgNmbr];
-                break;
-            case "holyLand":
-                folderURL = "imgs/OT/Holy_Land/";
-                imgNameCredit = ImageDataOT.holyLand[imgNmbr];
-                break;
-            case "saints":
-                folderURL = "imgs/Church_History/Saints/";
-                imgNameCredit = ImageData.saints[imgNmbr];
-                break;
-            default :
-                alert("No folder Exist with this Name: " + folder);
-        }
-        let separatorLoc = imgNameCredit.indexOf("$");
-        this.url = folderURL + imgNameCredit.slice(0,separatorLoc);
-        this.credit = imgNameCredit.slice(separatorLoc + 1,imgNameCredit.length);
-        return [this.url,this.credit];
-    }
-} /* End of Class(Object) "ImageDataManager" */
-
-
-
-
-
-
-
-
 var VideoData = {
-	// Properties
-	selectedSeason: 'ordinary',
 
 	ordinary: {
 		ids: [
-			'QZ4vLAHttmY', /* "You raise me up"<br> by Riyandi Kusuma*/
-			'3tqSeu47iIc',
-			{'videoId':'WZxXjsWFah0', 'startSeconds':0, 'endSeconds': 287 },
 			'0eSDd8EJjDU',
 			'XmkEXN-um-M',
 			'ZOFiRcJPRzo',
@@ -994,9 +859,6 @@ var VideoData = {
 		],
 
 		names: [
-			'You raise me up<br> by Riyandi Kusuma',
-			'Holy Is His Name - Connie Salazar - Topic',
-			'Easter Hallelujah<br>Cassandra & sister Callahan (in Washington, DC)',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 4 of 6):<br>Petrus Josephus',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 3 of 6):<br>Petrus Josephus',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 2 of 6):<br>Petrus Josephus',
@@ -1029,7 +891,6 @@ var VideoData = {
 	advent: {
 		ids: [
 			'9RieYaRaZsE',
-			'D2X11zZuvDw',
 			{'videoId':'yr3HJ6-2LhU','endSeconds':445},
 			'dkrW3nRPGo4',
 			{'videoId':'Zz4LBjysReA','endSeconds':231},
@@ -1042,7 +903,6 @@ var VideoData = {
 
 		names: [
 			'The King Shall Come<br>When The Morning Dawns',  /* ok */
-			'Holy Is His Nanme<br>John Michael Talbot',
 			'To Save Us All/Prepare Him Room: Feat. Andrea Thomas and Greg & Lizzy - The Vigil Project<br>https://www.thevigilproject.com/blog/devotions/advent', /* OK */
 			'Panis angelicus<br>Sissel and The Tabernacle Choir',  /* ok */
 			'Let All Mortal Flesh Keep Silence:',  /* ok */
@@ -1148,8 +1008,7 @@ var VideoData = {
 
 	easter: {
 		ids:[
-			'QZ4vLAHttmY', /* "You raise me up"<br> by Riyandi Kusuma*/
-			'716yq1MEUic',
+			{'videoId':'VI6dsMeABpU','endSeconds': 244},
 			'8p03kMcjnU0',
 			'JAyi64eagTI',
 			'Ul7CLPd14JQ',  /* Immaculate Mary:  */
@@ -1160,8 +1019,7 @@ var VideoData = {
 		],
 
 		names:[
-			'You raise me up<br> by Riyandi Kusuma',
-			'TWO SISTERS SINGING ABOUT OUR LORD<br>AS A 365 DAY "EASTER" BLESSING',
+			'Hallelujah chorus, from Händel\'s Messiah:<br>Mormon Tabernacle Choir',
 			'Alleluia! Alleluia! Let the Holy Anthem Rise:<br>for organ and brass<br>www.wmglennosborne.com or www.audubonparkmusic.com',  /* OK */
 			'The Strife is O\'er:<br>The Episcopal Church Virtual Choir and Orchestra<br>https://episcopalchurch.org/virtual-choir', /* OK */
 			'Immaculate Mary<br>Prima Luce<br>https://www.primalucemusic.com/', /* OK from their website */
@@ -1170,32 +1028,6 @@ var VideoData = {
 			'Schubert: Ave Maria<br>Elisabeth Kulman', /* OK http://www.elisabethkulman.com  */
 			'Alleluia, Sing to Jesus!:<br>Blessed Sarnelli Choir,<br>Church of St Alphonsus' /* OK */
 		]
-	},
-
-	// Methods
-	setSeason: function(season) {
-		this.selectedSeason = season;
-	},
-
-	getData: function(season) {
-		switch (season) {
-			case 'advent':
-				return this.advent;
-				break;
-			case 'christmas':
-				return this.christmas;
-				break;
-			case 'ordinary':
-				return this.ordinary;
-				break;
-			case 'lent':
-				return this.lent;
-				break;
-			case 'easter':
-				return this.easter;
-				break;
-			default:
-		}
 	}
 }  /* End of Class(Object) "VideoData" */
 
@@ -1208,41 +1040,12 @@ var VideoData = {
 
 
 
-// Create GLOBAL variable (player) for the YouTubeVideo API
-var player;
-// 2. This code loads the IFrame Player API code asynchronously.
-var tag = document.createElement('script');
-tag.src = "https://www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName('script')[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-
-function onYouTubeIframeAPIReady() {
-	player = new YT.Player('player', {
-		width: '600',
-		videoId: null, 
-		playerVars: {
-			controls: 0,
-			autoplay: 1,
-		},
-		events: {
-			'onStateChange': PlayerControl.onPlayerStateChange
-		}
-	});
- }
-
-
-
-
-
-
-
-
+/*
 var ControlButtonHandler = {
-	/* Properties */
+	// Properties
 	controlsHidden: true,
 
-	/* Methods */
+	// Methods 
 	showHidePlayerControls: function() {
 		if( this.controlsHidden){
 			DOMCalls.controlImagesContainerElement.classList.replace("hide-controls","show-controls");
@@ -1251,7 +1054,7 @@ var ControlButtonHandler = {
 	  	}
 		this.controlsHidden = !this.controlsHidden;
 	}
-}  /* End of Class(Object) "ControlButtonHandler" */
+}  
 
 
 	
@@ -1314,7 +1117,7 @@ var SeasonButtonHandler = {
 				alert("No such Object");
 		} 
 	}
-}  /* End of Class(Object) "SeasonButtonHandler" */ 
+}  
 
 
 
@@ -1330,7 +1133,7 @@ var SeasonButtonHandler = {
 
 var ButtonState = {
 	// Properties
-	playState: false,  /* false: playButton is '0ff' while true: playButton is 'on' */
+	playState: false,  // false: playButton is '0ff' while true: playButton is 'on' 
 	stopState: false,
 	pauseState: false,
 	shuffleState: false,
@@ -1405,7 +1208,7 @@ var ButtonState = {
 		this.shuffleState = false;
 		DOMCalls.shuffleButtonElement.src = "images/Controls/playlist_shuffle_white.png";
 	}
-}  /* End of Class(Object) "ButtonState" */ 
+}  
 
 
 
@@ -1526,5 +1329,5 @@ var PlayerControl = {
 		let labElementle = document.getElementById("songTitle");
 		labElementle.innerHTML = VideoData.getData(VideoData.selectedSeason).names[this.currentVideoId];        
 	},
-}   /* End of Class(Object) "PlayerControl" */ 
+}    */ 
 

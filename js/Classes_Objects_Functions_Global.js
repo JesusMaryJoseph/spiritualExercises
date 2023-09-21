@@ -5,11 +5,11 @@
 *		for the YouTubeVideo API	[line 50]
 *  3.) ControlButtonHandler 		[line 80]
 *  4.) SeasonButtonHandler			[line 100]
-*  5.) ButtonState 					[line 170]
-*  6.) PlayerControl 				[line 260]						
-*  7.) PageManager					[line 380]
-*  8.) DOMCalls						[line 450]
-*
+*  5.) ButtonStateManager 			[line 170]
+*  6.) PlayerControlsManager 		[line 260]
+*  7.) VideoDataManager          	[line 390]						
+*  8.) PageManager					[line 430]
+*  9.) DOMCallsInitializer			[line 500]
 *
 *
 */
@@ -60,7 +60,7 @@ function onYouTubeIframeAPIReady() {
   //alert("VideoData.getData(VideoData.selectedSeason).ids[this.currentVideoId]: " + VideoData.getData(VideoData.selectedSeason).ids[this.currentVideoId]);
 	player = new YT.Player('player', {
 		width: '600',
-		videoId: 'QZ4vLAHttmY',  //null, 
+		videoId: '0eSDd8EJjDU',  //null, 
 		playerVars: {
 			controls: 0,
 			autoplay: 1,
@@ -77,8 +77,6 @@ function onYouTubeIframeAPIReady() {
 
 
 
-
-
 var ControlButtonHandler = {
 	/* Properties */
 	controlsHidden: true,
@@ -86,9 +84,9 @@ var ControlButtonHandler = {
 	/* Methods */
 	showHidePlayerControls: function() {
 		if( this.controlsHidden){
-			DOMCalls.controlImagesContainerElement.classList.replace("hide-controls","show-controls");
+			DOMCallsInitializer.controlImagesContainerElement.classList.replace("hide-controls","show-controls");
 		}else{
-			DOMCalls.controlImagesContainerElement.classList.replace("show-controls","hide-controls");
+			DOMCallsInitializer.controlImagesContainerElement.classList.replace("show-controls","hide-controls");
 	  	}
 		this.controlsHidden = !this.controlsHidden;
 	}
@@ -107,10 +105,10 @@ var SeasonButtonHandler = {
 	// Methods  
 	showHideSeasonList: function() {
 		if(this.seasonOptionsHidden){
-			DOMCalls.seasonOptionsElement.classList.add("show-season");
+			DOMCallsInitializer.seasonOptionsElement.classList.add("show-season");
 			this.seasonOptionsHidden = false;
 		}else{ 
-			DOMCalls.seasonOptionsElement.classList.remove("show-season");
+			DOMCallsInitializer.seasonOptionsElement.classList.remove("show-season");
 			this.seasonOptionsHidden = true;
 		}
 	},
@@ -125,7 +123,7 @@ var SeasonButtonHandler = {
 		this.getDomElement(newSeason).classList.add("selected-season");
 		this.selectedSeason = newSeason;
 		VideoData.selectedSeason = this.selectedSeason;
-		DOMCalls.seasonOptionsElement.classList.replace("show-season", "hide-season");
+		DOMCallsInitializer.seasonOptionsElement.classList.replace("show-season", "hide-season");
 		this.seasonOptionsHidden = true;
 	},
 
@@ -137,19 +135,19 @@ var SeasonButtonHandler = {
 	getDomElement: function(id) {
 		switch(id) {
 			case "ordinary":
-				return DOMCalls.ordinaryElement;
+				return DOMCallsInitializer.ordinaryElement;
 				break;
 			case "advent":
-				return DOMCalls.adventElement;
+				return DOMCallsInitializer.adventElement;
 				break;
 			case "christmas":
-				return DOMCalls.christmasElement;
+				return DOMCallsInitializer.christmasElement;
 				break;
 			case "lent":
-				return DOMCalls.lentElement;
+				return DOMCallsInitializer.lentElement;
 				break;
 			case "easter":
-				return DOMCalls.easterElement;
+				return DOMCallsInitializer.easterElement;
 				break;
 			default:
 				alert("No such Object");
@@ -169,7 +167,7 @@ var SeasonButtonHandler = {
 
 
 
-var ButtonState = {
+var ButtonStateManager = {
 	// Properties
 	playState: false,  /* false: playButton is '0ff' while true: playButton is 'on' */
 	stopState: false,
@@ -201,33 +199,33 @@ var ButtonState = {
 		switch (button) {
 			case "play":
 				if ( this.playState ) {
-					DOMCalls.playButtonElement.src = "imgs/Controls/play_white.png";
+					DOMCallsInitializer.playButtonElement.src = "imgs/Controls/play_white.png";
 				}else{
-					DOMCalls.playButtonElement.src = "imgs/Controls/play_on_orange.png";
+					DOMCallsInitializer.playButtonElement.src = "imgs/Controls/play_on_orange.png";
 				}
 				this.playState = !this.playState;
 				break;
 			case "stop":
 				if ( this.stopState ) {
-					DOMCalls.stopButtonElement.src = "imgs/Controls/stop_white.png";
+					DOMCallsInitializer.stopButtonElement.src = "imgs/Controls/stop_white.png";
 				}else{
-					DOMCalls.stopButtonElement.src = "imgs/Controls/stop_on_orange.png";
+					DOMCallsInitializer.stopButtonElement.src = "imgs/Controls/stop_on_orange.png";
 				}
 				this.stopState = !this.stopState;
 				break;
 			case "pause":
 				if ( this.pauseState ) {
-					DOMCalls.pauseButtonElement.src = "imgs/Controls/pause_white.png";
+					DOMCallsInitializer.pauseButtonElement.src = "imgs/Controls/pause_white.png";
 				}else{
-					DOMCalls.pauseButtonElement.src = "imgs/Controls/pause_on_orange.png";
+					DOMCallsInitializer.pauseButtonElement.src = "imgs/Controls/pause_on_orange.png";
 				}
 				this.pauseState = !this.pauseState;
 				break;
 			case "shuffle":
 				if ( this.shuffleState ) {
-					DOMCalls.shuffleButtonElement.src = "imgs/Controls/playlist_shuffle_white.png";
+					DOMCallsInitializer.shuffleButtonElement.src = "imgs/Controls/playlist_shuffle_white.png";
 				}else{
-					DOMCalls.shuffleButtonElement.src = "imgs/Controls/playlist_shuffle_on_orange.png";
+					DOMCallsInitializer.shuffleButtonElement.src = "imgs/Controls/playlist_shuffle_on_orange.png";
 				}
 				this.shuffleState = !this.shuffleState;
 				break;
@@ -238,15 +236,15 @@ var ButtonState = {
 
 	reset: function() {
 		this.playState = false;
-		DOMCalls.playButtonElement.src = "imgs/Controls/play_white.png";  
+		DOMCallsInitializer.playButtonElement.src = "imgs/Controls/play_white.png";  
 		this.stopState = false;
-		DOMCalls.stopButtonElement.src = "imgs/Controls/stop_white.png";
+		DOMCallsInitializer.stopButtonElement.src = "imgs/Controls/stop_white.png";
 		this.pauseState = false;
-		DOMCalls.pauseButtonElement.src = "imgs/Controls/pause_white.png";
+		DOMCallsInitializer.pauseButtonElement.src = "imgs/Controls/pause_white.png";
 		this.shuffleState = false;
-		DOMCalls.shuffleButtonElement.src = "imgs/Controls/playlist_shuffle_white.png";
+		DOMCallsInitializer.shuffleButtonElement.src = "imgs/Controls/playlist_shuffle_white.png";
 	}
-}  /* End of Class(Object) "ButtonState" */ 
+}  /* End of Class(Object) "ButtonStateManager" */ 
 
 
 
@@ -259,7 +257,7 @@ var ButtonState = {
 
 
 
-var PlayerControl = {
+var PlayerControlsManager = {
 	// Properties
 	currentVideoId: 0,
 	playedVideos: [-1,-1,-1,-1,-1,-1,-1,-1],  //Arbitraily set to size = 8
@@ -375,9 +373,51 @@ var PlayerControl = {
 		let labElementle = document.getElementById("song-title");
 		labElementle.innerHTML = VideoData.getData(VideoData.selectedSeason).names[PlayerControl.currentVideoId];        
 	},
-}   /* End of Class(Object) "PlayerControl" */ 
+}   /* End of Class(Object) "PlayerControlsManager" */ 
 
 
+
+
+
+
+
+
+
+
+
+
+
+var VideoDataManager = {
+	// Properties
+	selectedSeason: 'ordinary',
+
+	// Methods
+	setSeason: function(season) {
+		this.selectedSeason = season;
+	},
+
+	getData: function(season) {
+		switch (season) {
+			case 'advent':
+				return VideoData.advent;
+				break;
+			case 'christmas':
+				return VideoData.christmas;
+				break;
+			case 'ordinary':
+				return VideoData.ordinary;
+				break;
+			case 'lent':
+				return VideoData.lent;
+				break;
+			case 'easter':
+				return VideoData.easter;
+				break;
+			default:
+		}
+	}
+
+}
 
 
 
@@ -395,39 +435,39 @@ var PageManager = {
 
     /* Methods  */
     goToExercises: function() {
-        DOMCalls.homeContainerElement.classList.remove("z-50");
-        DOMCalls.homeContainerElement.classList.replace("show-opacity","hide-opacity");
+        DOMCallsInitializer.homeContainerElement.classList.remove("z-50");
+        DOMCallsInitializer.homeContainerElement.classList.replace("show-opacity","hide-opacity");
         this.activeContainer = "exercises";
         if(this.activeSubContainer == "selection"){
-            DOMCalls.selectionContainerElement.classList.add("z-50");
-            DOMCalls.selectionContainerElement.classList.replace("hide-opacity","show-opacity");
+            DOMCallsInitializer.selectionContainerElement.classList.add("z-50");
+            DOMCallsInitializer.selectionContainerElement.classList.replace("hide-opacity","show-opacity");
         }else{
-            DOMCalls.viewContainerElement.classList.add("z-50");
-            DOMCalls.viewContainerElement.classList.replace("hide-opacity","show-opacity");
+            DOMCallsInitializer.viewContainerElement.classList.add("z-50");
+            DOMCallsInitializer.viewContainerElement.classList.replace("hide-opacity","show-opacity");
         }
     },
 
     goToHome: function() {
         if(this.activeSubContainer == "selection"){
-            DOMCalls.selectionContainerElement.classList.remove("z-50");
-            DOMCalls.selectionContainerElement.classList.replace("show-opacity","hide-opacity");
+            DOMCallsInitializer.selectionContainerElement.classList.remove("z-50");
+            DOMCallsInitializer.selectionContainerElement.classList.replace("show-opacity","hide-opacity");
         }else{
-            DOMCalls.viewContainerElement.classList.remove("z-50");
-            DOMCalls.viewContainerElement.classList.replace("show-opacity","hide-opacity");
+            DOMCallsInitializer.viewContainerElement.classList.remove("z-50");
+            DOMCallsInitializer.viewContainerElement.classList.replace("show-opacity","hide-opacity");
         }
-        DOMCalls.homeContainerElement.classList.replace("z-10","z-50");
-        DOMCalls.homeContainerElement.classList.replace("hide-opacity","show-opacity");
+        DOMCallsInitializer.homeContainerElement.classList.replace("z-10","z-50");
+        DOMCallsInitializer.homeContainerElement.classList.replace("hide-opacity","show-opacity");
         this.activeContainer = "home";
     },
 
     goToView: function(evt) {
-        DOMCalls.selectionContainerElement.classList.remove("z-50");
-        DOMCalls.selectionContainerElement.classList.replace("show-opacity","hide-opacity");
+        DOMCallsInitializer.selectionContainerElement.classList.remove("z-50");
+        DOMCallsInitializer.selectionContainerElement.classList.replace("show-opacity","hide-opacity");
         this.activeSubContainer = "view";
-        DOMCalls.viewContainerElement.classList.add("z-50");
-        DOMCalls.viewContainerElement.classList.replace("hide-opacity","show-opacity");
+        DOMCallsInitializer.viewContainerElement.classList.add("z-50");
+        DOMCallsInitializer.viewContainerElement.classList.replace("hide-opacity","show-opacity");
         let clickedId = evt.target.id;
-    //  alert("clickedId.slice(0,2): " + clickedId.slice(0,2));
+      //alert("clickedId.slice(0,2): " + clickedId.slice(0,2));
         if(clickedId.length != 4){
             clickedId = clickedId.slice(0,2) + SelectedData.week + (SelectedData.day + 1);
          //   clickedId = clickedId.charAt(0) + "w" + SelectedData.week + (SelectedData.day + 1);
@@ -438,11 +478,11 @@ var PageManager = {
     },
 
     goToSelection: function() {
-        DOMCalls.viewContainerElement.classList.remove("z-50");
-        DOMCalls.viewContainerElement.classList.replace("show-opacity","hide-opacity");
+        DOMCallsInitializer.viewContainerElement.classList.remove("z-50");
+        DOMCallsInitializer.viewContainerElement.classList.replace("show-opacity","hide-opacity");
         this.activeSubContainer = "selection";
-        DOMCalls.selectionContainerElement.classList.add("z-50");
-        DOMCalls.selectionContainerElement.classList.replace("hide-opacity","show-opacity");
+        DOMCallsInitializer.selectionContainerElement.classList.add("z-50");
+        DOMCallsInitializer.selectionContainerElement.classList.replace("hide-opacity","show-opacity");
     }
 } /* End of Class(Object) "PageManager" */ 
 
@@ -457,10 +497,7 @@ var PageManager = {
 
 
 
-
-
-
-var DOMCalls = {
+var DOMCallsInitializer = {
     //Properties
     //Globel_Video_Home
     	//ControlButtonHandler
@@ -500,7 +537,7 @@ var DOMCalls = {
 
     //Methods
     initialize: function() {
-    //alert("in DOMCalls.initialize()");
+      //alert("in DOMCallsInitializer.initialize()");
     //Globel_Video_Home
     	//ControlButtonHandler
   		this.controlImagesContainerElement = document.getElementById("control-images-container-id");
@@ -537,6 +574,6 @@ var DOMCalls = {
         this.spaceTreeElement = document.getElementById("space-tree-id");
        //alert("end of DOMCalls.initialize()");
     }
-} /* End of Class(Object) "DOMCalls" */
+} /* End of Class(Object) "DOMCallsInitializer" */
 
 	 

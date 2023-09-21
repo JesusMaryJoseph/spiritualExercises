@@ -6,18 +6,14 @@
 */
 
 
-//var W1 = `{"Day":[{"gospel":"Mt 1-2","letter":"Acts 1-7","psalm":"Ps 1"},"devout":"Part I 1-4","pentateuch":"Gn: 1-11","novelas":"Tobit"}` + `]}`;
-
-	 
-
 
 var W1 = `{"Day":[{"gospel":"Mt 1-2","letter":"Acts 1-7","psalm":"Ps 1","devout":"Part I 1-4","pentateuch":"Gn: 1-25.18","novellas":"Tobit"},` +
 	 `{"gospel":"Mt 3-7","letter":"Acts 8-14","psalm":"Ps 8","devout":"Part I 5-8","pentateuch":"Gn: 25.19-50","novellas":"Judith"},` +
 	 `{"gospel":"Mt 8-10","letter":"Acts 15-21","psalm":"Ps 13","devout":"Part I 9-13","pentateuch":"Ex: 1-31","novellas":"Esther"},` +
 	 `{"gospel":"Mt 11-13","letter":"Acts 22-28","psalm":"Ps 19","devout":"Part I 14-18","pentateuch":"Ex: 32-40","novellas":"1 Mc: 1-8"},` +
 	 `{"gospel":"Mt 14-18","letter":"Rom 1-5","psalm":"Ps 23","devout":"Part I 19-24","pentateuch":"Lv: 1-27","novellas":"1 Mc: 9-16"},` +
-	 `{"gospel":"Mt 19-25","letter":"Rom 6-11","psalm":"Ps 27","devout":"Part II 1-7","pentateuch":"Nm: 1-36","novellas":"2 Mc: 1-7"},` +
-	 `{"gospel":"Mt 26-28","letter":"Rom 12-16","psalm":"Ps 32","devout":"Part II 8-11","pentateuch":"Dt: 1-34","novellas":"2 Mc: 8-15"}` + 
+	 `{"gospel":"Mt 19-25","letter":"Rom 6-11","psalm":"Ps 27","devout":"Part II 1-9","pentateuch":"Nm: 1-36","novellas":"2 Mc: 1-7"},` +
+	 `{"gospel":"Mt 26-28","letter":"Rom 12-16","psalm":"Ps 32","devout":"Part II 10-11","pentateuch":"Dt: 1-34","novellas":"2 Mc: 8-15"}` + 
 	 `]}`; 
 
 
@@ -39,12 +35,12 @@ var W3 = `{"Day":[{"gospel":"Lk 1-4:13","letter":"Col","psalm":"Ps 123","devout"
 	 `{"gospel":"Lk 22-24","letter":"Heb 11-13","psalm":"Ps 133","devout":"Part III 38-41","wisdom":"Sira: 27-51"}` +
 	 `]}`;
 
-var W4 = `{"Day":[{"gospel":"Jn 1-3","letter":"Jas","psalm":"Ps 134","devout":"Part IV 1-4","prophets":"Is: 1-39","minor":"Hosea"},` +
-	 `{"gospel":"Jn 4-6","letter":"1 Pt","psalm":"Ps 142","devout":"Part IV 5-10","prophets":"Is: 40-66","minor":"Joel"},` +
-	 `{"gospel":"Jn 7-10","letter":"2 Pt","psalm":"Ps 144","devout":"Part IV 11-13","prophets":"Jer: 1-29","minor":"Amos"},` +
-	 `{"gospel":"Jn 11-12","letter":"1,2,3 Jn & Jude","psalm":"Ps 146","devout":"Part IV 14-15","prophets":"Jer: 30-52, Lam","minor":"Ob, Jonah"},` +
+var W4 = `{"Day":[{"gospel":"Jn 1-3","letter":"Jas","psalm":"Ps 134","devout":"Part IV 1-2","prophets":"Is: 1-39","minor":"Hosea"},` +
+	 `{"gospel":"Jn 4-6","letter":"1 Pt","psalm":"Ps 142","devout":"Part IV 3-6","prophets":"Is: 40-66","minor":"Joel"},` +
+	 `{"gospel":"Jn 7-10","letter":"2 Pt","psalm":"Ps 144","devout":"Part IV 7-10","prophets":"Jer: 1-29, Bar","minor":"Amos"},` +
+	 `{"gospel":"Jn 11-12","letter":"1,2,3 Jn & Jude","psalm":"Ps 146","devout":"Part IV 11-15","prophets":"Jer: 30-52, Lam","minor":"Ob, Jonah"},` +
 	 `{"gospel":"Jn 13-17","letter":"Rev 1-5","psalm":"Ps 147","devout":"Part V 1-7","prophets":"Eze: 1-24","minor":"Micah, Nahum"},` +
-	 `{"gospel":"Jn 18-19","letter":"Rev 6-16","psalm":"Ps 148","devout":"Part V 8-14","prophets":"Eze: 25-48, Bar","minor":"Ha, Zep, Hg"},` +
+	 `{"gospel":"Jn 18-19","letter":"Rev 6-16","psalm":"Ps 148","devout":"Part V 8-14","prophets":"Eze: 25-48","minor":"Ha, Zep, Hg"},` +
 	 `{"gospel":"Jn 20-21","letter":"Rev 17-22","psalm":"Ps 150","devout":"Part V 15-18","prophets":"Daniel","minor":"Zec, Mal"}` +
 	 `]}`; 
 
@@ -205,7 +201,7 @@ var monasticScheduleObj = JSON.parse(monasticSchedule);
 	spExHT['de01'] = dNode00/*"PartI:1-4"*/; spExHT['de02'] = dNode01/*"PartI:5-8"*/;	spExHT['de03'] = dNode02/*"PartI:9-13"*/;	spExHT['de04'] = dNode03/*"PartI:14-18"*/;	spExHT['de05'] = dNode04/*"PartI:19-24"*/;	spExHT['de06'] = dNode05/*"Part II 1-7"*/;	spExHT['de07'] = dNode06/*"Part II 8-11"*/;	
 	spExHT['de11'] = dNode10/*"PartII:12-13"*/;	spExHT['de12'] = dNode11/*"PartII:14-18"*/;	spExHT['de13'] = dNode12/*"PartII:19-21"*/;	spExHT['de14'] = dNode13/*"PartIII:Ch 1-3"*/;	spExHT['de15'] = dNode14/*"PartIII:4-6"*/;	spExHT['de16'] = dNode15/*"PartIII:7-9"*/;	spExHT['de17'] = dNode16/*"PartIII:10-13"*/;
 	spExHT['de21'] = dNode20/*"PartIII:14-16"*/; spExHT['de22'] = dNode21/*"PartIII:17-22"*/; spExHT['de23'] = dNode22/*"PartIII:23-25"*/;	spExHT['de24'] = dNode23/*"PartIII:26-28"*/;	spExHT['de25'] = dNode24/*"PartIII:29-30"*/;	spExHT['de26'] = dNode25/*"PartIII:31-37"*/;	spExHT['de27'] = dNode26/*"PartIII:38-41"*/;
-	spExHT['de31'] = dNode30/*"PartIV:1-4"*/; spExHT['de32'] = dNode31/*"PartIV:5-10"*/;	spExHT['de33'] = dNode32/*"PartIV:11-13"*/;	spExHT['de34'] = dNode33/*"PartIV:14-15"*/;	spExHT['de35'] = dNode34/*"PartV:1-5"*/;	spExHT['de36'] = dNode35/*"PartV:6-14"*/;	spExHT['de37'] = dNode36/*"PartV:15-18"*/;
+	spExHT['de31'] = dNode30/*"PartIV:1-2"*/; spExHT['de32'] = dNode31/*"PartIV:3-6"*/;	spExHT['de33'] = dNode32/*"PartIV:7-10"*/;	spExHT['de34'] = dNode33/*"PartIV:11-15"*/;	spExHT['de35'] = dNode34/*"PartV:1-5"*/;	spExHT['de36'] = dNode35/*"PartV:6-14"*/;	spExHT['de37'] = dNode36/*"PartV:15-18"*/;
  
 	spExHT['pe01'] = sNode0000/*Genesis(1)*/;    spExHT['pe02'] = sNode0001/*Genesis(2)*/;	spExHT['pe03'] = sNode0010/*Exodus(1)*/;	spExHT['pe04'] = sNode0011/*Exodus(2)*/;	spExHT['pe05'] = sNode002/*Leviticus*/;	spExHT['pe06'] = sNode003/*Numbers*/;	spExHT['pe07'] = sNode004/*Deuteronomy*/;	
 	
