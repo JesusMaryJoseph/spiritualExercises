@@ -151,22 +151,22 @@
 
                 var sNode1000100 = {
                     id: "s1000100",
-                    name: "Mary Was<br>Betrothed<br>To Joseph -",
-                    data: {"width":"95","height":"57","img":"nativities.21"},
+                    name: "Mary Was Betrothed<br>To Joseph -",
+                    data: {"width":"155","height":"39","img":"nativities.21"},
                     children:[]         
                 };
 
                 var sNode1000101 = {
                     id: "s1000101",
-                    name: "But Before<br>They Lived<br>Together -",
-                    data: {"width":"90","height":"57","img":"nativities.4"},
+                    name: "But Before<br>They Lived Together -",
+                    data: {"width":"165","height":"39","img":"nativities.4"},
                     children:[]         
                 };
 
                 var sNode1000102 = {
                     id: "s1000102",
-                    name: "Mary Was Found<br>With Child Through<br>The Holy Spirit",
-                    data: {"width":"150","height":"57","img":"nativities.3"},
+                    name: "Mary Was Found<br>With Child<br>Through The Holy Spirit",
+                    data: {"width":"180","height":"57","img":"nativities.3"},
                     children:[]         
                 };
 
@@ -181,29 +181,36 @@
 
                 var sNode1000110 = {
                     id: "s1000110",
-                    name: "Joseph Was<br>A Righteous<br>Man -", 
-                    data: {"width":"100","height":"57","img":"nativities.23"},
+                    name: "Was A<br>Righteous Man -", 
+                    data: {"width":"125","height":"39","img":"nativities.23"},
                     children:[]         
                 };
 
                 var sNode1000111 = {
                     id: "s1000111",
                     name: "Yet Unvilling<br>To Expose Mary<br>To Shame -",
-                    data: {"width":"120","height":"57","img":"nativities.24"},
+                    data: {"width":"125","height":"57","img":"nativities.24"},
                     children:[]         
                 };
 
                 var sNode1000112 = {
                     id: "s1000112",
-                    name: "Decided To<br>Divorse Her<br>Quietly -",
-                    data: {"width":"100","height":"57","img":"nativities.24"},
+                    name: "Decided<br>To Divorse Her<br>Quietly -",
+                    data: {"width":"115","height":"57","img":"nativities.24"},
                     children:[]         
                 };
 
                 var sNode1000113 = {
                     id: "s1000113",
-                    name: "When The Angel Of<br>The Lord Appeared To<br>Him In A Dream",
-                    data: {"width":"165","height":"57","img":"nativities.25"},
+                    name: "Such Was<br>His Intention When -",
+                    data: {"width":"155","height":"39","img":"nativities.25"},
+                    children:[]         
+                };
+
+                var sNode1000114 = {
+                    id: "s1000114",
+                    name: "The Angel Of<br>The Lord Appeared<br>To Him In A Dream",
+                    data: {"width":"150","height":"57","img":"nativities.25"},
                     children:[]         
                 };
 
@@ -211,7 +218,7 @@
                 id: "s100011",
                 name: "Joseph:",
                 data: {"width":"65","height":"23","img":"nativities.22"},
-                children:[sNode1000110,sNode1000111,sNode1000112,sNode1000113]         
+                children:[sNode1000110,sNode1000111,sNode1000112,sNode1000113,sNode1000114]         
             };
         
                 // Children of sNode100012 (Angel:)
@@ -219,21 +226,21 @@
                 var sNode1000120 = {
                     id: "s1000120",
                     name: "Joseph, Son Of David Do Not<br>Be Afraid To Take Mary<br>Your Wife Into Your Home -", 
-                    data: {"width":"210","height":"57","img":"nativities.25"},
+                    data: {"width":"215","height":"57","img":"nativities.25"},
                     children:[]         
                 };
 
                 var sNode1000121 = {
                     id: "s1000121",
                     name: "It Is Through  Holy Spirit<br>That This Child<br>Has Been Conceived In Her -",
-                    data: {"width":"215","height":"57","img":"nativities.25"},
+                    data: {"width":"210","height":"57","img":"nativities.25"},
                     children:[]         
                 };
 
                 var sNode1000122 = {
                     id: "s1000122",
-                    name: "She Will Bear A Son<br>And You Are To<br>Name Him Jesus -",
-                    data: {"width":"150","height":"57","img":"nativities.25"},
+                    name: "She Will Bear A Son<br>And You Are<br>To Name Him Jesus -",
+                    data: {"width":"165","height":"57","img":"nativities.25"},
                     children:[]         
                 };
 
@@ -256,28 +263,28 @@
                 var sNode1000130 = {
                     id: "s1000130",
                     name: "Behold, The Virgin<br>Shall Be With Child<br>And Bear A Son -", 
-                    data: {"width":"150","height":"57","img":"kings.1"},
+                    data: {"width":"150","height":"57","img":"prophets.4"},
                     children:[]         
                 };
 
                 var sNode1000131 = {
                     id: "s1000131",
-                    name: "They Shall<br>Name Him<br>Emmanuel -",
-                    data: {"width":"100","height":"57","img":"kings.1"},
+                    name: "They Shall Name<br>Him Emmanuel -",
+                    data: {"width":"130","height":"39","img":"prophets.4"},
                     children:[]         
                 };
 
                 var sNode1000132 = {
                     id: "s1000132",
                     name: "Which Means<br>God Is With Us",
-                    data: {"width":"115","height":"39","img":"kings.1"},
+                    data: {"width":"115","height":"39","img":"prophets.4"},
                     children:[]         
                 };
 
             var sNode100013 = {
                 id: "s100013",
                 name: "Prophet:",
-                data: {"width":"70","height":"23","img":"kings.1"},
+                data: {"width":"70","height":"23","img":"prophets.3"},
                 children:[sNode1000130,sNode1000131,sNode1000132]         
             };
         
@@ -285,15 +292,15 @@
 
                 var sNode1000140 = {
                     id: "s1000140",
-                    name: "Joseph Did<br>As The Angel<br>Commanded Him -", 
-                    data: {"width":"140","height":"57","img":"nativities.23"},
+                    name: "Joseph Awoke And<br>Did As The Angel<br>Commanded Him -", 
+                    data: {"width":"150","height":"57","img":"nativities.23"},
                     children:[]         
                 };
 
                 var sNode1000141 = {
                     id: "s1000141",
                     name: "He Had No Relations<br>With Her Until<br>She Bore A Son -",
-                    data: {"width":"165","height":"57","img":"nativities.22"},
+                    data: {"width":"160","height":"57","img":"nativities.22"},
                     children:[]         
                 };
 
@@ -313,36 +320,188 @@
 
         var sNode10001 = {
             id: "s10001",
-            name: "Birth of<br>Jesus:",
-            data: {"width":"65","height":"39","img":"mt.3"},
+            name: "Birth<br>Of Jesus:",
+            data: {"width":"80","height":"39","img":"mt.3"},
             children:[sNode100010,sNode100011,sNode100012,sNode100013,sNode100014]         
         };
+        
+            // Children of sNode10002 (Visit<br>Of The Maji:)
+        
+                // Children of sNode100020 (When Jesus<br>Was Born:)
+
+                var sNode1000200 = {
+                    id: "s1000200",
+                    name: "In Bethlehem -",
+                    data: {"width":"115","height":"23","img":"mt.4"},
+                    children:[]         
+                };
+
+                var sNode1000201 = {
+                    id: "s1000201",
+                    name: "In The Days<br>Of King Herod",
+                    data: {"width":"115","height":"39","img":"mt.4"},
+                    children:[]         
+                };
+
+            var sNode100020 = {
+                id: "s100020",
+                name: "When Jesus<br>Was Born:",
+                data: {"width":"100","height":"39","img":"mt.4"},
+                children:[sNode1000200,sNode1000201]         
+            };
+        
+                // Children of sNode100021 (Maji:)
+
+                var sNode1000210 = {
+                    id: "s1000210",
+                    name: "Where Is The Newborn<br>King Of The Jews -",
+                    data: {"width":"170","height":"39","img":"mt.4"},
+                    children:[]         
+                };
+
+                var sNode1000211 = {
+                    id: "s1000211",
+                    name: "We Saw His Star<br>At Its Rising & -",
+                    data: {"width":"130","height":"39","img":"mt.4"},
+                    children:[]         
+                };
+
+                var sNode1000212 = {
+                    id: "s1000212",
+                    name: "Have Come To Do<br>Him Homage",
+                    data: {"width":"135","height":"39","img":"mt.4"},
+                    children:[]         
+                };
+
+            var sNode100021 = {
+                id: "s100021",
+                name: "Maji:",
+                data: {"width":"50","height":"23","img":"mt.4"},
+                children:[sNode1000210,sNode1000211,sNode1000212]         
+            };
+        
+                // Children of sNode100022 (Herod:)
+
+                var sNode1000220 = {
+                    id: "s1000220",
+                    name: "Was Greatly<br>Troubled -",
+                    data: {"width":"100","height":"39","img":"mt.4"},
+                    children:[]         
+                };
+
+                var sNode1000221 = {
+                    id: "s1000221",
+                    name: "Assembled<br>Chief Priests & Scribes -",
+                    data: {"width":"185","height":"39","img":"mt.4"},
+                    children:[]         
+                };
+
+                var sNode1000222 = {
+                    id: "s1000222",
+                    name: "Where Is The Messiah<br>To Be Born?",
+                    data: {"width":"170","height":"39","img":"mt.4"},
+                    children:[]         
+                };
+
+            var sNode100022 = {
+                id: "s100022",
+                name: "Herod:",
+                data: {"width":"65","height":"23","img":"mt.4"},
+                children:[sNode1000220,sNode1000221,sNode1000222]         
+            };
+        
+                // Children of sNode100023 (Chief<br>Priests:)
+
+                var sNode1000230 = {
+                    id: "s1000230",
+                    name: "In Bethlehem<br>Of Judea -",
+                    data: {"width":"105","height":"39","img":"mt.4"},
+                    children:[]         
+                };
+        
+                    // Children of sNode1000231 (For<br>It Is Written:)
+
+                    var sNode10002310 = {
+                        id: "s10002310",
+                        name: "& You Bethlehem<br>Land Of Judah -",
+                        data: {"width":"135","height":"39","img":"mt.4"},
+                        children:[]         
+                    };
+
+                    var sNode10002311 = {
+                        id: "s10002311",
+                        name: "Are By No Means<br>Least Among The<br>Rulers Of Judah -",
+                        data: {"width":"145","height":"57","img":"mt.4"},
+                        children:[]         
+                    };
+
+                    var sNode10002312 = {
+                        id: "s10002312",
+                        name: "Since From You<br>Shall Come A Ruler -",
+                        data: {"width":"160","height":"39","img":"mt.4"},
+                        children:[]         
+                    };
+
+                    var sNode10002313 = {
+                        id: "s10002313",
+                        name: "Who Is To Shepherd<br>My People Israel",
+                        data: {"width":"150","height":"39","img":"mt.4"},
+                        children:[]         
+                    };
+
+                var sNode1000231 = {
+                    id: "s1000231",
+                    name: "For<br>It Is Written:",
+                    data: {"width":"100","height":"39","img":"mt.4"},
+                    children:[sNode10002310,sNode10002311,sNode10002312,sNode10002313]         
+                };
+
+            var sNode100023 = {
+                id: "s100023",
+                name: "Chief<br>Priests:",
+                data: {"width":"70","height":"39","img":"mt.4"},
+                children:[sNode1000230,sNode1000231]         
+            };
+
+            var sNode100024 = {
+                id: "s100024",
+                name: "Herod:",
+                data: {"width":"65","height":"23","img":"mt.4"},
+                children:[]         
+            };
+
+            var sNode100025 = {
+                id: "s100025",
+                name: "Maji:",
+                data: {"width":"50","height":"23","img":"mt.4"},
+                children:[]         
+            };
 
         var sNode10002 = {
             id: "s10002",
             name: "Visit of<br>The Maji:",
             data: {"width":"75","height":"39","img":"mt.4"},
-            children:[]         
+            children:[sNode100020,sNode100021,sNode100022,sNode100023,sNode100024,sNode100025]         
         };
 
         var sNode10003 = {
             id: "s10003",
-            name: "Flight to<br>Egypt:",
-            data: {"width":"70","height":"39","img": "mt.5"},
+            name: "Flight<br>To Egypt:",
+            data: {"width":"80","height":"39","img": "mt.5"},
             children:[]         
         };
         
         var sNode10004 = {
             id: "s10004",
-            name: "Massacre of<br>the Infants:",
-            data: {"width":"95","height":"39","img":"mt.6"},
+            name: "Massacre<br>Of The Infants:",
+            data: {"width":"120","height":"39","img":"mt.6"},
             children:[]         
         };
     
 
         var sNode10005 = {
             id: "s10005",
-            name: "Return from<br>Egypt:",
+            name: "Return<br>From Egypt:",
             data: {"width":"95","height":"39","img": "mt.7"},
             children:[]         
         };
@@ -376,7 +535,7 @@
             var sNode100102 = {
                 id: "s100102",
                 name: "Temptation of<br>Jesus",
-                data:{"width":"105","height":"39","img":"preparation.3"},
+                data:{"width":"110","height":"39","img":"preparation.3"},
                 children:[]         
             };
         
@@ -390,7 +549,7 @@
             var sNode100104 = {
                 id: "s100104",
                 name: "Call of the<br>First Disciples",
-                data:{"width":"110","height":"39","img":"call.1"},
+                data:{"width":"115","height":"39","img":"call.1"},
                 children:[]         
             };
         
@@ -408,83 +567,227 @@
                     // Children of sNode1001100 (Beatitudes)
         
                         // Children of sNode10011000 (Blessed<br>Are The __)
+        
+                            // Children of sNode100110000 (Poor<br>In Spirit:)
+                    
+                            var sNode1001100000 = {
+                                id: "s1001100000",
+                                name: "For<br>Theirs Is -",
+                                data:{"width":"85","height":"39","img":"teaching.1"},
+                                children:[]         
+                            };
+                    
+                            var sNode1001100001 = {
+                                id: "s1001100001",
+                                name: "The Kingdom<br>Of Heaven",
+                                data:{"width":"105","height":"38","img":"teaching.1"},
+                                children:[]         
+                            };
                 
                         var sNode100110000 = {
                             id: "s100110000",
-                            name: "Poor In Spirit,<br>For Theirs Is The<br>Kingdom Of Heaven",
-                            data:{"width":"150","height":"57","img":"teaching.1"},
-                            children:[]         
+                            name: "Poor<br>In Spirit:",
+                            data:{"width":"75","height":"39","img":"teaching.1"},
+                            children:[sNode1001100000,sNode1001100001]         
                         };
+        
+                            // Children of sNode100110001 (Meek:)
+                    
+                            var sNode1001100010 = {
+                                id: "s1001100010",
+                                name: "For<br>They Will -",
+                                data:{"width":"90","height":"39","img":"teaching.1"},
+                                children:[]         
+                            };
+                    
+                            var sNode1001100011 = {
+                                id: "s1001100011",
+                                name: "Inherit<br>The Land",
+                                data:{"width":"80","height":"39","img":"teaching.1"},
+                                children:[]         
+                            };
                 
                         var sNode100110001 = {
                             id: "s100110001",
-                            name: "Meek, For They<br>Will Inherit<br>The Land",
-                            data:{"width":"125","height":"57","img":"teaching.1"},
-                            children:[]         
+                            name: "Meek:",
+                            data:{"width":"55","height":"23","img":"teaching.1"},
+                            children:[sNode1001100010,sNode1001100011]         
                         };
+        
+                            // Children of sNode100110002 (Merciful:)
+                    
+                            var sNode1001100020 = {
+                                id: "s1001100020",
+                                name: "For<br>They Will -",
+                                data:{"width":"90","height":"39","img":"teaching.1"},
+                                children:[]         
+                            };
+                    
+                            var sNode1001100021 = {
+                                id: "s1001100021",
+                                name: "Be Shown<br>Mercy",
+                                data:{"width":"85","height":"39","img":"teaching.1"},
+                                children:[]         
+                            };
                 
                         var sNode100110002 = {
                             id: "s100110002",
-                            name: "Merciful, For<Br>They Will Be<Br>Shown Mercy",
-                            data:{"width":"110","height":"57","img":"teaching.1"},
-                            children:[]         
+                            name: "Merciful:",
+                            data:{"width":"80","height":"23","img":"teaching.1"},
+                            children:[sNode1001100020,sNode1001100021]         
                         };
+        
+                            // Children of sNode100110003 (Clean<br>Of Heart:)
+                    
+                            var sNode1001100030 = {
+                                id: "s1001100030",
+                                name: "For<br>They Will -",
+                                data:{"width":"90","height":"39","img":"teaching.1"},
+                                children:[]         
+                            };
+                    
+                            var sNode1001100031 = {
+                                id: "s1001100031",
+                                name: "See God",
+                                data:{"width":"75","height":"23","img":"teaching.1"},
+                                children:[]         
+                            };
                 
                         var sNode100110003 = {
                             id: "s100110003",
-                            name: "Clean Of Heart,<br>For They Will<br>See God",
-                            data:{"width":"115","height":"57","img":"teaching.1"},
-                            children:[]         
+                            name: "Clean<br>Of Heart:",
+                            data:{"width":"80","height":"39","img":"teaching.1"},
+                            children:[sNode1001100030,sNode1001100031]         
                         };
+        
+                            // Children of sNode100110004 (Peacemakers:)
+                    
+                            var sNode1001100040 = {
+                                id: "s1001100040",
+                                name: "For<br>They Will -",
+                                data:{"width":"90","height":"39","img":"teaching.1"},
+                                children:[]         
+                            };
+                    
+                            var sNode1001100041 = {
+                                id: "s1001100041",
+                                name: "Be Called<br>Children Of God",
+                                data:{"width":"130","height":"39","img":"teaching.1"},
+                                children:[]         
+                            };
                 
                         var sNode100110004 = {
                             id: "s100110004",
-                            name: "Peacemakers, For<br>They Will Be Called<br>Children Of God",
-                            data:{"width":"145","height":"57","img":"teaching.1"},
-                            children:[]         
+                            name: "Peacemakers:",
+                            data:{"width":"115","height":"23","img":"teaching.1"},
+                            children:[sNode1001100040,sNode1001100041]         
                         };
             
                     var sNode10011000 = {
                         id: "s10011000",
                         name: "Blessed<br>Are The __",
-                        data:{"width":"90","height":"39","img":"teaching.1"},
+                        data:{"width":"95","height":"39","img":"teaching.1"},
                         children:[sNode100110000,sNode100110001,sNode100110002,sNode100110003,sNode100110004]         
                     };
         
                         // Children of sNode10011001 (Blessed Are<br>They __)
+        
+                            // Children of sNode100110010 (Who<br>Mourn:)
+                    
+                            var sNode1001100100 = {
+                                id: "s1001100100",
+                                name: "For<br>They Will -",
+                                data:{"width":"90","height":"39","img":"teaching.1"},
+                                children:[]         
+                            };
+                    
+                            var sNode1001100101 = {
+                                id: "s1001100101",
+                                name: "Be<br>Comforted",
+                                data:{"width":"90","height":"39","img":"teaching.1"},
+                                children:[]         
+                            };
                 
                         var sNode100110010 = {
                             id: "s100110010",
-                            name: "Who Mourn For<br>They Will Be<br>Comforted",
-                            data:{"width":"120","height":"57","img":"teaching.1"},
-                            children:[]         
+                            name: "Who<br>Mourn:",
+                            data:{"width":"65","height":"39","img":"teaching.1"},
+                            children:[sNode1001100100,sNode1001100101]         
                         };
+        
+                            // Children of sNode100110011 (Who Hunger<br>And Thirst:)
+                    
+                            var sNode1001100110 = {
+                                id: "s1001100110",
+                                name: "For<br>Righteousness -",
+                                data:{"width":"130","height":"39","img":"teaching.1"},
+                                children:[]         
+                            };
+                    
+                            var sNode1001100111 = {
+                                id: "s1001100111",
+                                name: "They Will<br>Be Satisfied",
+                                data:{"width":"105","height":"39","img":"teaching.1"},
+                                children:[]         
+                            };
                 
                         var sNode100110011 = {
                             id: "s100110011",
-                            name: "Who Hunger & Thirst<br>For Righteousness, They<br>Will Be Satisfied",
-                            data:{"width":"185","height":"57","img":"teaching.1"},
-                            children:[]         
+                            name: "Who Hunger<br>And Thirst:",
+                            data:{"width":"100","height":"39","img":"teaching.1"},
+                            children:[sNode1001100110,sNode1001100111]         
                         };
+        
+                            // Children of sNode100110012 (Who Hunger<br>And Thirst:)
+                    
+                            var sNode1001100120 = {
+                                id: "s1001100120",
+                                name: "For<br>Theirs Is -",
+                                data:{"width":"90","height":"39","img":"teaching.1"},
+                                children:[]         
+                            };
+                    
+                            var sNode1001100121 = {
+                                id: "s1001100121",
+                                name: "The Kingdom<br>Of Heaven",
+                                data:{"width":"105","height":"39","img":"teaching.1"},
+                                children:[]         
+                            };
                 
                         var sNode100110012 = {
                             id: "s100110012",
-                            name: "Who Are Persecuted For<br>The Sake Of Righteousness<br>For Theirs Is The<br>Kingdom Of Heaven",
-                            data:{"width":"205","height":"75","img":"teaching.1"},
-                            children:[]         
+                            name: "<span>..</span>Who Are Persecuted<span>...</span><br>For The Sake<br>Of Righteousness:",
+                            data:{"width":"165","height":"57","img":"teaching.1"},
+                            children:[sNode1001100120,sNode1001100121]         
                         };
+        
+                            // Children of sNode100110013 (Who Hunger<br>And Thirst:)
+                    
+                            var sNode1001100130 = {
+                                id: "s1001100130",
+                                name: "For Their<br>Reward -",
+                                data:{"width":"85","height":"39","img":"teaching.1"},
+                                children:[]         
+                            };
+                    
+                            var sNode1001100131 = {
+                                id: "s1001100131",
+                                name: "Is Great<br>In Heaven",
+                                data:{"width":"85","height":"39","img":"teaching.1"},
+                                children:[]         
+                            };
                 
                         var sNode100110013 = {
                             id: "s100110013",
-                            name: "When Insulted, Persecuted<br>& Every Kind Of Evil Uttered<br>Against Them For Their<br>Reward Is Great In Heaven",
-                            data:{"width":"205","height":"75","img":"teaching.1"},
-                            children:[]         
+                            name: "When Insulted, Persecuted<br>And Every Kind Of Evil<br>Uttered Against Them ",
+                            data:{"width":"205","height":"57","img":"teaching.1"},
+                            children:[sNode1001100130,sNode1001100131]         
                         };
             
                     var sNode10011001 = {
                         id: "s10011001",
                         name: "Blessed<br>Are They __",
-                        data:{"width":"115","height":"39","img":"teaching.1"},
+                        data:{"width":"100","height":"39","img":"teaching.1"},
                         children:[sNode100110010,sNode100110011,sNode100110012,sNode100110013]         
                     };
             
@@ -510,15 +813,15 @@
             
                             var sNode1001101010 = {
                                 id: "s1001101010",
-                                name: "It Is<br>No Longer Good<br>For Anything But -",
-                                data:{"width":"145","height":"57","img":"teaching.1"},
+                                name: "It Is No Longer<br>Good For Anything But -",
+                                data:{"width":"190","height":"39","img":"teaching.1"},
                                 children:[]         
                             };
             
                             var sNode1001101011 = {
                                 id: "s1001101011",
-                                name: "To Be<br>Thrown Out And<br>Trampled Underfoot",
-                                data:{"width":"155","height":"57","img":"teaching.1"},
+                                name: "To Be Thrown Out<br>& Trampled Underfoot",
+                                data:{"width":"170","height":" 39","img":"teaching.1"},
                                 children:[]         
                             };
             
@@ -540,8 +843,8 @@
             
                         var sNode100110110 = {
                             id: "s100110110",
-                            name: "You Are<br>The Light<br>Of The World",
-                            data:{"width":"105","height":"57","img":"teaching.1"},
+                            name: "You Are The Light<br>Of The World",
+                            data:{"width":"140","height":"39","img":"teaching.1"},
                             children:[]         
                         };
         
@@ -563,8 +866,8 @@
             
                         var sNode100110111 = {
                             id: "s100110111",
-                            name: "Your Light<br>Must Shine Before<br>Others That:",
-                            data:{"width":"150","height":"57","img":"teaching.1"},
+                            name: "Your Light Must Shine<br>Before Others That:",
+                            data:{"width":"175","height":"39","img":"teaching.1"},
                             children:[sNode1001101110,sNode1001101111]         
                         };
         
@@ -586,50 +889,50 @@
         
                     var sNode10011020 = {
                         id: "s10011020",
-                        name: "Law",
-                        data:{"width":"40","height":"23","img":"teaching.1"},
+                        name: "Law:",
+                        data:{"width":"50","height":"23","img":"teaching.1"},
                         children:[]         
                     };
         
                     var sNode10011021 = {
                         id: "s10011021",
-                        name: "Anger",
-                        data:{"width":"50","height":"23","img":"teaching.1"},
+                        name: "Anger:",
+                        data:{"width":"60","height":"23","img":"teaching.1"},
                         children:[]         
                     };
         
                     var sNode10011022 = {
                         id: "s10011022",
-                        name: "Adultry",
-                        data:{"width":"60","height":"23","img":"teaching.1"},
+                        name: "Adultry:",
+                        data:{"width":"70","height":"23","img":"teaching.1"},
                         children:[]         
                     };
         
                     var sNode10011023 = {
                         id: "s10011023",
-                        name: "Divorce",
-                        data:{"width":"65","height":"23","img":"teaching.1"},
+                        name: "Divorce:",
+                        data:{"width":"75","height":"23","img":"teaching.1"},
                         children:[]         
                     };
         
                     var sNode10011024 = {
                         id: "s10011024",
-                        name: "Oaths",
-                        data:{"width":"50","height":"23","img":"teaching.1"},
+                        name: "Oaths:",
+                        data:{"width":"60","height":"23","img":"teaching.1"},
                         children:[]         
                     };
         
                     var sNode10011025 = {
                         id: "s10011025",
-                        name: "Retaliation",
-                        data:{"width":"90","height":"23","img":"teaching.1"},
+                        name: "Retaliation:",
+                        data:{"width":"95","height":"23","img":"teaching.1"},
                         children:[]         
                     };
         
                     var sNode10011026 = {
                         id: "s10011026",
-                        name: "Love of<br>Enemies",
-                        data:{"width":"75","height":"39","img":"teaching.1"},
+                        name: "Love of<br>Enemies:",
+                        data:{"width":"80","height":"39","img":"teaching.1"},
                         children:[]         
                     };
         
@@ -651,49 +954,49 @@
         
                 var sNode1001110 = {
                     id: "s1001110",
-                    name: "Almsgiving",
-                    data:{"width":"90","height":"23","img":"teaching.2"},
+                    name: "Almsgiving:",
+                    data:{"width":"95","height":"23","img":"teaching.2"},
                     children:[]         
                 };
         
                 var sNode1001111 = {
                     id: "s1001111",
-                    name: "Prayer",
-                    data:{"width":"60","height":"23","img":"teaching.2"},
+                    name: "Prayer:",
+                    data:{"width":"65","height":"23","img":"teaching.2"},
                     children:[]         
                 };
         
                 var sNode1001112 = {
                     id: "s1001112",
-                    name: "Fasting",
-                    data:{"width":"65","height":"23","img":"teaching.2"},
+                    name: "Fasting:",
+                    data:{"width":"70","height":"23","img":"teaching.2"},
                     children:[]         
                 };
         
                 var sNode1001113 = {
                     id: "s1001113",
-                    name: "Treasure",
-                    data:{"width":"75","height":"23","img":"teaching.2"},
+                    name: "Treasure:",
+                    data:{"width":"80","height":"23","img":"teaching.2"},
                     children:[]         
                 };
         
                 var sNode1001114 = {
                     id: "s1001114",
-                    name: "Light of<br>The Body",
-                    data:{"width":"80","height":"39","img":"teaching.2"},
+                    name: "Light of<br>The Body:",
+                    data:{"width":"85","height":"39","img":"teaching.2"},
                     children:[]         
                 };
         
                 var sNode1001115 = {
                     id: "s1001115",
-                    name: "God<br>& Money",
-                    data:{"width":"70","height":"39","img":"teaching.2"},
+                    name: "God<br>& Money:",
+                    data:{"width":"80","height":"39","img":"teaching.2"},
                     children:[]         
                 };
         
                 var sNode1001116 = {
                     id: "s1001116",
-                    name: "Dependence<br>on God",
+                    name: "Dependence<br>on God:",
                     data:{"width":"100","height":"39","img":"teaching.2"},
                     children:[]         
                 };
@@ -709,57 +1012,57 @@
         
                 var sNode1001120 = {
                     id: "s1001120",
-                    name: "Judging<br>Others",
+                    name: "Judging<br>Others:",
                     data:{"width":"70","height":"39","img":"teaching.1"},
                     children:[]         
                 };
   
                 var sNode1001121 = {
                     id: "s1001121",
-                    name: "Pearls<br>Before Swine",
-                    data:{"width":"105","height":"39","img":"teaching.1"},
+                    name: "Pearls<br>Before Swine:",
+                    data:{"width":"115","height":"39","img":"teaching.1"},
                     children:[]         
                 };
        
                 var sNode1001122 = {
                     id: "s1001122",
-                    name: "Answer to<br>Prayer",
-                    data:{"width":"80","height":"39","img":"teaching.1"},
+                    name: "Answer to<br>Prayer:",
+                    data:{"width":"85","height":"39","img":"teaching.1"},
                     children:[]         
                 };
         
                 var sNode1001123 = {
                     id: "s1001123",
-                    name: "Golden<br>Rule",
-                    data:{"width":"60","height":"39","img":"teaching.1"},
+                    name: "Golden<br>Rule:",
+                    data:{"width":"65","height":"39","img":"teaching.1"},
                     children:[]         
                 };
       
                 var sNode1001124 = {
                     id: "s1001124",
-                    name: "Narrow<br>Gate",
+                    name: "Narrow<br>Gate:",
                     data:{"width":"65","height":"39","img":"teaching.1"},
                     children:[]         
                 };
        
                 var sNode1001125 = {
                     id: "s1001125",
-                    name: "False<br>Prophets",
-                    data:{"width":"75","height":"39","img":"teaching.1"},
+                    name: "False<br>Prophets:",
+                    data:{"width":"85","height":"39","img":"teaching.1"},
                     children:[]         
                 };
        
                 var sNode1001126 = {
                     id: "s1001126",
-                    name: "True<br>Disciples",
-                    data:{"width":"75","height":"39","img":"teaching.1"},
+                    name: "True<br>Disciples:",
+                    data:{"width":"85","height":"39","img":"teaching.1"},
                     children:[]         
                 };
        
                 var sNode1001127 = {
                     id: "s1001127",
-                    name: "Two<br>Foundations",
-                    data:{"width":"100","height":"39","img":"teaching.1"},
+                    name: "Two<br>Foundations:",
+                    data:{"width":"110","height":"39","img":"teaching.1"},
                     children:[]         
                 };
        
@@ -773,13 +1076,13 @@
         var sNode10011 = {
             id: "s10011",
             name: "<u>Discourse</u><br>Sermon on<br>the Mount:",
-            data:{"width":"90","height":"57","img":"teaching.3"},
+            data:{"width":"95","height":"57","img":"teaching.3"},
             children:[sNode100110,sNode100111,sNode100112]          
         };
                
     var sNode1001 = {
         id: "s1001",
-        name: "Proclamation of<br>The Kingdom",
+        name: "Proclamation of<br>The Kingdom:<br><br>",
         data:{"width":"125","height":"39",}, 
         children:[sNode10010,sNode10011]            
     };
@@ -1464,7 +1767,7 @@
                     var sNode10030010 = {
                         id: "s10030010",
                         name: "Wisdom Vindicated<br>By Her Works:",
-                        data:{"width":"155","height":"39"},
+                        data:{"width":"150","height":"39"},
                         children:[sNode100300100,sNode100300101]         
                     };
             
@@ -1698,14 +2001,14 @@
                 var sNode1003101 = {
                     id: "s1003101",
                     name: "Purpose Of<br>The Parables",
-                    data:{"width":"100","height":"39"},
+                    data:{"width":"105","height":"39"},
                     children:[]         
                 };
         
                 var sNode1003102 = {
                     id: "s1003102",
                     name: "Privilege Of<br>Discipleship",
-                    data:{"width":"95","height":"39"},
+                    data:{"width":"100","height":"39"},
                     children:[]         
                 };
         
@@ -1733,7 +2036,7 @@
             var sNode100312 = {
                 id: "s100312",
                 name: "Muster<br>Seed",
-                data:{"width":"60","height":"39","img":"parables.5"},
+                data:{"width":"65","height":"39","img":"parables.5"},
                 children:[]         
             };
         
@@ -1791,7 +2094,7 @@
             var sNode100317 = {
                 id: "s100317",
                 name: "Treasure,<br>New & Old",
-                data:{"width":"85","height":"39"},
+                data:{"width":"90","height":"39"},
                 children:[]         
             };
         
@@ -2164,114 +2467,100 @@
             // Children of sNode10041 (Discourse:<br>Church Order)
         
                 // Children of sNode100410 (Greatest in<br>the Kingdom)
-            
-                var sNode1004100 = {
-                    id: "s1004100",
-                    name: "Who Is The<br>Greatest In The<br>Kingdom Of Heaven?",
-                    data:{"width":"160","height":"57","img":"otherEvents.15"},
-                    children:[]         
-                };
         
-                    // Children of sNode1004101 (Jesus Placed<br>A Child<br>In Their Midst:)
+                    // Children of sNode1004100  (Jesus Placed<br>A Child<br>In Their Midst:)
             
-                    var sNode10041010 = {
-                        id: "s10041010",
+                    var sNode10041000 = {
+                        id: "s10041000",
                         name: "Unless You Turn<br>And Become<br>Like Children -",
                         data:{"width":"130","height":"57","img":"otherEvents.15"},
                         children:[]         
                     };
             
-                    var sNode10041011 = {
-                        id: "s10041011",
+                    var sNode10041001 = {
+                        id: "s10041001",
                         name: "You Will Not<br>Enter The<br>Kingdom Of Heaven",
                         data:{"width":"150","height":"57","img":"otherEvents.15"},
                         children:[]         
                     };
             
-                    var sNode10041012 = {
-                        id: "s10041012",
+                    var sNode10041002 = {
+                        id: "s10041002",
                         name: "Whoever Humbles<br>Himself Like<br>This Child Is -",
                         data:{"width":"140","height":"57","img":"otherEvents.15"},
                         children:[]         
                     };
             
-                    var sNode10041013 = {
-                        id: "s10041013",
+                    var sNode10041003 = {
+                        id: "s10041003",
                         name: "The Greatest<br>In The<br>Kingdom Of Heaven",
                         data:{"width":"150","height":"57","img":"otherEvents.15"},
                         children:[]         
                     };
             
-                    var sNode10041014 = {
-                        id: "s10041014",
+                    var sNode10041004 = {
+                        id: "s10041004",
                         name: "Whoever Receives<br>One Child Such As<br>This, In My Name<br>Receives Me",
                         data:{"width":"145","height":"76","img":"otherEvents.15"},
                         children:[]         
                     };
             
-                var sNode1004101 = {
-                    id: "s1004101",
-                    name: "Jesus Placed<br>A Child<br>In Their Midst:",
-                    data:{"width":"115","height":"57","img":"otherEvents.15"},
-                    children:[sNode10041010,sNode10041011,sNode10041012,sNode10041013,sNode10041014]         
+                var sNode1004100  = {
+                    id: "s1004100",
+                    name: "The<br>Greatest:",
+                    data:{"width":"80","height":"39","img":"otherEvents.15"},
+                    children:[sNode10041000,sNode10041001,sNode10041002,sNode10041003,sNode10041004]         
                 };
             
-                var sNode1004102 = {
-                    id: "s1004102",
+                var sNode1004101  = {
+                    id: "s1004101",
                     name: "<u>Parable</u><br>Lost Sheep",
                     data:{"width":"90","height":"39","img":"parables.13"},
                     children:[]         
-                    };
+                };
         
             var sNode100410 = {
                 id: "s100410",
-                name: "Children And<br>The Kingdom<br>Of Heaven:",
-                data:{"width":"110","height":"57","img":"otherEvents.15"},
-                children:[sNode1004100,sNode1004101,sNode1004102]         
+                name: "Children:",
+                data:{"width":"80","height":"23","img":"otherEvents.15"},
+                children:[sNode1004100,sNode1004101 ]         
             };
         
-            var sNode100411 = {
-                id: "s100411",
-                name: "Causes<br>Of Sin",
-                data:{"width":"65","height":"39","img":"otherEvents.15"},
-                children:[]         
-                };
-        
-                // Children of sNode100412 (Forgiveness And<br>The Kingdom<br>Of Heaven:)
+                // Children of sNode100411   (Forgiveness And<br>The Kingdom<br>Of Heaven:)
             
-                var sNode1004120 = {
-                    id: "s1004120",
+                var sNode1004110 = {
+                    id: "s1004110",
                     name: "Brother<br>who Sins",
                     data:{"width":"75","height":"39"},
                     children:[]         
                 };
             
-                var sNode1004121 = {
-                    id: "s1004121",
-                    name: "<u>Peter</u> How Often<br>Must I Forgive<br>My Brother",
-                    data:{"width":"135","height":"57","img":"parables.16"},
+                var sNode1004111 = {
+                    id: "s1004111",
+                    name: "<u>Peter</u><br>How Often Must I<br>Forgive My Brother",
+                    data:{"width":"150","height":"57","img":"parables.16"},
                     children:[]         
                 };
             
-                var sNode1004122 = {
-                    id: "s1004122",
+                var sNode1004112 = {
+                    id: "s1004112",
                     name: "<u>Parable</u><br>The Unforgiving<br>Servant",
                     data:{"width":"125","height":"57","img":"parables.16"},
                     children:[]         
                 };
         
-            var sNode100412 = {
-                id: "s100412",
-                name: "Forgiveness And<br>The Kingdom<br>Of Heaven:",
-                data:{"width":"135","height":"57","img":"parables.16"},
-                children:[sNode1004120,sNode1004121,sNode1004122]         
+            var sNode100411   = {
+                id: "s100411",
+                name: "Forgiveness:",
+                data:{"width":"105","height":"23","img":"parables.16"},
+                children:[sNode1004110,sNode1004111,sNode1004112]         
             };
         
         var sNode10041 = {
             id: "s10041",
-            name: "<u>Discourse</u><br>Children, Sin<br>& Forgiveness:",
-            data:{"width":"120","height":"57"},
-            children:[sNode100410,sNode100411,sNode100412]          
+            name: "<u>Discourse</u><br>The Kingdom<br>Of Heaven:",
+            data:{"width":"110","height":"57"},
+            children:[sNode100410,sNode100411]          
         };
                 
     var sNode1004 = {
@@ -2285,7 +2574,7 @@
         
             // Children of sNode10050 (Narrative:<br>Chaps 19-23)
         
-                // Children of sNode100500 (Chapters<br>19-20:)
+                // Children of sNode100500 (Journey<br>To Jerusalem:)
         
                     // Children of sNode1005000 (Marriage &<br>Divorce:)
         
@@ -2430,7 +2719,7 @@
                     var sNode10050013 = {
                         id: "s10050013",
                         name: "Belongs To<br>Such As These",
-                        data:{"width":"130","height":"39","img":"otherEvents.27"},
+                        data:{"width":"125","height":"39","img":"otherEvents.27"},
                         children:[]         
                     };
 
@@ -2478,12 +2767,12 @@
 
             var sNode100500 = {
                 id: "s100500",
-                name: "Journey To<br>Jerusalem:",
-                data:{"width":"90","height":"39"},
+                name: "Journey<br>To Jerusalem:<br><br>",
+                data:{"width":"110","height":"39"},
                 children:[sNode1005000,sNode1005001,sNode1005002,sNode1005003,sNode1005004,sNode1005005,sNode1005006]           
             };
     
-                // Children of sNode100501 (Ministry In<br>Jerusalem:)
+                // Children of sNode100501 (Ministry<br>In Jerusalem:)
     
                     // Children of sNode1005010 (Beginning:)
     
@@ -2615,8 +2904,8 @@
 
                             var sNode1005011000 = {
                                 id: "s1005011000",
-                                name: "Two<br>Sons",
-                                data:{"width":"55","height":"39"},
+                                name: "Two Sons",
+                                data:{"width":"80","height":"23"},
                                 children:[]         
                             };
 
@@ -2708,8 +2997,8 @@
     
             var sNode100501 = {
                 id: "s100501",
-                name: "Ministry In<br>Jerusalem:",
-                data:{"width":"95","height":"39","img":"holyLand.1"},
+                name: "Ministry<br>In Jerusalem:",
+                data:{"width":"110","height":"39","img":"holyLand.1"},
                 children:[sNode1005010,sNode1005011,sNode1005012]            
             };
 
@@ -3098,8 +3387,8 @@
                 
                         var sNode100602012 = {
                             id: "s100602012",
-                            name: "Yet Not As<br>I Will But<br>As You Will",
-                            data:{"width":"95","height":"57","img":"passion.33"},
+                            name: "Yet Not As I Will<br>But<br>As You Will",
+                            data:{"width":"125","height":"57","img":"passion.33"},
                             children:[]         
                         };
             
@@ -3114,22 +3403,22 @@
                 
                         var sNode100602020 = {
                             id: "s100602020",
-                            name: "Peter, So You<br>Could Not Keep<br>Watch With Me<br>For One Hour? -",
-                            data:{"width":"125","height":"75","img":"passion.33"},
+                            name: "Peter, So You Could Not<br>Keep Watch With Me<br>For One Hour? -",
+                            data:{"width":"180","height":"57","img":"passion.33"},
                             children:[]         
                         };
                 
                         var sNode100602021 = {
                             id: "s100602021",
                             name: "Watch And Pray<br>That You May Not<br>Undergo The Test -",
-                            data:{"width":"145","height":"57","img":"passion.33"},
+                            data:{"width":"150","height":"57","img":"passion.33"},
                             children:[]         
                         };
                 
                         var sNode100602022 = {
                             id: "s100602022",
-                            name: "The Spirit Is<br>Willing But The<br>Flesh Is Weak",
-                            data:{"width":"120","height":"57","img":"passion.33"},
+                            name: "The Spirit<br>Is Willing But<br>The Flesh Is Weak",
+                            data:{"width":"140","height":"57","img":"passion.33"},
                             children:[]         
                         };
             
@@ -3189,7 +3478,7 @@
                         var sNode100602040 = {
                             id: "s100602040",
                             name: "Jesus Prayed<br>Saying<br>The Same Thing",
-                            data:{"width":"120","height":"57","img":"passion.33"},
+                            data:{"width":"125","height":"57","img":"passion.33"},
                             children:[]         
                         };
             
@@ -3244,34 +3533,36 @@
                     children:[sNode10060200,sNode10060201,sNode10060202,sNode10060203,sNode10060204,sNode10060205]         
                 };
             
+                    // Children of sNode1006021 (Betrayal & Arrest<br>of Jesus:)
+            
                         // Children of sNode10060210 (Arrival:)
                 
                         var sNode100602100 = {
                             id: "s100602100",
                             name: "Judas, One Of<br>The Twelve Arrived<br>Accompanied By -",
-                            data:{"width":"150","height":"39","img":"passion.37"},
+                            data:{"width":"150","height":"57","img":"passion.57"},
                             children:[]         
                         };
                 
                         var sNode100602101 = {
                             id: "s100602101",
-                            name: "A<br>Crowd with Swords<br>And Clubs, Who -",
-                            data:{"width":"145","height":"57","img":"passion.37"},
+                            name: "A Crowd with<br>Swords & Clubs",
+                            data:{"width":"125","height":"39","img":"passion.37"},
                             children:[]         
                         };
                 
-                        var sNode100602102 = {
+                     /*   var sNode100602102 = {
                             id: "s100602102",
                             name: "Had Come From The<br>Chief Priests, And The<br>Elders Of The People",
                             data:{"width":"165","height":"57","img":"passion.37"},
                             children:[]         
-                        };
+                        };  */
             
                     var sNode10060210 = {
                         id: "s10060210",
                         name: "Arrival:",
                         data:{"width":"70","height":"23","img":"passion.37"},
-                        children:[sNode100602100,sNode100602101,sNode100602102]         
+                        children:[sNode100602100,sNode100602101/*,sNode100602102*/]         
                     };
             
                         // Children of sNode10060211 (Signal:)
@@ -3492,7 +3783,7 @@
                 var sNode1006021 = {
                     id: "s1006021",
                     name: "Betrayal & Arrest<br>of Jesus:",
-                    data:{"width":"130","height":"39","img":"passion.37"},
+                    data:{"width":"135","height":"39","img":"passion.37"},
                     children:[sNode10060210,sNode10060211,sNode10060212,sNode10060213]         
                 };
         
