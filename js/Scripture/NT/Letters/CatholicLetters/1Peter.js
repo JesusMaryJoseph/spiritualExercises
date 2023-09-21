@@ -70,25 +70,41 @@
         children:[sNode13100,sNode13101,sNode13102]            
     };
         
-        // Children of sNode1311 (Gift & Call<br>In Baptism:)
+        // Children of sNode1311 (Baptism:)
         
             // Children of sNode13110 (Blessing:)
         
                 // Children of sNode131100 (In His Great Mercy<br>Gave Us a New Birth to:)
+            
+                    // Children of sNode1311000 (A Living Hope:)
+                    
+        /*            var sNode13110000 = {
+                        id: "s13110000",
+                        name: "Through The<br>Resurrection Of -",
+                        data:{"width":"130","height":"39"},
+                        children:[]         
+                    };
+                    
+                    var sNode13110001 = {
+                        id: "s13110001",
+                        name: "Jesus Christ<br>From the Dead",
+                        data:{"width":"115","height":"39"},
+                        children:[]         
+                    };
                 
                 var sNode1311000 = {
                     id: "s1311000",
-                    name: "To A Living Hope, Through<br>the Resurrection Of Jesus<br>Christ From the Dead",
-                    data:{"width":"195","height":"57"},
-                    children:[]         
+                    name: "A Living Hope:",
+                    data:{"width":"115","height":"23"},
+                    children:[sNode13110000,sNode13110001]         
                 };
         
                     // Children of sNode1311001 (an Inheritance<br>That is:)
                     
                     var sNode13110010 = {
                         id: "s13110010",
-                        name: "Imperishable,<br>Undefiled,<br>& Unfading -",
-                        data:{"width":"110","height":"57"},
+                        name: "Imperishable, Undefiled,<br>And Unfading -",
+                        data:{"width":"185","height":"39"},
                         children:[]         
                     };
         
@@ -100,6 +116,8 @@
                             data:{"width":"110","height":"39"},
                             children:[]         
                         };
+        
+                        // Children of sNode131100111 (Kept in Heaven<br>for You)
                         
                         var sNode131100111 = {
                             id: "s131100111",
@@ -107,13 +125,29 @@
                             data:{"width":"130","height":"39"},
                             children:[]         
                         };
+        
+                            // Children of sNode131100112 (To A Salvation<br>That Is:)
+                        
+                            var sNode1311001120 = {
+                                id: "s1311001120",
+                                name: "Ready To<br>Be Revealed -",
+                                data:{"width":"110","height":"39"},
+                                children:[]         
+                            };
+                            
+                            var sNode1311001121 = {
+                                id: "s1311001121",
+                                name: "In The<br>Final Time",
+                                data:{"width":"90","height":"39"},
+                                children:[]
+                            }
                         
                         var sNode131100112 = {
                             id: "s131100112",
-                            name: "To A Salvation That Is<br>Ready To Be Revealed<br>In The Final Time",
-                            data:{"width":"170","height":"57"},
-                            children:[]         
-                        };
+                            name: "To A Salvation<br>That Is:",
+                            data:{"width":"110","height":"39"},
+                            children:[sNode1311001120,sNode1311001121]         
+                        }; 
                     
                     var sNode13110011 = {
                         id: "s13110011",
@@ -124,15 +158,15 @@
                 
                 var sNode1311001 = {
                     id: "s1311001",
-                    name: "An Inheritance<br>That Is:",
-                    data:{"width":"120","height":"39"},
+                    name: "An Inheritance:",
+                    data:{"width":"120","height":"23"},
                     children:[sNode13110010,sNode13110011]          
                 };
             
             var sNode131100 = {
                 id: "s131100",
-                name: "In His Great Mercy<br>Gave Us A<br>New Birth To:",
-                data:{"width":"140","height":"57"},
+                name: "New Birth<br>To:",
+                data:{"width":"80","height":"39"},
                 children:[sNode1311000,sNode1311001]            
             };
         
@@ -313,12 +347,12 @@
         
             var sNode131140 = {
                 id: "s131140",
-                name: "Christ<br>Is:",
-                data:{"width":"55","height":"39"},
+                name: "Christ Is:",
+                data:{"width":"70","height":"23"},
                 children:[sNode1311400,sNode1311401,sNode1311402]           
             };
         
-                // Children of sNode131141 (We  Are:)
+                // Children of sNode131141 (We Are:)
             
                 var sNode1311410 = {
                     id: "s1311410",
@@ -350,8 +384,8 @@
         
             var sNode131141 = {
                 id: "s131141",
-                name: "We<br>Are:",
-                data:{"width":"45","height":"39"},
+                name: "We Are:",
+                data:{"width":"70","height":"23"},
                 children:[sNode1311410,sNode1311411,sNode1311412,sNode1311413]          
             };
         
@@ -401,7 +435,7 @@
                     children:[sNode13114200,sNode13114201,sNode13114202,sNode13114203,sNode13114204]            
                 };
         
-                    // Children of sNode1311421(Long<br>For:)
+                    // Children of sNode1311421(Long For:)
             
                     var sNode13114210 = {
                         id: "s13114210",
@@ -420,8 +454,8 @@
 
                 var sNode1311421 = {
                     id: "s1311421",
-                    name: "Long<br>For:",
-                    data:{"width":"50","height":"39"},
+                    name: "Long For:",
+                    data:{"width":"70","height":"23"},
                     children:[sNode13114210,sNode13114211]         
                 };
         
@@ -507,12 +541,28 @@
             name: "God's House<br>& People:",
             data:{"width":"100","height":"39"},
             children:[sNode131140,sNode131141,sNode131142]          
+        }; */
+        
+        // Children of sNode1312 (Christian<br>______:)
+        
+        var sNode13110 = {
+            id: "s13110",
+            name: "Blessing:",
+            data:{"width":"75","height":"23"},
+            children:[sNode131100,sNode131101]          
+        };
+        
+        var sNode13111 = {
+            id: "s13111",
+            name: "Blessing:",
+            data:{"width":"75","height":"23"},
+            children:[sNode131100,sNode131101]          
         };
                 
     var sNode1311 = {
         id: "s1311",
-        name: "Gift & Call<br>In Baptism:",
-        data:{"width":"95","height":"39"},
+        name: "Baptism:",
+        data:{"width":"75","height":"23"},
         children:[sNode13110,sNode13111,sNode13112,sNode13113,sNode13114]           
     };
         
@@ -606,8 +656,8 @@
                 
     var sNode1313 = {
         id: "s1313",
-        name: "Advice<br>To:",
-        data:{"width":"60","height": "39"},
+        name: "Advice:",
+        data:{"width":"65","height": "23"},
         children:[sNode13130,sNode13131,sNode13132]         
     };
     
@@ -636,7 +686,7 @@
 
 var sNode131 = {
     id: "s131",
-    name: "1st<br>Peter:",
-    data:{"width":"60","height": "39"},
+    name: "1st Peter:",
+    data:{"width":"80","height": "23"},
     children:[sNode1310,sNode1311,sNode1312,sNode1313,sNode1314]            
 };

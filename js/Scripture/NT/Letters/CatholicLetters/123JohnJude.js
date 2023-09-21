@@ -44,8 +44,8 @@
                     
                 var sNode133000 = {
                     id: "s133000",
-                    name: "What Was<br>From The<br>Beginning:",
-                    data:{"width":"95","height":"57"},
+                    name: "What Was From<br>The Beginning:",
+                    data:{"width":"125","height":"39"},
                     children:[sNode1330000,sNode1330001,sNode1330002,sNode1330003,sNode1330004]         
                 };
             
@@ -83,8 +83,8 @@
                 
                 var sNode133001 = {
                     id: "s133001",
-                    name: "The Life<br>Was Made<br>Visible:",
-                    data:{"width":"85","height":"57"},
+                    name: "The Life Was<br>Made Visible:",
+                    data:{"width":"110","height":"39"},
                     children:[sNode1330010,sNode1330011]         
                 };
             
@@ -92,15 +92,15 @@
                 
                     var sNode1330020 = {
                         id: "s1330020",
-                        name: "We Proclaim<br>Now<br>To You -",
-                        data:{"width":"100","height":"57"},
+                        name: "We Proclaim Now To You<br>So You Too May Have -",
+                        data:{"width":"185","height":"39"},
                         children:[]         
                     };
                 
                     var sNode1330021 = {
                         id: "s1330021",
-                        name: "So You Too May<br>Have Fellowship<br>With Us -",
-                        data:{"width":"130","height":"57"},
+                        name: " Fellowship With Us<br>For Our Fellowship Is -",
+                        data:{"width":"175","height":"39"},
                         children:[]         
                     };
             
@@ -108,29 +108,29 @@
                     
                         var sNode13300220 = {
                             id: "s13300220",
-                            name: "With The<br>Father And -",
+                            name: "",
                             data:{"width":"100","height":"39"},
                             children:[]         
                         };
                     
                         var sNode13300221 = {
                             id: "s13300221",
-                            name: "With His Son,<br>Jesus Christ",
+                            name: "",
                             data:{"width":"105","height":"39"},
                             children:[]         
                         };
                 
                     var sNode1330022 = {
                         id: "s1330022",
-                        name: "For Our<br>Fellowship Is:",
-                        data:{"width":"110","height":"39"},
-                        children:[sNode13300220,sNode13300221]         
+                        name: "With The Father And<br>With His Son, Jesus Christ:",
+                        data:{"width":"200","height":"39"},
+                        children:[/*sNode13300220,sNode13300221*/]         
                     };
                 
                 var sNode133002 = {
                     id: "s133002",
-                    name: "What We<br>Have Seen<br>& Heard:",
-                    data:{"width":"85","height":"57"},
+                    name: "What We Have<br>Seen & Heard:",
+                    data:{"width":"115","height":"39"},
                     children:[sNode1330020,sNode1330021,sNode1330022]         
                 };
                 
@@ -275,7 +275,7 @@
                 
         var sNode1330 = {
             id: "s1330",
-            name: "1st John:",
+            name: "1st John:<br><br>",
             data:{"width":"80","height":"23"},
             children:[sNode13300,sNode13301,sNode13302,sNode13303]          
         };

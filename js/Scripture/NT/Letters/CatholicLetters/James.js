@@ -172,7 +172,7 @@
     var sNode1301 = {
         id: "s1301",
         name: "Chapters<br>3-4:",
-        data:{"width":"70","height":"39"},
+        data:{"width":"75","height":"39"},
         children:[sNode13010,sNode13011,sNode13012,sNode13013]         
     };
 
@@ -211,7 +211,7 @@
             var sNode130222 = {
                 id: "s130222",
                 name: "Conversion<br>Of Sinners",
-                data:{"width":"90","height":"39"},
+                data:{"width":"95","height":"39"},
                 children:[]         
             };
                     
@@ -231,7 +231,7 @@
 
 var sNode130 = {
     id: "s130",
-    name: "James:",
+    name: "James:<br><br>",
     data:{"width":"65","height":"23"},
     children:[sNode1300,sNode1301,sNode1302]          
 };

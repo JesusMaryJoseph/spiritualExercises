@@ -2,26 +2,74 @@
     // Children of sNode132 (2nd<br>Peter:)
 
         // Children of sNode1320 (Greeting:)
+
+            // Children of sNode13200 (Symeon<br>Peter:)
+                
+            var sNode132000 = {
+                id: "s132000",
+                name: "A Slave",
+                data:{"width":"70","height": "23"},
+                children:[]         
+            };
+                
+            var sNode132001 = {
+                id: "s132001",
+                name: "An Apostle",
+                data:{"width":"95","height": "23"},
+                children:[]         
+            };
             
         var sNode13200 = {
             id: "s13200",
             name: "Symeon<br>Peter:",
-            data:{"width":"60","height": "39"},
-            children:[]         
+            data:{"width":"70","height": "39"},
+            children:[sNode132000,sNode132001]         
         };
+
+            // Children of sNode13201 (To Those Who<br>Have Received:)
+                
+            var sNode132010 = {
+                id: "s132010",
+                name: "A Faith Equal<br>To Ours Through -",
+                data:{"width":"140","height": "39"},
+                children:[]         
+            };
+                
+            var sNode132011 = {
+                id: "s132011",
+                name: "The Righteousness Of<br>Our God And<br>Savior Jesus Christ",
+                data:{"width":"165","height": "57"},
+                children:[]         
+            };
             
         var sNode13201 = {
             id: "s13201",
-            name: "To Those<br>Who:",
-            data:{"width":"75","height": "39"},
-            children:[]         
+            name: "To Those Who<br>Have Received:",
+            data:{"width":"120","height": "39"},
+            children:[sNode132010,sNode132011]         
         };
+
+            // Children of sNode13202 (Grace & Peace<br>Be Yours:)
+                
+            var sNode132020 = {
+                id: "s132020",
+                name: "In Abundance<br>Through Knowledge -",
+                data:{"width":"165","height": "39"},
+                children:[]         
+            };
+                
+            var sNode132021 = {
+                id: "s132021",
+                name: "Of God And<br>Of Jesus Our Lord",
+                data:{"width":"145","height": "39"},
+                children:[]         
+            };
             
         var sNode13202 = {
             id: "s13202",
             name: "Grace & Peace<br>Be Yours:",
             data:{"width":"115","height": "39"},
-            children:[]         
+            children:[sNode132020,sNode132021]         
         };
         
     var sNode1320 = {
@@ -35,7 +83,7 @@
         
             // Children of sNode13210 (God's<br>Action:)
         
-                // Children of sNode132100 (His Divine Power<br>Has Bestowed On Us:)
+                // Children of sNode132100 (Everything<br>That Makes For<br>Devotion & Life:)
         
                     // Children of sNode1321000 (Knowledge<br>Of:)
                     
@@ -56,7 +104,7 @@
                 var sNode1321000 = {
                     id: "s1321000",
                     name: "Knowledge:",
-                    data:{"width":"90","height":"23"},
+                    data:{"width":"100","height":"23"},
                     children:[sNode13210000,sNode13210001]         
                 };
         
@@ -78,28 +126,28 @@
                 
                     var sNode13210012 = {
                         id: "s13210012",
-                        name: "In The World<br>Because Of<br>Evil Desire",
-                        data:{"width":"105","height":"57"},
+                        name: "In The World<br>Because<br>Of Evil Desire",
+                        data:{"width":"110","height":"57"},
                         children:[]         
                     };
                 
                 var sNode1321001 = {
                     id: "s1321001",
-                    name: "The<br>Promise:",
-                    data:{"width":"75","height":"39"},
+                    name: "The<br>Call:",
+                    data:{"width":"50","height":"39"},
                     children:[sNode13210010,sNode13210011,sNode13210012]         
                 };
                 
                 var sNode1321002 = {
                     id: "s1321002",
-                    name: "Everything<br>That Makes For<br>Devotion & Life",
-                    data:{"width":"125","height":"57"},
+                    name: "The<br>Promises:",
+                    data:{"width":"85","height":"39"},
                     children:[]         
                 };
             
             var sNode132100 = {
                 id: "s132100",
-                name: "His Divine Power<br>Has Bestowed<br>On Us:",
+                name: "Everything<br>That Makes For<br>Devotion & Life:",
                 data:{"width":"130","height":"57"},
                 children:[sNode1321000,sNode1321001,sNode1321002]         
             };
@@ -110,7 +158,7 @@
         
                         // Children of sNode13210100 (Supplement<br>Your Faith With:)
                         
-                        var sNode132101000 = {
+                /*        var sNode132101000 = {
                             id: "s132101000",
                             name: "Virtue And Virtue<br>With Knowledge -",
                             data:{"width":"140","height":"39"},
@@ -220,47 +268,82 @@
                         data:{"width":"145","height":"57"},
                         children:[sNode132101010,sNode132101011,sNode132101012]         
                     };
-                
+             */   
                 var sNode1321010 = {
                     id: "s1321010",
-                    name: "Make Every Effort<br>And Be Eager To:",
-                    data:{"width":"140","height":"39"},
-                    children:[sNode13210100,sNode13210101]         
+                    name: "Faith<br>With Virtue",
+                    data:{"width":"100","height":"39"},
+                    children:[]         
                 };
                 
                 var sNode1321011 = {
                     id: "s1321011",
-                    name: "Anyone Who<br>Doesn't Is:",
-                    data:{"width":"100","height":"39"},
+                    name: "Virtue<br>With Knowledge",
+                    data:{"width":"130","height":"39"},
+                    children:[]         
+                };
+                
+                var sNode1321012 = {
+                    id: "s1321012",
+                    name: "Knowledge<br>With Self-Control",
+                    data:{"width":"140","height":"39"},
+                    children:[]         
+                };
+                
+                var sNode1321013 = {
+                    id: "s1321013",
+                    name: "Self-Control<br>With Endurance",
+                    data:{"width":"125","height":"39"},
+                    children:[]         
+                };
+                
+                var sNode1321014 = {
+                    id: "s1321014",
+                    name: "Endurance<br>With Devotion",
+                    data:{"width":"115","height":"39"},
+                    children:[]         
+                };
+                
+                var sNode1321015 = {
+                    id: "s1321015",
+                    name: "Devotion<br>With Mutual Affection",
+                    data:{"width":"160","height":"39"},
+                    children:[]         
+                };
+                
+                var sNode1321016 = {
+                    id: "s1321016",
+                    name: "Mutual Affection<br>With Love",
+                    data:{"width":"125","height":"39"},
                     children:[]         
                 };
             
             var sNode132101 = {
                 id: "s132101",
-                name: "Our<br>Response:",
-                data:{"width":"90","height":"39"},
-                children:[sNode1321010,sNode1321011]         
+                name: "Therefore<br>Supplement Your:",
+                data:{"width":"140","height":"39"},
+                children:[sNode1321010,sNode1321011,sNode1321012,sNode1321013,sNode1321014,sNode1321015,sNode1321016]         
+            };
+            
+            var sNode132102 = {
+                id: "s132102",
+                name: "Results:",
+                data:{"width":"75","height":"23"},
+                children:[]         
             };
         
         var sNode13210 = {
             id: "s13210",
-            name: "God's<br>Action:",
-            data:{"width":"65","height":"39"},
-            children:[sNode132100,sNode132101]         
-        };
-        
-        var sNode13211 = {
-            id: "s13211",
-            name: "Apostolic<br>Witness",
-            data:{"width":"80","height":"39"},
-            children:[]         
+            name: "Bestowed<br>On Us:",
+            data:{"width":"85","height":"39"},
+            children:[sNode132100,sNode132101,sNode132102]         
         };
                 
     var sNode1321 = {
         id: "s1321",
-        name: "Exhortation To<br>Christian Virtue:",
-        data:{"width":"125","height":"39"},
-        children:[sNode13210,sNode13211]            
+        name: "God's<br>Glory & Power:",
+        data:{"width":"120","height":"39"},
+        children:[sNode13210]            
     };
         
         // Children of sNode1322 (Condemnation Of<br>False Teachers)
@@ -288,8 +371,8 @@
         
     var sNode1322 = {
         id: "s1322",
-        name: "Condemnation Of<br>False Teachers:",
-        data:{"width":"135","height":"39"},
+        name: "False<br>Teachers:",
+        data:{"width":"80","height":"39"},
         children:[sNode13220,sNode13221,sNode13222]         
     };
     
@@ -311,7 +394,7 @@
                 
     var sNode1323 = {
         id: "s1323",
-        name: "Delay Of The<br>2nd Coming:",
+        name: "The<br>2nd Coming:",
         data:{"width":"105","height":"39"},
         children:[sNode13230,sNode13231]            
     };
@@ -319,7 +402,7 @@
     var sNode1324 = {
         id: "s1324",
         name: "Final Exhortation<br>& Doxology:",
-        data:{"width":"130","height":"39"},
+        data:{"width":"135","height":"39"},
         children:[]         
     };
 
