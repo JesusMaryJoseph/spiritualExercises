@@ -65,7 +65,6 @@
                             id: "s120000110",
                             name: "Descended From<br>David According<br>To The Flesh",
                             data:{"width":"130","height":"57"},
-                                data:{"width":"175","height":"39"},
                             children:[]
                         };
     
@@ -74,6 +73,7 @@
                             var sNode1200001110 =  {
                                 id: "s1200001110",
                                 name: "In Power According To<br>The Spirit Of Holiness -",
+                                data:{"width":"175","height":"39"},
                                 children:[]
                             };
                  
@@ -109,15 +109,29 @@
              
                     var sNode12000020 =  {
                         id: "s12000020",
-                        name: "",
-                        data:{"width":"110","height":"23"},
+                        name: "Grace Of<br>Apostleship -",
+                        data:{"width":"115","height":"39"},
                         children:[]
                     };
              
                     var sNode12000021 =  {
                         id: "s12000021",
-                        name: "",
-                        data:{"width":"110","height":"23"},
+                        name: "To Bring About The<br>Obedience Of Faith -",
+                        data:{"width":"155","height":"39"},
+                        children:[]
+                    };
+             
+                    var sNode12000022 =  {
+                        id: "s12000022",
+                        name: "For The Sake<br>Of His Name -",
+                        data:{"width":"115","height":"39"},
+                        children:[]
+                    };
+             
+                    var sNode12000023 =  {
+                        id: "s12000023",
+                        name: "Among All<br>The Gentiles",
+                        data:{"width":"105","height":"39"},
                         children:[]
                     };
              
@@ -125,7 +139,7 @@
                     id: "s1200002",
                     name: "Apostleship:",
                     data:{"width":"105","height":"23"},
-                    children:[sNode12000020,sNode12000021]
+                    children:[sNode12000020,sNode12000021,sNode12000022,sNode12000023]
                 };
     
                     // Children of sNode1200003 (To:)
@@ -183,8 +197,8 @@
             
             var sNode120001 =  {
                 id: "s120001",
-                name: "Thanksgiving",
-                data:{"width":"105","height":"23"},
+                name: "Thanksgiving:",
+                data:{"width":"110","height":"23"},
                 children:[]
             };
             
@@ -317,7 +331,7 @@
             
         var sNode12002 =  {
             id: "s12002",
-            name: "Justification<br>Through Faith<br>In Christ:",
+            name: "<u>Justification</u><br>Through Faith<br>In Christ:",
             data:{"width":"110","height":"57"},
             children:[sNode120020,sNode120021,sNode120022,sNode120023,sNode120024]
         };
@@ -332,18 +346,34 @@
 	    // Children of sNode1201 (Chapters 6-11)
 	
 	        // Children of sNode12010 (<u>Justification</u><br>Christian Life:)
+    
+                // Children of sNode120100 (Freedom From:)
 	      
+                var sNode1201000 =  {
+                    id: "s1201000",
+                    name: "Sin",
+                    data:{"width":"40","height":"23"},
+                    children:[]
+                };
+                
+                var sNode1201001 =  {
+                    id: "s1201001",
+                    name: "The Law",
+                    data:{"width":"75","height":"23"},
+                    children:[]
+                };
+          
             var sNode120100 =  {
                 id: "s120100",
-                name: "Freedom from Sin<br>Life in God",
-                data:{"width":"140","height":"39"},
-                children:[]
+                name: "Freedom<br>From:",
+                data:{"width":"75","height":"39"},
+                children:[sNode1201000,sNode1201001]
             };
             
             var sNode120101 =  {
                 id: "s120101",
-                name: "Freedom<br>from Law",
-                data:{"width":"85","height":"39"},
+                name: "Life In<br>God",
+                data:{"width":"60","height":"39"},
                 children:[]
             };
             
@@ -357,7 +387,7 @@
             var sNode120103 =  {
                 id: "s120103",
                 name: "Sin<br>& Death",
-                data:{"width":"70","height":"39"},
+                data:{"width":"75","height":"39"},
                 children:[]
             };
             
@@ -385,14 +415,14 @@
             var sNode120107 =  {
                 id: "s120107",
                 name: "God's Indomitable<br>Love in Christ",
-                data:{"width":"135","height":"39"},
+                data:{"width":"140","height":"39"},
                 children:[]
             };
             
         var sNode12010 =  {
             id: "s12010",
-            name: "<u>Justification</u><br>Christian Life",
-            data:{"width":"110","height":"39"},
+            name: "<u>Justification</u><br>Christian Life:<br><br>",
+            data:{"width":"115","height":"39"},
             children:[sNode120100,sNode120101,sNode120102,sNode120103,sNode120104,sNode120105,sNode120106,sNode120107]
         };
     
@@ -443,14 +473,14 @@
             var sNode120116 =  {
                 id: "s120116",
                 name: "God's Call<br>Irrevocable",
-                data:{"width":"90","height":"39"},
+                data:{"width":"95","height":"39"},
                 children:[]
             };
             
             var sNode120117 =  {
                 id: "s120117",
                 name: "Triumph of<br>God's Mercy",
-                data:{"width":"95","height":"39"},
+                data:{"width":"100","height":"39"},
                 children:[]
             };
             
@@ -525,85 +555,87 @@
                     children:[sNode12020000,sNode12020001,sNode12020002,sNode12020003,sNode12020004,sNode12020005]
                 };
         
-                    // Children of sNode1202001 (Many Parts<br>One Body)
+                    // Children of sNode1202001 (One Body<br>Many Parts:)
+        
+                        // Children of sNode12020010 (One Body<br>Many Parts:)
+                    
+                        var sNode12020010 =  {
+                            id: "s12020010",
+                            name: "Think Soberly, Each<br>According To The Faith<br>God Has Apportioned -",
+                            data:{"width":"175","height":"57"},
+                            children:[]
+                        };
                     
                     var sNode12020010 =  {
                         id: "s12020010",
-                        name: "Think Soberly, Each<br>According To The Faith<br>God Has Apportioned -",
-                        data:{"width":"175","height":"57"},
-                        children:[]
-                    };
-                    
-                    var sNode12020011 =  {
-                        id: "s12020011",
-                        name: "We, Though Many, Are<br>One Body In Christ,<br>And Individually Parts<br>Of One Another:",
-                        data:{"width":"170","height":"75"},
+                        name: "Think<br>Soberly:",
+                        data:{"width":"75","height":"39"},
                         children:[]
                     };
             
-                        // Children of sNode1202012 (Since we have gifts that differ<br>according to the grace given us,<br>let us exercise them:)
+                        // Children of sNode1202011 (Since we have gifts that differ<br>according to the grace given us,<br>let us exercise them:)
                         
-                        var sNode120200120 =  {
-                            id: "s120200120",
+                        var sNode120200110 =  {
+                            id: "s120200110",
                             name: "If Prophecy,<br>In Proportion<br>To The Faith",
                             data:{"width":"105","height":"57"},
                             children:[]
                         };
                         
-                        var sNode120200121 =  {
-                            id: "s120200121",
+                        var sNode120200111 =  {
+                            id: "s120200111",
                             name: "If Ministry,<br>In<br>Ministering",
                             data:{"width":"90","height":"57"},
                             children:[]
                         };
                         
-                        var sNode120200122 =  {
-                            id: "s120200122",
+                        var sNode120200112 =  {
+                            id: "s120200112",
                             name: "If One Is<br>A Teacher,<br>In Teaching",
                             data:{"width":"90","height":"57"},
                             children:[]
                         };
                         
-                        var sNode120200123 =  {
-                            id: "s120200123",
+                        var sNode120200113 =  {
+                            id: "s120200113",
                             name: "If One<br>Exhorts, In<br>Exhortation",
                             data:{"width":"95","height":"57"},
                             children:[]
                         };
                         
-                        var sNode120200124 =  {
-                            id: "s120200124",
+                        var sNode120200114 =  {
+                            id: "s120200114",
                             name: "If One<br>Contributes<br>In Generosity",
                             data:{"width":"105","height":"57"},
                             children:[]
                         };
                         
-                        var sNode120200125 =  {
-                            id: "s120200125",
+                        var sNode120200115 =  {
+                            id: "s120200115",
                             name: "If One Is<br>Over Others,<br>With Diligence",
                             data:{"width":"115","height":"57"},
                             children:[]
                         };
                         
-                        var sNode120200126 =  {
-                            id: "s120200126",
+                        var sNode120200116 =  {
+                            id: "s120200116",
                             name: "If One Does<br>Acts Of Mercy,<br>With Cheerfulness",
                             data:{"width":"140","height":"57"},
                             children:[]
                         };
                     
-                    var sNode12020012 =  {
-                        id: "s12020012",
-                        name: "Since We Have Gifts<br>That Differ According To<br>The Grace Given Us,<br>Let Us Exercise Them:",
-                        data:{"width":"180","height":"75"},
-                        children:[sNode120200120,sNode120200121,sNode120200122,sNode120200123,sNode120200124,sNode120200125,sNode120200126]
+                    var sNode12020011 =  {
+                        id: "s12020011",
+                        name: "Exercise The Grace<br>Given Us:",
+                        data:{"width":"150","height":"39"},
+                        children:[sNode120200110,sNode120200111,sNode120200112,sNode120200113,sNode120200114,sNode120200115,sNode120200116]
                     };
                 
                 var sNode1202001 =  {
                     id: "s1202001",
-                    name: "Many Parts<br>One Body:",
-                    data:{"width":"90","height":"39"},
-                    children:[sNode12020010,sNode12020011,sNode12020012]
+                    name: "One Body<br>Many Parts:",
+                    data:{"width":"100","height":"39"},
+                    children:[sNode12020010,sNode12020011]
                 };
     
                     // Children of sNode1202002 (Mutual<br>Love)

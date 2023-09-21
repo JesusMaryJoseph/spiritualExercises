@@ -78,7 +78,7 @@
             
                 var sNode1250110 = {
                     id: "s1250110",
-                    name: "It Is Brearing<br>Fruit & Growing",
+                    name: "It Is Bearing<br>Fruit & Growing",
                     data:{"width":"125","height":"39"},
                     children:[]         
                 };
@@ -99,7 +99,7 @@
         
             var sNode125011 = {
                 id: "s125011",
-                name: "The Gospel,<br>Word Of Truth:",
+                name: "The Gospel,<br>Word Of Truth:<br><br>",
                 data:{"width":"115","height":"39"},
                 children:[sNode1250110,sNode1250111,sNode1250112]           
             };
@@ -129,55 +129,165 @@
         
         // Children of sNode1251 (Preeminence<br>Of Christ:)
         
-            // Children of sNode12510 (His Person:)
+            // Children of sNode12510 (His Person<br>And His Work:)
+        
+                // Children of sNode125100 (He Is:)
+                
+                var sNode1251000 = {
+                    id: "s1251000",
+                    name: "Image Of The<br>Invisible God",
+                    data:{"width":"110","height":"39"},
+                    children:[]         
+                };
+                
+                var sNode1251001 = {
+                    id: "s1251001",
+                    name: "Before<br>All Things",
+                    data:{"width":"90","height":"39"},
+                    children:[]         
+                };
+                
+                var sNode1251002 = {
+                    id: "s1251002",
+                    name: "Firstborn<br>Of All Creation",
+                    data:{"width":"120","height":"39"},
+                    children:[]         
+                };
+        
+                    // Children of sNode1251003 (Head<br>Of:)
+                    
+                    var sNode12510030 = {
+                        id: "s12510030",
+                        name: "The Body",
+                        data:{"width":"80","height":"23"},
+                        children:[]         
+                    };
+                    
+                    var sNode12510031 = {
+                        id: "s12510031",
+                        name: "The Church",
+                        data:{"width":"95","height":"23"},
+                        children:[]         
+                    };
+                
+                var sNode1251003 = {
+                    id: "s1251003",
+                    name: "Head Of:",
+                    data:{"width":"75","height":"23"},
+                    children:[sNode12510030,sNode12510031]         
+                };
+        
+                    // Children of sNode1251004 (The Firstborn From<br>The Dead That:)
+                    
+                    var sNode12510040 = {
+                        id: "s12510040",
+                        name: "In All Things<br>He Himself -",
+                        data:{"width":"110","height":"39"},
+                        children:[]         
+                    };
+                    
+                    var sNode12510041 = {
+                        id: "s12510041",
+                        name: "Might Be<br>Preeminent",
+                        data:{"width":"95","height":"39"},
+                        children:[]         
+                    };
+                
+                var sNode1251004  = {
+                    id: "s1251004",
+                    name: "Beginning, Firstborn<br>From The Dead That:",
+                    data:{"width":"160","height":"39"},
+                    children:[sNode12510040,sNode12510041]         
+                };
             
-            var sNode12510 = {
-                id: "s12510",
-                name: "",
-                data:{"width":"90","height":"23"},
-                children:[]         
+            var sNode125100 = {
+                id: "s125100",
+                name: "He Is:",
+                data:{"width":"55","height":"23"},
+                children:[sNode1251000,sNode1251001,sNode1251002,sNode1251003,sNode1251004],         
             };
+        
+                // Children of sNode125101 (In Him:)
+                
+                var sNode1251010 = {
+                    id: "s1251010",
+                    name: "All Things<br>Were Created:",
+                    data:{"width":"110","height":"39"},
+                    children:[]         
+                };
+                
+                var sNode1251011 = {
+                    id: "s1251011",
+                    name: "All The Fullness<br>Was Pleased To Dwell",
+                    data:{"width":"165","height":"39"},
+                    children:[]         
+                };
             
-            var sNode12510 = {
-                id: "s12510",
-                name: "",
-                data:{"width":"90","height":"23"},
-                children:[]         
+            var sNode125101 = {
+                id: "s125101",
+                name: "In Him:",
+                data:{"width":"65","height":"23"},
+                children:[sNode1251010,sNode1251011]         
             };
+        
+                // Children of sNode125102 (Through Him<br>To:)
+        
+                    // Children of sNode1251020 (Through Him<br>To:)
+                    
+                    var sNode12510200 = {
+                        id: "s12510200",
+                        name: "Those<br>On Earth & -",
+                        data:{"width":"105","height":"39"},
+                        children:[]         
+                    };
+                    
+                    var sNode12510201 = {
+                        id: "s12510201",
+                        name: "Those<br>In Heaven",
+                        data:{"width":"85","height":"39"},
+                        children:[]         
+                    };
+                
+                var sNode1251020 = {
+                    id: "s1251020",
+                    name: "To Reconcile<br>All Things:",
+                    data:{"width":"110","height":"39"},
+                    children:[sNode12510200,sNode12510201]         
+                };
+                
+                var sNode1251021 = {
+                    id: "s1251021",
+                    name: "To Make Peace<br>By The Blood<br>Of His Cross",
+                    data:{"width":"120","height":"57"},
+                    children:[]         
+                };
             
-            var sNode12510 = {
-                id: "s12510",
-                name: "",
-                data:{"width":"90","height":"23"},
-                children:[]         
+            var sNode125102 = {
+                id: "s125102",
+                name: "Through Him:",
+                data:{"width":"110","height":"23"},
+                children:[sNode1251020,sNode1251021]         
             };
         
         var sNode12510 = {
             id: "s12510",
-            name: "His Person:",
-            data:{"width":"99","height":"23"},
-            children:[]         
+            name: "His Person &<br>His Work:",
+            data:{"width":"110","height":"39"},
+            children:[sNode125100,sNode125101,sNode125102]         
         };
         
         var sNode12511 = {
             id: "s12511",
-            name: "His Work",
-            data:{"width":"75","height":"23"},
-            children:[]         
-        };
-        
-        var sNode12512 = {
-            id: "s12512",
-            name: "Christ<br>In Us",
-            data:{"width":"55","height":"39"},
+            name: "Christ<br>In Us:",
+            data:{"width":"60","height":"39"},
             children:[]         
         };
                 
     var sNode1251 = {
         id: "s1251",
         name: "Preeminence<br>Of Christ:",
-        data:{"width":"100","height":"39"},
-        children:[sNode12510,sNode12511,sNode12512]            
+        data:{"width":"105","height":"39"},
+        children:[sNode12510,sNode12511]            
     };
         
         // Children of sNode1252 (Warnings Against<br>False Teachers)
@@ -205,8 +315,8 @@
         
     var sNode1252 = {
         id: "s1252",
-        name: "Warnings Against<br>False Teachers:",
-        data:{"width":"135","height":"39"},
+        name: "False<br>Teachers:",
+        data:{"width":"80","height":"39"},
         children:[sNode12520,sNode12521,sNode12522]         
     };
         
@@ -256,8 +366,8 @@
                 
     var sNode1253 = {
         id: "s1253",
-        name: "Ideal Christian Life<br>In The World:",
-        data:{"width":"140","height":"39"},
+        name: "Exhortations:",
+        data:{"width":"110","height":"23"},
         children:[sNode12530,sNode12531,sNode12532,sNode12533,sNode12534,sNode12535]           
     };
         
@@ -290,3 +400,4 @@
         data:{"width":"95","height":"23"},
         children:[sNode12540,sNode12541,sNode12542]         
     };
+

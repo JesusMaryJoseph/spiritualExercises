@@ -306,34 +306,130 @@
         children:[sNode12720,sNode12721,sNode12722,sNode12723,sNode12724]           
     };
         
-        // Children of sNode1273 (Duties Toward<br>Others)
+        // Children of sNode1273 (Duties Toward<br>Others:)
+        
+        	// Children of sNode12730 (In<br>General:)
+        
+	        	// Children of sNode127300 (Older<br>Men:)	
+		        
+		        var sNode1273000 = {
+		            id: "s1273000",
+		            name: "Do Not Rebuke<br>Them But -",
+		            data:{"width":"120","height":"39"},
+		            children:[]         
+		        };	
+		        
+		        var sNode1273001 = {
+		            id: "s1273001",
+		            name: "Appeal To Them<br>As A Father",
+		            data:{"width":"125","height":"39"},
+		            children:[]         
+		        };		
+	        
+	        var sNode127300 = {
+	            id: "s127300",
+	            name: "Older<br>Men:",
+	            data:{"width":"60","height":"39"},
+	            children:[sNode1273000,sNode1273001]         
+	        };
+        
+	        	// Children of sNode127301 (Younger<br>Men:)	
+		        
+		        var sNode1273010 = {
+		            id: "s1273010",
+		            name: "Treat Them As<br>Brothers",
+		            data:{"width":"115","height":"39"},
+		            children:[]         
+		        };	
+	        
+	        var sNode127301 = {
+	            id: "s127301",
+	            name: "Younger<br>Men:",
+	            data:{"width":"70","height":"39"},
+	            children:[sNode1273010]         
+	        };
+        
+	        	// Children of sNode127302 (Older<br>Women:)	
+		        
+		        var sNode1273020 = {
+		            id: "s1273020",
+		            name: "Treat Them As<br>Mothers",
+		            data:{"width":"115","height":"39"},
+		            children:[]         
+		        };	
+	        
+	        var sNode127302 = {
+	            id: "s127302",
+	            name: "Older<br>Women:",
+	            data:{"width":"70","height":"39"},
+	            children:[sNode1273020]         
+	        };
+        
+	        	// Children of sNode127303 (Younger<br>Women:)	
+		        
+		        var sNode1273030 = {
+		            id: "s1273030",
+		            name: "Treat Them As<br>Sisters With -",
+		            data:{"width":"120","height":"39"},
+		            children:[]         
+		        };	
+		        
+		        var sNode1273031 = {
+		            id: "s1273031",
+		            name: "Complete<br>Purity",
+		            data:{"width":"80","height":"39"},
+		            children:[]         
+		        };		
+	        
+	        var sNode127303 = {
+	            id: "s127303",
+	            name: "Younger<br>Women:",
+	            data:{"width":"75","height":"39"},
+	            children:[sNode1273030,sNode1273031]         
+	        };
         
         var sNode12730 = {
             id: "s12730",
-            name: "Widows",
-            data:{"width":"65","height":"23"},
-            children:[]         
-        };
+            name: "In<br>General:",
+            data:{"width":"75","height":"39"},
+            children:[sNode127300,sNode127301,sNode127302,sNode127303]         
+	    };
+        
+        	// Children of sNode12731 (Specific Rules<br>For:)	
+	        
+	        var sNode127310 = {
+	            id: "s127310",
+	            name: "Widows:",
+	            data:{"width":"75","height":"23"},
+	            children:[]         
+	        };
+	        
+	        var sNode127311 = {
+	            id: "s127311",
+	            name: "Presbyters:",
+	            data:{"width":"95","height":"23"},
+	            children:[]         
+	        };
+	        
+	        var sNode127312 = {
+	            id: "s127312",
+	            name: "Slaves:",
+	            data:{"width":"65","height":"23"},
+	            children:[]         
+	        };
         
         var sNode12731 = {
             id: "s12731",
-            name: "Presbyters",
-            data:{"width":"90","height":"23"},
-            children:[]         
-        };
-        
-        var sNode12732 = {
-            id: "s12732",
-            name: "Slaves",
-            data:{"width":"65","height":"23"},
-            children:[]         
+            name: "Specific Rules<br>For:",
+            data:{"width":"115","height":"39"},
+            children:[sNode127310,sNode127311,sNode127312]         
         };
             
     var sNode1273 = {
         id: "s1273",
-        name: "Duties Toward<br>Others<br>Rules For:",
-        data:{"width":"115","height":"57"},
-        children:[sNode12730,sNode12731,sNode12732]         
+        name: "Duties<br>Toward Others:",
+        data:{"width":"120","height":"39"},
+        children:[sNode12730,sNode12731]         
     };
         
         // Children of sNode1274 (Conclusion)

@@ -82,7 +82,7 @@
         var sNode12801 = {
             id: "s12801",
             name: "Exhortations:",
-            data:{"width":"100","height":"23"},
+            data:{"width":"105","height":"23"},
             children:[sNode128010,sNode128011,sNode128012,sNode128013]          
         };
         
@@ -170,7 +170,7 @@
     var sNode1280 = {
         id: "s1280",
        name: "2nd<br>Timothy:",
-        data:{"width":"70","height":"39"},
+        data:{"width":"75","height":"39"},
         children:[sNode12800,sNode12801,sNode12802,sNode12803,sNode12804]          
     };
         

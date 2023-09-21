@@ -207,8 +207,8 @@
                 
     var sNode1221 = {
         id: "s1221",
-        name: "Loyalty to<br>the Gospel:",
-        data:{"width":"95","height":"39"},
+        name: "Loyalty:",
+        data:{"width":"70","height":"23"},
         children:[sNode12210,sNode12211]         
     };
        
@@ -382,7 +382,7 @@
             children:[sNode122200,sNode122201,sNode122202]          
         };
         
-            // Children of sNode12221 (Journeys To<br>Jerusalem:)
+            // Children of sNode12221 (Journey To<br>Jerusalem:)
         
                 // Children of sNode122210 (After<br>Three Years:)
                 
@@ -437,7 +437,7 @@
         
         var sNode12221 = {
             id: "s12221",
-            name: "Journeys To<br>Jerusalem:",
+            name: "Journey To<br>Jerusalem:",
             data:{"width":"100","height":"39"},
             children:[sNode122210,sNode122211,sNode122212]         
         };
@@ -445,7 +445,7 @@
         var sNode12222 = {
             id: "s12222",
             name: "Paul & Peter<br>In Antioch:",
-            data:{"width":"105","height":"39"},
+            data:{"width":"100","height":"39"},
             children:[]         
         };
         
@@ -458,8 +458,8 @@
         
     var sNode1222 = {
         id: "s1222",
-        name: "Paul's<br>Defense:",
-        data:{"width":"75","height":"39"},
+        name: "Defense:",  
+        data:{"width":"75","height":"23"},
         children:[sNode12220,sNode12221,sNode12222]          
     };
         
@@ -569,7 +569,7 @@
                 
     var sNode1223 = {
         id: "s1223",
-        name: "Faith &<br>Liberty:",
+        name: "Faith &<br>Liberty:<br><br>",
         data:{"width":"70","height":"39"},
         children:[sNode12230,sNode12231,sNode12232,sNode12233,sNode12234,sNode12235,sNode12236]            
     };
@@ -606,8 +606,8 @@
                 
     var sNode1224 = {
         id: "s1224",
-        name: "Exhortation To<br>Christian Living:",
-        data:{"width":"130","height":"39"},
+        name: "Exhortation:",
+        data:{"width":"100","height":"23"},
         children:[sNode12240,sNode12241,sNode12242,sNode12243]          
     };
         

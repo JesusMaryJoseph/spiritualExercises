@@ -238,7 +238,7 @@
                             
                         var sNode12111000 = {
                             id: "s12111000",
-                            name: "The Churches<br>Of Macedonia:",
+                            name: "The Churches<br>Of Macedonia:<br><br>",
                             data:{"width":"115","height":"39"},
                             children:[sNode121110000,sNode121110001,sNode121110002]         
                         };
@@ -261,7 +261,7 @@
                             
                         var sNode12111001 = {
                             id: "s12111001",
-                            name: "Jesus:",
+                            name: "Jesus:<br><br>",
                             data:{"width":"60","height":"23"},
                             children:[sNode121110010,sNode121110011]         
                         };
@@ -312,7 +312,7 @@
                             
                         var sNode12111002 = {
                             id: "s12111002",
-                            name: "To The Church<br>In Corinth:",
+                            name: "To The Church<br>In Corinth:<br><br>",
                             data:{"width":"115","height":"39"},
                             children:[sNode121110020,sNode121110021,sNode121110022,sNode121110023,sNode121110024,sNode121110025]         
                         };
@@ -340,7 +340,7 @@
                                 
                 var sNode121110 = {
                     id: "s121110",
-                    name: "Collection:",
+                    name: "Collection:<br><br>",
                     data:{"width":"90","height":"23"},
                     children:[sNode1211100,sNode1211101,sNode1211102]           
                 };

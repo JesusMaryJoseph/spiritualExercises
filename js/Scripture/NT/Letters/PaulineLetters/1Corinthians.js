@@ -127,7 +127,7 @@
                         var sNode12100101 = {
                             id: "s12100101",
                             name: "Paradox<br>Of The Cross",
-                            data:{"width":"100","height":"39","img":"maps.18"},
+                            data:{"width":"105","height":"39","img":"maps.18"},
                             children:[]         
                         };
                     
@@ -251,9 +251,9 @@
                             children:[]         
                         };
               
-                            // Children of sNode12100212 (Paul's<br>Rights)
+                            // Children of sNode12100212 (Paul's<br>Rights:)
               
-                                // Children of sNode121002120 (Rights<br>As Apostle)
+                                // Children of sNode121002120 (Paul's<br>Defense:)
               
                                     // Children of sNode1210021200 (Paul's Defense<br>Of His:)
               
@@ -289,8 +289,8 @@
                             
                                     var sNode12100212000 = {
                                         id: "s12100212000",
-                                        name: "Apostleship:",
-                                        data:{"width":"105","height":"23","img":"maps.19"},
+                                        name: "Qualifications:",
+                                        data:{"width":"125","height":"23","img":"maps.19"},
                                         children:[sNode121002120000,sNode121002120001,sNode121002120002,sNode121002120003]         
                                     };
               
@@ -298,36 +298,52 @@
                                 
                                         var sNode121002120010 = {
                                             id: "s121002120010",
-                                            name: "The Right<br>To Eat<br>And Drink?",
-                                            data:{"width":"100","height":"57","img":"maps.19"},
+                                            name: "To<br>Eat & Drink",
+                                            data:{"width":"100","height":"39","img":"maps.19"},
                                             children:[]         
                                         };
+              
+                                            // Children of sNode121002120011 (To Take Along<br>A Christian Wife:)
+                                
+                                            var sNode1210021200110 = {
+                                                id: "s1210021200110",
+                                                name: "As Do The<br>Rest Of Apostles -",
+                                                data:{"width":"145","height":"39","img":"maps.19"},
+                                                children:[]         
+                                            };
+                                
+                                            var sNode1210021200111 = {
+                                                id: "s1210021200111",
+                                                name: "Cephas And<br>Brothers In The Lord?",
+                                                data:{"width":"165","height":"39","img":"maps.19"},
+                                                children:[]         
+                                            };
                                 
                                         var sNode121002120011 = {
                                             id: "s121002120011",
-                                            name: "The Right To Take Along<br>A Christian Wife As Do The<br>Rest Of Apostles, Cephas<br>& Brothers In The Lord?",
-                                            data:{"width":"200","height":"76","img":"maps.19"},
-                                            children:[]         
+                                            name: "To Take Along<br>A Christian Wife:",
+                                            data:{"width":"140","height":"39","img":"maps.19"},
+                                            children:[sNode1210021200110,sNode1210021200111]         
                                         };
                                 
                                         var sNode121002120012 = {
                                             id: "s121002120012",
-                                            name: "The Right<br>To<br>Not Work?",
-                                            data:{"width":"95","height":"57","img":"maps.19"},
+                                            name: "The Right To<br>Not Work?",
+                                            data:{"width":"110","height":"39","img":"maps.19"},
                                             children:[]         
                                         };
                             
                                     var sNode12100212001 = {
                                         id: "s12100212001",
-                                        name: "Rights Of<br>Apostleship:<br>Do We Not Have -",
-                                        data:{"width":"135","height":"57","img":"maps.19"},
+                                        name: "Rights:",
+                                        data:{"width":"70","height":"23","img":"maps.19"},
                                         children:[sNode121002120010,sNode121002120011,sNode121002120012]         
                                     };
                         
                                 var sNode1210021200 = {
                                     id: "s1210021200",
-                                    name: "Paul's Defense<br>Of His:",
-                                    data:{"width":"115","height":"39","img":"maps.19"},
+                                    name: "Of His<br>Apostleship:",
+                                    data:{"width":"105","height":"39","img":"maps.19"},
                                     children:[sNode12100212000,sNode12100212001]         
                                 };
               
@@ -371,7 +387,7 @@
                                 var sNode1210021201 = {
                                     id: "s1210021201",
                                     name: "Support From<br>Everyday Life:",
-                                    data:{"width":"110","height":"39","img":"maps.19"},
+                                    data:{"width":"115","height":"39","img":"maps.19"},
                                     children:[sNode12100212010,sNode12100212011,sNode12100212012,sNode12100212013,sNode12100212014]         
                                 };
               
@@ -414,8 +430,8 @@
                     
                             var sNode121002120 = {
                                 id: "s121002120",
-                                name: "Rights As<br>Apostle:",
-                                data:{"width":"85","height":"39","img":"maps.19"},
+                                name: "Paul's<br>Defense:",
+                                data:{"width":"80","height":"39","img":"maps.19"},
                                 children:[sNode1210021200,sNode1210021201,sNode1210021202]         
                             };
                     
@@ -451,22 +467,22 @@
                     
                             var sNode121002131 = {
                                 id: "s121002131",
-                                name: "Against<br>Idolatry",
-                                data:{"width":"75","height":"39","img":"maps.19"},
+                                name: "Idolatry",
+                                data:{"width":"75","height":"23","img":"maps.19"},
                                 children:[]         
                             };
                     
                         var sNode12100213 = {
                             id: "s12100213",
-                            name: "Warnings:",
-                            data:{"width":"85","height":"23","img":"maps.19"},
+                            name: "Warnings<br>Against:",
+                            data:{"width":"80","height":"39","img":"maps.19"},
                             children:[sNode121002130,sNode121002131]            
                         };
                     
                         var sNode12100214 = {
                             id: "s12100214",
                             name: "Seek The Good<br>Of Others",
-                            data:{"width":"115","height":"39","img":"maps.19"},
+                            data:{"width":"120","height":"39","img":"maps.19"},
                             children:[]         
                         };
                         
@@ -655,12 +671,42 @@
                                 data:{"width":"95","height":"39","img":"maps.20"},
                                 children:[sNode1210102020,sNode1210102021,sNode1210102022]         
                             };
+              
+                                // Children of sNode121010203 (The Way<br>Of Love:)
+                                    
+                                var sNode1210102030 = {
+                                    id: "s1210102030",
+                                    name: "If I:",
+                                    data:{"width":"40","height":"23","img":"maps.20"},
+                                    children:[]         
+                                };
+                                    
+                                var sNode1210102031 = {
+                                    id: "s1210102031",
+                                    name: "Love Is:",
+                                    data:{"width":"75","height":"23","img":"maps.20"},
+                                    children:[]         
+                                };
+                                    
+                                var sNode1210102032 = {
+                                    id: "s1210102032",
+                                    name: "The<br>Present:",
+                                    data:{"width":"75","height":"39","img":"maps.20"},
+                                    children:[]         
+                                };
+                                    
+                                var sNode1210102033 = {
+                                    id: "s1210102033",
+                                    name: "When The<br>Perfect Comes:",
+                                    data:{"width":"120","height":"39","img":"maps.20"},
+                                    children:[]         
+                                };
                                 
                             var sNode121010203 = {
                                 id: "s121010203",
-                                name: "The Way<br>Of Love",
-                                data:{"width":"70","height":"39","img":"maps.20"},
-                                children:[]         
+                                name: "The Way<br>Of Love:",
+                                data:{"width":"75","height":"39","img":"maps.20"},
+                                children:[sNode1210102030,sNode1210102031,sNode1210102032,sNode1210102033]         
                             };
                                 
                         var sNode12101020 = {

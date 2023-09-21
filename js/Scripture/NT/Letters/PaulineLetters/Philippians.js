@@ -26,24 +26,24 @@
                 
     var sNode1241 = {
         id: "s1241",
-        name: "Progress of<br>the Gospel",
-        data:{"width":"95","height":"39"},
+        name: "Progress Of<br>The Gospel",
+        data:{"width":"100","height":"39"},
         children:[]         
     };
         
-        // Children of sNode1242 (Instructions for<br>the Community:)
+        // Children of sNode1242 (Instructions For<br>The Community:)
         
         var sNode12420 = {
             id: "s12420",
-            name: "Steadfastness<br>in Faith",
+            name: "Steadfastness<br>In Faith",
             data:{"width":"115","height":"39"},
             children:[]         
         };
         
         var sNode12421 = {
             id: "s12421",
-            name: "Plea for Unity<br>& Humility",
-            data:{"width":"105","height":"39"},
+            name: "Plea For Unity<br>& Humility",
+            data:{"width":"110","height":"39"},
             children:[]         
         };
         
@@ -56,8 +56,8 @@
         
     var sNode1242 = {
         id: "s1242",
-        name: "Instructions for<br>the Community:",
-        data:{"width":"125","height":"39"},
+        name: "Instructions For<br>The Community:",
+        data:{"width":"130","height":"39"},
         children:[sNode12420,sNode12421,sNode12422]         
     };
         
@@ -65,15 +65,15 @@
         
         var sNode12430 = {
             id: "s12430",
-            name: "Timothy<br>& Paul",
-            data:{"width":"65","height":"39"},
+            name: "Timothy",
+            data:{"width":"70","height":"23"},
             children:[]         
         };
         
         var sNode12431 = {
             id: "s12431",
             name: "Epaphroditus",
-            data:{"width":"105","height":"22"},
+            data:{"width":"105","height":"23"},
             children:[]         
         };
         
@@ -86,44 +86,67 @@
                 
     var sNode1243 = {
         id: "s1243",
-        name: "Travel<br>Plans:",
-        data:{"width":"55","height":"39"},
+        name: "Paul's<br>Assistants:",
+        data:{"width":"95","height":"39"},
         children:[sNode12430,sNode12431,sNode12432]         
     };
         
-        // Children of sNode1244 (Polemic)
+        // Children of sNode1244 (Polemic:)
+        
+            // Children of sNode12440 (Beware<br>Of:)
+            
+            var sNode124400 = {
+                id: "s124400",
+                name: "The<br>Dogs",
+                data:{"width":"55","height":"39"},
+                children:[]         
+            };
+            
+            var sNode124401= {
+                id: "s124401",
+                name: "The<br>Evil Workers",
+                data:{"width":"110","height":"39"},
+                children:[]         
+            };
+            
+            var sNode124402 = {
+                id: "s124402",
+                name: "The<br>Mutilation",
+                data:{"width":"90","height":"39"},
+                children:[]         
+            };
         
         var sNode12440 = {
             id: "s12440",
-            name: "Against<br>Legalism",
-            data:{"width":"75","height":"39"},
-            children:[]         
+            name: "Beware<br>Of:",
+            data:{"width":"70","height":"39"},
+            children:[sNode124400,sNode124401,sNode124402]         
         };
         
         var sNode12441 = {
             id: "s12441",
             name: "Paul's<br>Autobiography",
-            data:{"width":"115","height":"39"},
+            data:{"width":"120","height":"39"},
             children:[]         
         };
         
         var sNode12442 = {
             id: "s12442",
-            name: "Righteousness<br>from God",
+            name: "Righteousness<br>From God",
             data:{"width":"120","height":"39"},
             children:[]         
         };
         
         var sNode12443 = {
             id: "s12443",
-            name: "Forward<br>in Christ",
+            name: "Forward<br>In Christ",
             data:{"width":"75","height":"39"},
             children:[]         
         };
         
         var sNode12444 = {
             id: "s12444",
-            name: "Wrong Conduct,<br>Our Goal",
+            name: "Wrong Conduct<br>Our Goal",
             data:{"width":"125","height":"39"},
             children:[]         
         };
@@ -139,22 +162,22 @@
         
         var sNode12450 = {
             id: "s12450",
-            name: "Live in<br>Concord",
-            data:{"width":"70","height":"39"},
+            name: "Live In<br>Concord",
+            data:{"width":"75","height":"39"},
             children:[]         
         };
         
         var sNode12451 = {
             id: "s12451",
             name: "Joy &<br>Peace",
-            data:{"width":"55","height":"39"},
+            data:{"width":"60","height":"39"},
             children:[]         
         };
                 
     var sNode1245 = {
         id: "s1245",
-        name: "Instructions for<br>the Community",
-        data:{"width":"120","height":"39"},
+        name: "Instructions For<br>The Community:",
+        data:{"width":"130","height":"39"},
         children:[sNode12450,sNode12451]            
     };
                 

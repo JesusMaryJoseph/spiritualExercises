@@ -85,52 +85,84 @@
             
             var sNode123110 = {
                 id: "s123110",
-                name: "Redemption<br>By His Blood",
+                name: "<u>Redemption</u><br>By His Blood",
                 data:{"width":"105","height":"39"},
                 children:[]         
             };
             
             var sNode123111 = {
                 id: "s123111",
-                name: "The Forgiveness<br>Of Transgressions",
-                data:{"width":"140","height":"39"},
+                name: "<u>Forgiveness</u><br>Of Transgressions",
+                data:{"width":"145","height":"39"},
                 children:[]         
             };
         
-                // Children of sNode123112 (Knowledge Of<br>The Mystery Of<br>The Father's Will)
+                // Children of sNode123112 (Knowledge<br>Of:)
                 
                 var sNode1231120 = {
                     id: "s1231120",
-                    name: "A Plan For<br>The Fulness<br>Of Time",
-                    data:{"width":"95","height":"57"},
+                    name: "The Mystery Of<br>The Father's Will",
+                    data:{"width":"125","height":"39"},
                     children:[]         
                 };
+        
+                    // Children of sNode1231121 (A Plan For<br>The Fulness<br>Of Time:)
+                
+                    var sNode12311210 = {
+                        id: "s12311210",
+                        name: "To Sum Up<br>All Things In Christ -",
+                        data:{"width":"160","height":"39"},
+                        children:[]         
+                    };
+                    
+                    var sNode12311211 = {
+                        id: "s12311211",
+                        name: "In Heaven<br>And On Earth",
+                        data:{"width":"110","height":"39"},
+                        children:[]         
+                    };
                 
                 var sNode1231121 = {
                     id: "s1231121",
-                    name: "To Sum Up All<br>Things In Christ In<br>Heaven & On Earth",
-                    data:{"width":"145","height":"57"},
-                    children:[]         
+                    name: "A Plan For The<br>Fulness Of Time:",
+                    data:{"width":"130","height":"39"},
+                    children:[sNode12311210,sNode12311211]         
                 };
             
             var sNode123112= {
                 id: "s123112",
-                name: "Knowledge Of<br>The Mystery Of<br>The Father's Will:",
-                data:{"width":"135","height":"57"},
+                name: "<u>Knowledge</u><br>Of:",
+                data:{"width":"95","height":"39"},
                 children:[sNode1231120,sNode1231121]            
             };
+        
+                // Children of sNode123113 (Heard The<br>Word Of Truth:)
+            
+                var sNode1231130= {
+                    id: "s1231130",
+                    name: "The Gospel Of<br>Our Salvation And -",
+                    data:{"width":"155","height":"39"},
+                    children:[]         
+                };
+            
+                var sNode1231131= {
+                    id: "s1231131",
+                    name: "Have Believed<br>In Him",
+                    data:{"width":"115","height":"39"},
+                    children:[]         
+                };
             
             var sNode123113= {
                 id: "s123113",
-                name: "Heard The Word Of Truth,<br>The Gospel Of Our Salvation<br>And Have Believed In Him",
-                data:{"width":"210","height":"57"},
-                children:[]         
+                name: "Heard The<br><u>Word Of Truth</u>:",
+                data:{"width":"120","height":"39"},
+                children:[sNode1231130,sNode1231131]         
             };
         
         var sNode12311 = {
             id: "s12311",
             name: "<u>In The Son</u><br>We Have:",
-            data:{"width":"85","height":"39"},
+            data:{"width":"90","height":"39"},
             children:[sNode123110,sNode123111,sNode123112,sNode123113]          
         };
         
@@ -146,21 +178,21 @@
             var sNode123121 = {
                 id: "s123121",
                 name: "Received The<br>First Installment<br>Of Our Inheritance",
-                data:{"width":"140","height":"57"},
+                data:{"width":"145","height":"57"},
                 children:[]         
             };
         
         var sNode12312 = {
             id: "s12312",
             name: "<u>Through The<br>Holy Spirit</u> We:",
-            data:{"width":"115","height":"39"},
+            data:{"width":"120","height":"39"},
             children:[sNode123120,sNode123121]          
         };
                 
     var sNode1231 = {
         id: "s1231",
         name: "God's Plan<br>Of Salvation:",
-        data:{"width":"100","height":"39"},
+        data:{"width":"105","height":"39"},
         children:[sNode12310,sNode12311,sNode12312]         
     };
         
@@ -168,121 +200,114 @@
         
         var sNode12320 = {
             id: "s12320",
-            name: "Power Of<br>God's Plan",
-            data:{"width":"90","height":"39"},
+            name: "Power",
+            data:{"width":"60","height":"23"},
             children:[]         
         };
         
         var sNode12321 = {
             id: "s12321",
-            name: "Generosity Of<br>God's Plan",
-            data:{"width":"110","height":"39"},
+            name: "Generosity",
+            data:{"width":"95","height":"23"},
             children:[]         
         };
         
         var sNode12322 = {
             id: "s12322",
-            name: "One<br>In Christ",
-            data:{"width":"75","height":"39"},
+            name: "One In Christ",
+            data:{"width":"105","height":"23"},
             children:[]         
         };
         
     var sNode1232 = {
         id: "s1232",
-        name: "About<br>The Plan:",
-        data:{"width":"75","height":"39"},
+        name: "About<br>God's Plan:",
+        data:{"width":"95","height":"39"},
         children:[sNode12320,sNode12321,sNode12322]         
     };
         
         // Children of sNode1233 (Our Part In<br>The Plan)
         
-            // Children of sNode12330 (Paul's<br>Part)
+            // Children of sNode12330 (All: Renewal<br>In Christ)
             
             var sNode123300 = {
                 id: "s123300",
-                name: "To Preach<br>God's Plan",
-                data:{"width":"90","height":"39"},
+                name: "<u>Preserve The Unity</u><br>Through The<br>Diversity Of Gifts:",
+                data:{"width":"155","height":"57"},
                 children:[]         
             };
+        
+                // Children of sNode123301 (Renewal<br>In Christ)
+                
+                var sNode1233010 = {
+                    id: "s1233010",
+                    name: "Rules For<br>The New Life",
+                    data:{"width":"100","height":"39"},
+                    children:[]         
+                };
+                
+                var sNode1233011 = {
+                    id: "s1233011",
+                    name: "Duty To Live<br>In The Light",
+                    data:{"width":"100","height":"39"},
+                    children:[]         
+                };
             
             var sNode123301 = {
                 id: "s123301",
-                name: "Paul's<br>Prayer",
-                data:{"width":"60","height":"39"},
-                children:[]         
+                name: "Put On<br>The New Self:",
+                data:{"width":"110","height":"39"},
+                children:[sNode1233010,sNode1233011]            
             };
         
         var sNode12330 = {
             id: "s12330",
-            name: "Paul's<br>Part:",
-            data:{"width":"55","height":"39"},
+            name: "For All:",
+            data:{"width":"70","height":"23"},
             children:[sNode123300,sNode123301]          
         };
         
-            // Children of sNode12331 (All: Renewal<br>In Christ)
+            // Children of sNode12331 (Paul's<br>Part)
             
             var sNode123310 = {
                 id: "s123310",
-                name: "Preserve<br>The Unity -",
+                name: "To Preach<br>God's Plan",
                 data:{"width":"90","height":"39"},
                 children:[]         
             };
             
             var sNode123311 = {
                 id: "s123311",
-                name: "Through<br>The Diversity<br>Of Gifts -",
-                data:{"width":"110","height":"57"},
+                name: "Paul's<br>Prayer",
+                data:{"width":"60","height":"39"},
                 children:[]         
-            };
-        
-                // Children of sNode123312 (Renewal<br>In Christ)
-                
-                var sNode1233120 = {
-                    id: "s1233120",
-                    name: "Rules For<br>The New Life",
-                    data:{"width":"100","height":"39"},
-                    children:[]         
-                };
-                
-                var sNode1233121 = {
-                    id: "s1233121",
-                    name: "Duty To Live<br>In The Light",
-                    data:{"width":"100","height":"39"},
-                    children:[]         
-                };
-            
-            var sNode123312 = {
-                id: "s123312",
-                name: "Putting On<br>The New Self:",
-                data:{"width":"110","height":"39"},
-                children:[sNode1233120,sNode1233121]            
             };
         
         var sNode12331 = {
             id: "s12331",
-            name: "Our<br>Part:",
-            data:{"width":"45","height":"39"},
-            children:[sNode123310,sNode123311,sNode123312]          
+            name: "Paul's<br>Part:",
+            data:{"width":"55","height":"39"},
+            children:[sNode123310,sNode123311]          
         };
         
         var sNode12332 = {
             id: "s12332",
             name: "Wives &<br>Husbands",
-            data:{"width":"80","height":"39"},
+            data:{"width":"85","height":"39"},
             children:[]         
         };
         
         var sNode12333 = {
             id: "s12333",
             name: "Children<br>& Parents",
-            data:{"width":"80","height":"39"},
+            data:{"width":"85","height":"39"},
             children:[]         
         };
         
         var sNode12334 = {
             id: "s12334",
             name: "Slaves &<br>Masters",
-            data:{"width":"70","height":"39"},
+            data:{"width":"75","height":"39"},
             children:[]         
         };
                 
