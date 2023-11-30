@@ -46,7 +46,7 @@ var navHndlr;
 
 
 
-
+/*
 // Create GLOBAL variable (player) for the YouTubeVideo API
 var player;
 // 2. This code loads the IFrame Player API code asynchronously.
@@ -69,8 +69,8 @@ function onYouTubeIframeAPIReady() {
 			'onStateChange': PlayerControlsManager.onPlayerStateChange
 		}
 	});
-	PlayerControlsManager.setSongTitle();
-}  
+	//PlayerControlsManager.setSongTitle();
+}  */
 
 
 
