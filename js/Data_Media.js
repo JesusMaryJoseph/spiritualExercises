@@ -832,8 +832,8 @@ var VideoData = {
 	ordinary: {
 		ids: [
 			'3tqSeu47iIc',
-			'TymGK7HzbwI',
 			'0eSDd8EJjDU',
+			'TymGK7HzbwI',
 			'XmkEXN-um-M',
 			'ZOFiRcJPRzo',
 			'akb0kD7EHIk',

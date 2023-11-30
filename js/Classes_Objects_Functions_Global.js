@@ -119,7 +119,7 @@ var SeasonButtonHandler = {
 		this.getDomElement(this.selectedSeason).classList.remove("selected-season");
 		this.getDomElement(newSeason).classList.add("selected-season");
 		this.selectedSeason = newSeason;
-		VideoData.selectedSeason = this.selectedSeason;
+		VideoDataManager.selectedSeason = this.selectedSeason;
 		DOMCallsInitializer.seasonOptionsElement.classList.replace("show-season", "hide-season");
 		this.seasonOptionsHidden = true;
 	},
@@ -575,7 +575,17 @@ var DOMCallsInitializer = {
     }
 } /* End of Class(Object) "DOMCallsInitializer" */
 
-/*
+
+
+// Create GLOBAL variable (player) for the YouTubeVideo API
+var player;
+// 2. This code loads the IFrame Player API code asynchronously.
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+//onYouTubeIframeAPIReady();
+
 function onYouTubeIframeAPIReady() {
 	player = new YT.Player('player', {
 		width: '600',
@@ -589,4 +599,4 @@ function onYouTubeIframeAPIReady() {
 		}
 	});
 	PlayerControlsManager.setSongTitle();
-}  */
+}  
