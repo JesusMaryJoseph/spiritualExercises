@@ -831,6 +831,8 @@ var VideoData = {
 
 	ordinary: {
 		ids: [
+			'3tqSeu47iIc',
+			'TymGK7HzbwI',
 			'0eSDd8EJjDU',
 			'XmkEXN-um-M',
 			'ZOFiRcJPRzo',
@@ -859,6 +861,8 @@ var VideoData = {
 		],
 
 		names: [
+			'Holy Is His Name<br>Connie Salazar',
+			'O God Beyond All Praising<br>BJU Singers & Orchestry',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 4 of 6):<br>Petrus Josephus',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 3 of 6):<br>Petrus Josephus',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 2 of 6):<br>Petrus Josephus',
@@ -1039,8 +1043,8 @@ var VideoData = {
 
 
 
+/* Following Objects are found in "Classis_Objects_Functions_Global.js"
 
-/*
 var ControlButtonHandler = {
 	// Properties
 	controlsHidden: true,
@@ -1223,7 +1227,7 @@ var ButtonState = {
 
 var PlayerControl = {
 	// Properties
-	currentVideoId: 0,
+	currentVideoId: "0eSDd8EJjDU", //0,
 	playedVideos: [-1,-1,-1,-1,-1,-1,-1,-1],  //Arbitraily set to size = 8
 
 	// Methods
@@ -1329,5 +1333,5 @@ var PlayerControl = {
 		let labElementle = document.getElementById("songTitle");
 		labElementle.innerHTML = VideoData.getData(VideoData.selectedSeason).names[this.currentVideoId];        
 	},
-}    */ 
-
+}     
+*/
