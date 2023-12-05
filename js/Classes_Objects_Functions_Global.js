@@ -374,7 +374,7 @@ var PlayerControlsManager = {
 	  //alert("4 in setSontTitle and VideoData.ordinary.names.this.currentVideoId =  " + VideoData.ordinary.names[this.currentVideoId]);
 		let lableElement = document.getElementById("song-title");
 		lableElement.innerHTML = VideoDataManager.getData(VideoDataManager.selectedSeason).names[this.currentVideoId];        
-	},
+	}
 }   /* End of Class(Object) "PlayerControlsManager" */ 
 
 
