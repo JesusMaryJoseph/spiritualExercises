@@ -588,7 +588,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 
 function callBack() {
-	PlayerControlsManager.onPlayerStateChange;
+	PlayerControlsManager.onPlayerStateChange();
 }
 function onYouTubeIframeAPIReady() {
 	player = new YT.Player('player', {
