@@ -266,8 +266,8 @@ var PlayerControlsManager = {
 	//alert("just before: PlayerControlsManager.setCurrentVideoId("next");");
 			PlayerControlsManager.setCurrentVideoId("next");
 			player.loadVideoById(VideoDataManager.getData(VideoDataManager.selectedSeason).ids[this.currentVideoId]);
-			this.setSongTitle();
-			this.startVideo();
+			PlayerControlsManager.setSongTitle();
+			PlayerControlsManager.startVideo();
 		}
 	},
 
