@@ -261,9 +261,10 @@ var PlayerControlsManager = {
 
 	// Methods
 	onPlayerStateChange: function(event) {
-	//alert("in onPlayerStateChange");
 		if (event.data == YT.PlayerState.ENDED && player.getVideoLoadedFraction() > 0) {
-	//alert("just before: PlayerControlsManager.setCurrentVideoId("next");");
+			if(ButtonStateManager.getState("play") ){
+				ButtonStateManager.changeState("play");
+			}
 			PlayerControlsManager.setCurrentVideoId("next");
 			player.loadVideoById(VideoDataManager.getData(VideoDataManager.selectedSeason).ids[this.currentVideoId]);
 			PlayerControlsManager.setSongTitle();
@@ -368,10 +369,6 @@ var PlayerControlsManager = {
 	},
 
 	setSongTitle: function() {
-	  //alert("1 in setSongTitle");
-	  //alert("2 in setSontTitle and VideoDataManager.selectedSeason =  " + VideoDataManager.selectedSeason);
-	  //alert("3 in setSontTitle and this.currentVideoId =  " + this.currentVideoId);
-	  //alert("4 in setSontTitle and VideoData.ordinary.names.this.currentVideoId =  " + VideoData.ordinary.names[this.currentVideoId]);
 		let lableElement = document.getElementById("song-title");
 		lableElement.innerHTML = VideoDataManager.getData(VideoDataManager.selectedSeason).names[this.currentVideoId];        
 	}
@@ -587,9 +584,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 //onYouTubeIframeAPIReady();
 
 
-function callBack() {
-	PlayerControlsManager.onPlayerStateChange();
-}
+
 function onYouTubeIframeAPIReady() {
 	player = new YT.Player('player', {
 		width: '600',
@@ -599,7 +594,7 @@ function onYouTubeIframeAPIReady() {
 			autoplay: 1,
 		},
 		events: {
-			'onStateChange': callBack
+			'onStateChange': PlayerControlsManager.onPlayerStateChange
 		}
 	});
 	PlayerControlsManager.setSongTitle();
