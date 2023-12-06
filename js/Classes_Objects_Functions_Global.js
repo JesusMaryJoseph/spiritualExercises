@@ -261,49 +261,66 @@ var PlayerControlsManager = {
 
 	// Methods
 	onPlayerStateChange: function(event) {
+		//if( ButtonStateManager.getState('play') ) {
+		//	return;
+		//}
+	//alert("in onPlayerStateChange");
 		if (event.data == YT.PlayerState.ENDED && player.getVideoLoadedFraction() > 0) {
+		//alert('ButtonStateManager.getState("play"); =  ' + ButtonStateManager.getState("play") );
 			if(ButtonStateManager.getState("play") ){
 				ButtonStateManager.changeState("play");
 			}
+		//alert('ButtonStateManager.getState("play"); =  ' + ButtonStateManager.getState("play") );
+		//alert('just before: PlayerControlsManager.setCurrentVideoId("next");');
 			PlayerControlsManager.setCurrentVideoId("next");
-			player.loadVideoById(VideoDataManager.getData(VideoDataManager.selectedSeason).ids[this.currentVideoId]);
+		//alert("loading video into player");
+			player.loadVideoById(VideoDataManager.getData(VideoDataManager.selectedSeason).ids[PlayerControlsManager.currentVideoId]);
+		//alert("video loaded");
 			PlayerControlsManager.setSongTitle();
+		//alert("going to startVideo()");
 			PlayerControlsManager.startVideo();
 		}
+	//alert("at end of onPlayerStateChange()");
 	},
 
 	setCurrentVideoId: function(direction){
+	//alert("in setCurrentVideoId");
 		if (ButtonStateManager.getState('shuffle') ) {
 			let randomNumber = Math.floor( Math.random() * VideoDataManager.getData(VideoDataManager.selectedSeason).ids.length);
 			while ( PlayerControlsManager.playedVideos.includes(randomNumber) ) {
 				randomNumber = Math.floor( Math.random() * VideoDataManager.getData(VideoDataManager.selectedSeason).ids.length);
 			}
-			this.playedVideos.unshift(randomNumber);
-			this.playedVideos.pop();
-			this.currentVideoId = randomNumber;
+			PlayerControlsManager.playedVideos.unshift(randomNumber);
+			PlayerControlsManager.playedVideos.pop();
+			PlayerControlsManager.currentVideoId = randomNumber;
 		}else{
 			if(direction == "next"){ 
-				if (this.currentVideoId < VideoDataManager.getData(VideoDataManager.selectedSeason).ids.length - 1) {
-					this.currentVideoId = this.currentVideoId + 1;
+			//alert("in next");
+				if (PlayerControlsManager.currentVideoId < VideoDataManager.getData(VideoDataManager.selectedSeason).ids.length - 1) {
+					PlayerControlsManager.currentVideoId = PlayerControlsManager.currentVideoId + 1;
 				}else{
-					this.currentVideoId = 0;
+					PlayerControlsManager.currentVideoId = 0;
 				} 
 			}else{
-				if (this.currentVideoId > 0) {
-					this.currentVideoId = this.currentVideoId - 1;
+				if (PlayerControlsManager.currentVideoId > 0) {
+					PlayerControlsManager.currentVideoId = PlayerControlsManager.currentVideoId - 1;
 				}else{
-					this.currentVideoId = VideoDataManager.getData(VideoDataManager.selectedSeason).ids.length - 1;
+					PlayerControlsManager.currentVideoId = VideoDataManager.getData(VideoDataManager.selectedSeason).ids.length - 1;
 				}
 			}
 		}
 	},
 
 	startVideo: function() {
+	//alert("in startVideo");
+	//alert("ButtonStateManager.getState('play') =  " + ButtonStateManager.getState('play'));
 		if( ButtonStateManager.getState('play') ) {
 			return;
 		}
+	//alert("ready- player.playVideo()");
 		player.playVideo();
 		ButtonStateManager.changeState('play');
+	//alert("ButtonStateManager.getState('play') =  " + ButtonStateManager.getState('play'));
 		if( ButtonStateManager.getState('stop') ) {
 			ButtonStateManager.changeState('stop');
 		}
@@ -317,7 +334,7 @@ var PlayerControlsManager = {
 			return;
 		}
 		player.pauseVideo();
-		this.setSongTitle();
+		PlayerControlsManager.setSongTitle();
 		ButtonStateManager.changeState('pause');
 		ButtonStateManager.changeState('play');
 	},
@@ -343,9 +360,9 @@ var PlayerControlsManager = {
 		if( ButtonStateManager.getState('pause') ) {
 			ButtonStateManager.changeState('pause');
 		}
-		this.setCurrentVideoId("next");
+		PlayerControlsManager.setCurrentVideoId("next");
 		player.loadVideoById(VideoDataManager.getData(VideoDataManager.selectedSeason).ids[this.currentVideoId]);
-		this.setSongTitle();
+		PlayerControlsManager.setSongTitle();
 	},
 
 	prevVideo: function() {
@@ -358,9 +375,9 @@ var PlayerControlsManager = {
 		if( ButtonStateManager.getState('pause') ) {
 			ButtonStateManager.changeState('pause');
 		}
-		this.setCurrentVideoId("previous");
+		PlayerControlsManager.setCurrentVideoId("previous");
 		player.loadVideoById(VideoDataManager.getData(VideoDataManager.selectedSeason).ids[this.currentVideoId]);
-		this.setSongTitle();
+		PlayerControlsManager.setSongTitle();
 	},
 
 	shuffle: function() {
@@ -369,8 +386,12 @@ var PlayerControlsManager = {
 	},
 
 	setSongTitle: function() {
+	  //alert("1 in setSongTitle");
+	  //alert("2 in setSontTitle and VideoDataManager.selectedSeason =  " + VideoDataManager.selectedSeason);
+	  //alert("3 in setSontTitle and PlayerControlsManager.currentVideoId =  " + PlayerControlsManager.currentVideoId);
+	  //alert("4 in setSontTitle and VideoData.ordinary.names.PlayerControlsManager.currentVideoId =  " + VideoData.ordinary.names[PlayerControlsManager.currentVideoId]);
 		let lableElement = document.getElementById("song-title");
-		lableElement.innerHTML = VideoDataManager.getData(VideoDataManager.selectedSeason).names[this.currentVideoId];        
+		lableElement.innerHTML = VideoDataManager.getData(VideoDataManager.selectedSeason).names[PlayerControlsManager.currentVideoId];        
 	}
 }   /* End of Class(Object) "PlayerControlsManager" */ 
 
@@ -393,6 +414,7 @@ var VideoDataManager = {
 	}, 
 
 	getData: function(season) {
+	//alert("in VideoDataManager.getData");
 		switch (season) {
 			case 'advent':
 				return VideoData.advent;
@@ -573,7 +595,6 @@ var DOMCallsInitializer = {
 } /* End of Class(Object) "DOMCallsInitializer" */
 
 
-
 // Create GLOBAL variable (player) for the YouTubeVideo API
 var player;
 // 2. This code loads the IFrame Player API code asynchronously.
@@ -582,8 +603,6 @@ tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 //onYouTubeIframeAPIReady();
-
-
 
 function onYouTubeIframeAPIReady() {
 	player = new YT.Player('player', {
