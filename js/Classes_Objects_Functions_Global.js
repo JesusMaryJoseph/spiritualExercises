@@ -295,7 +295,7 @@ var PlayerControlsManager = {
 			PlayerControlsManager.currentVideoId = randomNumber;
 		}else{
 			if(direction == "next"){ 
-			//alert("in next");
+			alert("in next");
 				if (PlayerControlsManager.currentVideoId < VideoDataManager.getData(VideoDataManager.selectedSeason).ids.length - 1) {
 					PlayerControlsManager.currentVideoId = PlayerControlsManager.currentVideoId + 1;
 				}else{
