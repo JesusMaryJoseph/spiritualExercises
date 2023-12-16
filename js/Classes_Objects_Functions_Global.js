@@ -351,6 +351,7 @@ var PlayerControlsManager = {
 
 
 	nextVideo: function() {
+	alert("in nextVideo");
 		if( !ButtonStateManager.getState('play') ) {
 			ButtonStateManager.changeState('play');
 		}
@@ -361,7 +362,9 @@ var PlayerControlsManager = {
 			ButtonStateManager.changeState('pause');
 		}
 		PlayerControlsManager.setCurrentVideoId("next");
+	alert("just before player.load..");
 		player.loadVideoById(VideoDataManager.getData(VideoDataManager.selectedSeason).ids[this.currentVideoId]);
+	alert("just after player.load..");
 		PlayerControlsManager.setSongTitle();
 	},
 
