@@ -295,7 +295,7 @@ var PlayerControlsManager = {
 			PlayerControlsManager.currentVideoId = randomNumber;
 		}else{
 			if(direction == "next"){ 
-			alert("in next");
+			//alert("in next");
 				if (PlayerControlsManager.currentVideoId < VideoDataManager.getData(VideoDataManager.selectedSeason).ids.length - 1) {
 					PlayerControlsManager.currentVideoId = PlayerControlsManager.currentVideoId + 1;
 				}else{
@@ -351,23 +351,17 @@ var PlayerControlsManager = {
 
 
 	nextVideo: function() {
-	alert("in nextVideo & before play");
 		if( !ButtonStateManager.getState('play') ) {
 			ButtonStateManager.changeState('play');
 		}
-	alert("after play & before stop");
 		if( ButtonStateManager.getState('stop') ) {
 			ButtonStateManager.changeState('stop');
 		}
-	alert("after stop & before pause");
 		if( ButtonStateManager.getState('pause') ) {
 			ButtonStateManager.changeState('pause');
 		}
-	alert("after pause & before next");
 		PlayerControlsManager.setCurrentVideoId("next");
-	alert("after next and before player.load..");
 		player.loadVideoById(VideoDataManager.getData(VideoDataManager.selectedSeason).ids[this.currentVideoId]);
-	alert("after player.load.. & before setSongTitle()");
 		PlayerControlsManager.setSongTitle();
 	},
 
@@ -613,7 +607,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 function onYouTubeIframeAPIReady() {
 	player = new YT.Player('player', {
 		width: '600',
-		videoId: '3tqSeu47iIc',
+		videoId:'3tqSeu47iIc',
 		playerVars: {
 			controls: 0,
 			autoplay: 1,
@@ -622,5 +616,8 @@ function onYouTubeIframeAPIReady() {
 			'onStateChange': PlayerControlsManager.onPlayerStateChange
 		}
 	});
+//	alert("before player.load...");
+//	player.VideoDataManager.getData(VideoDataManager.selectedSeason).ids[0];
+//	alert("after player.load...");
 	PlayerControlsManager.setSongTitle();
 }  
