@@ -351,20 +351,23 @@ var PlayerControlsManager = {
 
 
 	nextVideo: function() {
-	alert("in nextVideo");
+	alert("in nextVideo & before play");
 		if( !ButtonStateManager.getState('play') ) {
 			ButtonStateManager.changeState('play');
 		}
+	alert("after play & before stop");
 		if( ButtonStateManager.getState('stop') ) {
 			ButtonStateManager.changeState('stop');
 		}
+	alert("after stop & before pause");
 		if( ButtonStateManager.getState('pause') ) {
 			ButtonStateManager.changeState('pause');
 		}
+	alert("after pause & before next");
 		PlayerControlsManager.setCurrentVideoId("next");
-	alert("just before player.load..");
+	alert("after next and before player.load..");
 		player.loadVideoById(VideoDataManager.getData(VideoDataManager.selectedSeason).ids[this.currentVideoId]);
-	alert("just after player.load..");
+	alert("after player.load.. & before setSongTitle()");
 		PlayerControlsManager.setSongTitle();
 	},
 
