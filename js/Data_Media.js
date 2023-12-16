@@ -894,12 +894,12 @@ var VideoData = {
 
 	advent: {
 		ids: [
-			'xSkIz4Xm09U',
+			/*'xSkIz4Xm09U',
 			'qzLrs3eKbXk',
 			'2TM4bX9t_jU',
 			'bbnkwvuUzQk',
 			'Ley1aOPDHCE',
-			'9RieYaRaZsE',
+			*/'9RieYaRaZsE',
 			{'videoId':'yr3HJ6-2LhU','endSeconds':445},
 			'dkrW3nRPGo4',
 			{'videoId':'Zz4LBjysReA','endSeconds':231},
@@ -911,12 +911,12 @@ var VideoData = {
 		],
 
 		names: [
-			'Prepare ye, the way of the Lord<br>featuring members of the Gallery Choir<br>St. Columbas Episcop',
+			/*'Prepare ye, the way of the Lord<br>featuring members of the Gallery Choir<br>St. Columbas Episcop',
 			'Prepare Ye The Way Of the Lord<br>(Godspell) - Hallelujah Broadway',
 			'O Come Divine Messiah<br>Choir with Lyrics | Traditional Christian Hymn<br>Sunday 7pm Choir'.
 			'Wake, O Wake, And Sleep No Longer<br>Philipp Nicolai · Johann Sebastian Bach<br>Randall DeBruyn · Christopher Idle',
 			'O Come O Come Emmanuel<br> Choir with Lyrics | Traditional Christian Hymn<br>Sunday 7pm Choir',
-			'The King Shall Come<br>When The Morning Dawns',  /* ok */
+			*/'The King Shall Come<br>When The Morning Dawns',  /* ok */
 			'To Save Us All/Prepare Him Room: Feat. Andrea Thomas and Greg & Lizzy - The Vigil Project<br>https://www.thevigilproject.com/blog/devotions/advent', /* OK */
 			'Panis angelicus<br>Sissel and The Tabernacle Choir',  /* ok */
 			'Let All Mortal Flesh Keep Silence:',  /* ok */
