@@ -60,7 +60,7 @@ onYouTubeIframeAPIReady();
 function onYouTubeIframeAPIReady() {
 	player = new YT.Player('player', {
 		width: '600',
-		videoId: '3tqSeu47iIc', 
+		videoId: 'CDljPsRIryo', /* '3tqSeu47iIc', */
 		playerVars: {
 			controls: 0,
 			autoplay: 1,
