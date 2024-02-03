@@ -831,9 +831,9 @@ var VideoData = {
 
 	ordinary: {
 		ids: [
-			'eETRRbLLuMM',
+			/*'eETRRbLLuMM',
 			'CDljPsRIryo',
-			{'videoId':'BA-JXeHDRDw', 'endSeconds': 268},
+			{'videoId':'BA-JXeHDRDw', 'endSeconds': 268},*/
 			'kdmgpMfnjdU',
 			'3tqSeu47iIc',
 			'TymGK7HzbwI',
@@ -865,10 +865,10 @@ var VideoData = {
 		],
 
 		names: [
-			'All Creatures Of Our God And King<br>First Dallas Choir and Orchestra',
+			/*'All Creatures Of Our God And King<br>First Dallas Choir and Orchestra',
 			'We Are Called',
-			'The Churchs One Foundation is Jesus Christ Her Lord<br>Origin Ministries',
-			'The Servant Song<br>lyrics by Richard Gillard',
+			'The Churchs One Foundation is Jesus Christ Her Lord<br>Origin Ministries', */
+			'The Servant Song<br>lyrics by Richard Gillard', 
 			'Holy Is His Name<br>Connie Salazar',
 			'O God Beyond All Praising<br>BJU Singers & Orchestry',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 4 of 6):<br>Petrus Josephus',
