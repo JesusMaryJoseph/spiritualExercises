@@ -1004,6 +1004,10 @@ var VideoData = {
 
 	lent: {
 		ids:[
+			'vfIdWDJbPuY',
+			'AFVhUOH1vXI',
+			'pJvOejpJltA',
+			'Xox5ZKz2haM',
 			{'videoId':'O3YwLB-A1k8', 'endSeconds': 372},
 			'Ul7CLPd14JQ',  /* Immaculate Mary:  */
 			'fpSScICWJ9M',
@@ -1015,6 +1019,10 @@ var VideoData = {
 		],
 
 		names:[
+			'Jesus, remember me<br>Taizé - Topic',
+			'Hosea<br>JohnMichaelTalbot',
+			'Ashes by Tom Conry<br>Hymn for Ash Wednesday & Lent<br>Recorded live at St. Francis de Sales church in Ajax, Ontario, Canada',
+			'Here I Am, Lord<br>JohnMichaelTalbot',
 			"Pange Lingua Gloriosi<br>Dan Gibson's Solitudes",
 			'Immaculate Mary<br>Prima Luce<br>https://www.primalucemusic.com/', /* OK from their website */
 			'Were You There<br>feat. Andrea Thomas #VIGIL<br>https://www.thevigilproject.com',
