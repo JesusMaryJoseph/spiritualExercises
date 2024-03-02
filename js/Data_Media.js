@@ -1037,7 +1037,7 @@ var VideoData = {
 			'Jesu, Jesu, Fill Us with Your Love<br>arr. Steven Strite<br>https://www.hopepublishing.com/',
 			'Via Dolorosa:<br>Tatiana "Tajci" Cameron<br>http://www.idobelieve.com',
 			'Lord Who Throughout These Forty Day', /* Ok  Catholic Hymns and Chants  https://thefullnessoftruthapostolate.wordpress.com/  */
-			'Lift High the Cross<br>St Michael's Singers<br>The Hymn Makers: There Is a Green Hill Far Away',
+			'Lift High the Cross<br>St Michael\'s Singers<br>The Hymn Makers: There Is a Green Hill Far Away',
 			'Praise to you<br>feat. Andrea Thomas #VIGIL<br>https://www.thevigilproject.com' /* OK shared from their website: https://www.thevigilproject.com/lent2/praise-to-you */
 		]
 	},
