@@ -1005,6 +1005,7 @@ var VideoData = {
 	lent: {
 		ids:[
 			'vfIdWDJbPuY',
+			'Py8xUO7pOeY',
 			'AFVhUOH1vXI',
 			'pJvOejpJltA',
 			'Xox5ZKz2haM',
@@ -1020,8 +1021,9 @@ var VideoData = {
 
 		names:[
 			'Jesus, remember me<br>Taizé - Topic',
+			'Servant Song by Donna Marie McGargill,OSM,choral arrangement by Dennis Richardson<br>Recorded live on November 5th, 2017 at St. Francis De Sales Church,<br>Ajax Ontario Canada by the Sunday 7pm Choir.',
 			'Hosea<br>JohnMichaelTalbot',
-			'Ashes by Tom Conry<br>Hymn for Ash Wednesday & Lent<br>Recorded live at St. Francis de Sales church in Ajax, Ontario, Canada',
+			'Ashes by Tom Conry<br>Hymn for Ash Wednesday & Lent<br>Recorded live at St. Francis de Salchurch in Ajax, Ontario, Canada',
 			'Here I Am, Lord<br>JohnMichaelTalbot',
 			"Pange Lingua Gloriosi<br>Dan Gibson's Solitudes",
 			'Immaculate Mary<br>Prima Luce<br>https://www.primalucemusic.com/', /* OK from their website */
