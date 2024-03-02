@@ -1009,6 +1009,7 @@ var VideoData = {
 			'AFVhUOH1vXI',
 			'pJvOejpJltA',
 			'Xox5ZKz2haM',
+			'pKsh9ZPM0tY',
 			{'videoId':'O3YwLB-A1k8', 'endSeconds': 372},
 			'Ul7CLPd14JQ',  /* Immaculate Mary:  */
 			'fpSScICWJ9M',
@@ -1016,6 +1017,7 @@ var VideoData = {
 			{'videoId':'XWSxiNERzn8','startSeconds': 9},
 			{'videoId':'pjKIhSNfUcE', 'startSeconds': 37, 'endSeconds':328},
 			{'videoId':'LTMdvoLdeco','startSeconds': 4, 'endSeconds': 99},
+			't2Kt6zqZycc',
 			'uKoh-AZlio8'
 		],
 
@@ -1025,13 +1027,15 @@ var VideoData = {
 			'Hosea<br>JohnMichaelTalbot',
 			'Ashes by Tom Conry<br>Hymn for Ash Wednesday & Lent<br>Recorded live at St. Francis de Salchurch in Ajax, Ontario, Canada',
 			'Here I Am, Lord<br>JohnMichaelTalbot',
+			'Take Up Your Cross<br>Recorded live by the Sunday 7pm Choir at<br>St. Francis de Sales Parish in Ajax, Ontario Canada',
 			"Pange Lingua Gloriosi<br>Dan Gibson's Solitudes",
 			'Immaculate Mary<br>Prima Luce<br>https://www.primalucemusic.com/', /* OK from their website */
 			'Were You There<br>feat. Andrea Thomas #VIGIL<br>https://www.thevigilproject.com',
 			"Somebody's Knocking at Your Door<br>Voices of Unity - Written by Raymond Wise<br>https://www.youtube.com/user/VoicesOfUnity", /* OK   */
 			'Jesu, Jesu, Fill Us with Your Love<br>arr. Steven Strite<br>https://www.hopepublishing.com/',
 			'Via Dolorosa:<br>Tatiana "Tajci" Cameron<br>http://www.idobelieve.com',
-			'Lord Who Throughout These Forty Day', /* Ok  Catholic Hymns and Chants  https://thefullnessoftruthapostolate.wordpress.com/  */ 
+			'Lord Who Throughout These Forty Day', /* Ok  Catholic Hymns and Chants  https://thefullnessoftruthapostolate.wordpress.com/  */
+			'Lift High the Cross<br>St Michael's Singers<br>The Hymn Makers: There Is a Green Hill Far Away',
 			'Praise to you<br>feat. Andrea Thomas #VIGIL<br>https://www.thevigilproject.com' /* OK shared from their website: https://www.thevigilproject.com/lent2/praise-to-you */
 		]
 	},
