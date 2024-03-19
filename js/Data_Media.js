@@ -1005,6 +1005,7 @@ var VideoData = {
 	lent: {
 		ids:[
 			'KXfe_0mDv34',
+			'VfzusJRSwpE',
 			'vfIdWDJbPuY',
 			'Py8xUO7pOeY',
 			'AFVhUOH1vXI',
@@ -1025,6 +1026,7 @@ var VideoData = {
 
 		names:[
 			'Turn to Me · John Foley<br>Glory & Praise: Third Edition, Vol. 9<br>℗ 2016 OCP. All rights reserved. All selections BMI.',
+			'Save Us, O Lord<br>Bob Dufford Glory & Praise: Third Edition, Vol. 7<br>℗ 2016 OCP. All rights reserved',
 			'Jesus, remember me<br>Taizé - Topic',
 			'Servant Song by Donna Marie McGargill,OSM,choral arrangement by Dennis Richardson<br>Recorded live on November 5th, 2017 at St. Francis De Sales Church,<br>Ajax Ontario Canada by the Sunday 7pm Choir.',
 			'Hosea<br>JohnMichaelTalbot',
