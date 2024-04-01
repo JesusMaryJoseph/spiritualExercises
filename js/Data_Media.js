@@ -1050,7 +1050,6 @@ var VideoData = {
 
 	easter: {
 		ids:[
-			{'videoId':'VI6dsMeABpU','endSeconds': 244},
 			'8p03kMcjnU0',
 			'JAyi64eagTI',
 			'Ul7CLPd14JQ',  /* Immaculate Mary:  */
@@ -1061,7 +1060,6 @@ var VideoData = {
 		],
 
 		names:[
-			'Hallelujah chorus, from Händel\'s Messiah:<br>Mormon Tabernacle Choir',
 			'Alleluia! Alleluia! Let the Holy Anthem Rise:<br>for organ and brass<br>www.wmglennosborne.com or www.audubonparkmusic.com',  /* OK */
 			'The Strife is O\'er:<br>The Episcopal Church Virtual Choir and Orchestra<br>https://episcopalchurch.org/virtual-choir', /* OK */
 			'Immaculate Mary<br>Prima Luce<br>https://www.primalucemusic.com/', /* OK from their website */
