@@ -1050,6 +1050,8 @@ var VideoData = {
 
 	easter: {
 		ids:[
+			'Mh7SBHMqBkc',
+			{'vidoeId':'bXNf_ftoqRg','endSeconds': 242},
 			'8p03kMcjnU0',
 			'JAyi64eagTI',
 			'Ul7CLPd14JQ',  /* Immaculate Mary:  */
@@ -1060,6 +1062,9 @@ var VideoData = {
 		],
 
 		names:[
+			'The Day of Resurrection<br>OCP Session Choir Journeysongs Third Edition<br>Volume 12℗ 2012 OCP. All rights reserved. All selections BMI',		
+			'Hallelujah Chorus from Handels Messiah<br>Royal Choral Society',
+			'AN EASTER HALLELUJAH<br>Composed by Leonard Cohen, Lyrics by Kelley Mooney',
 			'Alleluia! Alleluia! Let the Holy Anthem Rise:<br>for organ and brass<br>www.wmglennosborne.com or www.audubonparkmusic.com',  /* OK */
 			'The Strife is O\'er:<br>The Episcopal Church Virtual Choir and Orchestra<br>https://episcopalchurch.org/virtual-choir', /* OK */
 			'Immaculate Mary<br>Prima Luce<br>https://www.primalucemusic.com/', /* OK from their website */
