@@ -1053,6 +1053,8 @@ var VideoData = {
 			'8p03kMcjnU0',
 			'JAyi64eagTI',
 			'Ul7CLPd14JQ',  /* Immaculate Mary:  */
+			'KCnpR-eobag',
+			'gLlQQig5gio',
 			'1gdMVP3JVuY',
 			'rMwPEmUMP7U',
 			'Rw9DueQot48',
@@ -1064,6 +1066,8 @@ var VideoData = {
 			'Alleluia! Alleluia! Let the Holy Anthem Rise:<br>for organ and brass<br>www.wmglennosborne.com or www.audubonparkmusic.com',  /* OK */
 			'The Strife is O\'er:<br>The Episcopal Church Virtual Choir and Orchestra<br>https://episcopalchurch.org/virtual-choir', /* OK */
 			'Immaculate Mary<br>Prima Luce<br>https://www.primalucemusic.com/', /* OK from their website */
+			'I Am the Bread of Life by Suzanne Toolan 2016B',
+			'Resucito<br>Lyrics by Kiko Argüello<br>Sung by Donna Peña',
 			'At The Lamb\'s High Feast:<br>St Mary Choir and Orchestra Littleton, Colorado<br>https://www.youtube.com/user/marchesp/videos', /* OK */
 			'Jesus Christ is risen today:<br>The Choir of King\'s College, Cambridge<br>http://bit.ly/kingslisten', /* OK */
 			'Schubert: Ave Maria<br>Elisabeth Kulman', /* OK http://www.elisabethkulman.com  */
