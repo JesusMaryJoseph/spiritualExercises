@@ -1050,6 +1050,8 @@ var VideoData = {
 
 	easter: {
 		ids:[
+			'eETRRbLLuMM',
+			'S35MFbDJLX8',
 			'dszpVNJIklM',
 			'8p03kMcjnU0',
 			'JAyi64eagTI',
@@ -1063,6 +1065,8 @@ var VideoData = {
 		],
 
 		names:[
+			'All Creatures Of Our God And King<br>First Dallas Choir and Orchestra',
+			'Alleluia! Alleluia! Let the Holy Anthem Rise · OCP Choir · Traditional<br>Journeysongs Third Edition: Volume 13<br>℗ 2012 OCP. All rights reserved. All selections BMI.',
 			'An Easter Hallelujah<br>Cassandra Star & her sister Callahan',
 			'Alleluia! Alleluia! Let the Holy Anthem Rise:<br>for organ and brass<br>www.wmglennosborne.com or www.audubonparkmusic.com',  /* OK */
 			'The Strife is O\'er:<br>The Episcopal Church Virtual Choir and Orchestra<br>https://episcopalchurch.org/virtual-choir', /* OK */
