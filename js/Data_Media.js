@@ -831,6 +831,8 @@ var VideoData = {
 
 	ordinary: {
 		ids: [
+			'tTMjpLvMJjA',
+			'QZ4vLAHttmY',
 			'CDljPsRIryo',
 			'eETRRbLLuMM',
 			{'videoId':'BA-JXeHDRDw', 'endSeconds': 268},
@@ -865,6 +867,8 @@ var VideoData = {
 		],
 
 		names: [
+			'Morningside<br>by Neil Diamond',
+			'You Raise Me Up<br>Josh Groban<br>Piano by Riyandi Kusuma',
 			'We Are Called',
 			'All Creatures Of Our God And King<br>First Dallas Choir and Orchestra',
 			'The Churchs One Foundation is Jesus Christ Her Lord<br>Origin Ministries', 
