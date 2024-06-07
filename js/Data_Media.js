@@ -831,6 +831,8 @@ var VideoData = {
 
 	ordinary: {
 		ids: [
+			'Fa8Q4cJGMKg',
+			'0FT3SmZ_zx0',
 			'tTMjpLvMJjA',
 			'QZ4vLAHttmY',
 			'CDljPsRIryo',
@@ -867,6 +869,8 @@ var VideoData = {
 		],
 
 		names: [
+			'Claudia\'s Theme (Version Eight)<br>Lennie Niehaus, Clint Eastwood<br>Unforgiven (Original Motion Picture Soundtrack)',
+			'An American Trilogy<br>Elvis Presley<br>Aloha From Hawaii, Live in Honolulu, 1973',
 			'Morningside<br>by Neil Diamond',
 			'You Raise Me Up<br>Josh Groban<br>Piano by Riyandi Kusuma',
 			'We Are Called',
