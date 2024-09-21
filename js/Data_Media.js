@@ -832,6 +832,7 @@ var VideoData = {
 	ordinary: {
 		ids: [
 			'CDljPsRIryo',
+			'alJOStsdw3s',
 			'eETRRbLLuMM',
 			{'videoId':'BA-JXeHDRDw', 'endSeconds': 268},
 			'kdmgpMfnjdU',
@@ -870,6 +871,7 @@ var VideoData = {
 
 		names: [
 			'We Are Called',
+			'Agnus Dei<br>Michael W. Smith<br>with Nashville Recording Orchestra & Choir',
 			'All Creatures Of Our God And King<br>First Dallas Choir and Orchestra',
 			'The Churchs One Foundation is Jesus Christ Her Lord<br>Origin Ministries', 
 			'The Servant Song<br>lyrics by Richard Gillard', 
