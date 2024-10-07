@@ -832,12 +832,15 @@ var VideoData = {
 	ordinary: {
 		ids: [
 			'CDljPsRIryo',
+			'kaIDkoFXdUk',
 			'alJOStsdw3s',
 			'eETRRbLLuMM',
 			{'videoId':'BA-JXeHDRDw', 'endSeconds': 268},
 			'kdmgpMfnjdU',
 			'3tqSeu47iIc',
 			'TymGK7HzbwI',
+			'myPtTzwHofQ',
+			'xzcKcf5l_LM',
 			'Fa8Q4cJGMKg',
 			'0FT3SmZ_zx0',
 			'tTMjpLvMJjA',
@@ -871,12 +874,15 @@ var VideoData = {
 
 		names: [
 			'We Are Called',
+			'O God Beyond All Praising<br>Catholic Music Initiative<br>Dave Moore, Lauren Moore',
 			'Agnus Dei<br>Michael W. Smith<br>with Nashville Recording Orchestra & Choir',
 			'All Creatures Of Our God And King<br>First Dallas Choir and Orchestra',
 			'The Churchs One Foundation is Jesus Christ Her Lord<br>Origin Ministries', 
 			'The Servant Song<br>lyrics by Richard Gillard', 
 			'Holy Is His Name<br>Connie Salazar',
 			'O God Beyond All Praising<br>BJU Singers & Orchestry',
+			'Be Thou My Vision<br>Catholic Music Initiative<br>Dave Moore, Lauren Moore',
+			'Prayer of St. Francis of Assisi<br>Make Me A Channel of Your Peace<br>sanantonioabadpari',
 			'Claudia\'s Theme (Version Eight)<br>Lennie Niehaus, Clint Eastwood<br>Unforgiven (Original Motion Picture Soundtrack)',
 			'An American Trilogy<br>Elvis Presley<br>Aloha From Hawaii, Live in Honolulu, 1973',
 			'Morningside<br>by Neil Diamond',
