@@ -845,6 +845,7 @@ var VideoData = {
 			'0FT3SmZ_zx0',
 			'tTMjpLvMJjA',
 			'QZ4vLAHttmY',
+			'0CuvFMwrEN0',
 			'0eSDd8EJjDU',
 			'XmkEXN-um-M',
 			'ZOFiRcJPRzo',
@@ -887,6 +888,7 @@ var VideoData = {
 			'An American Trilogy<br>Elvis Presley<br>Aloha From Hawaii, Live in Honolulu, 1973',
 			'Morningside<br>by Neil Diamond',
 			'You Raise Me Up<br>Josh Groban<br>Piano by Riyandi Kusuma',
+			'This is my song<br> (Finlandia by Jean Sibelius)<br>Concinnity',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 4 of 6):<br>Petrus Josephus',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 3 of 6):<br>Petrus Josephus',
 			'The TimElementss Wisdom of the Saints - Meditations (Part 2 of 6):<br>Petrus Josephus',
@@ -953,6 +955,7 @@ var VideoData = {
 	christmas: {
 		ids: [
 			'CO99NN55f8g',
+			'ReJAU2mXm8w',
 			{'videoId':'lEYoJKePxHc', 'endSeconds': 159}, /* https://www.cantocatolico.org/  */
 			{'videoId':'PhYyMndHPLg', 'endSeconds': 180 }, /* https://www.cantocatolico.org/  */
 			'Oyx6fsYZLR8',
@@ -986,6 +989,7 @@ var VideoData = {
 
 		names: [
 			'What Child Is This Meditation<br>Catholic Hymns and Chants<br>https://thefullnessoftruthapostolate.wordpress.com/',  /* Ok  */ 
+			'O Holy Night<br>Pentatonix<br>(Official Video)',
 			'Adeste FidElements: Vayamos Cristianos (en español)<br>Villancico Música navidad | Música navideña<br>by Música Católica  https://www.cantocatolico.org/', /* OK */  
 			'Noche de paz:<br>Villancico | Música navidad | Música navideña<br>by Música Católica  https://www.cantocatolico.org/', /* OK  */  
 			'Once in Royal Davids City<br>Catholic Hymns and Chants<br>https://thefullnessoftruthapostolate.wordpress.com/',  /* Ok */  
