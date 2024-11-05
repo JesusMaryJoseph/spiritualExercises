@@ -954,7 +954,7 @@ var VideoData = {
 
 	christmas: {
 		ids: [
-			'CO99NN55f8g',
+			/*'CO99NN55f8g', Not Available */
 			'ReJAU2mXm8w',
 			{'videoId':'lEYoJKePxHc', 'endSeconds': 159}, /* https://www.cantocatolico.org/  */
 			{'videoId':'PhYyMndHPLg', 'endSeconds': 180 }, /* https://www.cantocatolico.org/  */
@@ -989,7 +989,7 @@ var VideoData = {
 		],
 
 		names: [
-			'What Child Is This Meditation<br>Catholic Hymns and Chants<br>https://thefullnessoftruthapostolate.wordpress.com/',  /* Ok  */ 
+			/*'What Child Is This Meditation<br>Catholic Hymns and Chants<br>https://thefullnessoftruthapostolate.wordpress.com/', Not available    */ 
 			'O Holy Night<br>Pentatonix<br>(Official Video)',
 			'Adeste FidElements: Vayamos Cristianos (en español)<br>Villancico Música navidad | Música navideña<br>by Música Católica  https://www.cantocatolico.org/', /* OK */  
 			'Noche de paz:<br>Villancico | Música navidad | Música navideña<br>by Música Católica  https://www.cantocatolico.org/', /* OK  */  
