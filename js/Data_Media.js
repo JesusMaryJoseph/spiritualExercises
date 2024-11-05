@@ -960,6 +960,7 @@ var VideoData = {
 			{'videoId':'PhYyMndHPLg', 'endSeconds': 180 }, /* https://www.cantocatolico.org/  */
 			'Oyx6fsYZLR8',
 			'ueexCaA86dQ',
+			'qJ_MGWio-vc',
 			'Ud9R9McHHEk',
 			'Z8Zj_SWdlck',
 			{'videoId':'efGrWwGjhX4','endSeconds': 327},
@@ -994,6 +995,7 @@ var VideoData = {
 			'Noche de paz:<br>Villancico | Música navidad | Música navideña<br>by Música Católica  https://www.cantocatolico.org/', /* OK  */  
 			'Once in Royal Davids City<br>Catholic Hymns and Chants<br>https://thefullnessoftruthapostolate.wordpress.com/',  /* Ok */  
 			'O Little Town of Bethlehem<br>Catholic Hymns and Chants<br>https://thefullnessoftruthapostolate.wordpress.com/',  /* Ok */  
+			'Little Drummer Boy<br>Pentatonix',
 			'Silent Night<br>Atlanta Master Chorale<br>Arr. Nelson',
 			'The First Noel<br>The Georgia Boy Choir',
 			'O Come, All Ye Faithful<br>The Georgia Boy Choir',
