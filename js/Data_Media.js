@@ -922,10 +922,13 @@ var VideoData = {
 
 	advent: {
 		ids: [
-			'9RieYaRaZsE', 
+			'9RieYaRaZsE',
+			{'videoId':'Qh1uoVEilto','endSeconds':320}, /* new */
+			'PLOi3zt2m4g',/*new*/
 			{'videoId':'qzLrs3eKbXk','endSeconds':147},
 			{'videoId':'2TM4bX9t_jU', 'endSeconds':120},
 			'bbnkwvuUzQk',
+			'Tr5XhaRaL0M', /*new*/
 			'Ley1aOPDHCE',
 			{'videoId':'yr3HJ6-2LhU','endSeconds':445},
 			'dkrW3nRPGo4',
@@ -934,14 +937,18 @@ var VideoData = {
 			{'videoId':'RT1qMElAzas','endSeconds':114},
 			'vRAFQCOkjgE',
 			{'videoId':'7xtpJ4Q_Q-4','startSeconds':10},
-			{'videoId':'7RjAXOcTebI','startSeconds':4,'endSeconds':236}
+			{'videoId':'7RjAXOcTebI','startSeconds':4,'endSeconds':236},
+			{'videoId':'Qh1uoVEilto','startSeconds':892,'endSeconds':1108}
 		],
 
 		names: [
 			'The King Shall Come<br>When The Morning Dawns',  /* ok */
+			'O Come O Come Emmanuel<br>Stacey Plays Hymn',
+			'Hail Mary, Gentle Woman<br>Carey Landry Catholic Hymn<br>Choir (SATB) with Lyrics Sunday 7pm Choir',
 			'Prepare Ye The Way Of the Lord<br>(Godspell) - Hallelujah Broadway',
 			'O Come Divine Messiah<br>Choir with Lyrics | Traditional Christian Hymn<br>Sunday 7pm Choir',
 			'Wake, O Wake, And Sleep No Longer<br>Philipp Nicolai · Johann Sebastian Bach<br>Randall DeBruyn · Christopher Idle',
+			'Christ Be Our Light<br>B.Farell<br>SATB Choir with Lyrics & Descant<br>Sunday 7pm Catholic Church Choir',
 			'O Come O Come Emmanuel<br> Choir with Lyrics | Traditional Christian Hymn<br>Sunday 7pm Choir', 
 			'To Save Us All/Prepare Him Room: Feat. Andrea Thomas and Greg & Lizzy - The Vigil Project<br>https://www.thevigilproject.com/blog/devotions/advent', /* OK */
 			'Panis angelicus<br>Sissel and The Tabernacle Choir',  /* ok */
@@ -950,7 +957,8 @@ var VideoData = {
 			'O Come, Divine Messiah:',   /* ok */
 			'Come, thou long-expected Jesus:',   /* ok */
 			'O Come O Come Emmanuel:',   /* ok */
-			'Es ist ein Ros entsprungen<br>VOCES8 Michael Praetorius<br>http://www.voces8.com/'  /* ok */
+			'Es ist ein Ros entsprungen<br>VOCES8 Michael Praetorius<br>http://www.voces8.com/',  /* ok */
+			'Let All Mortal Men Keep Silent<br>Stacey Plays Hymn'
 		]
 	},
 
