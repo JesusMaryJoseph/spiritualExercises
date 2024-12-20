@@ -938,7 +938,8 @@ var VideoData = {
 			'vRAFQCOkjgE',
 			{'videoId':'7xtpJ4Q_Q-4','startSeconds':10},
 			{'videoId':'7RjAXOcTebI','startSeconds':4,'endSeconds':236},
-			{'videoId':'Qh1uoVEilto','startSeconds':892,'endSeconds':1108}
+			{'videoId':'Qh1uoVEilto','startSeconds':892,'endSeconds':1108},
+			'6k--cLByXJk'
 		],
 
 		names: [
@@ -958,7 +959,8 @@ var VideoData = {
 			'Come, thou long-expected Jesus:',   /* ok */
 			'O Come O Come Emmanuel:',   /* ok */
 			'Es ist ein Ros entsprungen<br>VOCES8 Michael Praetorius<br>http://www.voces8.com/',  /* ok */
-			'Let All Mortal Men Keep Silent<br>Stacey Plays Hymn'
+			'Let All Mortal Men Keep Silent<br>Stacey Plays Hymn',
+			'Climb Every Mountain<br>Alfreda Burke (Sound Of Music)<br>Hallelujah Broadway'
 		]
 	},
 
@@ -966,6 +968,7 @@ var VideoData = {
 		ids: [
 			/*'CO99NN55f8g', Not Available */
 			'ReJAU2mXm8w',
+			'PrLoWt2tfqg',
 			{'videoId':'lEYoJKePxHc', 'endSeconds': 159}, /* https://www.cantocatolico.org/  */
 			{'videoId':'PhYyMndHPLg', 'endSeconds': 180 }, /* https://www.cantocatolico.org/  */
 			'Oyx6fsYZLR8',
@@ -1001,6 +1004,7 @@ var VideoData = {
 		names: [
 			/*'What Child Is This Meditation<br>Catholic Hymns and Chants<br>https://thefullnessoftruthapostolate.wordpress.com/', Not available    */ 
 			'O Holy Night<br>Pentatonix<br>(Official Video)',
+			'Angels From The Realms Of Glory<br>The Piano Guys',
 			'Adeste FidElements: Vayamos Cristianos (en español)<br>Villancico Música navidad | Música navideña<br>by Música Católica  https://www.cantocatolico.org/', /* OK */  
 			'Noche de paz:<br>Villancico | Música navidad | Música navideña<br>by Música Católica  https://www.cantocatolico.org/', /* OK  */  
 			'Once in Royal Davids City<br>Catholic Hymns and Chants<br>https://thefullnessoftruthapostolate.wordpress.com/',  /* Ok */  
